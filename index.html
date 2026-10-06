@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Super Market — 100 Premium Business Operating Systems</title>
+  <meta name="description" content="Discover 100 turnkey operating systems, agency SOPs, legal templates, and automation frameworks. 100% Halal Trade verified with flat tax-inclusive checkout.">
+  <link rel="canonical" href="https://nirjhar1998.github.io/digital-super-market/">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Digital Super Market — 100 Premium Turnkey Business Kits">
+  <meta property="og:description" content="Enterprise operating systems, agency SOPs, legal frameworks & developer automation engines.">
+  <meta property="og:url" content="https://nirjhar1998.github.io/digital-super-market/">
+  
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --card-hover: #162032;
+      --border: #1f293d;
+      --border-focus: #3b82f6;
+      --text: #f9fafb;
+      --muted: #94a3b8;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --green: #10b981;
+      --badge-bg: #1e293b;
+      --tag-accent: #38bdf8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); padding: 0; line-height: 1.6; }
+    
+    .topbar { background: #0f172a; border-bottom: 1px solid var(--border); padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; backdrop-filter: blur(8px); }
+    .brand { font-size: 1.15rem; font-weight: 800; color: #fff; text-decoration: none; display: flex; align-items: center; gap: 8px; }
+    .top-links { display: flex; gap: 16px; align-items: center; }
+    .top-link { color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+    .top-link:hover { color: #fff; }
+    .btn-affiliate { background: #f59e0b; color: #000; font-weight: 700; padding: 6px 14px; border-radius: 6px; text-decoration: none; font-size: 0.85rem; transition: transform 0.2s, background 0.2s; }
+    .btn-affiliate:hover { background: #d97706; transform: translateY(-1px); }
+
+    .hero { max-width: 900px; margin: 50px auto 30px auto; text-align: center; padding: 0 20px; }
+    .hero h1 { font-size: 2.75rem; font-weight: 900; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 16px; background: linear-gradient(135deg, #60a5fa 0%, #a855f7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero p { font-size: 1.15rem; color: var(--muted); max-width: 760px; margin: 0 auto 24px auto; }
+    
+    .badges { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 30px; }
+    .badge { background: var(--badge-bg); border: 1px solid var(--border); color: #93c5fd; padding: 6px 14px; border-radius: 9999px; font-size: 0.82rem; font-weight: 600; }
+    .badge.green { color: #6ee7b7; border-color: #065f46; background: #064e3b33; }
+    .badge.gold { color: #fde047; border-color: #854d0e; background: #713f1233; }
+
+    .controls { max-width: 1200px; margin: 0 auto 35px auto; padding: 0 20px; }
+    .search-box { position: relative; margin-bottom: 20px; }
+    .search-input { width: 100%; background: #131c2e; border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px 16px 48px; color: #fff; font-size: 1.05rem; outline: none; transition: border-color 0.2s, box-shadow 0.2s; }
+    .search-input:focus { border-color: var(--border-focus); box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2); }
+    .search-icon { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 1.2rem; pointer-events: none; }
+    
+    .filter-pills { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+    .pill { background: #1e293b; color: var(--muted); border: 1px solid var(--border); padding: 8px 16px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+    .pill:hover { background: #334155; color: #fff; }
+    .pill.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px 60px 20px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 24px; }
+    
+    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s; }
+    .card:hover { transform: translateY(-4px); border-color: #3b82f6; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); background: var(--card-hover); }
+    
+    .card-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    .card-category { font-size: 0.75rem; font-weight: 700; color: var(--tag-accent); text-transform: uppercase; letter-spacing: 0.05em; }
+    .card-num { font-size: 0.75rem; font-weight: 700; color: var(--muted); }
+    
+    .card-title { font-size: 1.18rem; font-weight: 700; color: #fff; line-height: 1.35; margin-bottom: 10px; }
+    .card-headline { font-size: 0.88rem; color: var(--muted); line-height: 1.5; margin-bottom: 22px; flex-grow: 1; }
+    
+    .card-footer { display: flex; align-items: center; justify-content: space-between; padding-top: 16px; border-top: 1px solid var(--border); }
+    .price-wrap { display: flex; flex-direction: column; }
+    .strike { font-size: 0.8rem; color: #ef4444; text-decoration: line-through; font-weight: 600; }
+    .price { font-size: 1.35rem; font-weight: 800; color: var(--green); }
+    
+    .btn-buy { background: var(--accent); color: #fff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 0.9rem; transition: background 0.2s, transform 0.1s; display: inline-flex; align-items: center; gap: 6px; }
+    .btn-buy:hover { background: var(--accent-hover); transform: translateY(-1px); }
+
+    .no-results { grid-column: 1 / -1; text-align: center; padding: 60px 20px; color: var(--muted); font-size: 1.1rem; }
+    .loading-state { grid-column: 1 / -1; text-align: center; padding: 40px; color: var(--muted); font-size: 1.1rem; }
+
+    footer { background: #0c121e; border-top: 1px solid var(--border); padding: 40px 20px; text-align: center; color: var(--muted); font-size: 0.9rem; }
+    footer a { color: #60a5fa; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    .footer-note { max-width: 600px; margin: 12px auto 0 auto; font-size: 0.8rem; line-height: 1.5; }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <a href="#" class="brand">🛒 Digital Super Market</a>
+    <div class="top-links">
+      <a href="https://whop.com/digital-super-market/" class="top-link" target="_blank" rel="noopener">Storefront</a>
+      <a href="AFFILIATE_HUB.html" class="btn-affiliate">Become an Affiliate (50% Cut)</a>
+      <a href="https://github.com/Nirjhar1998/digital-super-market" class="top-link" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+
+  <section class="hero">
+    <h1>100 Battle-Tested Business Operating Systems & Frameworks</h1>
+    <p>Turnkey SOPs, financial models, developer engines, and legal contracts built for modern solopreneurs, digital agencies, and independent founders.</p>
+    <div class="badges">
+      <span class="badge green">✓ 100% Halal Trade Compliance</span>
+      <span class="badge">✓ Option A Flat Tax-Inclusive Pricing</span>
+      <span class="badge gold">✓ 50% Automated Creator Affiliate Program</span>
+      <span class="badge">✓ Instant .HTML & Notion Multi-Format Download</span>
+    </div>
+  </section>
+
+  <div class="controls">
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" class="search-input" placeholder="Search 100 systems (e.g. 'SOP', 'Legal', 'DevOps', 'Sales', 'Notion', 'Contract')...">
+    </div>
+    <div class="filter-pills" id="filterPills">
+      <button class="pill active" data-cat="all">All Products (100)</button>
+      <button class="pill" data-cat="Agency & Freelance">Agency & Freelance</button>
+      <button class="pill" data-cat="Tech & Engineering">Tech & Engineering</button>
+      <button class="pill" data-cat="Legal & Compliance">Legal & Compliance</button>
+      <button class="pill" data-cat="Finance & Operations">Finance & Operations</button>
+      <button class="pill" data-cat="Marketing & Growth">Marketing & Growth</button>
+      <button class="pill" data-cat="Enterprise & Systems">Enterprise & Systems</button>
+    </div>
+  </div>
+
+  <main class="container">
+    <div class="grid" id="productGrid">
+      <div class="loading-state">Loading product catalog...</div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Digital Super Market. Hosted securely on Whop CDN.</p>
+    <p class="footer-note">
+      Ethical Commerce Pledge: Strictly zero interest (Riba), zero speculation (Maysir), and zero contractual ambiguity (Gharar). Advertised flat price is the exact total charged at checkout.
+    </p>
+  </footer>
+
+  <script>
+    let allProducts = [];
+    let activeCategory = 'all';
+    let searchQuery = '';
+
+    const grid = document.getElementById('productGrid');
+    const searchInput = document.getElementById('searchInput');
+    const filterPills = document.getElementById('filterPills');
+
+    fetch('./products.json')
+      .then(res => res.json())
+      .then(data => {
+        allProducts = data;
+        renderProducts();
+      })
+      .catch(err => {
+        grid.innerHTML = '<div class="no-results">Error loading catalog. Please refresh.</div>';
+      });
+
+    function renderProducts() {
+      const filtered = allProducts.filter(item => {
+        const matchesCat = activeCategory === 'all' || item.category === activeCategory;
+        const matchesSearch = !searchQuery || 
+          item.title.toLowerCase().includes(searchQuery) || 
+          item.headline.toLowerCase().includes(searchQuery);
+        return matchesCat && matchesSearch;
+      });
+
+      if (filtered.length === 0) {
+        grid.innerHTML = '<div class="no-results">No products match your search. Try different keywords.</div>';
+        return;
+      }
+
+      grid.innerHTML = filtered.map(item => `
+        <div class="card">
+          <div>
+            <div class="card-top">
+              <span class="card-category">${item.category}</span>
+              <span class="card-num">#${item.id}</span>
+            </div>
+            <h2 class="card-title">${item.title}</h2>
+            <p class="card-headline">${item.headline}</p>
+          </div>
+          <div class="card-footer">
+            <div class="price-wrap">
+              <span class="strike">$${item.strikePrice}</span>
+              <span class="price">$${item.price}</span>
+            </div>
+            <a class="btn-buy" href="${item.checkoutUrl}" target="_blank" rel="noopener">Purchase ⚡</a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value.trim().toLowerCase();
+      renderProducts();
+    });
+
+    filterPills.addEventListener('click', (e) => {
+      if (e.target.classList.contains('pill')) {
+        document.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+        e.target.classList.add('active');
+        activeCategory = e.target.getAttribute('data-cat');
+        renderProducts();
+      }
+    });
+  </script>
+</body>
+</html>
