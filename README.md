@@ -1,13 +1,18 @@
 # 🛒 Digital Super Market — Master Product Index & Directory
 
-[![Store](https://img.shields.io/badge/Whop_Store-Digital_Super_Market-blue.svg)](https://whop.com/digital-super-market/)
-[![Halal Certified Ethics](https://img.shields.io/badge/Trade_Ethics-100%25_Halal_Trade-success.svg)](https://whop.com/digital-super-market/)
-[![Affiliate Program](https://img.shields.io/badge/Affiliate_Program-50%25_Instant_Payouts-orange.svg)](https://whop.com/digital-super-market/)
-[![Products](https://img.shields.io/badge/Total_Inventory-100_Active_Kits-purple.svg)](https://whop.com/digital-super-market/)
+[![Live Web Store](https://img.shields.io/badge/Live_Web_Directory-Interactive_Catalog-blue.svg)](https://nirjhar1998.github.io/digital-super-market/)
+[![50% Affiliate Hub](https://img.shields.io/badge/Affiliate_Program-50%25_Instant_Payouts-gold.svg)](AFFILIATE_HUB.md)
+[![Halal Trade](https://img.shields.io/badge/Ethics-100%25_Halal_Trade-success.svg)](https://whop.com/digital-super-market/)
+[![Total Kits](https://img.shields.io/badge/Catalog-100_Active_Kits-purple.svg)](https://nirjhar1998.github.io/digital-super-market/)
 
 Welcome to the official repository and master search index for **Digital Super Market**. We provide enterprise-grade, turnkey digital operating systems, standard operating procedures (SOPs), financial models, legal frameworks, and automation engines built specifically for modern solopreneurs, digital agencies, and independent founders.
 
 ---
+
+> **⚡ Quick Links:**
+> - 🌐 **Live Web Storefront:** [https://nirjhar1998.github.io/digital-super-market/](https://nirjhar1998.github.io/digital-super-market/)
+> - 🤝 **50% Affiliate Partner Kit & Swipe Files:** [View Partner Hub (AFFILIATE_HUB.md)](AFFILIATE_HUB.md)
+> - 🗺️ **Search Engine XML Sitemap:** [sitemap.xml](sitemap.xml)
 
 ## 🌟 Our Core Principles
 
