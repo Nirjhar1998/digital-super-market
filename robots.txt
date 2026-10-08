@@ -1,5 +1,45 @@
+# robots.txt for Digital Super Market
+# https://nirjhar1998.github.io/digital-super-market/
+
 User-agent: *
 Allow: /
 
-# Direct AI Agents & Crawlers to Master Sitemap
+# Explicit AI Search & Generative Engine Crawlers Authorization
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# Direct AI Agents & Crawlers to Master Sitemaps and LLM Manifests
 Sitemap: https://nirjhar1998.github.io/digital-super-market/sitemap.xml
