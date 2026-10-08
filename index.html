@@ -26,10 +26,14 @@
       --green: #10b981;
       --badge-bg: #1e293b;
       --tag-accent: #38bdf8;
+      --gold: #f59e0b;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
     body { background-color: var(--bg); color: var(--text); padding: 0; line-height: 1.6; }
     
+    .promo-banner-top { background: linear-gradient(90deg, #1e3a8a, #3b82f6); color: #fff; text-align: center; padding: 10px 16px; font-size: 0.9rem; font-weight: 700; }
+    .promo-banner-top span { background: #fde047; color: #000; padding: 2px 8px; border-radius: 4px; margin: 0 4px; font-family: monospace; }
+
     .topbar { background: #0f172a; border-bottom: 1px solid var(--border); padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; backdrop-filter: blur(8px); }
     .brand { font-size: 1.15rem; font-weight: 800; color: #fff; text-decoration: none; display: flex; align-items: center; gap: 8px; }
     .top-links { display: flex; gap: 16px; align-items: center; }
@@ -38,14 +42,25 @@
     .btn-affiliate { background: #f59e0b; color: #000; font-weight: 700; padding: 6px 14px; border-radius: 6px; text-decoration: none; font-size: 0.85rem; transition: transform 0.2s, background 0.2s; }
     .btn-affiliate:hover { background: #d97706; transform: translateY(-1px); }
 
-    .hero { max-width: 900px; margin: 50px auto 30px auto; text-align: center; padding: 0 20px; }
+    .hero { max-width: 900px; margin: 40px auto 25px auto; text-align: center; padding: 0 20px; }
     .hero h1 { font-size: 2.75rem; font-weight: 900; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 16px; background: linear-gradient(135deg, #60a5fa 0%, #a855f7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     .hero p { font-size: 1.15rem; color: var(--muted); max-width: 760px; margin: 0 auto 24px auto; }
     
-    .badges { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 30px; }
+    .badges { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 25px; }
     .badge { background: var(--badge-bg); border: 1px solid var(--border); color: #93c5fd; padding: 6px 14px; border-radius: 9999px; font-size: 0.82rem; font-weight: 600; }
     .badge.green { color: #6ee7b7; border-color: #065f46; background: #064e3b33; }
     .badge.gold { color: #fde047; border-color: #854d0e; background: #713f1233; }
+
+    /* Interactive Wizard */
+    .wizard-card { max-width: 800px; margin: 0 auto 35px auto; background: #111b2e; border: 1px solid #2563eb; border-radius: 14px; padding: 22px; text-align: center; box-shadow: 0 8px 24px rgba(37, 99, 235, 0.15); }
+    .wizard-title { font-size: 1.25rem; font-weight: 800; color: #fff; margin-bottom: 6px; display: flex; align-items: center; justify-content: center; gap: 8px; }
+    .wizard-sub { font-size: 0.9rem; color: var(--muted); margin-bottom: 16px; }
+    .wizard-options { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 15px; }
+    .wizard-btn { background: #1e293b; color: #e2e8f0; border: 1px solid var(--border); padding: 8px 14px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+    .wizard-btn:hover { background: #334155; color: #fff; border-color: #3b82f6; }
+    .wizard-btn.selected { background: #2563eb; color: #fff; border-color: #60a5fa; }
+    .wizard-result { display: none; margin-top: 15px; padding: 14px; background: #0b1120; border-radius: 10px; border: 1px solid #3b82f6; }
+    .wizard-result a { color: #38bdf8; font-weight: 700; text-decoration: none; }
 
     .controls { max-width: 1200px; margin: 0 auto 35px auto; padding: 0 20px; }
     .search-box { position: relative; margin-bottom: 20px; }
@@ -69,8 +84,12 @@
     .card-num { font-size: 0.75rem; font-weight: 700; color: var(--muted); }
     
     .card-title { font-size: 1.18rem; font-weight: 700; color: #fff; line-height: 1.35; margin-bottom: 10px; }
-    .card-headline { font-size: 0.88rem; color: var(--muted); line-height: 1.5; margin-bottom: 22px; flex-grow: 1; }
+    .card-headline { font-size: 0.88rem; color: var(--muted); line-height: 1.5; margin-bottom: 18px; flex-grow: 1; }
     
+    .card-links-row { margin-bottom: 16px; font-size: 0.85rem; }
+    .card-details-link { color: #60a5fa; text-decoration: none; font-weight: 600; }
+    .card-details-link:hover { text-decoration: underline; }
+
     .card-footer { display: flex; align-items: center; justify-content: space-between; padding-top: 16px; border-top: 1px solid var(--border); }
     .price-wrap { display: flex; flex-direction: column; }
     .strike { font-size: 0.8rem; color: #ef4444; text-decoration: line-through; font-weight: 600; }
@@ -89,6 +108,10 @@
   </style>
 </head>
 <body>
+
+  <div class="promo-banner-top">
+    ⚡ Launch Special: Get 20% OFF all toolkits with discount code <span>FIRSTBUY20</span> at checkout!
+  </div>
 
   <div class="topbar">
     <a href="#" class="brand">🛒 Digital Super Market</a>
@@ -109,6 +132,20 @@
       <span class="badge">✓ Instant .HTML & Notion Multi-Format Download</span>
     </div>
   </section>
+
+  <!-- Interactive Toolkit Recommendation Wizard -->
+  <div class="wizard-card">
+    <div class="wizard-title">🎯 Toolkit Match Wizard</div>
+    <div class="wizard-sub">Not sure which kit fits your operations? Select your focus below:</div>
+    <div class="wizard-options" id="wizardButtons">
+      <button class="wizard-btn" data-filter="agency">🚀 Scale My Agency / Client Work</button>
+      <button class="wizard-btn" data-filter="saas">💻 Build & Launch SaaS / Tech</button>
+      <button class="wizard-btn" data-filter="contract">⚖️ Ironclad Legal Contracts & Scope</button>
+      <button class="wizard-btn" data-filter="sales">📈 High-Ticket Sales & Outreach</button>
+      <button class="wizard-btn" data-filter="remote">🌍 Get Hired in USD (Remote Work)</button>
+    </div>
+    <div class="wizard-result" id="wizardResult"></div>
+  </div>
 
   <div class="controls">
     <div class="search-box">
@@ -147,6 +184,8 @@
     const grid = document.getElementById('productGrid');
     const searchInput = document.getElementById('searchInput');
     const filterPills = document.getElementById('filterPills');
+    const wizardButtons = document.getElementById('wizardButtons');
+    const wizardResult = document.getElementById('wizardResult');
 
     fetch('./products.json')
       .then(res => res.json())
@@ -173,7 +212,7 @@
       }
 
       grid.innerHTML = filtered.map(item => `
-        <div class="card">
+        <div class="card" id="product-${item.id}">
           <div>
             <div class="card-top">
               <span class="card-category">${item.category}</span>
@@ -181,6 +220,9 @@
             </div>
             <h2 class="card-title">${item.title}</h2>
             <p class="card-headline">${item.headline}</p>
+            <div class="card-links-row">
+              <a href="products/${item.slug}" class="card-details-link">Read Full Specs & Deliverables →</a>
+            </div>
           </div>
           <div class="card-footer">
             <div class="price-wrap">
@@ -204,6 +246,54 @@
         e.target.classList.add('active');
         activeCategory = e.target.getAttribute('data-cat');
         renderProducts();
+      }
+    });
+
+    wizardButtons.addEventListener('click', (e) => {
+      if (e.target.classList.contains('wizard-btn')) {
+        document.querySelectorAll('.wizard-btn').forEach(b => b.classList.remove('selected'));
+        e.target.classList.add('selected');
+        const filterKey = e.target.getAttribute('data-filter');
+        
+        let targetId = 1;
+        let recommendation = '';
+
+        if (filterKey === 'agency') {
+          targetId = 91;
+          recommendation = 'Recommended: <strong>#91 The B2B Agency Standard Operating Procedure (SOP) Library</strong> & <strong>#100 The Solopreneur Client OS</strong>.';
+        } else if (filterKey === 'saas') {
+          targetId = 89;
+          recommendation = 'Recommended: <strong>#89 SaaS & Cloud Security Compliance OS</strong> & <strong>#18 B2B SaaS Customer Success Runbook</strong>.';
+        } else if (filterKey === 'contract') {
+          targetId = 94;
+          recommendation = 'Recommended: <strong>#94 Agency Client Intake & Scope Protection OS</strong> & <strong>#99 Contract & Invoicing Engine</strong>.';
+        } else if (filterKey === 'sales') {
+          targetId = 90;
+          recommendation = 'Recommended: <strong>#90 High-Ticket Sales Call & Discovery OS</strong> & <strong>#69 Micro-Agency Cold Email Playbook</strong>.';
+        } else if (filterKey === 'remote') {
+          targetId = 96;
+          recommendation = 'Recommended: <strong>#96 Get Paid in USD: The Remote Job Vault</strong>.';
+        }
+
+        wizardResult.style.display = 'block';
+        wizardResult.innerHTML = `${recommendation} <br><span style="font-size: 0.85rem; color: var(--muted);">Remember to apply code <strong style="color: #fde047;">FIRSTBUY20</strong> at checkout for 20% off!</span>`;
+
+        searchInput.value = '';
+        searchQuery = '';
+        activeCategory = 'all';
+        document.querySelectorAll('.pill').forEach(p => p.classList.toggle('active', p.getAttribute('data-cat') === 'all'));
+        renderProducts();
+
+        const card = document.getElementById('product-' + targetId);
+        if (card) {
+          card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          card.style.borderColor = '#f59e0b';
+          card.style.boxShadow = '0 0 20px rgba(245, 158, 11, 0.4)';
+          setTimeout(() => {
+            card.style.borderColor = '';
+            card.style.boxShadow = '';
+          }, 3500);
+        }
       }
     });
   </script>
