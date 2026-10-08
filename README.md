@@ -3,7 +3,7 @@
 [![Live Web Store](https://img.shields.io/badge/Live_Web_Directory-Interactive_Catalog-blue.svg)](https://nirjhar1998.github.io/digital-super-market/)
 [![50% Affiliate Hub](https://img.shields.io/badge/Affiliate_Program-50%25_Instant_Payouts-gold.svg)](AFFILIATE_HUB.md)
 [![Halal Trade](https://img.shields.io/badge/Ethics-100%25_Halal_Trade-success.svg)](https://whop.com/digital-super-market/)
-[![Total Kits](https://img.shields.io/badge/Catalog-180_Active_Kits-purple.svg)](https://nirjhar1998.github.io/digital-super-market/)
+[![Total Kits](https://img.shields.io/badge/Catalog-200_Active_Kits-purple.svg)](https://nirjhar1998.github.io/digital-super-market/)
 
 Welcome to the official repository and master search index for **Digital Super Market**. We provide enterprise-grade, turnkey digital operating systems, standard operating procedures (SOPs), financial models, legal frameworks, and automation engines built specifically for modern solopreneurs, digital agencies, and independent founders.
 
@@ -23,7 +23,7 @@ Welcome to the official repository and master search index for **Digital Super M
 
 ---
 
-## 📦 Complete Catalog of 180 Digital Products
+## 📦 Complete Catalog of 200 Digital Products
 
 | # | Product Name | Description & Value Proposition | Original | Price | Instant Checkout |
 |---|---|---|---|---|---|
@@ -207,3 +207,23 @@ Welcome to the official repository and master search index for **Digital Super M
 | 178 | **The Production Vector Database & Hybrid Search Architecture OS** | Pinecone & pgvector Hybrid Filtering, Rerankers & HNSW Tuning... | ~~$99~~ | **$39** | [⚡ Purchase](https://whop.com/checkout/ch_DiNOLDiLDUx0Wn3/) |
 | 179 | **The Digital Health Telemedicine Clinician Independent Contractor OS** | Multi-State Medical Licensure, MSO-PC Models & Malpractice Terms... | ~~$129~~ | **$49** | [⚡ Purchase](https://whop.com/checkout/ch_W8LNnOAlt1BuzEi/) |
 | 180 | **The B2B Enterprise Client Success QBR & Churn Defense Playbook** | Executive Business Reviews, Health Scoring & Net Retention Deeds... | ~~$89~~ | **$34** | [⚡ Purchase](https://whop.com/checkout/ch_ZFh5KVNp5ONX1tZ/) |
+| 181 | **The Kubernetes FinOps Cloud Cost Allocation & Unit Economics OS** | Pod Right-Sizing, Spot Orchestration & Cost Allocation Tagging SOPs... | ~~$99~~ | **$39** | [⚡ Purchase](https://whop.com/checkout/ch_kUTf5Xo8FarweG2/) |
+| 182 | **The AI Agent Multi-Tenant Auth, Rate Limiting & Quota Management OS** | Token Buckets, Semantic Caching & Per-Organization Quota Frameworks... | ~~$89~~ | **$34** | [⚡ Purchase](https://whop.com/checkout/ch_nn6fhLC6zkFVoom/) |
+| 183 | **The Fractional VP of Sales Pipeline Velocity & Compensation Plan OS** | OTE Quotas, Sales Commission Clawbacks & Stage Progression Scorecards... | ~~$129~~ | **$49** | [⚡ Purchase](https://whop.com/checkout/ch_RrdzUZhcTeOGWdp/) |
+| 184 | **The SOC 2 Type II Evidence Collection & Continuous Compliance OS** | Auditor Request Lists, Evidence Automation Scripts & Trust Center SOPs... | ~~$129~~ | **$49** | [⚡ Purchase](https://whop.com/checkout/ch_0hyfjeL7tbd5ZLz/) |
+| 185 | **The High-Converting Video Sales Letter (VSL) Production & Scripting OS** | 10-Phase Neuro-Hook Frameworks, Slide Decks & Retargeting VSL SOPs... | ~~$79~~ | **$29** | [⚡ Purchase](https://whop.com/checkout/ch_jloASu0a9gb1JFk/) |
+| 186 | **The Enterprise Cloud Migration Cutover & Rollback Runbook OS** | Zero-Downtime DNS Switching, Data Sync Pipelines & Fallback Runbooks... | ~~$119~~ | **$44** | [⚡ Purchase](https://whop.com/checkout/ch_ATV87322jKfvqhd/) |
+| 187 | **The Commercial Lease Tenant Improvement & CAM Audit Defense OS** | Common Area Maintenance Audits, Cap Clauses & TI Work Letter Riders... | ~~$99~~ | **$39** | [⚡ Purchase](https://whop.com/checkout/ch_oAiNUJpiGFDf3gz/) |
+| 188 | **The Production GraphQL API Federation & Schema Governance OS** | Apollo Federation Subgraphs, Query Depth Limits & Schema Registry SOPs... | ~~$89~~ | **$34** | [⚡ Purchase](https://whop.com/checkout/ch_xusYVHhhuBgLKdC/) |
+| 189 | **The Medical Spa & Aesthetic Clinic HIPAA Compliance & Consent OS** | Laser/Injectable Consents, HIPAA BAA Agreements & Adverse Event SOPs... | ~~$129~~ | **$49** | [⚡ Purchase](https://whop.com/checkout/ch_IOZoyGZABbFLSLM/) |
+| 190 | **The B2B Enterprise RFP Response Engine & Proposal Win-Rate OS** | 80+ Pre-Drafted Security Responses, Pricing Grids & Scoring Matrices... | ~~$99~~ | **$39** | [⚡ Purchase](https://whop.com/checkout/ch_xcgciM2U0v00Maj/) |
+| 191 | **The Distributed Event-Driven Architecture & Kafka Governance OS** | Schema Registry Avro Contracts, Consumer Group Lag & Dead Letter SOPs... | ~~$99~~ | **$39** | [⚡ Purchase](https://whop.com/checkout/ch_6HZqm5bfGNDkCIZ/) |
+| 192 | **The High-Ticket Consultant Retainer Deliverable & Client Portal OS** | Asynchronous Executive Status Reports, Notion Portals & Scope Covenants... | ~~$89~~ | **$34** | [⚡ Purchase](https://whop.com/checkout/ch_Yij7D2l0RVyEhNI/) |
+| 193 | **The Enterprise IAM Zero Trust & Privileged Access Management (PAM) OS** | Just-In-Time Elevation, Break-Glass Emergency Accounts & MFA Policies... | ~~$129~~ | **$49** | [⚡ Purchase](https://whop.com/checkout/ch_rSXHP5XxeLefPI2/) |
+| 194 | **The Fractional Chief Marketing Officer (CMO) 90-Day Playbook OS** | Full-Funnel CAC/LTV Attribution, Agency Audits & 90-Day Growth Roadmaps... | ~~$129~~ | **$49** | [⚡ Purchase](https://whop.com/checkout/ch_MHqG3AkM7MibHtL/) |
+| 195 | **The Clinical Research & Life Sciences Trial Master File (TMF) Audit OS** | DIA TMF Reference Model, GCP Inspection Readiness & Site Binder SOPs... | ~~$129~~ | **$49** | [⚡ Purchase](https://whop.com/checkout/ch_bqw9GWHv64UbJqr/) |
+| 196 | **The Next.js Stripe Custom Billing Portal & Metered Usage Engine OS** | Webhook Idempotency, Proration Invoicing & Usage Credit Ledger SOPs... | ~~$89~~ | **$37** | [⚡ Purchase](https://whop.com/checkout/ch_eKxxhKgKRqddBoN/) |
+| 197 | **The Construction Subcontractor Master Agreement & Change Order OS** | AIA-Aligned Indemnity, Unconditional Lien Waivers & Change Order Riders... | ~~$99~~ | **$39** | [⚡ Purchase](https://whop.com/checkout/ch_VIoA2S4LObDpPxa/) |
+| 198 | **The Generative AI Prompt Injection & Guardrail Security Hardening OS** | Indirect Injection Defense, Output Canary Tokens & LLM Red-Teaming... | ~~$89~~ | **$34** | [⚡ Purchase](https://whop.com/checkout/ch_FLvuM2jVVbMLwmc/) |
+| 199 | **The E-Commerce Brand Wholesale Buyback & Liquidation Agreement OS** | Inventory Buybacks, Gray Market Channel Restrictions & MAP Riders... | ~~$89~~ | **$34** | [⚡ Purchase](https://whop.com/checkout/ch_NplSODjFgUkqzB5/) |
+| 200 | **The Master Corporate Venture Building & Spinout Equity Allocation OS** | Founder Vesting, IP Contribution Deeds & Cap Table Spinout Schedules... | ~~$129~~ | **$49** | [⚡ Purchase](https://whop.com/checkout/ch_kVyaSxMbuCRWlMh/) |
