@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Direct AI Agents & Crawlers to Master Sitemap
+Sitemap: https://nirjhar1998.github.io/digital-super-market/sitemap.xml

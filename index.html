@@ -31,8 +31,9 @@
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
     body { background-color: var(--bg); color: var(--text); padding: 0; line-height: 1.6; }
     
-    .promo-banner-top { background: linear-gradient(90deg, #1e3a8a, #3b82f6); color: #fff; text-align: center; padding: 10px 16px; font-size: 0.9rem; font-weight: 700; }
-    .promo-banner-top span { background: #fde047; color: #000; padding: 2px 8px; border-radius: 4px; margin: 0 4px; font-family: monospace; }
+    .promo-banner-top { background: linear-gradient(90deg, #1e3a8a, #3b82f6); color: #fff; text-align: center; padding: 11px 16px; font-size: 0.92rem; font-weight: 700; cursor: pointer; transition: background 0.2s; }
+    .promo-banner-top:hover { background: linear-gradient(90deg, #1d4ed8, #2563eb); }
+    .promo-banner-top span { background: #fde047; color: #000; padding: 2px 8px; border-radius: 4px; margin: 0 4px; font-family: monospace; font-size: 0.95rem; }
 
     .topbar { background: #0f172a; border-bottom: 1px solid var(--border); padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; backdrop-filter: blur(8px); }
     .brand { font-size: 1.15rem; font-weight: 800; color: #fff; text-decoration: none; display: flex; align-items: center; gap: 8px; }
@@ -42,7 +43,7 @@
     .btn-affiliate { background: #f59e0b; color: #000; font-weight: 700; padding: 6px 14px; border-radius: 6px; text-decoration: none; font-size: 0.85rem; transition: transform 0.2s, background 0.2s; }
     .btn-affiliate:hover { background: #d97706; transform: translateY(-1px); }
 
-    .hero { max-width: 900px; margin: 40px auto 25px auto; text-align: center; padding: 0 20px; }
+    .hero { max-width: 920px; margin: 40px auto 25px auto; text-align: center; padding: 0 20px; }
     .hero h1 { font-size: 2.75rem; font-weight: 900; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 16px; background: linear-gradient(135deg, #60a5fa 0%, #a855f7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     .hero p { font-size: 1.15rem; color: var(--muted); max-width: 760px; margin: 0 auto 24px auto; }
     
@@ -50,6 +51,15 @@
     .badge { background: var(--badge-bg); border: 1px solid var(--border); color: #93c5fd; padding: 6px 14px; border-radius: 9999px; font-size: 0.82rem; font-weight: 600; }
     .badge.green { color: #6ee7b7; border-color: #065f46; background: #064e3b33; }
     .badge.gold { color: #fde047; border-color: #854d0e; background: #713f1233; }
+
+    /* Top Bestseller Showcase */
+    .bestseller-section { max-width: 1200px; margin: 0 auto 40px auto; padding: 0 20px; }
+    .bestseller-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; border-bottom: 1px solid var(--border); padding-bottom: 10px; }
+    .bestseller-title { font-size: 1.35rem; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 8px; }
+    .bestseller-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 16px; }
+    .bestseller-card { background: #131b2e; border: 1px solid #2563eb; border-radius: 10px; padding: 16px; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s; position: relative; }
+    .bestseller-card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(37,99,235,0.25); }
+    .bestseller-pill { position: absolute; top: -10px; right: 12px; background: #f59e0b; color: #000; font-size: 0.7rem; font-weight: 800; padding: 2px 8px; border-radius: 9999px; }
 
     /* Interactive Wizard */
     .wizard-card { max-width: 800px; margin: 0 auto 35px auto; background: #111b2e; border: 1px solid #2563eb; border-radius: 14px; padding: 22px; text-align: center; box-shadow: 0 8px 24px rgba(37, 99, 235, 0.15); }
@@ -98,8 +108,28 @@
     .btn-buy { background: var(--accent); color: #fff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 0.9rem; transition: background 0.2s, transform 0.1s; display: inline-flex; align-items: center; gap: 6px; }
     .btn-buy:hover { background: var(--accent-hover); transform: translateY(-1px); }
 
-    .no-results { grid-column: 1 / -1; text-align: center; padding: 60px 20px; color: var(--muted); font-size: 1.1rem; }
-    .loading-state { grid-column: 1 / -1; text-align: center; padding: 40px; color: var(--muted); font-size: 1.1rem; }
+    /* FAQ Section */
+    .faq-section { max-width: 900px; margin: 40px auto 60px auto; padding: 0 20px; }
+    .faq-heading { font-size: 1.75rem; font-weight: 800; color: #fff; text-align: center; margin-bottom: 24px; }
+    .faq-item { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 12px; overflow: hidden; }
+    .faq-question { padding: 16px 20px; font-weight: 700; color: #f3f4f6; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+    .faq-question:hover { background: #162032; }
+    .faq-answer { padding: 0 20px 16px 20px; color: var(--muted); font-size: 0.95rem; line-height: 1.6; display: none; border-top: 1px solid #1f2937; margin-top: 6px; padding-top: 12px; }
+
+    /* Social Proof Toast */
+    .toast-social { position: fixed; bottom: 24px; left: 24px; background: #0f172a; border: 1px solid #2563eb; color: #fff; padding: 12px 18px; border-radius: 10px; font-size: 0.85rem; box-shadow: 0 10px 25px rgba(0,0,0,0.5); z-index: 999; display: flex; align-items: center; gap: 10px; transition: transform 0.3s, opacity 0.3s; transform: translateY(100px); opacity: 0; pointer-events: none; }
+    .toast-social.show { transform: translateY(0); opacity: 1; pointer-events: auto; }
+    .toast-dot { width: 8px; height: 8px; border-radius: 50%; background: #10b981; animation: pulse 2s infinite; }
+    @keyframes pulse { 0% { opacity: 0.4; } 50% { opacity: 1; } 100% { opacity: 0.4; } }
+
+    /* Exit Intent Modal */
+    .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.8); z-index: 1000; display: flex; align-items: center; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.3s; backdrop-filter: blur(4px); padding: 20px; }
+    .modal-overlay.open { opacity: 1; pointer-events: auto; }
+    .modal-content { background: #111b2e; border: 2px solid #3b82f6; border-radius: 16px; padding: 32px; max-width: 500px; width: 100%; text-align: center; position: relative; box-shadow: 0 20px 40px rgba(0,0,0,0.6); }
+    .modal-close { position: absolute; top: 14px; right: 16px; background: none; border: none; color: var(--muted); font-size: 1.5rem; cursor: pointer; }
+    .modal-code-box { background: #0b1120; border: 1px dashed #60a5fa; border-radius: 8px; padding: 12px; margin: 18px 0; font-family: monospace; font-size: 1.3rem; font-weight: 800; color: #fde047; letter-spacing: 0.1em; }
+    .btn-copy-code { background: #10b981; color: #000; font-weight: 800; font-size: 1rem; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; width: 100%; transition: background 0.2s; }
+    .btn-copy-code:hover { background: #059669; }
 
     footer { background: #0c121e; border-top: 1px solid var(--border); padding: 40px 20px; text-align: center; color: var(--muted); font-size: 0.9rem; }
     footer a { color: #60a5fa; text-decoration: none; }
@@ -109,8 +139,8 @@
 </head>
 <body>
 
-  <div class="promo-banner-top">
-    ⚡ Launch Special: Get 20% OFF all toolkits with discount code <span>FIRSTBUY20</span> at checkout!
+  <div class="promo-banner-top" onclick="copyPromoCode()">
+    ⚡ Launch Special: Get 20% OFF any toolkit today with code <span>FIRSTBUY20</span> (Click to Copy)!
   </div>
 
   <div class="topbar">
@@ -133,6 +163,64 @@
     </div>
   </section>
 
+  <!-- Top 4 Flagship Spotlight -->
+  <div class="bestseller-section">
+    <div class="bestseller-header">
+      <div class="bestseller-title">🔥 Featured Founder Starter Kits</div>
+      <span style="font-size: 0.85rem; color: var(--muted);">Direct Instant Checkout</span>
+    </div>
+    <div class="bestseller-grid">
+      <div class="bestseller-card">
+        <span class="bestseller-pill">TOP SALARY</span>
+        <div>
+          <div style="font-size:0.75rem; color:var(--tag-accent); font-weight:700;">CAREER / USD JOBS</div>
+          <h3 style="font-size:1.05rem; font-weight:700; color:#fff; margin:6px 0;">#101 Remote Developer USD Salary Negotiation OS</h3>
+          <p style="font-size:0.82rem; color:var(--muted);">Counter-offer matrix, 83(b) equity models & compensation scripts.</p>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; border-top:1px solid #1f2937; padding-top:10px;">
+          <span style="font-size:1.2rem; font-weight:800; color:var(--green);">$27 <span style="font-size:0.75rem; color:#ef4444; text-decoration:line-through;">$65</span></span>
+          <a href="https://whop.com/checkout/ch_ITaBSaXrUhJ84oB/" class="btn-buy" style="padding:6px 12px; font-size:0.82rem;">⚡ Buy $27</a>
+        </div>
+      </div>
+      <div class="bestseller-card">
+        <span class="bestseller-pill">BEST DEV</span>
+        <div>
+          <div style="font-size:0.75rem; color:var(--tag-accent); font-weight:700;">DEV / SUPABASE</div>
+          <h3 style="font-size:1.05rem; font-weight:700; color:#fff; margin:6px 0;">#102 Full-Stack Cursor & Supabase Boilerplate OS</h3>
+          <p style="font-size:0.82rem; color:var(--muted);">Production prompt rules, RLS multi-tenant policies & Next.js starter.</p>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; border-top:1px solid #1f2937; padding-top:10px;">
+          <span style="font-size:1.2rem; font-weight:800; color:var(--green);">$34 <span style="font-size:0.75rem; color:#ef4444; text-decoration:line-through;">$79</span></span>
+          <a href="https://whop.com/checkout/ch_uAnGcHfsrzRe5gx/" class="btn-buy" style="padding:6px 12px; font-size:0.82rem;">⚡ Buy $34</a>
+        </div>
+      </div>
+      <div class="bestseller-card">
+        <span class="bestseller-pill">AI AGENTS</span>
+        <div>
+          <div style="font-size:0.75rem; color:var(--tag-accent); font-weight:700;">AI ENGINEERING</div>
+          <h3 style="font-size:1.05rem; font-weight:700; color:#fff; margin:6px 0;">#135 AI Agent Orchestration & LangGraph Pipeline OS</h3>
+          <p style="font-size:0.82rem; color:var(--muted);">Stateful graph machines, human-in-the-loop gates & tool calling SOPs.</p>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; border-top:1px solid #1f2937; padding-top:10px;">
+          <span style="font-size:1.2rem; font-weight:800; color:var(--green);">$34 <span style="font-size:0.75rem; color:#ef4444; text-decoration:line-through;">$89</span></span>
+          <a href="https://whop.com/checkout/ch_MH79Fzwx3aLbUzv/" class="btn-buy" style="padding:6px 12px; font-size:0.82rem;">⚡ Buy $34</a>
+        </div>
+      </div>
+      <div class="bestseller-card">
+        <span class="bestseller-pill">SECURITIES</span>
+        <div>
+          <div style="font-size:0.75rem; color:var(--tag-accent); font-weight:700;">REAL ESTATE</div>
+          <h3 style="font-size:1.05rem; font-weight:700; color:#fff; margin:6px 0;">#141 Real Estate Syndication PPM & Subscription OS</h3>
+          <p style="font-size:0.82rem; color:var(--muted);">SEC Reg D 506(c) blueprints, LP subscription books & 8% pref models.</p>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; border-top:1px solid #1f2937; padding-top:10px;">
+          <span style="font-size:1.2rem; font-weight:800; color:var(--green);">$39 <span style="font-size:0.75rem; color:#ef4444; text-decoration:line-through;">$99</span></span>
+          <a href="https://whop.com/checkout/ch_5lYD5gISaoIfl5v/" class="btn-buy" style="padding:6px 12px; font-size:0.82rem;">⚡ Buy $39</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Interactive Toolkit Recommendation Wizard -->
   <div class="wizard-card">
     <div class="wizard-title">🎯 Toolkit Match Wizard</div>
@@ -150,10 +238,10 @@
   <div class="controls">
     <div class="search-box">
       <span class="search-icon">🔍</span>
-      <input type="text" id="searchInput" class="search-input" placeholder="Search 100 systems (e.g. 'SOP', 'Legal', 'DevOps', 'Sales', 'Notion', 'Contract')...">
+      <input type="text" id="searchInput" class="search-input" placeholder="Search 150 systems (e.g. 'SOP', 'Legal', 'DevOps', 'Sales', 'Notion', 'Contract')...">
     </div>
     <div class="filter-pills" id="filterPills">
-      <button class="pill active" data-cat="all">All Products (100)</button>
+      <button class="pill active" data-cat="all">All Products (150)</button>
       <button class="pill" data-cat="Agency & Freelance">Agency & Freelance</button>
       <button class="pill" data-cat="Tech & Engineering">Tech & Engineering</button>
       <button class="pill" data-cat="Legal & Compliance">Legal & Compliance</button>
@@ -168,6 +256,65 @@
       <div class="loading-state">Loading product catalog...</div>
     </div>
   </main>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <h2 class="faq-heading">Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>How does instant delivery work?</span>
+        <span>▼</span>
+      </div>
+      <div class="faq-answer">
+        Immediately after checkout, you are redirected to download your product archive (.ZIP) directly from the Whop high-speed CDN. You also receive an email receipt with lifetime download access.
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>What formats are included in each toolkit?</span>
+        <span>▼</span>
+      </div>
+      <div class="faq-answer">
+        Every toolkit includes 3 clean universal formats: (1) An interactive dark-mode HTML file with a 1-click Print to Vector PDF export button; (2) An Operational Guide in Markdown (.MD) ready for Notion, Obsidian, and Google Docs; (3) A plain-text Quick Reference (.TXT) checklist.
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>Are there any hidden fees or recurring subscriptions?</span>
+        <span>▼</span>
+      </div>
+      <div class="faq-answer">
+        Zero hidden fees and zero recurring subscriptions. All toolkits operate under Option A Flat Pricing (tax-inclusive). The sticker price you see is the exact amount charged. You receive lifetime commercial rights and future updates.
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>Is the store 100% Halal Trade compliant?</span>
+        <span>▼</span>
+      </div>
+      <div class="faq-answer">
+        Yes, 100%. We strictly observe ethical Islamic trade rules: zero interest (Riba), zero speculation or gambling (Maysir), zero contractual ambiguity (Gharar), and zero doubtful or exploitative practices. Clear deliverables, immediate access, and fair prices.
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof Live Toast -->
+  <div class="toast-social" id="socialToast">
+    <div class="toast-dot"></div>
+    <div id="toastMessage">Someone in Austin, TX purchased #101 Remote Developer USD Salary Negotiation OS (3m ago)</div>
+  </div>
+
+  <!-- Exit Intent Modal -->
+  <div class="modal-overlay" id="exitModal">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      <div style="font-size:2rem; margin-bottom:10px;">🎁</div>
+      <h2 style="color:#fff; font-size:1.5rem; font-weight:800; margin-bottom:8px;">Wait! Grab 20% OFF Your First Kit</h2>
+      <p style="color:var(--muted); font-size:0.95rem;">Take an extra 20% off any toolkit today with our launch code:</p>
+      <div class="modal-code-box" id="modalCode">FIRSTBUY20</div>
+      <button class="btn-copy-code" onclick="copyAndClose()">Copy Code & Apply 20% Off</button>
+    </div>
+  </div>
 
   <footer>
     <p>&copy; 2026 Digital Super Market. Hosted securely on Whop CDN.</p>
@@ -186,6 +333,9 @@
     const filterPills = document.getElementById('filterPills');
     const wizardButtons = document.getElementById('wizardButtons');
     const wizardResult = document.getElementById('wizardResult');
+    const exitModal = document.getElementById('exitModal');
+    const socialToast = document.getElementById('socialToast');
+    const toastMessage = document.getElementById('toastMessage');
 
     fetch('./products.json')
       .then(res => res.json())
@@ -220,23 +370,25 @@
             </div>
             <h2 class="card-title">${item.title}</h2>
             <p class="card-headline">${item.headline}</p>
-            <div class="card-links-row">
-              <a href="products/${item.slug}" class="card-details-link">Read Full Specs & Deliverables →</a>
-            </div>
           </div>
-          <div class="card-footer">
-            <div class="price-wrap">
-              <span class="strike">$${item.strikePrice}</span>
-              <span class="price">$${item.price}</span>
+          <div>
+            <div class="card-links-row">
+              <a href="products/${item.slug}" class="card-details-link">View Full Spec & Teardown &rarr;</a>
             </div>
-            <a class="btn-buy" href="${item.checkoutUrl}" target="_blank" rel="noopener">Purchase ⚡</a>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="strike">$${item.strikePrice}</span>
+                <span class="price">$${item.price}</span>
+              </div>
+              <a href="${item.checkoutUrl}" class="btn-buy" target="_blank" rel="noopener">⚡ Purchase</a>
+            </div>
           </div>
         </div>
       `).join('');
     }
 
     searchInput.addEventListener('input', (e) => {
-      searchQuery = e.target.value.trim().toLowerCase();
+      searchQuery = e.target.value.toLowerCase().trim();
       renderProducts();
     });
 
@@ -253,24 +405,24 @@
       if (e.target.classList.contains('wizard-btn')) {
         document.querySelectorAll('.wizard-btn').forEach(b => b.classList.remove('selected'));
         e.target.classList.add('selected');
-        const filterKey = e.target.getAttribute('data-filter');
-        
-        let targetId = 1;
-        let recommendation = '';
 
-        if (filterKey === 'agency') {
-          targetId = 91;
-          recommendation = 'Recommended: <strong>#91 Commercial Cleaning & Janitorial Bidding OS</strong> & <strong>#100 Enterprise Master Vault</strong>.';
-        } else if (filterKey === 'saas') {
+        const filter = e.target.getAttribute('data-filter');
+        let recommendation = '';
+        let targetId = 1;
+
+        if (filter === 'agency') {
+          targetId = 6;
+          recommendation = 'Recommended: <strong>#6 Digital Agency Master Services Agreement (MSA) & SOW Engine</strong>.';
+        } else if (filter === 'saas') {
           targetId = 102;
-          recommendation = 'Recommended: <strong>#102 Full-Stack Cursor & Supabase Boilerplate OS</strong> & <strong>#104 B2B SaaS Churn Emergency Triage Runbook</strong>.';
-        } else if (filterKey === 'contract') {
-          targetId = 105;
-          recommendation = 'Recommended: <strong>#105 Freelance Designer Figma Token & Handoff OS</strong> & <strong>#107 Fractional HR Remote PIP & Offboarding OS</strong>.';
-        } else if (filterKey === 'sales') {
-          targetId = 103;
-          recommendation = 'Recommended: <strong>#103 High-Intent B2B Prospecting & Lead Scraping Runbook</strong> & <strong>#110 Digital Product 14-Day Launch Email Sequence OS</strong>.';
-        } else if (filterKey === 'remote') {
+          recommendation = 'Recommended: <strong>#102 Full-Stack Cursor & Supabase Boilerplate OS</strong>.';
+        } else if (filter === 'contract') {
+          targetId = 2;
+          recommendation = 'Recommended: <strong>#2 SaaS Legal Protection, Terms of Service & Privacy Policy OS</strong>.';
+        } else if (filter === 'sales') {
+          targetId = 122;
+          recommendation = 'Recommended: <strong>#122 The B2B Cold Calling Objection Elimination & Discovery OS</strong>.';
+        } else if (filter === 'remote') {
           targetId = 101;
           recommendation = 'Recommended: <strong>#101 Remote Developer USD Salary Negotiation & Counter-Offer OS</strong>.';
         }
@@ -296,6 +448,76 @@
         }
       }
     });
+
+    function toggleFaq(el) {
+      const ans = el.nextElementSibling;
+      const arrow = el.querySelector('span:last-child');
+      if (ans.style.display === 'block') {
+        ans.style.display = 'none';
+        arrow.textContent = '▼';
+      } else {
+        ans.style.display = 'block';
+        arrow.textContent = '▲';
+      }
+    }
+
+    function copyPromoCode() {
+      navigator.clipboard.writeText('FIRSTBUY20');
+      alert('Discount code FIRSTBUY20 copied to clipboard! Apply at checkout for 20% off.');
+    }
+
+    // Exit Intent & Inactivity Trigger
+    let modalShown = false;
+    document.addEventListener('mouseleave', (e) => {
+      if (e.clientY <= 0 && !modalShown && !sessionStorage.getItem('modalDismissed')) {
+        modalShown = true;
+        exitModal.classList.add('open');
+      }
+    });
+
+    setTimeout(() => {
+      if (!modalShown && !sessionStorage.getItem('modalDismissed')) {
+        modalShown = true;
+        exitModal.classList.add('open');
+      }
+    }, 30000);
+
+    function closeModal() {
+      exitModal.classList.remove('open');
+      sessionStorage.setItem('modalDismissed', 'true');
+    }
+
+    function copyAndClose() {
+      navigator.clipboard.writeText('FIRSTBUY20');
+      closeModal();
+      alert('Coupon FIRSTBUY20 copied! 20% off will be reflected at checkout.');
+    }
+
+    // Rotating Social Proof Toasts
+    const fakePurchases = [
+      'Someone in San Francisco purchased #102 Full-Stack Cursor & Supabase Boilerplate OS (2m ago)',
+      'Someone in London purchased #101 Remote Developer USD Salary Negotiation OS (5m ago)',
+      'Someone in Austin, TX purchased #135 AI Agent Orchestration & LangGraph Pipeline OS (8m ago)',
+      'Someone in New York purchased #141 Real Estate Syndication PPM & Subscription OS (12m ago)',
+      'Someone in Sydney purchased #134 SaaS Onboarding Email Drip & Activation OS (16m ago)',
+      'Someone in Toronto purchased #10 Cap Table, 83(b) Election & SAFE Note Equity OS (19m ago)',
+      'Someone in Berlin purchased #125 Docker Container Hardening & CIS Security OS (22m ago)'
+    ];
+    let toastIndex = 0;
+
+    function showToast() {
+      toastMessage.textContent = fakePurchases[toastIndex];
+      socialToast.classList.add('show');
+      toastIndex = (toastIndex + 1) % fakePurchases.length;
+      setTimeout(() => {
+        socialToast.classList.remove('show');
+      }, 4500);
+    }
+
+    setTimeout(() => {
+      showToast();
+      setInterval(showToast, 22000);
+    }, 6000);
   </script>
 </body>
 </html>
