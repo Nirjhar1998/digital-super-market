@@ -57,6 +57,24 @@
     /* Top Bestseller Showcase */
     .bestseller-section { max-width: 1200px; margin: 0 auto 40px auto; padding: 0 20px; }
     .bestseller-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; border-bottom: 1px solid var(--border); padding-bottom: 10px; }
+    
+    /* Executive Master Suites */
+    .suites-section { max-width: 1200px; margin: 0 auto 35px auto; padding: 0 20px; }
+    .suites-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 18px; border-bottom: 2px solid #2563eb; padding-bottom: 10px; }
+    .suites-title { font-size: 1.45rem; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 8px; }
+    .suites-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 20px; }
+    .suite-card { background: linear-gradient(145deg, #131c31 0%, #0c1220 100%); border: 1px solid #3b82f6; border-radius: 14px; padding: 22px; display: flex; flex-direction: column; justify-content: space-between; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.4); }
+    .suite-card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(59, 130, 246, 0.25); border-color: #60a5fa; }
+    .suite-badge { position: absolute; top: -11px; left: 20px; background: #10b981; color: #000; font-size: 0.72rem; font-weight: 800; padding: 3px 10px; border-radius: 9999px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .suite-count { font-size: 0.8rem; font-weight: 700; color: #93c5fd; margin-bottom: 6px; }
+    .suite-name { font-size: 1.25rem; font-weight: 800; color: #fff; margin-bottom: 8px; line-height: 1.35; }
+    .suite-desc { font-size: 0.88rem; color: var(--muted); line-height: 1.5; margin-bottom: 18px; flex-grow: 1; }
+    .suite-footer { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #1e293b; padding-top: 14px; margin-top: 10px; }
+    .suite-value { font-size: 0.78rem; color: #ef4444; text-decoration: line-through; }
+    .suite-price { font-size: 1.45rem; font-weight: 800; color: #10b981; }
+    .btn-suite { background: #2563eb; color: #fff; padding: 9px 18px; border-radius: 8px; font-weight: 700; font-size: 0.9rem; text-decoration: none; transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+    .btn-suite:hover { background: #1d4ed8; transform: translateY(-1px); }
+
     .bestseller-title { font-size: 1.35rem; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 8px; }
     .bestseller-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 16px; }
     .bestseller-card { background: #131b2e; border: 1px solid #2563eb; border-radius: 10px; padding: 16px; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s; position: relative; }
@@ -165,59 +183,140 @@
     </div>
   </section>
 
-  <!-- Top 4 Flagship Spotlight -->
+  
+  <!-- 5 Executive Master Suites -->
+  <div class="suites-section">
+    <div class="suites-header">
+      <div>
+        <div class="suites-title">👑 Executive Master Industry Suites</div>
+        <div style="font-size:0.85rem; color:var(--muted); margin-top:4px;">Turnkey multi-framework bundles for growing agencies, technical founders, and enterprise operators.</div>
+      </div>
+      <span style="font-size: 0.82rem; background: #1e3a8a; color: #93c5fd; padding: 4px 10px; border-radius: 6px; font-weight: 700;">Save up to 90%</span>
+    </div>
+    <div class="suites-grid">
+      <div class="suite-card">
+        <span class="suite-badge">⭐ High-Ticket Bestseller</span>
+        <div>
+          <div class="suite-count">📁 39 Complete Frameworks</div>
+          <h3 class="suite-name">Executive Agency & Consulting Retainer Master Suite</h3>
+          <p class="suite-desc">The complete enterprise client engagement suite: retainer contracts, asynchronous status reporting, scope defense scripts, and 90-day advisory roadmaps. Features Product #192.</p>
+        </div>
+        <div class="suite-footer">
+          <div>
+            <div class="suite-value">Value: $1,420</div>
+            <div class="suite-price">$149</div>
+          </div>
+          <a href="https://whop.com/checkout/ch_Yij7D2l0RVyEhNI/" class="btn-suite">⚡ Unlock Suite</a>
+        </div>
+      </div>
+
+      <div class="suite-card">
+        <span class="suite-badge">💻 Tech Architecture</span>
+        <div>
+          <div class="suite-count">📁 94 Technical Systems</div>
+          <h3 class="suite-name">Full-Stack SaaS, Cloud Architecture & DevOps Engine OS</h3>
+          <p class="suite-desc">Enterprise software architecture: Kafka event-driven pipelines, Next.js Stripe metered usage billing, Zero Trust IAM PAM security, and cloud compliance SOPs. Features Product #196.</p>
+        </div>
+        <div class="suite-footer">
+          <div>
+            <div class="suite-value">Value: $3,290</div>
+            <div class="suite-price">$199</div>
+          </div>
+          <a href="https://whop.com/checkout/ch_eKxxhKgKRqddBoN/" class="btn-suite">⚡ Unlock Suite</a>
+        </div>
+      </div>
+
+      <div class="suite-card">
+        <span class="suite-badge">⚖️ Corporate & M&A</span>
+        <div>
+          <div class="suite-count">📁 32 Legal & CFO Frameworks</div>
+          <h3 class="suite-name">Corporate Venture, M&A, CFO & Legal Governance Suite</h3>
+          <p class="suite-desc">C-suite financial and legal operations: corporate spinout equity allocations, fractional CFO scorecards, board meeting rhythms, and Delaware compliance. Features Product #200.</p>
+        </div>
+        <div class="suite-footer">
+          <div>
+            <div class="suite-value">Value: $1,240</div>
+            <div class="suite-price">$149</div>
+          </div>
+          <a href="https://whop.com/checkout/ch_kVyaSxMbuCRWlMh/" class="btn-suite">⚡ Unlock Suite</a>
+        </div>
+      </div>
+
+      <div class="suite-card">
+        <span class="suite-badge">🔬 Bio & Pharma</span>
+        <div>
+          <div class="suite-count">📁 7 Regulated Frameworks</div>
+          <h3 class="suite-name">Life Sciences, Clinical Trial TMF & FDA Audit Vault</h3>
+          <p class="suite-desc">Pharmaceutical and clinical compliance: Trial Master File audit protocols, DEA controlled substances SOPs, and GCP inspection runbooks. Features Product #195.</p>
+        </div>
+        <div class="suite-footer">
+          <div>
+            <div class="suite-value">Value: $295</div>
+            <div class="suite-price">$99</div>
+          </div>
+          <a href="https://whop.com/checkout/plan_SSBbqhB2YceZI/" class="btn-suite">⚡ Unlock Suite</a>
+        </div>
+      </div>
+
+      <div class="suite-card">
+        <span class="suite-badge">🏭 Physical Operations</span>
+        <div>
+          <div class="suite-count">📁 28 Commercial Engines</div>
+          <h3 class="suite-name">Commercial E-Commerce, Manufacturing & Real Estate OS</h3>
+          <p class="suite-desc">Physical operations frameworks: short-term rental co-hosting contracts, CNC machining quality inspection FAIR logs, and supplier sourcing agreements.</p>
+        </div>
+        <div class="suite-footer">
+          <div>
+            <div class="suite-value">Value: $980</div>
+            <div class="suite-price">$129</div>
+          </div>
+          <a href="https://whop.com/checkout/plan_6EcAGu84BdizK/" class="btn-suite">⚡ Unlock Suite</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top 3 Verified Flagship Spotlight -->
   <div class="bestseller-section">
     <div class="bestseller-header">
-      <div class="bestseller-title">🔥 Featured Founder Starter Kits</div>
-      <span style="font-size: 0.85rem; color: var(--muted);">Direct Instant Checkout</span>
+      <div class="bestseller-title">⭐ Commercially Verified Flagships (Top Demand)</div>
+      <span style="font-size: 0.85rem; color: var(--muted);">Direct 1-Click Instant Checkout</span>
     </div>
     <div class="bestseller-grid">
       <div class="bestseller-card">
-        <span class="bestseller-pill">TOP SALARY</span>
+        <span class="bestseller-pill">#1 BESTSELLER</span>
         <div>
-          <div style="font-size:0.75rem; color:var(--tag-accent); font-weight:700;">CAREER / USD JOBS</div>
-          <h3 style="font-size:1.05rem; font-weight:700; color:#fff; margin:6px 0;">#101 Remote Developer USD Salary Negotiation OS</h3>
-          <p style="font-size:0.82rem; color:var(--muted);">Counter-offer matrix, 83(b) equity models & compensation scripts.</p>
-        </div>
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; border-top:1px solid #1f2937; padding-top:10px;">
-          <span style="font-size:1.2rem; font-weight:800; color:var(--green);">$27 <span style="font-size:0.75rem; color:#ef4444; text-decoration:line-through;">$65</span></span>
-          <a href="https://whop.com/checkout/ch_ITaBSaXrUhJ84oB/" class="btn-buy" style="padding:6px 12px; font-size:0.82rem;">⚡ Buy $27</a>
-        </div>
-      </div>
-      <div class="bestseller-card">
-        <span class="bestseller-pill">BEST DEV</span>
-        <div>
-          <div style="font-size:0.75rem; color:var(--tag-accent); font-weight:700;">DEV / SUPABASE</div>
-          <h3 style="font-size:1.05rem; font-weight:700; color:#fff; margin:6px 0;">#102 Full-Stack Cursor & Supabase Boilerplate OS</h3>
-          <p style="font-size:0.82rem; color:var(--muted);">Production prompt rules, RLS multi-tenant policies & Next.js starter.</p>
-        </div>
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; border-top:1px solid #1f2937; padding-top:10px;">
-          <span style="font-size:1.2rem; font-weight:800; color:var(--green);">$34 <span style="font-size:0.75rem; color:#ef4444; text-decoration:line-through;">$79</span></span>
-          <a href="https://whop.com/checkout/ch_uAnGcHfsrzRe5gx/" class="btn-buy" style="padding:6px 12px; font-size:0.82rem;">⚡ Buy $34</a>
-        </div>
-      </div>
-      <div class="bestseller-card">
-        <span class="bestseller-pill">AI AGENTS</span>
-        <div>
-          <div style="font-size:0.75rem; color:var(--tag-accent); font-weight:700;">AI ENGINEERING</div>
-          <h3 style="font-size:1.05rem; font-weight:700; color:#fff; margin:6px 0;">#135 AI Agent Orchestration & LangGraph Pipeline OS</h3>
-          <p style="font-size:0.82rem; color:var(--muted);">Stateful graph machines, human-in-the-loop gates & tool calling SOPs.</p>
+          <div style="font-size:0.75rem; color:var(--tag-accent); font-weight:700;">CONSULTING & ADVISORY</div>
+          <h3 style="font-size:1.05rem; font-weight:700; color:#fff; margin:6px 0;">#192 Consultant Retainer Deliverable & Client Portal OS</h3>
+          <p style="font-size:0.82rem; color:var(--muted);">Asynchronous executive Notion portals, 5-min Loom updates, scope defense scripts & retainer extensions.</p>
         </div>
         <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; border-top:1px solid #1f2937; padding-top:10px;">
           <span style="font-size:1.2rem; font-weight:800; color:var(--green);">$34 <span style="font-size:0.75rem; color:#ef4444; text-decoration:line-through;">$89</span></span>
-          <a href="https://whop.com/checkout/ch_MH79Fzwx3aLbUzv/" class="btn-buy" style="padding:6px 12px; font-size:0.82rem;">⚡ Buy $34</a>
+          <a href="https://whop.com/checkout/ch_Yij7D2l0RVyEhNI/" class="btn-buy" style="padding:6px 12px; font-size:0.82rem;">⚡ Buy $34</a>
         </div>
       </div>
       <div class="bestseller-card">
-        <span class="bestseller-pill">SECURITIES</span>
+        <span class="bestseller-pill">ENTERPRISE VENTURE</span>
         <div>
-          <div style="font-size:0.75rem; color:var(--tag-accent); font-weight:700;">REAL ESTATE</div>
-          <h3 style="font-size:1.05rem; font-weight:700; color:#fff; margin:6px 0;">#141 Real Estate Syndication PPM & Subscription OS</h3>
-          <p style="font-size:0.82rem; color:var(--muted);">SEC Reg D 506(c) blueprints, LP subscription books & 8% pref models.</p>
+          <div style="font-size:0.75rem; color:var(--tag-accent); font-weight:700;">CORPORATE VENTURE & M&A</div>
+          <h3 style="font-size:1.05rem; font-weight:700; color:#fff; margin:6px 0;">#200 Corporate Venture Building & Spinout Equity OS</h3>
+          <p style="font-size:0.82rem; color:var(--muted);">Corporate carve-out IP licensing deeds, founder equity vesting cliffs & cap table pro-forma models.</p>
         </div>
         <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; border-top:1px solid #1f2937; padding-top:10px;">
-          <span style="font-size:1.2rem; font-weight:800; color:var(--green);">$39 <span style="font-size:0.75rem; color:#ef4444; text-decoration:line-through;">$99</span></span>
-          <a href="https://whop.com/checkout/ch_5lYD5gISaoIfl5v/" class="btn-buy" style="padding:6px 12px; font-size:0.82rem;">⚡ Buy $39</a>
+          <span style="font-size:1.2rem; font-weight:800; color:var(--green);">$49 <span style="font-size:0.75rem; color:#ef4444; text-decoration:line-through;">$149</span></span>
+          <a href="https://whop.com/checkout/ch_kVyaSxMbuCRWlMh/" class="btn-buy" style="padding:6px 12px; font-size:0.82rem;">⚡ Buy $49</a>
+        </div>
+      </div>
+      <div class="bestseller-card">
+        <span class="bestseller-pill">NEXT.js BILLING</span>
+        <div>
+          <div style="font-size:0.75rem; color:var(--tag-accent); font-weight:700;">DEVELOPER ENGINE</div>
+          <h3 style="font-size:1.05rem; font-weight:700; color:#fff; margin:6px 0;">#196 Next.js Stripe Custom Billing & Usage Engine OS</h3>
+          <p style="font-size:0.82rem; color:var(--muted);">Idempotent webhook handlers, usage-based metered billing calculations & enterprise customer portal integration.</p>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; border-top:1px solid #1f2937; padding-top:10px;">
+          <span style="font-size:1.2rem; font-weight:800; color:var(--green);">$37 <span style="font-size:0.75rem; color:#ef4444; text-decoration:line-through;">$95</span></span>
+          <a href="https://whop.com/checkout/ch_eKxxhKgKRqddBoN/" class="btn-buy" style="padding:6px 12px; font-size:0.82rem;">⚡ Buy $37</a>
         </div>
       </div>
     </div>
