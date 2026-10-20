@@ -1,9 +1,9 @@
-# Digital Super Market (260 Operating Systems & Business Engines)
+# Digital Super Market (270 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 260 Master Assets
+Catalog Size: 270 Master Assets
 
 ## Flagship Products
 - The Quarter-Century Enterprise Milestone Architecture & Operations Vault (250) ($49): https://whop.com/checkout/ch_E2v8z6m2IuVGsmp/
@@ -13,7 +13,7 @@ Catalog Size: 260 Master Assets
 - The Enterprise Multi-Agent LangGraph & Long-Term Memory OS ($39): https://whop.com/checkout/ch_MT3nmL19znPAtgM/
 - The SOC 2 Type II Continuous Evidence Collection & Audit OS ($49): https://whop.com/checkout/ch_vW7zOxYB5d9cTC2/
 
-## Complete 260 Product Catalog List
+## Complete 270 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -274,3 +274,13 @@ Catalog Size: 260 Master Assets
 - #258: The Clinical Diagnostic Genomics Laboratory CLIA Variant Interpretation OS ($49): https://whop.com/checkout/ch_K3udQAMUMU0J21H/
 - #259: The Enterprise SaaS Annual Contract Value (ACV) & Expansion Sales OS ($37): https://whop.com/checkout/ch_86ynd44J8E2PE0j/
 - #260: The Commercial Fleet EV Telematics & Smart Charging Depot OS ($44): https://whop.com/checkout/ch_axO8whKMi8SSbGQ/
+- #261: The Enterprise Identity Federation & SAML / OIDC Single Sign-On (SSO) OS ($39): https://whop.com/checkout/ch_uLikfAsnI7WsxI5/
+- #262: The Commercial Solar PPA & Utility Interconnection Agreement OS ($49): https://whop.com/checkout/ch_gdU2hYG4ShNNSpY/
+- #263: The Clinical Diagnostic Laboratory Equipment IQ/OQ/PQ Validation OS ($44): https://whop.com/checkout/ch_UWN8xIdjfue13rD/
+- #264: The Autonomous Aerial Drone LiDAR Forest & Carbon Credit Verification OS ($44): https://whop.com/checkout/ch_uAdBEsbksdjxted/
+- #265: The Distributed Database CockroachDB Multi-Region Survives-Region OS ($44): https://whop.com/checkout/ch_a6r0wLHfXVDbasR/
+- #266: The Commercial Airfreight Dangerous Goods (DGA) IATA Compliance OS ($39): https://whop.com/checkout/ch_KFUlPANaR9jPgkD/
+- #267: The Enterprise GraphQL Security Hardening & Apollo Ingress Gateway OS ($39): https://whop.com/checkout/ch_tpScuxxZ3GilDvy/
+- #268: The Biopharma Cleanroom Environmental Monitoring (EM) & Viable Particle OS ($49): https://whop.com/checkout/ch_b6tFcHyEk4UIH7n/
+- #269: The Enterprise B2B SaaS Churn Early Warning & Save Desk Playbook ($34): https://whop.com/checkout/ch_DyKlvUSHYBoaW0K/
+- #270: The Autonomous Tugboat & Port Vessel Dynamic Positioning (DP) Standard OS ($49): https://whop.com/checkout/ch_wTORwhDT4vL0Nfg/
