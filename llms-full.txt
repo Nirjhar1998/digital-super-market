@@ -1,9 +1,9 @@
-# Digital Super Market (350 Operating Systems & Business Engines)
+# Digital Super Market (360 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 350 Master Assets
+Catalog Size: 360 Master Assets
 
 ## Milestone Flagships
 - The Master Mid-Tier Enterprise Milestone Operations Vault (350) ($49): https://whop.com/checkout/ch_UVMRwUUmRQcZRX2/
@@ -12,7 +12,7 @@ Catalog Size: 350 Master Assets
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 350 Product Catalog List
+## Complete 360 Product Catalog List
 
 ## Full Detailed Specifications
 
@@ -5551,6 +5551,166 @@ Includes:
 - 04: Enterprise Digital Product Commercialization & Distribution Engine
 - 05: The Digital Super Market Scaling Architecture & Future 1,000 Product Roadmap
 - 06: Master Mid-Tier Enterprise Vault 350 OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #351: The Enterprise eBPF XDP Network Packet Processing & DDoS Mitigation OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: XDP Kernel Hooks, AF_XDP Zero-Copy Sockets & eBPF High-Throughput Packet Filter
+- Checkout: https://whop.com/checkout/ch_blWjwqwXxymt6ZA/
+- Details: High-throughput Linux kernel networking standard: eBPF XDP (eXpress Data Path) hooks, AF_XDP zero-copy rings, TC filter pipelines, and line-rate multi-million PPS DDoS scrubbing.
+
+Includes:
+- 01: XDP Driver Hook Architecture & BPF Map State Management Spec
+- 02: AF_XDP (XSK) Zero-Copy Socket Buffer Pool & User-Space Fast Path
+- 03: Line-Rate Volumetric SYN Flood & UDP Amplification Mitigation Filter
+- 04: BPF Ring Buffer Telemetry & High-Resolution Flow Metric Exporter
+- 05: Production eBPF CI/CD Testing Harness & Kernel Verifier Checklist
+- 06: eBPF XDP Packet Processing OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #352: The Biopharma Lyophilization Cycle Freeze-Drying Heat Transfer & Scale-Up OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Vial Heat Transfer Kv, Ice Sublimation Dynamics & Chamber Choke Flow Limits
+- Checkout: https://whop.com/checkout/ch_mf9yCbRxrxjUC0w/
+- Details: Biopharmaceutical freeze-drying engineering standard: primary drying design spaces, vial heat transfer coefficient (Kv) modeling, sublimation rates, and commercial scale-up choke limits.
+
+Includes:
+- 01: Vial Heat Transfer Coefficient (Kv) & Sublimation Rate Mathematical Model
+- 02: Critical Product Collapse Temperature (Tc) & Glass Transition (Tg) Matrix
+- 03: Chamber Choke Flow & Equipment Capability Curve Sizing Protocol
+- 04: Manometric Temperature Measurement (MTM) & SMART Freeze-Drying Control
+- 05: Commercial Lyophilizer Scale-Up & Process Analytical Technology (PAT) Dossier
+- 06: Biopharma Lyophilization Scale-Up OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #353: The Subsea Pipeline Cathodic Protection & Sacrificial Anode Design OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: DNV-RP-F103 Current Drain, Al-Zn-In Anode Mass Sizing & CP Attenuation Models
+- Checkout: https://whop.com/checkout/ch_XWNQVYqg6NCLkDP/
+- Details: Offshore pipeline integrity standard: DNV-RP-F103 and ISO 15589-2 sacrificial cathodic protection (CP), aluminum-zinc-indium bracelet anode mass sizing, coating breakdown, and CP attenuation.
+
+Includes:
+- 01: DNV-RP-F103 Current Demand & Protective Coating Breakdown Formulation
+- 02: Half-Shell Bracelet Anode Geometry & Net Anode Mass Sizing Calculator
+- 03: Subsea Pipeline Potential Attenuation & Anode Spacing Differential Model
+- 04: ROV Trailing Wire & Close Interval Potential Survey (CIPS) Inspection SOP
+- 05: Cathodic Protection Retrofit & Life-Extension Engineering Dossier
+- 06: Subsea Cathodic Protection Anode OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #354: The Enterprise ClickHouse Columnar Cluster Sharding & Replication OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: ReplicatedMergeTree, ClickHouse Keeper, Distributed Tables & Tiered Storage
+- Checkout: https://whop.com/checkout/ch_HImGLqDjwp5AOmb/
+- Details: Petabyte-scale real-time analytical database standard: ClickHouse ReplicatedMergeTree engines, ClickHouse Keeper consensus, multi-tenant sharding keys, and NVMe-to-S3 tiered storage.
+
+Includes:
+- 01: ClickHouse Distributed Cluster Topology & Sharding Key Architecture
+- 02: ReplicatedMergeTree & ClickHouse Keeper Raft Consensus Deployment
+- 03: Tiered Storage Policy: Hot NVMe Local Disk to Cold S3 Object Store
+- 04: Vectorized Query Execution & Granular Primary Key Indexing Blueprint
+- 05: High-Throughput Kafka/Kinesis Ingestion Engine & Materialized Views
+- 06: ClickHouse Columnar Cluster OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #355: The Commercial Construction Crane Lifting & Rigging Safety Operations OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Critical Lift Plans, Ground Bearing Pressure, Outrigger Mats & Rigging Geometry
+- Checkout: https://whop.com/checkout/ch_pSg5ykvCBXRZP4K/
+- Details: Commercial heavy construction lifting standard: OSHA 1926 Subpart CC, ASME B30.5 critical lift plans, outrigger mat ground bearing pressure calculations, and synthetic sling rigging mechanics.
+
+Includes:
+- 01: OSHA & ASME Compliant Critical Lift Plan (CLP) Specification Document
+- 02: Outrigger Pad Point Loading & Timber/Steel Mat Ground Bearing Formula
+- 03: Rigging Sling Tension Trigonometry, Hitch Angles & D/d Ratio Protocols
+- 04: Mobile Crane Boom Deflection & Dynamic Wind Loading Calculation SOP
+- 05: Daily Pre-Operational Crane Inspection & Signal Person Qualification Spec
+- 06: Crane Lifting & Rigging Safety OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #356: The Biopharma Tangential Flow Filtration (TFF) Ultrafiltration Scale-Up OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Cross-Flow Flux Jv, Gel Layer Resistance, Diafiltration Wash & Cassette Sizing
+- Checkout: https://whop.com/checkout/ch_qZy5PNLLw07MWX7/
+- Details: Biopharmaceutical downstream purification standard: tangential flow filtration (TFF), transmembrane pressure (TMP) optimization, concentration factor scaling, and constant-volume diafiltration.
+
+Includes:
+- 01: Transmembrane Pressure (TMP) vs Filtrate Flux Excursion Curve Protocol
+- 02: Cassette Membrane Area Sizing & Feed Cross-Flow Hydrodynamics Model
+- 03: Constant-Volume Diafiltration (CVD) Salt Removal & Buffer Exchange Model
+- 04: Membrane Cleaning-in-Place (CIP), Normalized Water Permeability (NWP) SOP
+- 05: Commercial TFF System Process Validation Dossier & Leachables Audit
+- 06: Biopharma TFF Ultrafiltration OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #357: The Institutional Commercial Leasing Triple Net (NNN) Audit & CAM Reconcile OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Gross Leasable Area Pro-Rata, Controllable CAM Caps & Capital Amortization Audit
+- Checkout: https://whop.com/checkout/ch_Kta693znMIMt63u/
+- Details: Commercial real estate asset management standard: institutional Triple Net (NNN) lease audits, controllable common area maintenance (CAM) expense caps, pro-rata gross-ups, and dispute reconciliation.
+
+Includes:
+- 01: Pro-Rata Share Gross Leasable Area (GLA) & Occupancy Gross-Up Formula
+- 02: Controllable vs Non-Controllable CAM Expense Classification Matrix
+- 03: Capital Expenditure Exclusion & GAAP Straight-Line Amortization Audit
+- 04: Annual Landlord CAM Reconciliation Statement Verification Playbook
+- 05: Tenant CAM Overcharge Dispute Notice & Escalation Legal Framework
+- 06: Commercial NNN Lease CAM Audit OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #358: The Enterprise Rust Async Tokio Actor Model & Microservice Engine OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Tokio MPSC Channels, Zero-Allocation Memory, Rayon Threadpools & Axum Web APIs
+- Checkout: https://whop.com/checkout/ch_6DeSdtQEOR35COR/
+- Details: Systems programming high-performance backend standard: async Rust actor architectures, Tokio multi-threaded runtime, bounded channel backpressure, and sub-millisecond Axum microservices.
+
+Includes:
+- 01: Async Actor Lifecycle Pattern & Tokio Bounded Channel Mailbox Engine
+- 02: CPU-Bound Offloading: Rayon Threadpool Integration & Tokio Blocking Tasks
+- 03: Axum REST & WebSocket Microservice Pipeline with Tower Middleware Layers
+- 04: Graceful Shutdown Signal Orchestration & State Preservation Engine
+- 05: Memory Profiling, Cargo Valgrind, and Unsafe Safety Audit Protocols
+- 06: Rust Async Tokio Microservice OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #359: The Cleanroom HVAC Facility Differential Pressure & Airborne Particle OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: ISO 14644 Air Changes Per Hour, Cascade Pressure Cascades & HEPA Filter Velocity
+- Checkout: https://whop.com/checkout/ch_a02jtLsbuGKHdtz/
+- Details: GMP pharmaceutical and semiconductor facility engineering standard: ISO 14644 cleanroom HVAC design, differential pressure cascade balancing (+15 Pa), air change rates, and HEPA filter qualification.
+
+Includes:
+- 01: ISO 14644 Cleanroom Class Classification & Airborne Particle Count Limits
+- 02: Room Pressure Cascade Hierarchy & Differential Pressure Control Design
+- 03: Air Changes Per Hour (ACPH) & Cleanroom Recovery Rate Calculation Model
+- 04: Terminal HEPA/ULPA Filter Air Velocity Uniformity & PAO Aerosol Leak SOP
+- 05: Building Management System (BMS) HVAC Qualification & Alarm Limit Dossier
+- 06: Cleanroom HVAC Facility OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #360: The Enterprise Multi-Cloud FinOps Kubernetes Cost Allocation OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: OpenCost, Node Slice Multi-Tenancy, Spot Interruption & Cloud Unit Economics
+- Checkout: https://whop.com/checkout/ch_zIQ3NilqLiIaLMD/
+- Details: Enterprise cloud financial operations standard: Kubernetes container resource request billing, OpenCost allocation engines, spot instance interruption tolerance, and multi-tenant unit economics.
+
+Includes:
+- 01: Kubernetes Pod & Namespace Cost Allocation Model with OpenCost Engine
+- 02: Idle Waste Reclamation: Vertical Pod Autoscaler (VPA) Sizing & Overprovisioning
+- 03: Karpenter Spot Instance Interruption Resilience & Diversification Engine
+- 04: Multi-Tenant Chargeback/Showback Billing Ledger & Department P&L Reports
+- 05: Cloud Unit Economics: Cost-Per-Customer & Cost-Per-API-Transaction Metric Standard
+- 06: Kubernetes FinOps Cost Allocation OS Manual & Interactive Viewer
 
 Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
 
