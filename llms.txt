@@ -1,9 +1,9 @@
-# Digital Super Market (210 Operating Systems & Business Engines)
+# Digital Super Market (220 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 210 Master Assets
+Catalog Size: 220 Master Assets
 
 ## Flagship Products
 - The High-Ticket Consultant Retainer Deliverable & Client Portal OS ($34): https://whop.com/checkout/ch_Yij7D2l0RVyEhNI/
@@ -12,7 +12,7 @@ Catalog Size: 210 Master Assets
 - The Enterprise Multi-Agent LangGraph & Long-Term Memory OS ($39): https://whop.com/checkout/ch_MT3nmL19znPAtgM/
 - The SOC 2 Type II Continuous Evidence Collection & Audit OS ($49): https://whop.com/checkout/ch_vW7zOxYB5d9cTC2/
 
-## Complete 210 Product Catalog List
+## Complete 220 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -223,3 +223,13 @@ Catalog Size: 210 Master Assets
 - #208: The Production Data Warehouse & dbt Core Governance OS ($37): https://whop.com/checkout/ch_zXtsfwHa0vwTIqQ/
 - #209: The Software M&A Technical Due Diligence & Code Audit OS ($49): https://whop.com/checkout/ch_W6WGdeHs0Tj3Wpf/
 - #210: The B2B SaaS Tiered Pricing, Packaging & Feature Fencing OS ($34): https://whop.com/checkout/ch_SpmtrdrfEGnyrI4/
+- #211: The Autonomous AI SDR & Outbound Prospecting Engine OS ($39): https://whop.com/checkout/ch_P1Zs2cGeF9gah0R/
+- #212: The Enterprise GraphQL Federation & Subgraph Governance OS ($39): https://whop.com/checkout/ch_Z89Mbv2nRBpXhgt/
+- #213: The Zero-Knowledge (ZK) Proof Systems & Circuit Audit OS ($49): https://whop.com/checkout/ch_93LPVpc1Qi01QOp/
+- #214: The Private Equity Leveraged Buyout (LBO) Modeling & Debt OS ($49): https://whop.com/checkout/ch_oLO7QAHJp9gld8p/
+- #215: The Medical Device FDA 510(k) Premarket Notification OS ($49): https://whop.com/checkout/ch_KuUm6ZdclPbHk0F/
+- #216: The B2B RevOps Deal Desk & Non-Standard Contract Governance OS ($34): https://whop.com/checkout/ch_6oSH4fyTEuAvhlr/
+- #217: The Vector Database Clustering, Sharding & Scaling OS ($37): https://whop.com/checkout/ch_Pne14awgIu4nuSs/
+- #218: The Corporate Treasury Management & Liquidity Forecasting OS ($44): https://whop.com/checkout/ch_MPsU3Mi6IoVKikd/
+- #219: The Algorithmic Trading Systems & Low-Latency Colocation OS ($49): https://whop.com/checkout/ch_uDHoemDdXEcjmRm/
+- #220: The Digital Media Network & Multi-Show Podcast Syndication OS ($29): https://whop.com/checkout/ch_5BVBDfBeyJIYzsF/
