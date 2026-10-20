@@ -1,9 +1,9 @@
-# Digital Super Market (230 Operating Systems & Business Engines)
+# Digital Super Market (240 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 230 Master Assets
+Catalog Size: 240 Master Assets
 
 ## Flagship Products
 - The High-Ticket Consultant Retainer Deliverable & Client Portal OS ($34): https://whop.com/checkout/ch_Yij7D2l0RVyEhNI/
@@ -12,7 +12,7 @@ Catalog Size: 230 Master Assets
 - The Enterprise Multi-Agent LangGraph & Long-Term Memory OS ($39): https://whop.com/checkout/ch_MT3nmL19znPAtgM/
 - The SOC 2 Type II Continuous Evidence Collection & Audit OS ($49): https://whop.com/checkout/ch_vW7zOxYB5d9cTC2/
 
-## Complete 230 Product Catalog List
+## Complete 240 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -243,3 +243,13 @@ Catalog Size: 230 Master Assets
 - #228: The Industrial Automation PLC Programming & SCADA HMI Standard OS ($44): https://whop.com/checkout/ch_52pmt3kKticuA7m/
 - #229: The Private Credit & Direct Lending Loan Underwriting OS ($49): https://whop.com/checkout/ch_Ey7ZUkE3IYPIjSA/
 - #230: The Digital Health Remote Patient Monitoring (RPM) Reimbursement & Clinical OS ($44): https://whop.com/checkout/ch_7oHZZIMZXZbPrFL/
+- #231: The Enterprise Data Clean Room & Privacy-Preserving Analytics OS ($44): https://whop.com/checkout/ch_bm03SBr2rFdNKm4/
+- #232: The Enterprise OpenTelemetry & Distributed Tracing Architecture OS ($39): https://whop.com/checkout/ch_DHrXDakNmQHzfTo/
+- #233: The Autonomous Drone Survey & Photogrammetry Volumetric Analysis OS ($39): https://whop.com/checkout/ch_gC2VxZWlv5Ytddi/
+- #234: The Quantum Key Distribution (QKD) & Post-Quantum Cryptography (PQC) OS ($49): https://whop.com/checkout/ch_ZaG3EA8YknXwP9d/
+- #235: The Cold Chain Logistics & Temperature-Controlled Pharma Transport OS ($44): https://whop.com/checkout/ch_b2M6MpCs7yvi4kO/
+- #236: The Enterprise Service Mesh & Istio Zero-Trust Traffic Management OS ($39): https://whop.com/checkout/ch_fean2AltCgB5pES/
+- #237: The Clinical Biobanking & Cryogenic Biospecimen Custody OS ($49): https://whop.com/checkout/ch_J5Iywih50JFsDg5/
+- #238: The B2B Enterprise Professional Services Statement of Work (SOW) & Milestone OS ($34): https://whop.com/checkout/ch_d7O0jFk8Rp2TlOH/
+- #239: The Multi-Tenant PostgreSQL Connection Pooling & PgBouncer Scaling OS ($37): https://whop.com/checkout/ch_ivS0osoln9LK146/
+- #240: The Commercial Aviation Charter & Aircraft Dry/Wet Lease Agreement OS ($49): https://whop.com/checkout/ch_s5NphUG9d4YOnsC/

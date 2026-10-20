@@ -1,9 +1,9 @@
-# Digital Super Market (230 Operating Systems & Business Engines)
+# Digital Super Market (240 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 230 Master Assets
+Catalog Size: 240 Master Assets
 
 ## Flagship Products
 - The High-Ticket Consultant Retainer Deliverable & Client Portal OS ($34): https://whop.com/checkout/ch_Yij7D2l0RVyEhNI/
@@ -12,7 +12,7 @@ Catalog Size: 230 Master Assets
 - The Enterprise Multi-Agent LangGraph & Long-Term Memory OS ($39): https://whop.com/checkout/ch_MT3nmL19znPAtgM/
 - The SOC 2 Type II Continuous Evidence Collection & Audit OS ($49): https://whop.com/checkout/ch_vW7zOxYB5d9cTC2/
 
-## Complete 230 Product Catalog List
+## Complete 240 Product Catalog List
 
 ## Full Detailed Specifications
 
@@ -3631,6 +3631,166 @@ Includes:
 - 04: Critical Vital Sign Out-of-Range Clinical Escalation & Rapid Triage Algorithm (Alert Thresholds)
 - 05: HIPAA Business Associate Agreement (BAA) & Encrypted Bluetooth/EHR Gateway (FHIR/HL7)
 - 06: Digital Health RPM Clinical & Billing OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #231: The Enterprise Data Clean Room & Privacy-Preserving Analytics OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Differential Privacy, Cryptographic PSI & Multi-Party Clean Room Governance
+- Checkout: https://whop.com/checkout/ch_bm03SBr2rFdNKm4/
+- Details: Privacy-preserving data collaboration framework: Snowflake/BigQuery clean room contracts, epsilon-differential privacy budgets, zero raw data leakage audits, and multi-party joins.
+
+Includes:
+- 01: Cryptographic Private Set Intersection (PSI) & Identity Salting Schema (Salting Rules)
+- 02: Epsilon-Differential Privacy Budget Allocation & Noise Injection Model (Laplace/Gaussian)
+- 03: Snowflake & BigQuery Clean Room Declarative Access Policies (Thresholds n >= 100)
+- 04: Data Clean Room Collaboration Partner Master Agreement & Legal Deed (Purpose Caps)
+- 05: Output Query Audit Logging & Reconstruction Risk Scoring Rubric (Linkage Defense)
+- 06: Enterprise Data Clean Room OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #232: The Enterprise OpenTelemetry & Distributed Tracing Architecture OS
+- Price: $39 USD (Flat Inclusive)
+- Headline: W3C Trace Context Propagation, Collector Pipelines & Sampling Rate Optimization
+- Checkout: https://whop.com/checkout/ch_DHrXDakNmQHzfTo/
+- Details: Observability engineering framework: OpenTelemetry Collector pipelines, tail-based sampling rules, high-cardinality metric throttling, and service-level objective (SLO) error budgets.
+
+Includes:
+- 01: W3C TraceContext HTTP & gRPC Header Propagation Standards (Traceparent Serialization)
+- 02: OpenTelemetry Collector Scalable Pipeline Architecture (Memory Ballast Limiters)
+- 03: Tail-Based Sampling & High-Cardinality Span Filter Matrix (100% 5xx Retained)
+- 04: Semantic Conventions & Span Attribute Standard Taxonomy (Uniform Tagging)
+- 05: Service-Level Objective (SLO) Latency Budget & Alerting Runbook (Multi-Burn Rates)
+- 06: Enterprise OpenTelemetry OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #233: The Autonomous Drone Survey & Photogrammetry Volumetric Analysis OS
+- Price: $39 USD (Flat Inclusive)
+- Headline: RTK/PPK GCP Alignment, Orthomosaic Processing & Stockpile Cut/Fill Reports
+- Checkout: https://whop.com/checkout/ch_gC2VxZWlv5Ytddi/
+- Details: Civil engineering and surveying operations manual: RTK drone mission planning, ground control point (GCP) surveying, point cloud volumetric calculations, and quarry inspection SOPs.
+
+Includes:
+- 01: Real-Time Kinematic (RTK) & PPK Flight Mission Planning Standard (Sub-Centimeter GSD)
+- 02: Ground Control Point (GCP) & Checkpoint Geographic Distribution Rubric (GNSS Base)
+- 03: Dense Point Cloud Filtering & Digital Elevation Model Extraction (Bare-Earth Surfaces)
+- 04: Stockpile Volumetric Cut/Fill Calculation & Compaction Factor Sheet (Civil CAD TINs)
+- 05: ALTA / NSPS Accuracy Certification & Client Deliverable Dossier (RMSE Summaries)
+- 06: Drone Survey & Photogrammetry OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #234: The Quantum Key Distribution (QKD) & Post-Quantum Cryptography (PQC) OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: NIST FIPS 203/204/205 Standards, Kyber/Dilithium Migration & Crypto Agility
+- Checkout: https://whop.com/checkout/ch_ZaG3EA8YknXwP9d/
+- Details: Enterprise cryptographic migration framework: post-quantum algorithm transitions (ML-KEM, ML-DSA, SLH-DSA), hybrid TLS handshakes, hardware security module (HSM) readiness, and crypto agility matrices.
+
+Includes:
+- 01: NIST Post-Quantum Cryptographic Standards (FIPS 203/204/205) Crosswalk (ML-KEM/ML-DSA)
+- 02: Hybrid Classical/Post-Quantum TLS 1.3 Key Exchange Implementation (X25519MLKEM768)
+- 03: Cryptographic Inventory Discovery & Software Bill of Materials (CBOM Scanners)
+- 04: Hardware Security Module (HSM) & PKI Firmware PQC Readiness Audit (Buffer Limits)
+- 05: Crypto-Agility Architecture Pattern & Dynamic Primitive Swapping SOP (Provider Abstraction)
+- 06: Post-Quantum Cryptography OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #235: The Cold Chain Logistics & Temperature-Controlled Pharma Transport OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: GDP Compliance, Phase-Change Material Packaging & NIST Data Logger Audits
+- Checkout: https://whop.com/checkout/ch_b2M6MpCs7yvi4kO/
+- Details: Biopharma logistics operations system: Good Distribution Practices (GDP), validation of active/passive thermal containers, temperature excursion deviation investigation, and CAPA SOPs.
+
+Includes:
+- 01: GDP Temperature Mapping Standard 2°C–8°C / -20°C (Hot/Cold Spot Identification)
+- 02: Passive & Active Thermal Packaging Qualification ISTA 7D (96-Hour Autonomous Holds)
+- 03: NIST-Traceable Calibrated Data Logger Deployment & Cellular Telemetry (Geofencing)
+- 04: Temperature Excursion Deviation Investigation & MKT Stability Budget Model (MKT Math)
+- 05: Pharma Logistics CAPA Protocol & Carrier Refrigerated Trailer Pre-Cooling Audit (SOPs)
+- 06: Cold Chain Pharma Logistics OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #236: The Enterprise Service Mesh & Istio Zero-Trust Traffic Management OS
+- Price: $39 USD (Flat Inclusive)
+- Headline: mTLS Strict Mode, Envoy Tuning, Canary Traffic Splitting & Circuit Breakers
+- Checkout: https://whop.com/checkout/ch_fean2AltCgB5pES/
+- Details: Cloud-native networking framework: Istio service mesh deployments, automated mTLS certificate rotation, ingress gateway rate limiting, and fault injection chaos engineering.
+
+Includes:
+- 01: Istio PeerAuthentication Strict mTLS Enforcement Architecture (SPIFFE Identity)
+- 02: Envoy Sidecar Resource Optimization & CPU/Memory Throttling (Sidecar CRDs)
+- 03: VirtualService & DestinationRule Canary Traffic Routing (Weight-Based Shifting)
+- 04: Envoy Ingress Gateway Rate Limiting & Web Application Firewall (Token Buckets)
+- 05: Outlier Detection, Circuit Breaking & Chaos Fault Injection Runbook (5xx Ejection)
+- 06: Istio Service Mesh OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #237: The Clinical Biobanking & Cryogenic Biospecimen Custody OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: ISBER Best Practices, Liquid Nitrogen Vapor Storage & Chain-of-Custody Tracking
+- Checkout: https://whop.com/checkout/ch_J5Iywih50JFsDg5/
+- Details: Biorepository laboratory management manual: cryogenic vial indexing, -196°C LN2 vapor phase monitoring, specimen viability QA protocols, and bio-specimen transfer agreements.
+
+Includes:
+- 01: ISBER International Biorepository Operations Standard & Quality Manual (Accessioning)
+- 02: Liquid Nitrogen (-196°C) Vapor Phase Freezer Maintenance & Auto-Fill SOP (O2 Sensors)
+- 03: 2D Barcode Cryovial Indexing & LIMS Electronic Chain-of-Custody Schema (Rack Maps)
+- 04: Biospecimen Post-Thaw Cell Viability & RNA/DNA Integrity Number QA (Fluorometry)
+- 05: Material Transfer Agreement (MTA) & IRB Patient Informed Consent Deed (HIPAA De-ID)
+- 06: Cryogenic Biobanking OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #238: The B2B Enterprise Professional Services Statement of Work (SOW) & Milestone OS
+- Price: $34 USD (Flat Inclusive)
+- Headline: Time & Materials Caps, Fixed-Fee Deliverable Gates & Change Order Governance
+- Checkout: https://whop.com/checkout/ch_d7O0jFk8Rp2TlOH/
+- Details: Systems integration and IT consulting contract architecture: ironclad SOW boundary definitions, client dependency matrices, deliverable acceptance criteria, and dispute dispute escalation.
+
+Includes:
+- 01: Enterprise Statement of Work (SOW) Master Contract Architecture (Boundary Clauses)
+- 02: Client Dependency & Timely Cooperation Clause Library (Hold Harmless Provisions)
+- 03: Milestone Deliverable Acceptance Testing & Deemed Acceptance Protocol (10-Day Window)
+- 04: Scope Expansion & Engineering Change Order (ECO) Rate Calculator (Formulaic Fees)
+- 05: Late Payment Interest & Commercial Suspension of Services Notice Suite (IP Revocation)
+- 06: Professional Services SOW OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #239: The Multi-Tenant PostgreSQL Connection Pooling & PgBouncer Scaling OS
+- Price: $37 USD (Flat Inclusive)
+- Headline: Transaction Pooling, Query Limits, Prepared Statement Caching & Read Replicas
+- Checkout: https://whop.com/checkout/ch_ivS0osoln9LK146/
+- Details: High-scale database infrastructure standard: PgBouncer transaction-mode pooling, connection exhaustion mitigation, prepared statement workarounds, and RDS/Aurora read replica routing.
+
+Includes:
+- 01: PgBouncer Transaction-Mode Configuration & Memory Sizing Math (10k Conns / 100 Slots)
+- 02: Prepared Statement Workarounds & Named Query Routing Patterns (DISCARD ALL Shims)
+- 03: Automated Read/Write Splitting & Streaming Replica Health Checking (HAProxy Routers)
+- 04: Connection Exhaustion Emergency Incident Runbook (Idle Transaction Kill-Switches)
+- 05: Database Connection Pool Metrics & Grafana Dashboard Specification (Saturation Alerts)
+- 06: PostgreSQL Connection Pooling OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #240: The Commercial Aviation Charter & Aircraft Dry/Wet Lease Agreement OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: FAA Part 135 / Part 121 Operations, ACMI Leases & Escrow Maintenance Reserves
+- Checkout: https://whop.com/checkout/ch_s5NphUG9d4YOnsC/
+- Details: Aviation legal and fleet operations framework: Aircraft Crew Maintenance Insurance (ACMI) charters, dry lease engine reserves, pre-purchase airworthiness records, and flight dispatch checklists.
+
+Includes:
+- 01: Master ACMI (Aircraft, Crew, Maintenance, Insurance) Wet Lease Contract (Block Hours)
+- 02: Commercial Aircraft Dry Lease Agreement & Operational Control Transfer Deed (Hull Ins)
+- 03: Engine & APU Flight Hour Maintenance Reserve Escrow Calculator (Hot Section Funds)
+- 04: Pre-Lease Airworthiness Records Audit & FAA Form 8130-3 Inspection SOP (ADs/SBs)
+- 05: FAA Part 135 Charter Flight Dispatch & Passenger Manifest Verification Log (Weight & Balance)
+- 06: Commercial Aviation Charter & Lease OS Manual & Interactive Viewer
 
 Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
 
