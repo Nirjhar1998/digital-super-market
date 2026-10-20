@@ -1,9 +1,9 @@
-# Digital Super Market (480 Operating Systems & Business Engines)
+# Digital Super Market (490 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 480 Master Assets
+Catalog Size: 490 Master Assets
 
 ## Milestone Flagships
 - The Master Mid-Century Enterprise Milestone Architecture & Operations Vault (450) ($49): https://whop.com/checkout/ch_jbpTNWpEYW4G3Vw/
@@ -14,7 +14,7 @@ Catalog Size: 480 Master Assets
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 480 Product Catalog List
+## Complete 490 Product Catalog List
 
 ## Full Detailed Specifications
 
@@ -7633,6 +7633,166 @@ Includes:
 - 04: OAuth2 Token Introspection & Enterprise Keycloak IAM Gateway Security
 - 05: Kong Enterprise Prometheus Metrics, Datadog Tracing & Zero-Downtime Rollout
 - 06: Kong Gateway Kubernetes OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #481: The Enterprise Apache Iceberg REST Catalog & Lakehouse Table Format OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: REST Catalog Specification, Snapshot Isolation, Hidden Partitioning & Compaction
+- Checkout: https://whop.com/checkout/ch_YzT08lhj7AchFCh/
+- Details: High-performance open lakehouse architecture standard: Apache Iceberg v2 table format, REST catalog OpenAPI specification, ACID snapshot isolation, hidden partitioning, data file compaction, and schema evolution.
+
+Includes:
+- 01: Iceberg REST Catalog Specification & OpenAPI Server Integration Architecture
+- 02: Snapshot Isolation, Serializable Conflict Detection & Fast Appends
+- 03: Hidden Partitioning & Dynamic Partition Evolution (Year-Month-Day Identity)
+- 04: Parquet Small File Compaction (Bin-Packing vs Sort) & Manifest Rewriting
+- 05: Orphan File Purging, Snapshot Expiration & Cloud Storage Lifecycle SOP
+- 06: Apache Iceberg Lakehouse OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #482: The Biopharma Automated Visual Inspection (AVI) Particle & Container Defect OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: High-Speed CMOS Cameras, Knave / Polarizing Optics & USP <790> Knuckle Limits
+- Checkout: https://whop.com/checkout/ch_xy1kio4NIfohddm/
+- Details: Aseptic parenteral manufacturing quality control standard: Automated Visual Inspection (AVI), high-speed multi-axis rotation, CMOS camera particle tracking in liquid vials, polarizing optics container defect inspection, and USP <790>/<1790> qualification.
+
+Includes:
+- 01: High-Speed Vial Spin / Brake Trajectory & Fluid Vortex Hydrodynamic Model
+- 02: Multi-Camera CMOS Particle Tracking Algorithms & Static Flaw Discrimination
+- 03: Polarizing Lighting Container Closure & Glass Cosmetic Knuckle Crack Inspection
+- 04: Knapp-Abramson Test Set Methodology & False Reject Rate (FRR) Optimization
+- 05: USP <790> Particle Inspection Compliance & AQL Re-Inspection Runbook
+- 06: Biopharma Visual Inspection OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #483: The Subsea Pipeline Decommissioning Flush & Gelled Pig Hydrocarbon Cleaning OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Chemical Gel Pig Trains, Hydrocarbon Solvent Wash & Sheenless Seawater Flush
+- Checkout: https://whop.com/checkout/ch_Rnp7jgYrvbYASz0/
+- Details: Offshore pipeline abandonment and decommissioning environmental standard: subsea pipeline flushing, crosslinked chemical gel pig trains, mutual solvent surfactant hydrocarbon washing, and sheenless seawater displacement verification (< 15 ppm oil in water).
+
+Includes:
+- 01: Pipeline Inventory Displacement Hydraulic Modeling & Gel Pig Train Formulation
+- 02: Solvent Surfactant Wax/Asphaltene Wash Mechanics & Solvent Ratio Sizing
+- 03: Seawater Final Displacement & Turbidity / Oil-in-Water (< 15 ppm) Assay SOP
+- 04: Subsea Hot-Tap Pipeline Tying-In & Chemical Disposal Receiving Tanker Rigging
+- 05: Regulatory Sheenless Certificate of Cleanness & EPA / BSEE Abandonment Dossier
+- 06: Subsea Decommission Flush OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #484: The Enterprise Milvus Distributed Vector Database & GPU Indexing Cluster OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Knowhere Vector Engine, GPU IVF-PQ / CAGRA, Segment Compaction & S3 Storage
+- Checkout: https://whop.com/checkout/ch_aS9Un8ozU0ewnv3/
+- Details: Billion-scale AI vector database standard: Milvus 2.4+ distributed cluster, Knowhere core engine, NVIDIA GPU-accelerated indexing (IVF-PQ / CAGRA graph), query node sharding, and object storage persistence.
+
+Includes:
+- 01: Milvus Distributed Architecture: Proxy, Coordinator, Worker Nodes & Pulsar
+- 02: GPU-Accelerated Indexing: IVF-PQ vs CAGRA Graph Build Benchmark Optimization
+- 03: Segment Compaction, L0 to L1 Segment Merging & Bloom Filter Maintenance
+- 04: Scalar Filtering with Vector Search: Execution Plan Parsing & Inverted Lists
+- 05: Collection Dynamic Replicas, Multi-Node Failover & MinIO S3 Tiering Runbook
+- 06: Milvus GPU Vector Cluster OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #485: The Commercial Precast Concrete Wall Panel Joint Sealant ASTM C920 Survey OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: ASTM C920 Class 50 Polyurethane / Silicone Sealant, Backer Rod Sizing & Field Peel
+- Checkout: https://whop.com/checkout/ch_jFVx4oVRl8QI7qn/
+- Details: Commercial building enclosure facade engineering standard: precast architectural concrete panel joints, ASTM C920 Type M / Class 50 high-performance elastomeric sealants, closed-cell polyethylene backer rod sizing (2:1 width-to-depth), and ASTM C1193 field adhesion testing.
+
+Includes:
+- 01: Precast Concrete Panel Joint Movement Thermal Calculation (ASTM C1472)
+- 02: ASTM C920 Class 50 Polyurethane vs Silicone Sealant Specification
+- 03: Closed-Cell Backer Rod Sizing & 2:1 Width-to-Depth Ratio Hourglass Profile
+- 04: ASTM C1193 Field Adhesion Hand-Pull Flap / Tab Test & Elongation SOP
+- 05: Joint Primer Application, Concrete Porosity Masking & Water Leak Remediation
+- 06: Precast Concrete Sealant OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #486: The Biopharma Lyophilizer Shelf Temperature Mapping Resistance Temp RTD OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: 4-Wire PT100 Platinum RTDs, Chamber Heat Transfer Fluid Silicone Oil Uniformity
+- Checkout: https://whop.com/checkout/ch_fVxU4Ab7E2BvKiP/
+- Details: Biotech manufacturing thermal qualification standard: freeze-dryer shelf temperature mapping, 4-wire Class A PT100 platinum RTD calibration, circulating heat transfer fluid (silicone oil) delta T across shelves (+/- 1.0 C pass limit), and temperature offset matrix.
+
+Includes:
+- 01: 4-Wire PT100 Class A Platinum RTD Sensor Calibration & Kaye Validator Setup
+- 02: Geometric Sensor Array Placement: Shelf Corner, Center & Boundary Mapping
+- 03: Thermal Uniformity Acceptance Criteria (+/- 1.0 C across -50 C to +40 C)
+- 04: Silicone Oil Heat Transfer Loop Flow Balancing & Chiller Delta T Tuning
+- 05: Lyophilizer Shelf Thermal Qualification Dossier & Annual Re-Validation
+- 06: Biopharma Shelf Temp RTD OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #487: The Commercial Ground Lease Subordination & Leasehold Mortgagee Protection OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Unsubordinated Fee Simple, Notice and Cure Rights, New Lease Covenant & SNDA
+- Checkout: https://whop.com/checkout/ch_2R2aymBBGg0nnON/
+- Details: Institutional commercial real estate financing standard: 99-year commercial ground lease structures, fee subordination vs unsubordinated fee estate, leasehold lender protections, separate casualty/condemnation proceeds, and Subordination, Non-Disturbance and Attornment (SNDA).
+
+Includes:
+- 01: Unsubordinated Ground Lease Legal Architecture & Fee Simple Mortgaging
+- 02: Leasehold Mortgagee Notice and Extended Cure Rights (60-Day Window) Spec
+- 03: New Lease Covenant Following Tenant Bankruptcy or Default Disaffirmation
+- 04: Casualty & Condemnation Proceeds Trust Governance & Rebuilding Priority
+- 05: Institutional SNDA Agreement & Ground Lessor Tri-Party Estoppel Form
+- 06: Ground Lease Mortgagee OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #488: The Enterprise Deno Secure TypeScript Runtime & V8 Isolate Cloud Edge OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Granular Permission Flags, Web Standards APIs, Deno KV & Edge Compute Topology
+- Checkout: https://whop.com/checkout/ch_gcPb5jiSSsnXPbF/
+- Details: Secure cloud edge runtime standard: Deno 2.x enterprise architecture, V8 isolate sandboxing, zero-trust security permissions (--allow-net, --allow-read), native Web Standards APIs, integrated Deno KV ACID store, and sub-millisecond edge cold boot.
+
+Includes:
+- 01: V8 Isolate Security Sandbox: Granular CLI Capability Flags & Permissions
+- 02: Deno.serve() High-Throughput HTTP Engine & Web Streams API Integration
+- 03: Distributed Deno KV: ACID Key-Value Storage & Multi-Region Replication
+- 04: Deno Task Orchestrator & Native TypeScript Type-Checking CI/CD Pipeline
+- 05: Zero-Config NPM Package Interoperability & Secure Production Bundling
+- 06: Deno V8 Isolate Cloud OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #489: The Cleanroom Ionizing Air Blower Electrostatic Discharge (ESD) Decay Time OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: ANSI/ESD S20.20 Ionizer Offset Voltage (< +/- 35V) & Charge Decay Time (< 2.0s)
+- Checkout: https://whop.com/checkout/ch_wAXGUMDeJu3XGe2/
+- Details: High-tech electronics and cleanroom ESD protection standard: ANSI/ESD S20.20 and ESD STM3.1, ionizing air blowers/bars, charged plate monitor (CPM) calibration, discharge decay time measurement (< 2.0s from 1,000V to 100V), and ion emitter pin cleaning.
+
+Includes:
+- 01: Charged Plate Monitor (CPM) 150mm Isolated Plate Capacitance Calibration
+- 02: Static Charge Decay Time (+/- 1,000V to +/- 100V < 2.0s Target) SOP
+- 03: Ionizer Offset Voltage (Balance < +/- 35V Peak) Adjustment Methodology
+- 04: Tungsten Emitter Pin Silicon Dioxide Encrustation & Automated Cleaning SOP
+- 05: Cleanroom Workstation Static Audit Certification & Compliance Dossier
+- 06: Cleanroom ESD Ionizer OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #490: The Enterprise Emissary-Ingress Envoy-Based Kubernetes API Gateway OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Mapping CRD Declarative Routing, Distributed Rate Limiting & AuthFilter Intercept
+- Checkout: https://whop.com/checkout/ch_GdTwLSFyZBb0rUb/
+- Details: Cloud-native API gateway standard: Emissary-Ingress (formerly Ambassador), Envoy Proxy core, Mapping CRD declarative routing, external AuthFilter authentication interceptors, distributed rate limiting, and zero-downtime certificate rotation.
+
+Includes:
+- 01: Emissary-Ingress Architecture: Listener, Mapping & Host CRD Specifications
+- 02: External AuthFilter HTTP ExtAuthz Authentication & JWT Token Validation
+- 03: RateLimit CRD: Distributed Redis Token Bucket Request Throttling Spec
+- 04: Automatic Let's Encrypt TLS Certificate Management & ACME Renewal SOP
+- 05: Traffic Shadowing, Canary Deployments & OpenTelemetry Trace Routing
+- 06: Emissary Ingress Gateway OS Manual & Interactive Viewer
 
 Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
 
