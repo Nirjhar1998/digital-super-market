@@ -1,9 +1,9 @@
-# Digital Super Market (370 Operating Systems & Business Engines)
+# Digital Super Market (380 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 370 Master Assets
+Catalog Size: 380 Master Assets
 
 ## Milestone Flagships
 - The Master Mid-Tier Enterprise Milestone Operations Vault (350) ($49): https://whop.com/checkout/ch_UVMRwUUmRQcZRX2/
@@ -12,7 +12,7 @@ Catalog Size: 370 Master Assets
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 370 Product Catalog List
+## Complete 380 Product Catalog List
 
 ## Full Detailed Specifications
 
@@ -5871,6 +5871,166 @@ Includes:
 - 04: Continuous Mutual TLS (mTLS) Attestation & Device Health Check SOP
 - 05: High-Throughput 10Gbps Multi-Core WireGuard Performance Tuning Guide
 - 06: WireGuard Mesh Security OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #371: The Enterprise Apache Kafka Tiered Storage & S3 Offloading OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Remote Log Segments, Cloud Storage Offload, Zero Fetch Lag & Compaction
+- Checkout: https://whop.com/checkout/ch_OkkCyCe3zFQtAqv/
+- Details: High-throughput enterprise streaming standard: Apache Kafka Tiered Storage (KIP-405), local log segment offloading to Amazon S3, sub-millisecond historical consumer reads, and cluster cost reduction.
+
+Includes:
+- 01: Kafka KIP-405 Architecture & RemoteLogManager Storage Plugin Spec
+- 02: Local Segment Rollover, Retention Inversion & Disk Sizing Models
+- 03: Tiered Consumer Fetch Latency Optimization & In-Memory Read Caching
+- 04: Compacted Topic Garbage Collection & Remote Segment Purging Protocol
+- 05: Cluster Disaster Recovery & Cold-Start Re-Hydration Runbook
+- 06: Apache Kafka Tiered Storage OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #372: The Biopharma Virus Clearance Low pH Viral Inactivation Hold OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: pH 3.50 Titration, Enveloped Retrovirus Inactivation & Neutralization Kinetics
+- Checkout: https://whop.com/checkout/ch_bXYx5aYXYX6K8kd/
+- Details: Biopharmaceutical downstream purification viral safety standard: Protein A eluate low pH viral inactivation (pH 3.50 +/- 0.05), acetic acid titration kinetics, mixing dead-zone elimination, and LRF >= 4.5 clearance.
+
+Includes:
+- 01: Low pH Incubation Kinetic Mathematical Model & Titration Curve Spec
+- 02: Model Retrovirus (X-MuLV) Inactivation Validation & LRF Calculation SOP
+- 03: Hold Tank Hydrodynamic Mixing Verification & In-Line Deadleg Audit SOP
+- 04: Automated In-Line Neutralization (pH 5.0 to 6.5) & Depth Filter Conditioning
+- 05: ICH Q5A Regulatory Submission Dossier & Downstream Viral Safety Dossier
+- 06: Low pH Viral Inactivation OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #373: The Subsea Wellhead Annular Pressure Buildup (APB) Mitigation OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Thermal Expansion Modeling, Rupture Disks, Syntactic Foam & Annulus Bleed-Off
+- Checkout: https://whop.com/checkout/ch_HXTxDun2ik3s3az/
+- Details: Deepwater offshore drilling and completions engineering standard: annular pressure buildup (APB) thermodynamic modeling, trapped casing thermal expansion, rupture disk sizing, and wellhead integrity verification.
+
+Includes:
+- 01: Deepwater APB Thermodynamic Expansion & Casing Burst/Collapse Model
+- 02: Syntactic Foam Crush Collar Casing Blanket Engineering Specification
+- 03: Outer Casing Rupture Disk Sizing & Downhole Pressure Relief Valve Design
+- 04: Vacuum-Insulated Tubing (VIT) Heat Transfer Attenuation Simulation SOP
+- 05: Subsea Wellhead Annulus Monitoring Transducer & ROV Intervention Protocol
+- 06: Subsea Wellhead APB Mitigation OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #374: The Enterprise PostgreSQL Logical Replication & Zero-Downtime Upgrade OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Publication Slots, Conflict Detection, Large Sequence Sync & Cutover Scripts
+- Checkout: https://whop.com/checkout/ch_0ENBKKliKqQcq3E/
+- Details: High-availability mission-critical database engineering standard: PostgreSQL logical replication slot management, publication filtering, sequence synchronization, and sub-minute major version upgrades.
+
+Includes:
+- 01: PostgreSQL Logical Publication & Subscription Cluster Topologies
+- 02: Replication Slot Lag Monitoring & WAL Disk Exhaustion Safety Valves
+- 03: Conflict Detection, Unique Constraint Resolution & CDC Event Filtering
+- 04: Large Identity/Sequence Synchronization & Schema Difference Auditing
+- 05: Zero-Downtime Major Version Cutover Runbook & Rollback Contingencies
+- 06: PostgreSQL Logical Replication OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #375: The Commercial HVAC Water-Cooled Chiller Plant Optimization OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Condenser Water Reset, Variable Primary Pumping & Cooling Tower Approach Models
+- Checkout: https://whop.com/checkout/ch_avBeAzQnKoA0aRi/
+- Details: Commercial high-rise and district energy HVAC engineering standard: water-cooled centrifugal chiller staging, condenser water temperature resets, low delta-T syndrome mitigation, and sub-0.55 kW/ton plant efficiency.
+
+Includes:
+- 01: Water-Cooled Centrifugal Chiller Part-Load Efficiency (IPLV) Staging Model
+- 02: Low Delta-T Syndrome Diagnostic Root Cause & Coiling Valve Audit Protocol
+- 03: Variable Primary Flow (VPF) Pumping Control & Minimum Evaporator Flow SOP
+- 04: Cooling Tower Approach Optimization & Wet-Bulb Relief Temperature Reset
+- 05: BMS Plant Automation Sequences & Measurement and Verification (M&V) Plan
+- 06: Chiller Plant Optimization OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #376: The Biopharma Lyophilizer Condenser Sublimation Choked Flow Limit OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Mach 1 Vapor Velocity, Duct Conductance, Ice Slab Buildup & Defrost Cycles
+- Checkout: https://whop.com/checkout/ch_KBQTUUsS6EEWZ1o/
+- Details: Biopharmaceutical freeze-drying facility engineering standard: isolation spool duct choked flow (Mach 1 limit), ice condenser sublimation mass transfer constraints, ice slab thermal resistance, and cycle safety margins.
+
+Includes:
+- 01: Duct Vapor Velocity & Choked Flow (Mach 1 Limit) Aerodynamic Formulation
+- 02: Equipment Capability Curve (ECC) Construction & Sublimation Envelope SOP
+- 03: Condenser Coil Surface Ice Slab Buildup & Thermal Heat Transfer Model
+- 04: Condenser Defrost Optimization: Clean Steam Injection vs Hot Water Deluge
+- 05: Maximum Sublimation Batch Sizing Validation Dossier & Scale-Up SOP
+- 06: Biopharma Lyo Choked Flow OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #377: The Commercial Mixed-Use Master Association Cross-Easement Agreement OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Pedestrian Access, Shared Loading Docks, Parking Utility Easements & Covenants
+- Checkout: https://whop.com/checkout/ch_h3M7SY0IeCZgE1t/
+- Details: Commercial real estate master land use standard: Reciprocal Easement Agreements (REA), multi-parcel cross-easements, shared subterranean parking access, loading dock scheduling, and utility maintenance covenants.
+
+Includes:
+- 01: Master Reciprocal Easement Agreement (REA) Covenant Drafting Standard
+- 02: Subterranean Parking Structure Shared Ingress/Egress & Allocation Matrix
+- 03: Centralized Logistics Loading Dock Timetable & Semi-Trailer Queuing SOP
+- 04: Private Stormwater Detention Basin & Utility Easement Cost-Share Formula
+- 05: Cross-Parcel Insurance Defense, Indemnification & Casualty Rebuild Covenant
+- 06: Mixed-Use Cross-Easement Agreement OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #378: The Enterprise Go High-Throughput Memory-Mapped IPC Queue Engine OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Mmap Ring Buffers, Lock-Free Atomics, Sub-Microsecond Inter-Process Pipes
+- Checkout: https://whop.com/checkout/ch_yjPmi0cxWkZd3At/
+- Details: High-frequency systems programming standard: Golang memory-mapped (mmap) lock-free shared memory ring buffers, atomic pointer sequencing, CPU cache-line alignment, and 20M msg/sec sub-microsecond IPC.
+
+Includes:
+- 01: POSIX Shared Memory (shm_open) & Mmap Circular Ring Buffer Architecture
+- 02: Lock-Free Single-Producer Single-Consumer (SPSC) Atomic Pointer Engine
+- 03: CPU Cache-Line Padding & False-Sharing Elimination Architecture
+- 04: Sub-Microsecond Zero-Copy Message Serialization & Deserialization Spec
+- 05: IPC Health Monitoring, Stale Lock Recovery & High-Throughput Benchmarks
+- 06: Go Memory-Mapped IPC Queue OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #379: The Cleanroom Air Change Rate (ACPH) & Particle Clean-Up Recovery OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: ISO 14644-3 100:1 Concentration Decay, Smoke Decay Curves & Anemometer Balance
+- Checkout: https://whop.com/checkout/ch_yCoCgloPrVEGUZG/
+- Details: Cleanroom facility qualification standard: ISO 14644-3 cleanroom recovery testing, 100:1 artificial aerosol particulate concentration decay rates, air change per hour (ACPH) balancing, and energy reduction.
+
+Includes:
+- 01: ISO 14644-3 Clause B.12 Recovery Test Methodology & Aerosol Challenge SOP
+- 02: 100:1 Concentration Decay Rate & Recovery Time (10-15 Min) Verification
+- 03: Air Changes Per Hour (ACPH) Mathematical Formulation & Balancing Protocol
+- 04: Non-Unidirectional Airflow Eddy Current Identification & Stagnation Remediation
+- 05: Energy-Efficient ACPH Turndown During Unoccupied Facility States SOP
+- 06: Cleanroom ACPH Recovery Rate OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #380: The Enterprise Kubernetes Multi-Cluster Service Mesh (Cilium Cluster Mesh) OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Global Services, Multi-Cluster Pod Routing, Encrypted WireGuard & Shared IPAM
+- Checkout: https://whop.com/checkout/ch_k2ffckk5wNLf6Cx/
+- Details: Multi-cloud Kubernetes infrastructure standard: Cilium Cluster Mesh control plane, multi-cluster cross-VPC pod-to-pod routing, transparent WireGuard node encryption, and global headless service discovery.
+
+Includes:
+- 01: Cilium ClusterMesh Control Plane & Distributed Etcd Sync Architecture
+- 02: Multi-Cluster Pod Routing, Encapsulation & Native Routing IPAM Design
+- 03: Global Headless Services & Cross-Cluster Active-Active Load Balancing
+- 04: Zero-Overhead Node-to-Node Transparent WireGuard Encryption Pipeline
+- 05: Multi-Cluster NetworkPolicy Microsegmentation & Hubble Observability
+- 06: Cilium Cluster Mesh OS Manual & Interactive Viewer
 
 Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
 
