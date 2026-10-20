@@ -1,9 +1,9 @@
-# Digital Super Market (330 Operating Systems & Business Engines)
+# Digital Super Market (340 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 330 Master Assets
+Catalog Size: 340 Master Assets
 
 ## Milestone Flagships
 - The Triple-Century Milestone Enterprise Operating Systems Vault (300) ($49): https://whop.com/checkout/ch_Mtk9ApYoxCn6HKa/
@@ -11,7 +11,7 @@ Catalog Size: 330 Master Assets
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 330 Product Catalog List
+## Complete 340 Product Catalog List
 
 ## Full Detailed Specifications
 
@@ -5230,6 +5230,166 @@ Includes:
 - 04: Onboard Recovered Oil Separation, Oily Water Decanting & Tanker Transfer
 - 05: OPA 90 Facility Response Plan Compliance & Incident Command (ICS) Dossier
 - 06: Marine Oil Spill Response OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #331: The Enterprise Apache Iceberg Lakehouse Format & REST Catalog OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Snapshot Manifests, Hidden Partitioning, Merge-on-Read & Nessie Sync
+- Checkout: https://whop.com/checkout/ch_ypN17AJvSZjW3Ce/
+- Details: Open lakehouse table format standard: Apache Iceberg table management, snapshot manifest tree isolation, hidden partitioning evolution, Merge-on-Read delete files, and Iceberg REST Catalog orchestration.
+
+Includes:
+- 01: Iceberg Metadata Tree Architecture & Manifest List Specification
+- 02: Hidden Partitioning & Schema Evolution (Zero Table Rewrite) SOP
+- 03: Copy-on-Write vs Merge-on-Read Row-Level Delete Optimization
+- 04: Iceberg REST Catalog & Project Nessie Git-like Branching Guide
+- 05: Automated Snapshot Expiration & Orphan File Compaction Runbook
+- 06: Apache Iceberg Lakehouse OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #332: The Biopharma Continuous Multi-Column Chromatography (MCC) Process OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Periodic Counter-Current (PCC), Dynamic UV Switching & Resin Saturation
+- Checkout: https://whop.com/checkout/ch_NOt62uonVDVkfYK/
+- Details: Continuous bioprocessing downstream engineering standard: Periodic Counter-Current (PCC) multi-column chromatography, automated UV breakthrough switching, dynamic resin capacity saturation, and buffer reduction.
+
+Includes:
+- 01: Continuous PCC 3-to-4 Column Periodic Counter-Current Operating Spec
+- 02: Dynamic UV 280nm Breakthrough Slope & Automated Column Valve Switch
+- 03: Continuous Buffer Volume Optimization & Productivity Mathematical Model
+- 04: Column Balancing, Sanitization (0.1M NaOH) & Cycle Life Verification SOP
+- 05: Continuous MCC Process Validation Dossier & GMP Transition Protocol
+- 06: Biopharma Continuous MCC OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #333: The Commercial Real Estate ROFR & ROFO Tenant Purchase Option OS
+- Price: $39 USD (Flat Inclusive)
+- Headline: Right of First Refusal, First Offer Covenants & Matching Timelines
+- Checkout: https://whop.com/checkout/ch_ys4uk35lNOIesip/
+- Details: Commercial real estate purchase option standard: Right of First Refusal (ROFR) covenants, Right of First Offer (ROFO) procedural triggers, landlord third-party offer disclosures, and tenant exercise windows.
+
+Includes:
+- 01: Right of First Refusal (ROFR) Master Covenant & Landlord Notice Spec
+- 02: Right of First Offer (ROFO) Mandatory Valuation & Negotiation Schedule
+- 03: Third-Party Offer Matching Timelines & Earnest Money Deposit Rules
+- 04: Permitted Transfer Carve-Outs (Affiliates, Foreclosures & Portfolio Sales)
+- 05: Memorandum of Purchase Option County Recording & Title Defense SOP
+- 06: Commercial ROFR & ROFO Purchase Option OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #334: The Distributed Apache Pinot Real-Time OLAP & Star-Tree Indexing OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Real-Time Kafka Segments, Star-Tree Aggregations & Low Latency Queries
+- Checkout: https://whop.com/checkout/ch_XcHIbgDNesTKCod/
+- Details: User-facing real-time analytical database standard: Apache Pinot distributed cluster deployment, streaming Kafka table ingestion, Star-Tree multi-dimensional pre-aggregation indexes, and sub-second p99 query SLAs.
+
+Includes:
+- 01: Apache Pinot Real-Time Kafka Ingestion & Segment Architecture Spec
+- 02: Star-Tree Pre-Aggregation Index Design & Dimension Partitioning SOP
+- 03: Hybrid Table Architecture (Real-Time Stream + Offline Batch Backfill)
+- 04: Pinot Broker Query Routing, Tenant Isolation & Concurrency Tuning Guide
+- 05: Segment Deep-Store Archival (S3/GCS) & Cluster Recovery Runbook
+- 06: Apache Pinot Analytics OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #335: The Subsea Pipeline Anode Sled Retrofit & Hydraulic Clamping OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Retrofit Clamping, Electrical Continuity Audits & ROV Sled Ballast
+- Checkout: https://whop.com/checkout/ch_uAraznCuFlx7DVM/
+- Details: Offshore pipeline life-extension standard: subsea retrofit sacrificial anode sled deployment, heavy work-class ROV hydraulic clamp attachment to exposed pipeline steel, and electrical continuity verification.
+
+Includes:
+- 01: Subsea Anode Sled Sea-Floor Ballasting & Anchor Location Protocol
+- 02: ROV Hydraulic Coating Removal & Bare Metal Preparation Spec
+- 03: Subsea Hydraulic C-Clamp Installation & Torque Verification SOP
+- 04: Post-Clamping Electrical Continuity & Contact Resistance Test (< 0.1 Ohm)
+- 05: Retrofit Cathodic Protection Survey Dossier & 20-Year Life Extension Binder
+- 06: Subsea Anode Clamping OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #336: The Biopharma Cleanroom CIP Spray Ball Riboflavin Shadow Coverage OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: UV Optical Audits, Spray Ball Shadow Tests & Surface Wetting Verification
+- Checkout: https://whop.com/checkout/ch_X5nhujYtVUNruu4/
+- Details: Sterile pharmaceutical manufacturing cleaning validation standard: static and rotary Clean-in-Place (CIP) spray ball pattern coverage testing, riboflavin fluorescent dye challenge, and optical UV detection audits.
+
+Includes:
+- 01: Riboflavin Fluorescent Solution Formulation & Spray Application Protocol
+- 02: Spray Ball Hydrodynamic Flow Rate (L/min) & Rotary Impact Pressure Spec
+- 03: Ultraviolet (UV 365nm) Optical Inspection & Residual Fluorescence Audit
+- 04: Agitator Blade, Baffle & Dip-Tube Spray Shadow Remediation Matrix
+- 05: Three-Consecutive-Cycle Spray Ball Coverage Requalification Dossier
+- 06: CIP Spray Ball Shadow Coverage OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #337: The Enterprise B2B SaaS Predictive Customer Health Scoring OS
+- Price: $34 USD (Flat Inclusive)
+- Headline: Usage Telemetry, Support Sentiment & Executive Sponsor Turnover Alerts
+- Checkout: https://whop.com/checkout/ch_vyus7FgJA3grqCl/
+- Details: Enterprise B2B customer retention architecture: multidimensional customer health score algorithms, product telemetry decay tracking, support ticket NLP sentiment analysis, and executive sponsor departure early warnings.
+
+Includes:
+- 01: Multi-Pillar Health Score Weighting Algorithm (Product, Support, Relationship)
+- 02: Product Telemetry Decay Velocity & Inactivity Early Warning Thresholds
+- 03: Support Ticket NLP Sentiment & Escalation Frequency Scoring Engine
+- 04: Executive Champion Departure & LinkedIn Key Contact Turnover Monitor
+- 05: Red Account Intervention Playbook & Automated CSM Task Orchestration
+- 06: SaaS Predictive Customer Health OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #338: The Clinical Diagnostic Laboratory CLSI EP07 Interference Protocol OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Hemolysis, Icterus, Lipemia (HIL) Spiking & Paired-Difference Studies
+- Checkout: https://whop.com/checkout/ch_or2n078JOYnj4R5/
+- Details: Clinical laboratory analytical specificity validation standard: CLSI EP07-Ed3 interference testing, endogenous interferent spiking (hemolysate, bilirubin, intralipid), common prescription drug challenges, and paired-difference evaluation.
+
+Includes:
+- 01: CLSI EP07-Ed3 Paired-Difference Experimental Design & Pool Preparation
+- 02: Endogenous Interferent Dose-Response Spiking Protocol (HIL Indices)
+- 03: Exogenous Drug & Common Over-the-Counter Compound Challenge Matrix
+- 04: Cut-Off Point Determination & Automated LIMS Specimen Rejection Rules
+- 05: Diagnostic Assay Analytical Specificity Dossier & CAP Inspection Binder
+- 06: Clinical Lab CLSI EP07 Interference OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #339: The Enterprise Envoy Gateway & Distributed Ingress Rate Limiting OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Global gRPC Rate Limits, ext_authz Authentication & Envoy CRD Routing
+- Checkout: https://whop.com/checkout/ch_rvfTH9jGhmb739G/
+- Details: Cloud-native API gateway standard: Envoy Gateway deployment on Kubernetes, global distributed rate limiting using Redis, external authorization (ext_authz) policy enforcement, and client TLS termination.
+
+Includes:
+- 01: Envoy Gateway Architecture & GatewayClass Infrastructure Configuration
+- 02: Global Distributed Rate Limiting (gRPC RateLimit Service & Redis Backend)
+- 03: External Authorization (ext_authz) Policy & OAuth2/OIDC Header Mutation
+- 04: Cross-Namespace HTTPRoute Security & BackendTrafficPolicy Tuning
+- 05: Envoy Access Logging, Prometheus RateLimit Metrics & Grafana Dashboards
+- 06: Envoy Gateway Ingress OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #340: The Maritime Intermodal Terminal Rail Mounted Gantry (RMG) Scheduling OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Railcar Discharge Sequencing, Automated Twistlocks & Track Turnarounds
+- Checkout: https://whop.com/checkout/ch_g1YQELk7YSyUJma/
+- Details: Intermodal rail and marine container terminal operations system: Rail Mounted Gantry (RMG) crane dispatching algorithms, railcar block discharge/loading sequencing, twistlock handling, and train turnaround optimization.
+
+Includes:
+- 01: Rail Track Intermodal Train Discharge & Inbound Manifest Ingestion Spec
+- 02: RMG Gantry Crane Dual-Trolley Job Dispatching & Cycle Optimization Model
+- 03: Railcar Weight Balance & Dangerous Goods (IMDG) Segregation Matrix
+- 04: Automated Semi-Automatic Twistlock Handling & Ground Crew Safety SOP
+- 05: Train Departure Schedule SLA & Demurrage Liability Performance Ledger
+- 06: Rail RMG Gantry Scheduling OS Manual & Interactive Viewer
 
 Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
 
