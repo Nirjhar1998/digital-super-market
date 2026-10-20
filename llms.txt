@@ -1,9 +1,9 @@
-# Digital Super Market (350 Operating Systems & Business Engines)
+# Digital Super Market (360 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 350 Master Assets
+Catalog Size: 360 Master Assets
 
 ## Milestone Flagships
 - The Master Mid-Tier Enterprise Milestone Operations Vault (350) ($49): https://whop.com/checkout/ch_UVMRwUUmRQcZRX2/
@@ -12,7 +12,7 @@ Catalog Size: 350 Master Assets
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 350 Product Catalog List
+## Complete 360 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -363,3 +363,13 @@ Catalog Size: 350 Master Assets
 - #348: The Clinical Diagnostic Laboratory Specimen Carryover & Cross-Contam OS ($44): https://whop.com/checkout/ch_9SoJIO88vWIyV3K/
 - #349: The Enterprise Traefik Proxy 3.x & Kubernetes Gateway API Routing OS ($44): https://whop.com/checkout/ch_m9eX5JCo9CPsFUA/
 - #350: The Master Mid-Tier Enterprise Milestone Operations Vault (350) ($49): https://whop.com/checkout/ch_UVMRwUUmRQcZRX2/
+- #351: The Enterprise eBPF XDP Network Packet Processing & DDoS Mitigation OS ($44): https://whop.com/checkout/ch_blWjwqwXxymt6ZA/
+- #352: The Biopharma Lyophilization Cycle Freeze-Drying Heat Transfer & Scale-Up OS ($49): https://whop.com/checkout/ch_mf9yCbRxrxjUC0w/
+- #353: The Subsea Pipeline Cathodic Protection & Sacrificial Anode Design OS ($49): https://whop.com/checkout/ch_XWNQVYqg6NCLkDP/
+- #354: The Enterprise ClickHouse Columnar Cluster Sharding & Replication OS ($44): https://whop.com/checkout/ch_HImGLqDjwp5AOmb/
+- #355: The Commercial Construction Crane Lifting & Rigging Safety Operations OS ($44): https://whop.com/checkout/ch_pSg5ykvCBXRZP4K/
+- #356: The Biopharma Tangential Flow Filtration (TFF) Ultrafiltration Scale-Up OS ($49): https://whop.com/checkout/ch_qZy5PNLLw07MWX7/
+- #357: The Institutional Commercial Leasing Triple Net (NNN) Audit & CAM Reconcile OS ($49): https://whop.com/checkout/ch_Kta693znMIMt63u/
+- #358: The Enterprise Rust Async Tokio Actor Model & Microservice Engine OS ($44): https://whop.com/checkout/ch_6DeSdtQEOR35COR/
+- #359: The Cleanroom HVAC Facility Differential Pressure & Airborne Particle OS ($49): https://whop.com/checkout/ch_a02jtLsbuGKHdtz/
+- #360: The Enterprise Multi-Cloud FinOps Kubernetes Cost Allocation OS ($44): https://whop.com/checkout/ch_zIQ3NilqLiIaLMD/
