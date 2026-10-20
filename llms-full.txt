@@ -1,9 +1,9 @@
-# Digital Super Market (320 Operating Systems & Business Engines)
+# Digital Super Market (330 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 320 Master Assets
+Catalog Size: 330 Master Assets
 
 ## Milestone Flagships
 - The Triple-Century Milestone Enterprise Operating Systems Vault (300) ($49): https://whop.com/checkout/ch_Mtk9ApYoxCn6HKa/
@@ -11,7 +11,7 @@ Catalog Size: 320 Master Assets
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 320 Product Catalog List
+## Complete 330 Product Catalog List
 
 ## Full Detailed Specifications
 
@@ -5070,6 +5070,166 @@ Includes:
 - 04: Reefer Genset (Generator Set) Fuel Level & Clip-On Mounting Checklist
 - 05: Reefer Malfunction Liability Log & Cold-Chain Cargo Insurance Defense Dossier
 - 06: Port Reefer Yard Cold-Chain OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #321: The Enterprise ClickHouse Real-Time Analytics & Materialized Views OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: ReplacingMergeTree, Materialized Views, Projection Indexes & Replication
+- Checkout: https://whop.com/checkout/ch_WeIeIIhqCCzzwNH/
+- Details: Ultra-high-throughput OLAP database engineering standard: ClickHouse cluster sharding, ReplacingMergeTree deduplication, real-time Materialized View transformations, and projection secondary indexing.
+
+Includes:
+- 01: ClickHouse Distributed Cluster Sharding & Keeper Replication Spec
+- 02: Real-Time Materialized View Ingestion & Incremental Aggregation SOP
+- 03: ReplacingMergeTree Deduplication & Clean Event Compaction Protocol
+- 04: ClickHouse Projections & MinMax Secondary Skip Index Optimization Guide
+- 05: ClickHouse Memory Manager & S3 Object Storage Disk Tiering Runbook
+- 06: ClickHouse Analytics OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #322: The Biopharma Ceramic Hydroxyapatite (CHT) Chromatography OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Phosphate Gradients, Calcium Chelation & Monoclonal Monomer Resolution
+- Checkout: https://whop.com/checkout/ch_U24pBOlR3zvxZKG/
+- Details: Biopharmaceutical downstream purification engineering standard: Ceramic Hydroxyapatite (CHT Type I/II) mixed-mode chromatography, calcium metal chelation binding, phosphate step gradients, and column preservation.
+
+Includes:
+- 01: Mixed-Mode CHT Binding Mechanism (Calcium Chelation vs Phosphate Cation)
+- 02: Linear Phosphate Gradient Elution & Monoclonal Dimer/Trimer Clearance SOP
+- 03: Calcium Protection Buffer & Column Dissolution Prevention Protocol
+- 04: CHT Column Sanitization (1.0M NaOH / 20% Ethanol) & Neutralization SOP
+- 05: CHT Particle Attrition & Pressure-Drop Safety Acceptance Dossier
+- 06: Biopharma CHT Chromatography OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #323: The Commercial Real Estate Corporate Sale-Leaseback Modeling OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: EBITDA Optimization, Cap Rate Valuation & 20-Year NNN Lease Covenants
+- Checkout: https://whop.com/checkout/ch_FEyMXFIwH5qpMiv/
+- Details: Institutional commercial real estate corporate finance standard: corporate facility sale-leaseback underwriting, IRS section 1031 equity redeployment, EBITDA optimization modeling, and 20-year triple-net lease agreements.
+
+Includes:
+- 01: Corporate Facility Disposition Underwriting & Capitalization Rate Model
+- 02: Corporate Balance Sheet De-Leveraging & EBITDA Multiple Impact Deck
+- 03: Long-Term (20-Year) Master Triple-Net (NNN) Lease Contract Deed
+- 04: Parent Corporate Guaranty & Financial Covenants Compliance Ledger
+- 05: Sale-Leaseback Due Diligence Package & Institutional Closing Binder
+- 06: Commercial Corporate Sale-Leaseback OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #324: The Distributed Apache Pulsar Multi-Tenant Architecture & BookKeeper OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Segmented Ledger Storage, S3 Tiering, Cross-Region Geo & Tenant Quotas
+- Checkout: https://whop.com/checkout/ch_3AtIxBsmaY3CH5f/
+- Details: Cloud-native multi-tenant event streaming standard: Apache Pulsar stateless broker decoupling, Apache BookKeeper distributed ledger storage, S3/GCS automated tiered storage, and tenant isolation bandwidth quotas.
+
+Includes:
+- 01: Pulsar Broker & BookKeeper Segmented Storage Decoupled Topology
+- 02: Multi-Tenant Namespace Isolation, RBAC & Message Dispatch Rate Quotas
+- 03: Automated Tiered Storage Offload (S3/GCS) & Zero-Copy Historical Replay
+- 04: Cross-Datacenter Asynchronous Geo-Replication & Failover Architecture
+- 05: Bookie Ledger Health, Read/Write Latency Telemetry & Auto-Recovery SOP
+- 06: Apache Pulsar BookKeeper OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #325: The Offshore Wind Turbine Jacket Foundation Subsea Scour Survey OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Multi-Beam Bathymetry, Scour Hole Depths & Rock Armor Placement Audits
+- Checkout: https://whop.com/checkout/ch_EHegOsxvoZ0X6HA/
+- Details: Offshore wind engineering foundation integrity manual: autonomous underwater vehicle multi-beam bathymetry surveys, jacket pin pile seabed scour hole depth modeling, and protective rock armor dumping verification.
+
+Includes:
+- 01: High-Resolution Multi-Beam Echo Sounder (MBES) Bathymetry Survey Spec
+- 02: Pin-Pile Seabed Scour Hole Depth & Structural Fatigue Impact Model
+- 03: Fall-Pipe Vessel Protective Rock Dumping & Geotextile Mattress Audit
+- 04: Autonomous ROV Ultrasonic Jacket Weld & Node Marine Growth Inspection SOP
+- 05: Subsea Foundation Seabed Stability Dossier & Annual DNV Inspection Filing
+- 06: Offshore Wind Jacket Foundation OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #326: The Biopharma Lyophilizer Dual-Gauge Pressure Ratio End-Point OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Pirani vs Capacitance Manometers, Sublimation Peaks & Dwell Optimization
+- Checkout: https://whop.com/checkout/ch_qI6rrQjsGBF1qq7/
+- Details: Biopharmaceutical freeze-drying automation engineering standard: comparative pressure measurement (CPM) using thermal conductivity (Pirani) versus absolute (capacitance) manometers to pinpoint end of sublimation.
+
+Includes:
+- 01: Comparative Pressure Measurement (CPM) Mathematical Model & Physics Spec
+- 02: Pirani-to-Capacitance Pressure Ratio Curve & Primary Drying Endpoint SOP
+- 03: Automated Secondary Drying Transition Recipe & Safety Soak Dwell Time
+- 04: Pirani Gauge Calibration, Zero-Offset Tuning & Nitrogen Purge Protocol
+- 05: Cycle Optimization Time Savings Ledger & Regulatory Process Validation Dossier
+- 06: Freeze-Dry Dual-Gauge Endpoint OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #327: The Enterprise B2B SaaS Customer Advisory Board (CAB) Governance OS
+- Price: $34 USD (Flat Inclusive)
+- Headline: Executive Charters, Strategic Roadmap Surveys & Expansion Telemetry
+- Checkout: https://whop.com/checkout/ch_dKRepSwFLPTnf7n/
+- Details: Enterprise B2B executive customer relationship standard: Customer Advisory Board (CAB) charter design, C-suite member recruitment, bi-annual Chatham House Rule summits, and roadmap influence frameworks.
+
+Includes:
+- 01: Customer Advisory Board Master Charter & Member Engagement Agreement
+- 02: C-Suite Member Recruitment Battlecard & Executive Invitation Deck
+- 03: Bi-Annual CAB In-Person Summit Agenda & Interactive Workshop Facilitation
+- 04: CAB Feedback-to-Product Prioritization Matrix & Executive Closed-Loop Report
+- 05: CAB Account Health, Expansion Velocity & Net Retention Scorecard
+- 06: SaaS Customer Advisory Board OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #328: The Clinical Diagnostic Laboratory CLSI EP17 LoB, LoD & LoQ Protocol OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Limit of Blank, Detection Limits, Quantitation Goals & CLIA Binders
+- Checkout: https://whop.com/checkout/ch_ShATXc8UVi2FDOW/
+- Details: Clinical laboratory diagnostic analytical sensitivity standard: CLSI EP17-A2 protocol execution, Limit of Blank (LoB), Limit of Detection (LoD), Limit of Quantitation (LoQ), parametric/non-parametric evaluations, and verification.
+
+Includes:
+- 01: CLSI EP17-A2 Limit of Blank (LoB) Testing Protocol (60 Replicates of Blank)
+- 02: Limit of Detection (LoD) Low-Level Native Specimen Testing & Determination
+- 03: Limit of Quantitation (LoQ) Functional Sensitivity & Precision Profile Model
+- 04: Manufacturer Sensitivity Claim Verification SOP (Independent Lab Review)
+- 05: High-Sensitivity Diagnostic Assay Analytical Sensitivity Dossier (CAP Ready)
+- 06: Clinical Lab CLSI EP17 LoD/LoQ OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #329: The Enterprise Cilium Gateway API & Cross-Namespace Traffic Routing OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Kubernetes Gateway API, HTTPRoute, Automated TLS & Ingress Security
+- Checkout: https://whop.com/checkout/ch_Ma0Z4u7WRgUGIuw/
+- Details: Modern cloud-native ingress architecture: Kubernetes Gateway API implementation using Cilium eBPF, declarative HTTPRoute / GRPCRoute traffic routing, automated TLS certificate provisioning, and cross-namespace references.
+
+Includes:
+- 01: Kubernetes Gateway API Custom Resource Definitions & Cilium Gateway Spec
+- 02: HTTPRoute & GRPCRoute Granular Path Matching & Header Rewriting Rules
+- 03: Automated TLS Certificate Provisioning with Cert-Manager & ReferenceGrant
+- 04: Zero-Downtime Blue-Green & Canary Deployment Traffic Shift Playbook
+- 05: Gateway Ingress Telemetry, Prometheus Error Rate SLIs & Hubble Tracing
+- 06: Cilium Gateway API Ingress OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #330: The Commercial Marine Oil Spill Response Vessel (OSRV) Operations OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Boom Deployment, Oleophilic Skimmers, OPA 90 Response & Recovery Audits
+- Checkout: https://whop.com/checkout/ch_1RAofkrabIbwj8C/
+- Details: Marine environmental emergency response and maritime compliance system: Oil Spill Response Vessel (OSRV) mobilization, containment boom towing configurations (J-boom, V-boom), oleophilic skimmer recovery, and OPA 90 compliance.
+
+Includes:
+- 01: Oil Spill Response Vessel (OSRV) 2-Hour Rapid Mobilization Runbook
+- 02: Containment Boom Dynamic Towing Configurations (J-Boom / V-Boom Formations)
+- 03: High-Capacity Oleophilic Disc / Brush / Drum Skimmer Operation SOP
+- 04: Onboard Recovered Oil Separation, Oily Water Decanting & Tanker Transfer
+- 05: OPA 90 Facility Response Plan Compliance & Incident Command (ICS) Dossier
+- 06: Marine Oil Spill Response OS Manual & Interactive Viewer
 
 Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
 
