@@ -1,9 +1,9 @@
-# Digital Super Market (470 Operating Systems & Business Engines)
+# Digital Super Market (480 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 470 Master Assets
+Catalog Size: 480 Master Assets
 
 ## Milestone Flagships
 - The Master Mid-Century Enterprise Milestone Architecture & Operations Vault (450) ($49): https://whop.com/checkout/ch_jbpTNWpEYW4G3Vw/
@@ -14,7 +14,7 @@ Catalog Size: 470 Master Assets
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 470 Product Catalog List
+## Complete 480 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -485,3 +485,13 @@ Catalog Size: 470 Master Assets
 - #468: The Enterprise Mojo Systems AI Infrastructure & SIMD Kernel Programming OS ($44): https://whop.com/checkout/ch_5RM6WEKsxXnhmPx/
 - #469: The Cleanroom Isolator Glove Integrity Automated Pressure Decay Leak Testing OS ($49): https://whop.com/checkout/ch_OBONQl0mbGYMec6/
 - #470: The Enterprise Linkerd Lightweight Rust-Based Microservice Service Mesh OS ($44): https://whop.com/checkout/ch_HvEisnS5zA5XBsV/
+- #471: The Enterprise RisingWave Streaming Database & PostgreSQL Wire Protocol OS ($44): https://whop.com/checkout/ch_HdfXgMYPA2Kbh1g/
+- #472: The Biopharma Lyophilizer Vacuum Leak Rate Nitrogen Backfill & Pressure Rise OS ($49): https://whop.com/checkout/ch_BEiO73w3hPIQ6uS/
+- #473: The Subsea Pipeline In-Line Inspection (ILI) Smart Pigging & MFL Tool OS ($49): https://whop.com/checkout/ch_cK89Xo5dACxdUmD/
+- #474: The Enterprise Qdrant Vector Search Engine & HNSW Dense Indexing Cluster OS ($44): https://whop.com/checkout/ch_eGNU0X3LpWJpF89/
+- #475: The Commercial Floor Flatness FF and Floor Levelness FL ASTM E1155 Survey OS ($44): https://whop.com/checkout/ch_gxcdxdDfMojyAkC/
+- #476: The Biopharma Lyophilization Clean Steam Quality Condensate Non-Condensable OS ($49): https://whop.com/checkout/ch_TOWjf4uo324cLNF/
+- #477: The Commercial Lease Continuous Operations Go-Dark Recapture & Default OS ($49): https://whop.com/checkout/ch_0efAnyOXyS3lB3l/
+- #478: The Enterprise Bun High-Performance JavaScript / TypeScript Native Engine OS ($44): https://whop.com/checkout/ch_OFWfGOvBzrmflIr/
+- #479: The Cleanroom Airborne Molecular Contamination (AMC) Chemical Filter OS ($49): https://whop.com/checkout/ch_w5MeWpbgIEeqN5N/
+- #480: The Enterprise Kong Gateway Declarative Ingress & Kubernetes Operator OS ($44): https://whop.com/checkout/ch_yipsbomIk0aGoe9/
