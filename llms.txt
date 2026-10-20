@@ -1,17 +1,18 @@
-# Digital Super Market (340 Operating Systems & Business Engines)
+# Digital Super Market (350 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 340 Master Assets
+Catalog Size: 350 Master Assets
 
 ## Milestone Flagships
+- The Master Mid-Tier Enterprise Milestone Operations Vault (350) ($49): https://whop.com/checkout/ch_UVMRwUUmRQcZRX2/
 - The Triple-Century Milestone Enterprise Operating Systems Vault (300) ($49): https://whop.com/checkout/ch_Mtk9ApYoxCn6HKa/
 - The Quarter-Century Enterprise Milestone Architecture & Operations Vault (250) ($49): https://whop.com/checkout/ch_E2v8z6m2IuVGsmp/
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 340 Product Catalog List
+## Complete 350 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -352,3 +353,13 @@ Catalog Size: 340 Master Assets
 - #338: The Clinical Diagnostic Laboratory CLSI EP07 Interference Protocol OS ($44): https://whop.com/checkout/ch_or2n078JOYnj4R5/
 - #339: The Enterprise Envoy Gateway & Distributed Ingress Rate Limiting OS ($44): https://whop.com/checkout/ch_rvfTH9jGhmb739G/
 - #340: The Maritime Intermodal Terminal Rail Mounted Gantry (RMG) Scheduling OS ($49): https://whop.com/checkout/ch_g1YQELk7YSyUJma/
+- #341: The Enterprise Apache Arrow Flight SQL & Columnar Transport OS ($44): https://whop.com/checkout/ch_4LvAwZZtwpzBktC/
+- #342: The Biopharma Caprylic Acid Precipitation & Host Cell Protein Clearance OS ($49): https://whop.com/checkout/ch_3qRyVhNgUbtjoDq/
+- #343: The Commercial Mixed-Use Condominium Master Declaration & CC&Rs OS ($49): https://whop.com/checkout/ch_vEFZl45XCECS3c4/
+- #344: The Distributed ScyllaDB Shard-Per-Core Seastar & Direct I/O Tuning OS ($44): https://whop.com/checkout/ch_4usWNzPOoLcSucV/
+- #345: The Subsea ROV Alternating Current Field Measurement (ACFM) NDT OS ($49): https://whop.com/checkout/ch_xo15pBFcxRcPAZc/
+- #346: The Biopharma Lyophilizer Pressure Rise Test (PRT) Moisture Plateau OS ($49): https://whop.com/checkout/ch_jzxamW1LesP8UqV/
+- #347: The Enterprise B2B SaaS Executive Business Review (EBR) Standard OS ($34): https://whop.com/checkout/ch_YWTFlTfoZj2aj07/
+- #348: The Clinical Diagnostic Laboratory Specimen Carryover & Cross-Contam OS ($44): https://whop.com/checkout/ch_9SoJIO88vWIyV3K/
+- #349: The Enterprise Traefik Proxy 3.x & Kubernetes Gateway API Routing OS ($44): https://whop.com/checkout/ch_m9eX5JCo9CPsFUA/
+- #350: The Master Mid-Tier Enterprise Milestone Operations Vault (350) ($49): https://whop.com/checkout/ch_UVMRwUUmRQcZRX2/
