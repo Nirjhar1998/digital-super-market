@@ -1,9 +1,9 @@
-# Digital Super Market (280 Operating Systems & Business Engines)
+# Digital Super Market (290 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 280 Master Assets
+Catalog Size: 290 Master Assets
 
 ## Flagship Products
 - The Quarter-Century Enterprise Milestone Architecture & Operations Vault (250) ($49): https://whop.com/checkout/ch_E2v8z6m2IuVGsmp/
@@ -13,7 +13,7 @@ Catalog Size: 280 Master Assets
 - The Enterprise Multi-Agent LangGraph & Long-Term Memory OS ($39): https://whop.com/checkout/ch_MT3nmL19znPAtgM/
 - The SOC 2 Type II Continuous Evidence Collection & Audit OS ($49): https://whop.com/checkout/ch_vW7zOxYB5d9cTC2/
 
-## Complete 280 Product Catalog List
+## Complete 290 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -294,3 +294,13 @@ Catalog Size: 280 Master Assets
 - #278: The Clinical Diagnostic Laboratory Specimen Accessioning & Barcode Integrity OS ($39): https://whop.com/checkout/ch_SvVwqaW0vOnVEoL/
 - #279: The Enterprise Zero-Trust Network Access (ZTNA) & Secure Web Gateway (SWG) OS ($44): https://whop.com/checkout/ch_Hx1rgrjJzaQRLFI/
 - #280: The Commercial Maritime Port Tug Dispatching & Marine Berth Scheduling OS ($44): https://whop.com/checkout/ch_gUpI93yY40lOgcD/
+- #281: The Enterprise Terraform Cloud & HashiCorp Sentinel Policy-as-Code OS ($44): https://whop.com/checkout/ch_u2Qf6w9cW0KFMMq/
+- #282: The Biopharma Downstream Tangential Flow Filtration (TFF) Process OS ($49): https://whop.com/checkout/ch_lCh18HUN6vTT0a9/
+- #283: The Commercial Industrial Warehouse Triple Net Capital Reserve OS ($39): https://whop.com/checkout/ch_zcNps6yDkQWOruF/
+- #284: The Distributed Kafka Multi-Cluster MirrorMaker 2 & Disaster Recovery OS ($44): https://whop.com/checkout/ch_2ZbUs4miiV4sRF4/
+- #285: The Offshore Wind Turbine Drone Blade Thermal & Structural Inspection OS ($49): https://whop.com/checkout/ch_Vy38S4W6HylCggg/
+- #286: The Biopharma Steam-in-Place (SIP) Thermal Validation & F0 Lethality OS ($49): https://whop.com/checkout/ch_ZYLMFmdmYrp31iX/
+- #287: The Enterprise B2B SaaS Customer Success Qualified Leads (CSQL) OS ($34): https://whop.com/checkout/ch_NoOh31Hahds92O9/
+- #288: The Clinical Diagnostic Laboratory Proficiency Testing & Peer Review OS ($39): https://whop.com/checkout/ch_20I7gkt1D1Z85B0/
+- #289: The Enterprise Cilium eBPF Service Mesh & Kernel Observability OS ($44): https://whop.com/checkout/ch_zCFPhlaXxoTgZsD/
+- #290: The Marine Container Terminal Automated Stacking Crane (ASC) Scheduling OS ($49): https://whop.com/checkout/ch_9Hcl13BMG6r4iLe/
