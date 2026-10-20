@@ -1,9 +1,9 @@
-# Digital Super Market (380 Operating Systems & Business Engines)
+# Digital Super Market (390 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 380 Master Assets
+Catalog Size: 390 Master Assets
 
 ## Milestone Flagships
 - The Master Mid-Tier Enterprise Milestone Operations Vault (350) ($49): https://whop.com/checkout/ch_UVMRwUUmRQcZRX2/
@@ -12,7 +12,7 @@ Catalog Size: 380 Master Assets
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 380 Product Catalog List
+## Complete 390 Product Catalog List
 
 ## Full Detailed Specifications
 
@@ -6031,6 +6031,166 @@ Includes:
 - 04: Zero-Overhead Node-to-Node Transparent WireGuard Encryption Pipeline
 - 05: Multi-Cluster NetworkPolicy Microsegmentation & Hubble Observability
 - 06: Cilium Cluster Mesh OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #381: The Enterprise Apache Flink Stateful Stream Processing & RocksDB State OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: RocksDB StateBackend, Incremental Checkpointing, Savepoints & Keyed Streams
+- Checkout: https://whop.com/checkout/ch_bRVFBv8iy61KhZ2/
+- Details: Large-scale stateful stream processing architecture standard: Apache Flink 1.18+, EmbeddedRocksDBStateBackend out-of-core state management, incremental S3 checkpointing, and zero-downtime savepoint migration.
+
+Includes:
+- 01: EmbeddedRocksDBStateBackend Architecture & Off-Heap Memory Sizing
+- 02: Incremental Checkpointing & S3 Object Store Fast Persist Protocols
+- 03: Unaligned Checkpoints & Backpressure Buffer Congestion Bypass SOP
+- 04: Canary Savepoint Triggering & Zero-Downtime Job Topology Evolution
+- 05: Exactly-Once End-to-End Processing: Kafka Two-Phase Commit Sink Spec
+- 06: Flink RocksDB Stream OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #382: The Biopharma Downstream Anion Exchange (AEX) Membrane Chromatography OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Q-Membrane Flow-Through, DNA & Host Cell Protein Clearance & Pressure Drop
+- Checkout: https://whop.com/checkout/ch_EliFV6CSfZLlqnY/
+- Details: Biopharmaceutical downstream purification polishing standard: strong basic anion exchange (quaternary amine) membrane adsorbers in flow-through mode, high-throughput host cell DNA clearance, and endotoxin removal.
+
+Includes:
+- 01: Quaternary Amine (Q) Membrane Flow-Through Hydrodynamics Protocol
+- 02: Conductivity & pH Loading Window Optimization Mathematical Model
+- 03: Host Cell Protein (HCP) & Viral Clearance (LRF >= 4.0) Validation Assay
+- 04: Membrane Adsorber Integrity Testing & Transmembrane Pressure Limit SOP
+- 05: Single-Use Disposable Capsule Scale-Up Dossier & Resin Comparison Report
+- 06: Biopharma AEX Membrane Chromatography OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #383: The Subsea Production Riser Vortex-Induced Vibration (VIV) Suppression OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Helical Strakes, Fairings, Lock-In Vortex Shedding & Fatigue Life Modeling
+- Checkout: https://whop.com/checkout/ch_4Drb5lUdiHvqayZ/
+- Details: Deepwater offshore structural engineering standard: steel catenary riser (SCR) vortex-induced vibration (VIV) suppression, helical strake aerodynamic fin design, fairing hydrodynamic efficiency, and DNV-RP-F105 fatigue limits.
+
+Includes:
+- 01: Subsea Vortex-Induced Vibration (VIV) Lock-In Hydrodynamic Formulation
+- 02: Triple-Start Helical Strake Pitch & Fin Height Optimization Standard
+- 03: Low-Drag Aerodynamic Fairing Shell Design & Thrust Collar Sizing
+- 04: DNV-RP-F105 Fatigue Life Calculation & S-N Curve Stress Cycle Evaluation
+- 05: ROV Strake Marine Growth Removal & Fastener Clamping Inspection SOP
+- 06: Subsea Riser VIV Suppression OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #384: The Enterprise Redis Cluster Multi-Shard Partitioning & Hash Slot OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: 16384 Hash Slots, MOVED Redirection, Cross-Slot Keys & Failover Replicas
+- Checkout: https://whop.com/checkout/ch_zJYq7mBAmi1s34o/
+- Details: High-speed in-memory database standard: Redis Cluster 16,384 hash slot partitioning, CRC16 deterministic hashing, multi-key hash tag routing, automatic replica failover, and zero-downtime resharding.
+
+Includes:
+- 01: Redis 16,384 Hash Slot Partitioning & Multi-Master Topology Blueprint
+- 02: Hash Tag Key Optimization ({user:101}.session) for Multi-Key Pipelines
+- 03: Smart Client MOVED and ASK Redirection Routing & Connection Pooling
+- 04: Gossip Failure Detection & Raft-Style Replica Election Consensus
+- 05: Online Slot Migration, Live Re-Sharding & Memory Fragmentation Audit
+- 06: Redis Cluster Multi-Shard OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #385: The Commercial Construction Structural Steel Erection & Bolting Quality OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: AISC 360 Pre-Tensioning, Turn-Of-Nut Calibration, Skidmore-Wilhelm & Fit-Up
+- Checkout: https://whop.com/checkout/ch_zkbVbU6uvkyP4uq/
+- Details: Commercial heavy structural engineering standard: AISC 360 and RCSC high-strength bolted connections, ASTM F3125 Grade A325/A490 pre-tensioning, Skidmore-Wilhelm device calibration, and joint inspection.
+
+Includes:
+- 01: RCSC Structural Bolting Connection Classifications: Snug vs Pre-Tensioned
+- 02: Turn-of-Nut Pre-Tensioning Protocol & Bolt Length Match Calculation
+- 03: Skidmore-Wilhelm Daily Calibrator Tooling & Torque Tension Testing SOP
+- 04: Steel Frame Plumbness, Elevation Survey & Erection Bracing Protocols
+- 05: Third-Party Special Inspection Checklist & Structural Bolting Audit Dossier
+- 06: Structural Steel Bolting Quality OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #386: The Biopharma Lyophilizer Clean-In-Place (CIP) Spray Coverage Riboflavin OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Riboflavin Fluorescence Under UV (365nm), Shadowing Elimination & Drainage
+- Checkout: https://whop.com/checkout/ch_nU6dPxceg67iVA0/
+- Details: Biopharmaceutical sterile facility qualification standard: lyophilizer chamber Clean-In-Place (CIP) rotary spray head coverage verification, riboflavin fluorescence challenge under UV light (365nm), and shadow zone remediation.
+
+Includes:
+- 01: Riboflavin Fluorescent Solution Preparation & Chamber Coating Protocol
+- 02: Rotary Spray Ball & Retractable CIP Wand Hydrodynamic Coverage Spec
+- 03: Long-Wave UV Black Light (365nm) Visual Inspection & Residual Audit SOP
+- 04: Shelf Hinge, Bellows & Thermocouple Shadowing Elimination Playbook
+- 05: Chamber Bottom Slope Drainability & Conductivity TOC Rinse Validation
+- 06: Biopharma Lyo CIP Riboflavin OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #387: The Commercial Real Estate Tenant Improvement (TI) Allowance Escrow OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: AIA G702/G703 Draw Requests, Contractor Lien Waivers & Escrow Disbursements
+- Checkout: https://whop.com/checkout/ch_tYf6mF7r95eqcsJ/
+- Details: Commercial leasing asset management standard: Tenant Improvement (TI) allowance disbursements, AIA G702/G703 payment verification, unconditional final lien waivers, architect certificates, and punchlist retainage holdbacks.
+
+Includes:
+- 01: Landlord TI Allowance Commitment & Escrow Account Disbursal Framework
+- 02: AIA Document G702 Application & G703 Continuation Sheet Audit Protocol
+- 03: Conditional vs Unconditional Interim and Final Mechanic Lien Waivers
+- 04: Architect Certificate of Substantial Completion & Punchlist Retainage SOP
+- 05: Tenant Default & Unexpended TI Allowance Recapture Legal Provisions
+- 06: Commercial Tenant Improvement Allowance Escrow OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #388: The Enterprise C++20 Coroutine Async Networking & Execution Frame OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: co_await Tasks, Promise Types, io_uring Completion Queues & Memory Pools
+- Checkout: https://whop.com/checkout/ch_TS4u87mPHBsULCn/
+- Details: High-performance systems programming standard: C++20 stackless coroutines, custom promise_type allocation, Linux io_uring asynchronous completion queues, and million-QPS zero-copy network engines.
+
+Includes:
+- 01: C++20 Coroutine Lifecycle: promise_type, coroutine_handle & Awaitables
+- 02: Custom Arena Allocator for Coroutine Frames (operator new Overloads)
+- 03: Linux io_uring SQE/CQE Integration & Asynchronous Socket Event Loop
+- 04: Asynchronous Cancellation Tokens, Structured Concurrency & Timeouts
+- 05: Zero-Copy Ring-Buffer Streaming & Cache-Line Benchmark Suite
+- 06: C++20 Coroutine Async Networking OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #389: The Cleanroom Vented Chemical Fume Hood Face Velocity & Tracer Gas OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: ASHRAE 110 Containment, SF6 Tracer Gas Leakage & Face Velocity Grid Audits
+- Checkout: https://whop.com/checkout/ch_f9aljy3Ddr57OJj/
+- Details: Laboratory safety and cleanroom HVAC facility standard: ANSI/ASHRAE 110 chemical fume hood testing, face velocity uniformity grid audits (80-120 fpm), sulfur hexafluoride (SF6) tracer gas mannequin leak profiling, and sash movement safety.
+
+Includes:
+- 01: ANSI/ASHRAE 110 Three-Tier Testing Matrix: As Manufactured, Installed, Used
+- 02: Face Velocity Multipoint Grid Measurement & Uniformity Calculations SOP
+- 03: Sulfur Hexafluoride (SF6) Tracer Gas Challenge & Mannequin Leak Test
+- 04: Sash Movement Effect (SME) High-Speed Dynamic Disturbance Protocol
+- 05: Fume Hood Annual Certification Sticker, Defect Tag-Out & VAV Tuning SOP
+- 06: Cleanroom Fume Hood ASHRAE 110 OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #390: The Enterprise Kubernetes Gateway API & Envoy Gateway Production OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: GatewayClasses, HTTPRoutes, Dynamic TLS, RateLimiting & Traffic Splitting
+- Checkout: https://whop.com/checkout/ch_LFOlQ3VE2aZ2t4U/
+- Details: Modern cloud-native edge ingress standard: Kubernetes Gateway API v1.0 specifications, Envoy Gateway controller architecture, HTTPRoute and GRPCRoute path routing, canary traffic splitting, and security policies.
+
+Includes:
+- 01: Kubernetes Gateway API v1.0 Role-Oriented Architecture Specification
+- 02: Envoy Gateway Deployment, Managed Proxy Pods & EnvoyPatchPolicy
+- 03: Weight-Based Canary Traffic Splitting & Blue-Green Rollout Blueprints
+- 04: Declarative Security: Client Traffic Policy, RateLimitFilter & JWT Auth
+- 05: Dynamic Multi-Domain TLS Termination & Cert-Manager ACME Integration
+- 06: Kubernetes Envoy Gateway OS Manual & Interactive Viewer
 
 Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
 

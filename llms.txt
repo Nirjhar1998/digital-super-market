@@ -1,9 +1,9 @@
-# Digital Super Market (380 Operating Systems & Business Engines)
+# Digital Super Market (390 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 380 Master Assets
+Catalog Size: 390 Master Assets
 
 ## Milestone Flagships
 - The Master Mid-Tier Enterprise Milestone Operations Vault (350) ($49): https://whop.com/checkout/ch_UVMRwUUmRQcZRX2/
@@ -12,7 +12,7 @@ Catalog Size: 380 Master Assets
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 380 Product Catalog List
+## Complete 390 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -393,3 +393,13 @@ Catalog Size: 380 Master Assets
 - #378: The Enterprise Go High-Throughput Memory-Mapped IPC Queue Engine OS ($44): https://whop.com/checkout/ch_yjPmi0cxWkZd3At/
 - #379: The Cleanroom Air Change Rate (ACPH) & Particle Clean-Up Recovery OS ($49): https://whop.com/checkout/ch_yCoCgloPrVEGUZG/
 - #380: The Enterprise Kubernetes Multi-Cluster Service Mesh (Cilium Cluster Mesh) OS ($44): https://whop.com/checkout/ch_k2ffckk5wNLf6Cx/
+- #381: The Enterprise Apache Flink Stateful Stream Processing & RocksDB State OS ($44): https://whop.com/checkout/ch_bRVFBv8iy61KhZ2/
+- #382: The Biopharma Downstream Anion Exchange (AEX) Membrane Chromatography OS ($49): https://whop.com/checkout/ch_EliFV6CSfZLlqnY/
+- #383: The Subsea Production Riser Vortex-Induced Vibration (VIV) Suppression OS ($49): https://whop.com/checkout/ch_4Drb5lUdiHvqayZ/
+- #384: The Enterprise Redis Cluster Multi-Shard Partitioning & Hash Slot OS ($44): https://whop.com/checkout/ch_zJYq7mBAmi1s34o/
+- #385: The Commercial Construction Structural Steel Erection & Bolting Quality OS ($44): https://whop.com/checkout/ch_zkbVbU6uvkyP4uq/
+- #386: The Biopharma Lyophilizer Clean-In-Place (CIP) Spray Coverage Riboflavin OS ($49): https://whop.com/checkout/ch_nU6dPxceg67iVA0/
+- #387: The Commercial Real Estate Tenant Improvement (TI) Allowance Escrow OS ($49): https://whop.com/checkout/ch_tYf6mF7r95eqcsJ/
+- #388: The Enterprise C++20 Coroutine Async Networking & Execution Frame OS ($44): https://whop.com/checkout/ch_TS4u87mPHBsULCn/
+- #389: The Cleanroom Vented Chemical Fume Hood Face Velocity & Tracer Gas OS ($49): https://whop.com/checkout/ch_f9aljy3Ddr57OJj/
+- #390: The Enterprise Kubernetes Gateway API & Envoy Gateway Production OS ($44): https://whop.com/checkout/ch_LFOlQ3VE2aZ2t4U/
