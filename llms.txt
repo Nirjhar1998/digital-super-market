@@ -1,9 +1,9 @@
-# Digital Super Market (270 Operating Systems & Business Engines)
+# Digital Super Market (280 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 270 Master Assets
+Catalog Size: 280 Master Assets
 
 ## Flagship Products
 - The Quarter-Century Enterprise Milestone Architecture & Operations Vault (250) ($49): https://whop.com/checkout/ch_E2v8z6m2IuVGsmp/
@@ -13,7 +13,7 @@ Catalog Size: 270 Master Assets
 - The Enterprise Multi-Agent LangGraph & Long-Term Memory OS ($39): https://whop.com/checkout/ch_MT3nmL19znPAtgM/
 - The SOC 2 Type II Continuous Evidence Collection & Audit OS ($49): https://whop.com/checkout/ch_vW7zOxYB5d9cTC2/
 
-## Complete 270 Product Catalog List
+## Complete 280 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -284,3 +284,13 @@ Catalog Size: 270 Master Assets
 - #268: The Biopharma Cleanroom Environmental Monitoring (EM) & Viable Particle OS ($49): https://whop.com/checkout/ch_b6tFcHyEk4UIH7n/
 - #269: The Enterprise B2B SaaS Churn Early Warning & Save Desk Playbook ($34): https://whop.com/checkout/ch_DyKlvUSHYBoaW0K/
 - #270: The Autonomous Tugboat & Port Vessel Dynamic Positioning (DP) Standard OS ($49): https://whop.com/checkout/ch_wTORwhDT4vL0Nfg/
+- #271: The Enterprise Snowflake Data Mesh & Federated Domain Governance OS ($44): https://whop.com/checkout/ch_vS6FGVdvNA1LrTB/
+- #272: The Biopharma Lyophilization (Freeze-Drying) Cycle Development & Scale-Up OS ($49): https://whop.com/checkout/ch_5IQqpcEnYh79aU8/
+- #273: The Commercial Real Estate Triple Net (NNN) Lease Expense Reconciliation OS ($39): https://whop.com/checkout/ch_W0oF3nw3s8pw8Js/
+- #274: The Enterprise Kubernetes GitOps with ArgoCD & Progressive Canary Rollouts OS ($39): https://whop.com/checkout/ch_kWRohmn8lIlNfKM/
+- #275: The Autonomous Underwater Vehicle (AUV) Subsea Pipeline Acoustic Inspection OS ($49): https://whop.com/checkout/ch_0Eubpo3R0leKMj4/
+- #276: The Commercial Cleanroom Decontamination & Vaporized Hydrogen Peroxide (VHP) OS ($44): https://whop.com/checkout/ch_Bgf0VVbR6SOnafZ/
+- #277: The Enterprise B2B SaaS Value-Based Selling & ROI Business Case Model OS ($37): https://whop.com/checkout/ch_e5MyK9T3eMzlhCs/
+- #278: The Clinical Diagnostic Laboratory Specimen Accessioning & Barcode Integrity OS ($39): https://whop.com/checkout/ch_SvVwqaW0vOnVEoL/
+- #279: The Enterprise Zero-Trust Network Access (ZTNA) & Secure Web Gateway (SWG) OS ($44): https://whop.com/checkout/ch_Hx1rgrjJzaQRLFI/
+- #280: The Commercial Maritime Port Tug Dispatching & Marine Berth Scheduling OS ($44): https://whop.com/checkout/ch_gUpI93yY40lOgcD/
