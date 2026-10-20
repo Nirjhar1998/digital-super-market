@@ -1,9 +1,9 @@
-# Digital Super Market (220 Operating Systems & Business Engines)
+# Digital Super Market (230 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 220 Master Assets
+Catalog Size: 230 Master Assets
 
 ## Flagship Products
 - The High-Ticket Consultant Retainer Deliverable & Client Portal OS ($34): https://whop.com/checkout/ch_Yij7D2l0RVyEhNI/
@@ -12,7 +12,7 @@ Catalog Size: 220 Master Assets
 - The Enterprise Multi-Agent LangGraph & Long-Term Memory OS ($39): https://whop.com/checkout/ch_MT3nmL19znPAtgM/
 - The SOC 2 Type II Continuous Evidence Collection & Audit OS ($49): https://whop.com/checkout/ch_vW7zOxYB5d9cTC2/
 
-## Complete 220 Product Catalog List
+## Complete 230 Product Catalog List
 
 ## Full Detailed Specifications
 
@@ -3471,6 +3471,166 @@ Includes:
 - 04: Network Show Acquisition & Revenue-Share Contract (Syndication Onboarding)
 - 05: Audio Engineering Mastering & Apple Podcasts Spec Checklist (-16 LUFS Specs)
 - 06: Digital Media Network OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #221: The Autonomous Drone Fleet Operations & FAA Part 107 Airspace Waiver OS
+- Price: $39 USD (Flat Inclusive)
+- Headline: BVLOS Flight Approvals, Automated Telemetry & Pre-Flight Airworthiness SOPs
+- Checkout: https://whop.com/checkout/ch_28PemGLkqWD6kPW/
+- Details: Commercial UAV fleet operations manual: BVLOS Part 107.29/107.31 waiver filings, automated geofencing, maintenance logs, and lithium battery risk protocols.
+
+Includes:
+- 01: FAA Part 107 Beyond Visual Line of Sight (BVLOS) Waiver Filing Suite (Safety Cases)
+- 02: Real-Time Fleet Telemetry & Remote ID Geofencing Protocol (QGroundControl Specs)
+- 03: Pre-Flight Airworthiness Inspection & Weather Minimum Go/No-Go Rubric (40-Point Audit)
+- 04: Drone Fleet Preventive Maintenance & Motor Bearing Replacement Log (Hour-Meters)
+- 05: LiPo Battery Thermal Runaway Containment & Hazardous Waste Protocol (IR Checks)
+- 06: Autonomous Drone Fleet Operations OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #222: The Clinical AI Software Medical Device (SaMD) Validation OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: FDA Good Machine Learning Practice (GMLP), Bias Drift & Clinical Performance
+- Checkout: https://whop.com/checkout/ch_VsxgCuVNOjuKAgb/
+- Details: Medical AI software verification framework: predetermined change control plans (PCCP), algorithmic drift detection, demographic subgroup parity, and retrospective clinical trials.
+
+Includes:
+- 01: FDA Good Machine Learning Practice (GMLP) Quality Standard Matrix (10-Pillar Crosswalk)
+- 02: Predetermined Change Control Plan (PCCP) Retraining Governance (Trigger Gates)
+- 03: Demographic Subgroup Performance & Algorithmic Fairness Audit (AUROC/Parity)
+- 04: Real-World Clinical Data Drift & Model Recalibration Protocol (Production Telemetry)
+- 05: Retrospective Multi-Site Clinical Validation Study Protocol (Blinded Studies)
+- 06: Clinical AI SaMD Validation OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #223: The Modern Multi-Cloud Terraform Module Architecture & Drift Detection OS
+- Price: $37 USD (Flat Inclusive)
+- Headline: Immutable Infrastructure, OPA Conftest Policies & Automated Terragrunt Pipelines
+- Checkout: https://whop.com/checkout/ch_a35Igx0VarVsQeY/
+- Details: Cloud infrastructure engineering framework: standardized enterprise Terraform modules, automated state locking, drift detection, and OPA policy-as-code gates.
+
+Includes:
+- 01: Multi-Account AWS/GCP/Azure Standardized Module Taxonomy (Semantic Versioning)
+- 02: Automated State Locking & S3/DynamoDB Remote Backend Runbook (Split-Brain Resolution)
+- 03: Open Policy Agent (OPA) Conftest Static Security Linting Gates (Rego Assertions)
+- 04: Automated Hourly Infrastructure Drift Detection & Slack Alert Engine (Headless Plans)
+- 05: Terragrunt DRY Monorepo Multi-Environment Deployment Architecture (Root Inheritance)
+- 06: Multi-Cloud Terraform Architecture OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #224: The High-Throughput Apache Kafka Event Streaming & Schema Registry OS
+- Price: $39 USD (Flat Inclusive)
+- Headline: Avro / Protobuf Contracts, Dead Letter Queues (DLQ) & Consumer Group Rebalancing
+- Checkout: https://whop.com/checkout/ch_ZzdlvWjSkv1PqwV/
+- Details: Distributed event streaming architecture: schema compatibility enforcement, consumer group partition lag alerting, exactly-once semantics (EOS), and topic lifecycle governance.
+
+Includes:
+- 01: Schema Registry Backward & Transitive Compatibility Enforcement Matrix (Schema Linters)
+- 02: High-Performance Broker Hardware Sizing & Partition Distribution Math (Page Cache)
+- 03: Consumer Group Lag Telemetry & Cooperative Sticky Rebalancing SOP (Lag Alerts)
+- 04: Dead Letter Queue (DLQ) Retry Backoff & Poison Pill Quarantine Runbook (Decorators)
+- 05: End-to-End Exactly-Once Semantics (EOS) Producer/Consumer Architecture (Transactions)
+- 06: High-Throughput Kafka Event Streaming OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #225: The Semiconductor Fab Cleanroom Yield & Statistical Process Control (SPC) OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Defect Density P-Charts, Wafer Map Clustering & Cpk Capability Indices
+- Checkout: https://whop.com/checkout/ch_Rfk3digA80hS63J/
+- Details: Microelectronics manufacturing operations framework: defect root cause analysis, automated optical inspection (AOI) sorting, inline metrology, and cleanroom class 1/10 controls.
+
+Includes:
+- 01: Inline Defect Density P-Charts & Western Electric SPC Alarm Rules (3-Sigma Limits)
+- 02: Wafer Map Spatial Defect Clustering & Automated Pattern Recognition (CMP/Chucks)
+- 03: Process Capability Indices (Cp / Cpk) Statistical Measurement Model (Etch Depths)
+- 04: ISO 14644 Cleanroom Class 1/10 Airborne Particle Count Verification SOP (Laser Counters)
+- 05: Non-Conforming Lot Quarantine & Failure Analysis Laboratory Runbook (SEM/TEM Audits)
+- 06: Semiconductor Cleanroom Yield & SPC OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #226: The Maritime Commercial Cargo Chartering & Laytime Demurrage OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: BIMCO Master Voyage Charters, Notice of Readiness & Demurrage Calculation Sheets
+- Checkout: https://whop.com/checkout/ch_3wBv3ECUQ16mlGi/
+- Details: Global ocean freight shipping manual: BIMCO GENCON charterparties, laytime calculation models, weather working day deductions, and freight demurrage claim audits.
+
+Includes:
+- 01: BIMCO GENCON Master Voyage Charterparty & Specialized Rider Clauses (Deadfreight Terms)
+- 02: Notice of Readiness (NOR) Tender Verification & Acceptance Protocol (Free Pratique)
+- 03: Laytime Statement of Facts & Weather Working Day (WWD) Calculation Sheet (Timesheets)
+- 04: Demurrage & Despatch Financial Audit Reconciliation Model (Liquidated Damages)
+- 05: General Average Declaration & Maritime Cargo Claim Preservation SOP (Average Bonds)
+- 06: Maritime Commercial Cargo Chartering OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #227: The Enterprise Identity & Access Management (IAM) Zero-Trust Governance OS
+- Price: $39 USD (Flat Inclusive)
+- Headline: Just-In-Time (JIT) Privileged Access, SCIM Directory Sync & Token Hygiene
+- Checkout: https://whop.com/checkout/ch_SqcfhnG5allYkiK/
+- Details: Cybersecurity IAM framework: role-based access control (RBAC/ABAC) matrices, automated SCIM provisioning, break-glass admin accounts, and session revocation runbooks.
+
+Includes:
+- 01: Least-Privilege Role-Based & Attribute-Based Access Control Matrix (Entitlements)
+- 02: Just-In-Time (JIT) Ephemeral Elevated Privileges Approval Flowchart (60-Min Limits)
+- 03: SCIM Automated Directory Sync & Orphaned Account Purging Schedule (HR Deprovision)
+- 04: Emergency Break-Glass Super-Admin Account Vaulting & Dual-Key SOP (FIDO2 Escrows)
+- 05: OAuth2 / OIDC Token Expiration, Rotation & Immediate Revocation Runbook (Token Revoke)
+- 06: Enterprise IAM Zero-Trust Governance OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #228: The Industrial Automation PLC Programming & SCADA HMI Standard OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: IEC 61131-3 Structured Text, ISA-101 Alarm Rationalization & OT Cyber Isolation
+- Checkout: https://whop.com/checkout/ch_52pmt3kKticuA7m/
+- Details: Industrial control systems (ICS) engineering standard: PLC ladder/structured text conventions, ISA-101 high-performance HMI layouts, alarm flood mitigation, and Purdue model air-gaps.
+
+Includes:
+- 01: IEC 61131-3 Structured Text & Modular Function Block Programming Standard (Clean Code)
+- 02: ISA-101 High-Performance SCADA HMI Grayscale Design Guidelines (Situational Awareness)
+- 03: ISA-18.2 Alarm Flood Rationalization & Priority Matrix Architecture (Deadbands)
+- 04: Purdue Model OT Industrial Network Segmentation & DMZ SOP (Air-Gap Boundaries)
+- 05: Factory Acceptance Testing (FAT) & Site Acceptance Testing (SAT) Commissioning (Loop Checks)
+- 06: Industrial Automation PLC & SCADA Standard OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #229: The Private Credit & Direct Lending Loan Underwriting OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Fixed Charge Coverage (FCCR), Covenant Due Diligence & Debt Waterfall Models
+- Checkout: https://whop.com/checkout/ch_Ey7ZUkE3IYPIjSA/
+- Details: Non-bank institutional lending framework: sponsor-backed cash flow underwriting, debt service coverage covenants, intercreditor subordination deeds, and portfolio stress tests.
+
+Includes:
+- 01: Sponsor-Backed EBITDA Quality of Earnings & Normalized Cash Flow Model (Add-Back Audits)
+- 02: Fixed Charge Coverage Ratio (FCCR) & Leverage Covenant Headroom Matrix (Buffers)
+- 03: Multi-Tier Lien Priority & First-Out/Last-Out Unitranche Subordination Deed (Intercreditor)
+- 04: Quarterly Borrower Financial Reporting Compliance Audit & Cure Notice SOP (Cure Periods)
+- 05: Macro Stress-Testing & Recurrent Liquidity Default Sensitivity Model (Rate Shocks)
+- 06: Private Credit Direct Lending Underwriting OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #230: The Digital Health Remote Patient Monitoring (RPM) Reimbursement & Clinical OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: CPT Codes 99453-99458 Billing Rules, Cellular Device Fleets & EHR Sync
+- Checkout: https://whop.com/checkout/ch_7oHZZIMZXZbPrFL/
+- Details: Digital health clinical operations system: 16-day monthly data transmission audits, 20-minute clinical time tracking ledgers, HIPAA BAA agreements, and device provisioning SOPs.
+
+Includes:
+- 01: Medicare CPT 99453/99454/99457/99458 Billing Rules & 16-Day Transmission Audit (Billing SOP)
+- 02: Cellular RPM Device Direct-to-Patient Drop-Shipping & Provisioning SOP (Fleet Logistics)
+- 03: Monthly 20-Minute Clinical Care Management Interactive Time Tracking Ledger (Audit-Proof)
+- 04: Critical Vital Sign Out-of-Range Clinical Escalation & Rapid Triage Algorithm (Alert Thresholds)
+- 05: HIPAA Business Associate Agreement (BAA) & Encrypted Bluetooth/EHR Gateway (FHIR/HL7)
+- 06: Digital Health RPM Clinical & Billing OS Manual & Interactive Viewer
 
 Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
 
