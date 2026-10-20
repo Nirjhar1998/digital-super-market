@@ -1,9 +1,9 @@
-# Digital Super Market (360 Operating Systems & Business Engines)
+# Digital Super Market (370 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 360 Master Assets
+Catalog Size: 370 Master Assets
 
 ## Milestone Flagships
 - The Master Mid-Tier Enterprise Milestone Operations Vault (350) ($49): https://whop.com/checkout/ch_UVMRwUUmRQcZRX2/
@@ -12,7 +12,7 @@ Catalog Size: 360 Master Assets
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 360 Product Catalog List
+## Complete 370 Product Catalog List
 
 ## Full Detailed Specifications
 
@@ -5711,6 +5711,166 @@ Includes:
 - 04: Multi-Tenant Chargeback/Showback Billing Ledger & Department P&L Reports
 - 05: Cloud Unit Economics: Cost-Per-Customer & Cost-Per-API-Transaction Metric Standard
 - 06: Kubernetes FinOps Cost Allocation OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #361: The Enterprise Apache Iceberg Lakehouse ACID Catalog & Compaction OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: REST Catalog, Small-File Bin Packing, Snapshot Retention & Copy-On-Write
+- Checkout: https://whop.com/checkout/ch_tynEX04Q0IVxL76/
+- Details: Enterprise open lakehouse architecture standard: Apache Iceberg REST catalog governance, automated small-file bin packing compaction, snapshot lifecycle retention, and partition evolution.
+
+Includes:
+- 01: Apache Iceberg REST Catalog Architecture & Multi-Engine Access Matrix
+- 02: Automated Compaction: Bin-Packing Data Files & Manifest Rewrite SOP
+- 03: Snapshot Lifecycle Governance & Orphan File Deletion Protocol
+- 04: Copy-On-Write vs Merge-On-Read Tradeoff & Row-Level Deletion Engine
+- 05: Hidden Partitioning & Schema Evolution Zero-Rewrite Verification Deck
+- 06: Apache Iceberg Lakehouse OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #362: The Biopharma Continuous Biomanufacturing Perfusion Cell Culture OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Steady-State Cell Bleed, ATF Hollow Fiber Retention & Perfusion Rate Control
+- Checkout: https://whop.com/checkout/ch_f6gpVjY3S6o429X/
+- Details: Continuous biopharmaceutical upstream manufacturing standard: perfusion cell culture steady-state operations, alternating tangential flow (ATF) retention, cell-specific perfusion rate (CSPR) control, and automated biomass feedback.
+
+Includes:
+- 01: Cell-Specific Perfusion Rate (CSPR) & Nutrient Kinetics Mathematical Model
+- 02: Alternating Tangential Flow (ATF) Hollow Fiber Filter Hydrodynamic Protocol
+- 03: Automated Capacitive Biomass Sensor & Continuous Cell Bleed SOP
+- 04: Continuous 60-Day Perfusion Bioburden & In-Line Sterility Assurance Protocol
+- 05: Steady-State mAb Glycosylation & Critical Quality Attribute (CQA) Dossier
+- 06: Biopharma Perfusion Cell Culture OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #363: The Commercial Maritime Port Crane Berthing Simulation & Vessel Turnaround OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: STS Crane Split Allocation, Quay Berth Occupancy & Port Dwell Time Optimization
+- Checkout: https://whop.com/checkout/ch_xbRe1tIEd4D1kNN/
+- Details: Commercial container port terminal operations standard: ship-to-shore (STS) gantry crane gang allocation, dynamic berth allocation problem (BAP) optimization, tidal window constraints, and vessel turnaround acceleration.
+
+Includes:
+- 01: Dynamic Berth Allocation Problem (BAP) Mathematical Formulation
+- 02: Ship-to-Shore (STS) Crane Gang Productivity & Work-Block Assignment SOP
+- 03: Tidal Depth Window Navigation & Draft Margin Safety Thresholds
+- 04: Quay Crane Interference & Gantry Travel Safety Clearance Protocol
+- 05: Port Vessel Turnaround KPI Dashboard & Demurrage Minimization Dossier
+- 06: Maritime Port Crane Berthing OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #364: The Enterprise OpenTelemetry Collector Gateway & High-Volume Log Pipeline OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: OTel Collector OTLP Pipelines, Tail Sampling, Attribute Mutators & Batch Buffers
+- Checkout: https://whop.com/checkout/ch_QBtih2E1hmHWYcB/
+- Details: Enterprise cloud observability standard: OpenTelemetry Collector gateway topology, OTLP log and trace pipelines, tail-based sampling algorithms, memory limiter circuit breakers, and sensitive data masking.
+
+Includes:
+- 01: OTel Collector Gateway DaemonSet/Deployment Architecture Spec
+- 02: Tail-Based Sampling Processor & High-Cardinality Trace Filter Design
+- 03: Transform Processor (OTTLS) Attribute Mutation & PII Masking Engine
+- 04: Memory Limiter Processor & Backpressure Circuit Breaker Safeguards
+- 05: Multi-Destination Export Pipeline: Prometheus, ClickHouse, and Datadog
+- 06: OpenTelemetry Collector Pipeline OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #365: The Commercial Ground-Mount Utility-Scale Solar Photovoltaic Pile Foundation OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Steel W-Section Pile Driving, Lateral Geotechnical Testing & Frost Heave Design
+- Checkout: https://whop.com/checkout/ch_qs3Umcb0FP6Ux1G/
+- Details: Utility-scale solar civil and structural engineering standard: driven steel W-section pile foundations, ASTM D3689 axial and lateral load testing, frost heave uplift resistance, and soil corrosion mitigation.
+
+Includes:
+- 01: Driven Steel H-Pile & W-Section Structural Embedment Depth Calculator
+- 02: ASTM D3689 Tensile Pullout & ASTM D3966 Lateral Pile Load Testing SOP
+- 03: Frost Heave Uplift & Adfreeze Soil Force Mitigation Engineering Model
+- 04: Geotechnical Corrosivity & Sacrificial Steel Thickness Allowance Spec
+- 05: Quality Assurance Pile Refusal & Pre-Drilling Remediation Playbook
+- 06: Solar Photovoltaic Pile Foundation OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #366: The Biopharma Lyophilizer Silicone Oil Leak Detection & Mass Spec Quadrupole OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Residual Gas Analysis (RGA), Polydimethylsiloxane Fingerprinting & Shelf Rupture
+- Checkout: https://whop.com/checkout/ch_WMQzqzCrTRcVTg9/
+- Details: Sterile drug product lyophilization safety standard: in-situ quadrupole mass spectrometer (RGA) leak detection, polydimethylsiloxane (PDMS) ion fragmentation m/z 73 fingerprinting, and shelf fluid rupture protocols.
+
+Includes:
+- 01: Quadrupole Mass Spectrometry Residual Gas Analyzer (RGA) Integration Spec
+- 02: Polydimethylsiloxane (PDMS) Silicone Oil Ion Fragmentation Fingerprinting
+- 03: Micro-Pinhole Shelf Plate Leak Rate & Helium Sniffing Excursion SOP
+- 04: Emergency Shelf Rupture Immediate Batch Quenching & Isolation SOP
+- 05: Vial External Residue FTIR/GC-MS Swab Testing & Investigation Dossier
+- 06: Biopharma Lyo Silicone Oil Leak OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #367: The Commercial Real Estate Ground Lease 99-Year Subordination & Capital OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Unsubordinated Ground Lease, CPI Rent Resets, Leasehold Mortgages & Reversions
+- Checkout: https://whop.com/checkout/ch_TAjQtojI7t76fKM/
+- Details: Institutional commercial real estate land governance standard: 99-year unsubordinated ground lease agreements, leasehold mortgage financeability protections, CPI rent readjustment formulas, and end-of-term building reversions.
+
+Includes:
+- 01: Institutional 99-Year Unsubordinated Ground Lease Master Agreement Spec
+- 02: Leasehold Mortgagee Protection Clause (LMPC) Financeability Standard
+- 03: Periodic Fair Market Value (FMV) & CPI Ground Rent Reset Formulation
+- 04: End-of-Term Building Reversion & Environmental Surrender Protocol
+- 05: Fee Simple Land Purchase Option & Right of First Offer (ROFO) Covenant
+- 06: Ground Lease 99-Year Capital OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #368: The Enterprise Zig Low-Level Memory Allocator & High-Performance Runtime OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Comptime Metaprogramming, Arena/GPA Allocators & Zero-Cost C ABI Interop
+- Checkout: https://whop.com/checkout/ch_3gU3fr5zWjx7VQJ/
+- Details: Low-level systems programming engineering standard: Zig comptime metaprogramming, explicit Arena and GeneralPurposeAllocator memory models, zero-overhead C ABI exports, and memory safety verification.
+
+Includes:
+- 01: Explicit Memory Allocation Pattern: ArenaAllocator & FixedBufferAllocator
+- 02: GeneralPurposeAllocator (GPA) Leak Detection & Safety Audit Harness
+- 03: Comptime Generics, Type Reflection & Compile-Time Code Generation Engine
+- 04: Zero-Overhead C ABI Interoperability & Cross-Compilation Build System
+- 05: Production Zig Error Handling, Panic Payloads, and Micro-Benchmark Suite
+- 06: Zig Low-Level Memory Runtime OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #369: The Cleanroom Laminar Airflow Biosafety Cabinet (BSC) Field Certification OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: NSF/ANSI 49 Class II Downflow Velocity, Inflow Anemometry & Smoke Visualization
+- Checkout: https://whop.com/checkout/ch_3BATKvyu1KeTmru/
+- Details: Cleanroom facility containment standard: NSF/ANSI 49 Class II Type A2/B2 biosafety cabinet field certification, thermal anemometer downflow/inflow profiling, HEPA leak testing, and smoke pattern visualization.
+
+Includes:
+- 01: NSF/ANSI 49 Field Certification Test Matrix & Velocity Profile Protocol
+- 02: Direct Inflow Measurement (DIM) Hood & Thermal Anemometer Traverse SOP
+- 03: HEPA Supply & Exhaust Filter Aerosol Photometer Scanning (PAO) SOP
+- 04: Airflow Smoke Pattern Visualization & Work Area Containment Test
+- 05: Annual BSC Re-Certification Report, Calibration Certificate & Defect Log
+- 06: Cleanroom BSC Field Certification OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #370: The Enterprise Zero-Trust Microsegmentation & WireGuard VPN Tunnel Mesh OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Full-Mesh WireGuard Crypto Routing, Tailscale Coordination & eBPF Firewall Rules
+- Checkout: https://whop.com/checkout/ch_nvp46xzoSsQUgmi/
+- Details: Enterprise zero-trust network access (ZTNA) standard: full-mesh WireGuard cryptographic routing, ephemeral key rotation, coordination control planes, and eBPF kernel packet microsegmentation.
+
+Includes:
+- 01: Full-Mesh WireGuard Topology & Ephemeral Public-Key Routing Spec
+- 02: Centralized Coordination Control Plane & Dynamic NAT Traversal (STUN/DERP)
+- 03: eBPF Kernel Network Policy Enforcement & Peer Microsegmentation Rules
+- 04: Continuous Mutual TLS (mTLS) Attestation & Device Health Check SOP
+- 05: High-Throughput 10Gbps Multi-Core WireGuard Performance Tuning Guide
+- 06: WireGuard Mesh Security OS Manual & Interactive Viewer
 
 Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
 
