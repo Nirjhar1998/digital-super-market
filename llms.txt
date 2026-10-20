@@ -1,19 +1,19 @@
-# Digital Super Market (250 Operating Systems & Business Engines)
+# Digital Super Market (260 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 250 Master Assets (Quarter-Century Milestone)
+Catalog Size: 260 Master Assets
 
 ## Flagship Products
-- The Quarter-Century Enterprise Milestone Architecture & Operations Vault (250 Edition) ($49): https://whop.com/checkout/ch_E2v8z6m2IuVGsmp/
+- The Quarter-Century Enterprise Milestone Architecture & Operations Vault (250) ($49): https://whop.com/checkout/ch_E2v8z6m2IuVGsmp/
 - The High-Ticket Consultant Retainer Deliverable & Client Portal OS ($34): https://whop.com/checkout/ch_Yij7D2l0RVyEhNI/
 - The Master Corporate Venture Building & Spinout Equity Allocation OS ($49): https://whop.com/checkout/ch_kVyaSxMbuCRWlMh/
 - The Next.js Stripe Custom Billing Portal & Metered Usage Engine OS ($37): https://whop.com/checkout/ch_eKxxhKgKRqddBoN/
 - The Enterprise Multi-Agent LangGraph & Long-Term Memory OS ($39): https://whop.com/checkout/ch_MT3nmL19znPAtgM/
 - The SOC 2 Type II Continuous Evidence Collection & Audit OS ($49): https://whop.com/checkout/ch_vW7zOxYB5d9cTC2/
 
-## Complete 250 Product Catalog List
+## Complete 260 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -264,3 +264,13 @@ Catalog Size: 250 Master Assets (Quarter-Century Milestone)
 - #248: The Clinical Diagnostic Laboratory Billing & Revenue Cycle Management OS ($39): https://whop.com/checkout/ch_680gby2vOwJvzwx/
 - #249: The Enterprise API Gateway & Kong Rate Limiting Plugin Governance OS ($37): https://whop.com/checkout/ch_19GBf3SwoVGLIQ1/
 - #250: The Quarter-Century Enterprise Milestone Architecture & Operations Vault (250) ($49): https://whop.com/checkout/ch_E2v8z6m2IuVGsmp/
+- #251: The Enterprise Snowflake FinOps & Cost Allocation Tagging OS ($39): https://whop.com/checkout/ch_jaZkzU1HdB30dur/
+- #252: The Biopharmaceutical Cold Storage Freezer Failure & Disaster Recovery OS ($49): https://whop.com/checkout/ch_bMvkY1fcrGi4d8O/
+- #253: The Real Estate Title Examination & Encumbrance Clearance OS ($44): https://whop.com/checkout/ch_aGD4u9pxJiBBuZy/
+- #254: The Enterprise Kubernetes Security Posture Management (KSPM) OS ($39): https://whop.com/checkout/ch_BWs4z8jtgEGdu66/
+- #255: The Autonomous Surface Vehicle (ASV) Hydrographic Survey OS ($44): https://whop.com/checkout/ch_h6DdTBOgC4y8nG2/
+- #256: The Commercial HVAC Commissioning & Building Envelope Balancing OS ($39): https://whop.com/checkout/ch_NhaY1YEYq3RYgui/
+- #257: The Enterprise Zero-Trust Microsegmentation & Software-Defined Perimeter OS ($44): https://whop.com/checkout/ch_DnRLNf99cRTWbpl/
+- #258: The Clinical Diagnostic Genomics Laboratory CLIA Variant Interpretation OS ($49): https://whop.com/checkout/ch_K3udQAMUMU0J21H/
+- #259: The Enterprise SaaS Annual Contract Value (ACV) & Expansion Sales OS ($37): https://whop.com/checkout/ch_86ynd44J8E2PE0j/
+- #260: The Commercial Fleet EV Telematics & Smart Charging Depot OS ($44): https://whop.com/checkout/ch_axO8whKMi8SSbGQ/
