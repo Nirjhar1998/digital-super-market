@@ -1,9 +1,9 @@
-# Digital Super Market (400 Operating Systems & Business Engines)
+# Digital Super Market (410 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 400 Master Assets
+Catalog Size: 410 Master Assets
 
 ## Milestone Flagships
 - The Quad-Century Milestone Enterprise Operating Systems Vault (400) ($49): https://whop.com/checkout/ch_wy4IRNTY789xQ0i/
@@ -13,7 +13,7 @@ Catalog Size: 400 Master Assets
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 400 Product Catalog List
+## Complete 410 Product Catalog List
 
 ## Full Detailed Specifications
 
@@ -6352,6 +6352,166 @@ Includes:
 - 04: Enterprise Digital Product Commercialization & Distribution Engine
 - 05: The Digital Super Market Scaling Architecture & Roadmap to 1,000 Products
 - 06: Quad-Century Milestone Enterprise Vault 400 Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #401: The Enterprise NATS JetStream Distributed Key-Value & Object Store OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Raft Clustered KV, De-Duplication Streams, Leaf Nodes & Object Store Buckets
+- Checkout: https://whop.com/checkout/ch_Srt7z4zKuaEkpWI/
+- Details: High-performance cloud-native messaging standard: NATS 2.10+ JetStream distributed persistence, clustered Raft KV buckets, sub-millisecond stream deduplication, and edge leaf node topologies.
+
+Includes:
+- 01: JetStream Clustered Storage Engine & Raft Consensus Configuration
+- 02: Stream De-Duplication Windows & Exactly-Once Consumer Delivery Spec
+- 03: Distributed Key-Value (KV) Buckets & Revision-Based Optimistic Locking
+- 04: JetStream Object Store: Chunked Multi-Gigabyte Binary Asset Streaming
+- 05: Edge Leaf Node Synchronization & Autonomous Disconnected Operations
+- 06: NATS JetStream Distributed OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #402: The Biopharma Hydrophobic Interaction Chromatography (HIC) Aggregate OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Ammonium Sulfate Gradients, High-Molecular-Weight Aggregate & Mab Separation
+- Checkout: https://whop.com/checkout/ch_2cL9y3bUoGQVuw4/
+- Details: Biopharmaceutical downstream purification standard: hydrophobic interaction chromatography (HIC), lyotropic salt gradients, high-molecular-weight (HMW) aggregate resolution, and antibody monomer polishing.
+
+Includes:
+- 01: HIC Resin Hydrophobicity Screening & Salt Precipitation Window Model
+- 02: Linear Descending Salt Gradient Elution & Peak Fractionation Protocol
+- 03: Analytical Size Exclusion (SEC-HPLC) Resolution Verification Assay
+- 04: Dynamic Binding Capacity (DBC 10%) & Column Bed Compression Sizing SOP
+- 05: Scale-Up Sanitization (0.5M NaOH) & Resin Lifetime Cycling Dossier
+- 06: Biopharma HIC Aggregate OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #403: The Subsea Electrical Flying Lead (EFL) Wet-Mate Connector Testing OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: 10,000 PSI Wet-Mate Pins, Insulation Resistance & ROV Jumper Deployment
+- Checkout: https://whop.com/checkout/ch_lloJv1ck7V5bnvO/
+- Details: Deepwater subsea controls and electrical umbilical engineering standard: electrical flying lead (EFL) wet-mate connector testing, 10,000 psi hyperbaric insulation resistance, oil-filled jumper pressure compensation, and ROV deployment.
+
+Includes:
+- 01: Wet-Mate Electrical Pin Contact Resistance & Hyperbaric Chamber Spec
+- 02: Insulation Resistance (IR > 10 Gigaohm at 1,000V DC) Verification SOP
+- 03: Pressure-Compensated Oil-Filled Hose (PCOFH) Volumetric Expansion SOP
+- 04: ROV Flying Lead Deployment Frame, Bend Restrictor & Latch Plate Rigging
+- 05: Factory Acceptance Testing (FAT) & Continuity Loop Resistance Dossier
+- 06: Subsea EFL Connector Testing OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #404: The Enterprise Cassandra Multi-DC Wide-Column Compaction & Repair OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: LeveledCompactionStrategy, Incremental Repair, Tombstones & Token Ranges
+- Checkout: https://whop.com/checkout/ch_PzclTJTCT6V0EmG/
+- Details: High-availability distributed wide-column database standard: Apache Cassandra 4.x/5.x multi-datacenter replication, LeveledCompactionStrategy (LCS) tuning, Cassandra Reaper incremental repairs, and tombstone purging.
+
+Includes:
+- 01: Multi-DC Ring Architecture: NetworkTopologyStrategy & Token Allocation
+- 02: LeveledCompactionStrategy (LCS) vs SizeTiered (STCS) Optimization Matrix
+- 03: Cassandra Reaper Automated Incremental Repair Scheduling Runbook
+- 04: Tombstone Saturation Root Cause Remediation & gc_grace_seconds Tuning
+- 05: Zero-Downtime Node Replacement & SSTable Loader Cold-Restore Playbook
+- 06: Cassandra Multi-DC Repair OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #405: The Commercial Construction Concrete Core Drilling & GPR Rebar Scanning OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Ground Penetrating Radar (GPR), Post-Tension Cable Avoidance & Structural Core
+- Checkout: https://whop.com/checkout/ch_iDz80JLaIAjX208/
+- Details: Commercial concrete structural renovation and nondestructive testing standard: high-frequency 2.0 GHz Ground Penetrating Radar (GPR) grid scanning, post-tension cable avoidance, diamond core drilling rig mounting, and utility clearance.
+
+Includes:
+- 01: 2.0 GHz High-Frequency GPR Concrete Grid Scanning & Radargram Modeling
+- 02: Post-Tension (PT) Tendon Hyperbolic Reflection Identification SOP
+- 03: Electromagnetic Line Locator (EM) & Live Electrical Conduit Tracing
+- 04: Diamond Core Drill Rig Vacuum Anchor Mounting & Slurry Capture SOP
+- 05: Structural Engineer Penetration Sign-Off & Cut Conduit Emergency Protocol
+- 06: Concrete Core GPR Scanning OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #406: The Biopharma Lyophilizer Leak Rate Mass Spectrometry Helium Sniffing OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: 10^-7 mbar L/sec Sensitivity, Door Gasket Scans, Valve Bellows & Vacuum Testing
+- Checkout: https://whop.com/checkout/ch_UocOhB4ANmmwcDH/
+- Details: Aseptic freeze-dryer envelope qualification standard: helium mass spectrometry vacuum and sniffing leak testing, 10^-7 mbar L/sec leak sensitivity, door elastomer gasket qualification, and valve bellows integrity verification.
+
+Includes:
+- 01: Helium Mass Spectrometer Leak Detector (MSLD) Calibration & Vacuum Mode
+- 02: Full Chamber Hard Vacuum Envelope Integral Leak Rate Testing Protocol
+- 03: Micro-Sniffer Probe Gasket, Sight Glass & Hydraulic Penetration SOP
+- 04: Pneumatic Isolation Spool Valve Bellows Thermal Cycle Leak Protocol
+- 05: Annual cGMP Vacuum Retention Re-Certification & Pressure Rise Dossier
+- 06: Biopharma Lyo Helium Leak OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #407: The Commercial Real Estate Sublease Consent & Prime Landlord Estoppel OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Tri-Party Recognition, Rent Attornment, Prime Lease Default & Recapture Right
+- Checkout: https://whop.com/checkout/ch_K6xTB3mKRh9emXP/
+- Details: Commercial leasing corporate real estate standard: Tri-Party Sublease Landlord Consent Agreements, recognition and attornment rights, subrent profit-sharing formulas, prime lease default remedies, and landlord estoppel certificates.
+
+Includes:
+- 01: Tri-Party Sublease Consent Agreement Master Negotiation Standard
+- 02: Recognition and Non-Disturbance Covenant (Attornment Standard)
+- 03: Excess Rent Sharing Formulation & Transaction Cost Deduction Rules
+- 04: Landlord Space Recapture Rights & Right of First Refusal (ROFR) Terms
+- 05: Comprehensive Prime Landlord & Sublandlord Estoppel Certificate Suite
+- 06: Sublease Landlord Estoppel OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #408: The Enterprise Haskell Pure Functional Microservice & Warp Web Engine OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Type-Level Routing, Persistent STM, Zero-Leak Lazy Evaluation & Warp Server
+- Checkout: https://whop.com/checkout/ch_RpcXTt5vlOtt4OV/
+- Details: High-assurance enterprise functional systems standard: Haskell Servant type-level API routing, Software Transactional Memory (STM) thread concurrency, GHC space leak profiling, and high-throughput Warp web engines.
+
+Includes:
+- 01: Servant Type-Level REST & WebSocket API Specification Framework
+- 02: Software Transactional Memory (STM) Atomic State & TVar Data Models
+- 03: GHC Strictness Profiling, BangPatterns & Space Leak Elimination SOP
+- 04: Warp High-Performance HTTP Server & FastCGI Socket Threading Engine
+- 05: Automated QuickCheck Property-Based Testing & Golden Value Test Suite
+- 06: Haskell Warp Microservice OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #409: The Cleanroom Air Handling Unit (AHU) Economizer & Chilled Water Balancing OS
+- Price: $49 USD (Flat Inclusive)
+- Headline: Enthalpy Control, Face/Bypass Damper Balancing, Dehumidification & Frost Coils
+- Checkout: https://whop.com/checkout/ch_B3ozSDgO0V3Er1D/
+- Details: Pharmaceutical and semiconductor cleanroom HVAC engineering standard: recirculating Air Handling Unit (AHU) economizer control, differential enthalpy balancing, dual-wheel desiccant dehumidification, and hydronic coil balancing.
+
+Includes:
+- 01: Differential Enthalpy Economizer Cycle Control & Free Cooling Matrix
+- 02: Dual-Wheel Desiccant Dehumidification & Low-Dewpoint (-40 deg C) Sizing
+- 03: Face and Bypass Dampers Aerodynamic Airflow Modulating Protocol
+- 04: Pressure Independent Control Valves (PICV) Chilled Water Hydronic Balancing
+- 05: Freeze-Stat Protection Sensor Grid & Coil Antifreeze Circulation SOP
+- 06: Cleanroom AHU Balancing OS Manual & Interactive Viewer
+
+Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
+
+### #410: The Enterprise Kubernetes eBPF Tetragon Security Observability & Audit OS
+- Price: $44 USD (Flat Inclusive)
+- Headline: Kernel Hooking, Process Execution Tracing, Namespace Escapes & MITRE Defense
+- Checkout: https://whop.com/checkout/ch_hjWTszUBXPUPvFa/
+- Details: Enterprise cloud security engineering standard: Cilium Tetragon eBPF kernel enforcement, real-time process execution tracing, container namespace escape mitigation, and sub-millisecond automated attack termination.
+
+Includes:
+- 01: Cilium Tetragon eBPF Kernel Sensor Architecture & DaemonSet Helm Spec
+- 02: TracingPolicy Specifications: Process Execution (execve) & Privilege Audits
+- 03: Container Namespace Escape & Kernel Exploit Prevention Architecture
+- 04: Network Socket Correlation: Mapping TCP Connections to Pod Process Trees
+- 05: SIEM Log Export: Fluent Bit, JSON Streaming & MITRE ATT&CK Matrix Crosswalk
+- 06: Kubernetes Tetragon Security OS Manual & Interactive Viewer
 
 Universal Formats: Interactive .html readers with 1-click PDF export, clean .txt, and .md for Notion/Docs.
 
