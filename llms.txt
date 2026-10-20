@@ -1,9 +1,9 @@
-# Digital Super Market (480 Operating Systems & Business Engines)
+# Digital Super Market (490 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 480 Master Assets
+Catalog Size: 490 Master Assets
 
 ## Milestone Flagships
 - The Master Mid-Century Enterprise Milestone Architecture & Operations Vault (450) ($49): https://whop.com/checkout/ch_jbpTNWpEYW4G3Vw/
@@ -14,7 +14,7 @@ Catalog Size: 480 Master Assets
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 480 Product Catalog List
+## Complete 490 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -495,3 +495,13 @@ Catalog Size: 480 Master Assets
 - #478: The Enterprise Bun High-Performance JavaScript / TypeScript Native Engine OS ($44): https://whop.com/checkout/ch_OFWfGOvBzrmflIr/
 - #479: The Cleanroom Airborne Molecular Contamination (AMC) Chemical Filter OS ($49): https://whop.com/checkout/ch_w5MeWpbgIEeqN5N/
 - #480: The Enterprise Kong Gateway Declarative Ingress & Kubernetes Operator OS ($44): https://whop.com/checkout/ch_yipsbomIk0aGoe9/
+- #481: The Enterprise Apache Iceberg REST Catalog & Lakehouse Table Format OS ($44): https://whop.com/checkout/ch_YzT08lhj7AchFCh/
+- #482: The Biopharma Automated Visual Inspection (AVI) Particle & Container Defect OS ($49): https://whop.com/checkout/ch_xy1kio4NIfohddm/
+- #483: The Subsea Pipeline Decommissioning Flush & Gelled Pig Hydrocarbon Cleaning OS ($49): https://whop.com/checkout/ch_Rnp7jgYrvbYASz0/
+- #484: The Enterprise Milvus Distributed Vector Database & GPU Indexing Cluster OS ($44): https://whop.com/checkout/ch_aS9Un8ozU0ewnv3/
+- #485: The Commercial Precast Concrete Wall Panel Joint Sealant ASTM C920 Survey OS ($44): https://whop.com/checkout/ch_jFVx4oVRl8QI7qn/
+- #486: The Biopharma Lyophilizer Shelf Temperature Mapping Resistance Temp RTD OS ($49): https://whop.com/checkout/ch_fVxU4Ab7E2BvKiP/
+- #487: The Commercial Ground Lease Subordination & Leasehold Mortgagee Protection OS ($49): https://whop.com/checkout/ch_2R2aymBBGg0nnON/
+- #488: The Enterprise Deno Secure TypeScript Runtime & V8 Isolate Cloud Edge OS ($44): https://whop.com/checkout/ch_gcPb5jiSSsnXPbF/
+- #489: The Cleanroom Ionizing Air Blower Electrostatic Discharge (ESD) Decay Time OS ($49): https://whop.com/checkout/ch_wAXGUMDeJu3XGe2/
+- #490: The Enterprise Emissary-Ingress Envoy-Based Kubernetes API Gateway OS ($44): https://whop.com/checkout/ch_GdTwLSFyZBb0rUb/
