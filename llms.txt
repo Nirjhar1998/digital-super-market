@@ -1,9 +1,9 @@
-# Digital Super Market (220 Operating Systems & Business Engines)
+# Digital Super Market (230 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 220 Master Assets
+Catalog Size: 230 Master Assets
 
 ## Flagship Products
 - The High-Ticket Consultant Retainer Deliverable & Client Portal OS ($34): https://whop.com/checkout/ch_Yij7D2l0RVyEhNI/
@@ -12,7 +12,7 @@ Catalog Size: 220 Master Assets
 - The Enterprise Multi-Agent LangGraph & Long-Term Memory OS ($39): https://whop.com/checkout/ch_MT3nmL19znPAtgM/
 - The SOC 2 Type II Continuous Evidence Collection & Audit OS ($49): https://whop.com/checkout/ch_vW7zOxYB5d9cTC2/
 
-## Complete 220 Product Catalog List
+## Complete 230 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -233,3 +233,13 @@ Catalog Size: 220 Master Assets
 - #218: The Corporate Treasury Management & Liquidity Forecasting OS ($44): https://whop.com/checkout/ch_MPsU3Mi6IoVKikd/
 - #219: The Algorithmic Trading Systems & Low-Latency Colocation OS ($49): https://whop.com/checkout/ch_uDHoemDdXEcjmRm/
 - #220: The Digital Media Network & Multi-Show Podcast Syndication OS ($29): https://whop.com/checkout/ch_5BVBDfBeyJIYzsF/
+- #221: The Autonomous Drone Fleet Operations & FAA Part 107 Airspace Waiver OS ($39): https://whop.com/checkout/ch_28PemGLkqWD6kPW/
+- #222: The Clinical AI Software Medical Device (SaMD) Validation OS ($49): https://whop.com/checkout/ch_VsxgCuVNOjuKAgb/
+- #223: The Modern Multi-Cloud Terraform Module Architecture & Drift Detection OS ($37): https://whop.com/checkout/ch_a35Igx0VarVsQeY/
+- #224: The High-Throughput Apache Kafka Event Streaming & Schema Registry OS ($39): https://whop.com/checkout/ch_ZzdlvWjSkv1PqwV/
+- #225: The Semiconductor Fab Cleanroom Yield & Statistical Process Control (SPC) OS ($49): https://whop.com/checkout/ch_Rfk3digA80hS63J/
+- #226: The Maritime Commercial Cargo Chartering & Laytime Demurrage OS ($44): https://whop.com/checkout/ch_3wBv3ECUQ16mlGi/
+- #227: The Enterprise Identity & Access Management (IAM) Zero-Trust Governance OS ($39): https://whop.com/checkout/ch_SqcfhnG5allYkiK/
+- #228: The Industrial Automation PLC Programming & SCADA HMI Standard OS ($44): https://whop.com/checkout/ch_52pmt3kKticuA7m/
+- #229: The Private Credit & Direct Lending Loan Underwriting OS ($49): https://whop.com/checkout/ch_Ey7ZUkE3IYPIjSA/
+- #230: The Digital Health Remote Patient Monitoring (RPM) Reimbursement & Clinical OS ($44): https://whop.com/checkout/ch_7oHZZIMZXZbPrFL/
