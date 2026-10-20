@@ -1,9 +1,9 @@
-# Digital Super Market (370 Operating Systems & Business Engines)
+# Digital Super Market (380 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 370 Master Assets
+Catalog Size: 380 Master Assets
 
 ## Milestone Flagships
 - The Master Mid-Tier Enterprise Milestone Operations Vault (350) ($49): https://whop.com/checkout/ch_UVMRwUUmRQcZRX2/
@@ -12,7 +12,7 @@ Catalog Size: 370 Master Assets
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 370 Product Catalog List
+## Complete 380 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -383,3 +383,13 @@ Catalog Size: 370 Master Assets
 - #368: The Enterprise Zig Low-Level Memory Allocator & High-Performance Runtime OS ($44): https://whop.com/checkout/ch_3gU3fr5zWjx7VQJ/
 - #369: The Cleanroom Laminar Airflow Biosafety Cabinet (BSC) Field Certification OS ($49): https://whop.com/checkout/ch_3BATKvyu1KeTmru/
 - #370: The Enterprise Zero-Trust Microsegmentation & WireGuard VPN Tunnel Mesh OS ($44): https://whop.com/checkout/ch_nvp46xzoSsQUgmi/
+- #371: The Enterprise Apache Kafka Tiered Storage & S3 Offloading OS ($44): https://whop.com/checkout/ch_OkkCyCe3zFQtAqv/
+- #372: The Biopharma Virus Clearance Low pH Viral Inactivation Hold OS ($49): https://whop.com/checkout/ch_bXYx5aYXYX6K8kd/
+- #373: The Subsea Wellhead Annular Pressure Buildup (APB) Mitigation OS ($49): https://whop.com/checkout/ch_HXTxDun2ik3s3az/
+- #374: The Enterprise PostgreSQL Logical Replication & Zero-Downtime Upgrade OS ($44): https://whop.com/checkout/ch_0ENBKKliKqQcq3E/
+- #375: The Commercial HVAC Water-Cooled Chiller Plant Optimization OS ($44): https://whop.com/checkout/ch_avBeAzQnKoA0aRi/
+- #376: The Biopharma Lyophilizer Condenser Sublimation Choked Flow Limit OS ($49): https://whop.com/checkout/ch_KBQTUUsS6EEWZ1o/
+- #377: The Commercial Mixed-Use Master Association Cross-Easement Agreement OS ($49): https://whop.com/checkout/ch_h3M7SY0IeCZgE1t/
+- #378: The Enterprise Go High-Throughput Memory-Mapped IPC Queue Engine OS ($44): https://whop.com/checkout/ch_yjPmi0cxWkZd3At/
+- #379: The Cleanroom Air Change Rate (ACPH) & Particle Clean-Up Recovery OS ($49): https://whop.com/checkout/ch_yCoCgloPrVEGUZG/
+- #380: The Enterprise Kubernetes Multi-Cluster Service Mesh (Cilium Cluster Mesh) OS ($44): https://whop.com/checkout/ch_k2ffckk5wNLf6Cx/
