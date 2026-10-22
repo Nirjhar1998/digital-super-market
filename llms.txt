@@ -1,20 +1,17 @@
-# Digital Super Market (600 Operating Systems & Business Engines)
+# Digital Super Market (620 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 600 Master Assets (The Six-Century Milestone Complete)
+Catalog Size: 620 Master Assets (Milestone 620 Complete)
 
 ## Milestone Flagships
+- The Master Enterprise Milestone 620 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_ch2Hu8ukYTwZXaa/
+- The Master Enterprise Milestone 610 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_PAHTkh3ijnGeelk/
 - The Six-Century Enterprise Milestone Architecture & Operations Vault (600) ($49): https://whop.com/checkout/ch_VVUBP2RWj3zgGqU/
-- The Master Enterprise Milestone 590 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_UJ1soPyhyEm3K6H/
-- The Master Enterprise Milestone 580 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_3eHthmiwH0wtimX/
-- The Master Enterprise Milestone 570 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_wu5dRNjYhOMGXZJ/
-- The Master Enterprise Milestone 560 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_X05kWHGkY63u4x0/
-- The Master Mid-Century Enterprise Milestone 550 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_3RIdJmsxqOC4YQn/
 - The Half-Millennium Milestone Enterprise Operating Systems Vault (500) ($49): https://whop.com/checkout/ch_wk9I89EHprSkTN1/
 
-## Complete 600 Product Catalog List
+## Complete 620 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -615,3 +612,23 @@ Catalog Size: 600 Master Assets (The Six-Century Milestone Complete)
 - #598: The Biopharma Ultrafiltration Flux Decay & Fouling Resistance Series Model OS ($49): https://whop.com/checkout/ch_n44qL2OnbNHmHA3/
 - #599: The Enterprise ClickHouse MergeTree Dynamic Sharding & Replication Quorum OS ($44): https://whop.com/checkout/ch_UOMa8bGEvr1Ng3t/
 - #600: The Six-Century Enterprise Milestone Architecture & Operations Vault (600) ($49): https://whop.com/checkout/ch_VVUBP2RWj3zgGqU/
+- #601: The Biopharma Sterile Liquid Filling Pump Ceramic Rotary Piston Dosing OS ($49): https://whop.com/checkout/ch_zjnMpVszizNlv50/
+- #602: The Enterprise Apache DataSketches Streaming Cardinality & Quantiles Engine OS ($44): https://whop.com/checkout/ch_3JDp503WEt0Zw3s/
+- #603: The Subsea Manifold Piping Thermal Expansion Loop & Anchor Stress OS ($49): https://whop.com/checkout/ch_APFytNStGjsXtWx/
+- #604: The Commercial Chilled Water Pressure Independent Control Valve (PICV) OS ($44): https://whop.com/checkout/ch_dutN3Qeo5VQUznh/
+- #605: The Cleanroom HEPA Filter Face Velocity Uniformity Traverse ISO 14644-3 OS ($49): https://whop.com/checkout/ch_uMciLGX1oKBvKVF/
+- #606: The Enterprise eBPF Flow Log Kafka Streaming & Threat Detection OS ($44): https://whop.com/checkout/ch_Gd64A3ii6JRe8on/
+- #607: The Commercial Foundation Drilled Shaft Gamma-Gamma Density Logging ASTM D5880 OS ($44): https://whop.com/checkout/ch_TS7fbMqBWI2T0m6/
+- #608: The Biopharma Downstream Depth Filter Flushed Extractables TOC Qualification OS ($49): https://whop.com/checkout/ch_pgkXDoJalVd4yWB/
+- #609: The Enterprise Apache Pinot Real-Time Upsert & Star-Tree Index Engine OS ($44): https://whop.com/checkout/ch_NOcQXBAPrxIqYxR/
+- #610: The Master Enterprise Milestone 610 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_PAHTkh3ijnGeelk/
+- #611: The Biopharma Vial Stoppering Vacuum Level & Residual Headspace CCIT OS ($49): https://whop.com/checkout/ch_cWayUj5uDPUcKG2/
+- #612: The Enterprise Apache Arrow Flight SQL Client Caching & Driver Gateway OS ($44): https://whop.com/checkout/ch_aDoFQPuDRoC729T/
+- #613: The Subsea Control Pod (SCM) Electro-Hydraulic Multiplex (MUX) Solenoid OS ($49): https://whop.com/checkout/ch_xtoMnz9L7ZMKsT9/
+- #614: The Commercial Cooling Tower Variable Frequency Drive (VFD) Fan Resonance OS ($44): https://whop.com/checkout/ch_d0KGJJX00nS7yUN/
+- #615: The Cleanroom Isolator Glove Box Ergonomic Glove Port Placement & Reach OS ($49): https://whop.com/checkout/ch_BDCcQU45Smd8ruF/
+- #616: The Enterprise eBPF In-Kernel Memory Leak Detection & Page Allocation OS ($44): https://whop.com/checkout/ch_zbJz9vPwFhJDtzc/
+- #617: The Commercial Foundation Continuous Flight Auger (CFA) Automated Monitoring OS ($44): https://whop.com/checkout/ch_3A1hLYrbeJ7LyBx/
+- #618: The Biopharma Ultrafiltration Flux Recovery Enzymatic Cleanser Formulations OS ($49): https://whop.com/checkout/ch_jYD9spXplEbyuFl/
+- #619: The Enterprise ClickHouse Local File-System Direct Query & Parquet Interop OS ($44): https://whop.com/checkout/ch_VtjvfHLZ5bgIyjX/
+- #620: The Master Enterprise Milestone 620 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_ch2Hu8ukYTwZXaa/
