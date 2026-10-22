@@ -1,17 +1,17 @@
-# Digital Super Market (940 Operating Systems & Business Engines)
+# Digital Super Market (960 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 940 Master Assets (Milestone 940 Complete)
+Catalog Size: 960 Master Assets (Milestone 960 Complete)
 
 ## Milestone Flagships
+- The Master Enterprise Milestone 960 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_qvIrOFmRwy4UlLI/
+- The Master Enterprise Milestone 950 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_LUzk6mAQOaAjTkH/
 - The Master Enterprise Milestone 940 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_buUsBwopagKSTGf/
-- The Master Enterprise Milestone 930 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_anZSVUJYol3O0Lv/
-- The Master Enterprise Milestone 920 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_3E39kA5nQJtu7XH/
 - The Nine-Century Enterprise Milestone Architecture & Operations Vault (900) ($49): https://whop.com/checkout/ch_94fMlJiio2wwd1R/
 
-## Complete 940 Product Catalog List
+## Complete 960 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -952,3 +952,23 @@ Catalog Size: 940 Master Assets (Milestone 940 Complete)
 - #938: The Pharmaceutical Tablet Film Coating Perforated Pan Spray Dynamics OS ($39): https://whop.com/checkout/ch_kXhc88kG2V7GPy9/
 - #939: The Electric Grid High-Voltage Direct Current (HVDC) Modular Multilevel OS ($49): https://whop.com/checkout/ch_aJJy5K88EOOE8mD/
 - #940: The Master Enterprise Milestone 940 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_buUsBwopagKSTGf/
+- #941: The Deep Geological Nuclear Waste Repository Bentonite Buffer Swelling OS ($49): https://whop.com/checkout/ch_8hTtK2k9cg66hIN/
+- #942: The Industrial Cryogenic Air Separation Distillation Column Tray Hydraulics OS ($49): https://whop.com/checkout/ch_k46yDqrBRdFEWTK/
+- #943: The Biopharmaceutical Monoclonal Antibody Hydrophobic Interaction Chromatography OS ($49): https://whop.com/checkout/ch_QHD3Fg8ZZpvda2Q/
+- #944: The Semiconductor Silicon Carbide (SiC) Epitaxial Reactor Susceptor Uniformity OS ($49): https://whop.com/checkout/ch_jZIECwhkZbrUIt5/
+- #945: The Heavy Industrial Ball Mill Grinding Circuit Hydrocyclone Classification OS ($39): https://whop.com/checkout/ch_c0tl0YBtZOZrIiH/
+- #946: The Commercial Satellite Star Tracker Attitude Determination Kalman Filter OS ($49): https://whop.com/checkout/ch_1isiR9ouseaAaJH/
+- #947: The Pharmaceutical Sterile Freeze-Dryer Rubber Stopper Siliconization Dimethicone OS ($39): https://whop.com/checkout/ch_xJegB1ZGSgzmwXi/
+- #948: The Subsea Wet Gas Compression Multiphase Twin-Screw Differential Pressure OS ($49): https://whop.com/checkout/ch_qNWiSIqvD0rKjNF/
+- #949: The Enterprise eBPF-Based High-Throughput Kernel-Bypass DPDK Packet Capture OS ($49): https://whop.com/checkout/ch_14jIRTAfYhAM8ta/
+- #950: The Master Enterprise Milestone 950 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_LUzk6mAQOaAjTkH/
+- #951: The High-Speed Precision CNC 5-Axis Tool Center Point Management (TCPM) OS ($49): https://whop.com/checkout/ch_bCcvKtH5w2RaJpY/
+- #952: The Biopharmaceutical Tangential Flow Depth Filtration Harvesting Clarification OS ($49): https://whop.com/checkout/ch_6eOy00x99Mkwfbd/
+- #953: The Concentrated Solar Power (CSP) Molten Salt Thermal Energy Storage Tank OS ($49): https://whop.com/checkout/ch_2h4xZBYzkiIsy2A/
+- #954: The Commercial Aircraft Fly-by-Wire Triple-Redundant Primary Flight Control OS ($49): https://whop.com/checkout/ch_3YvE4rlgAEjt6OI/
+- #955: The Advanced Wastewater Membrane Bioreactor (MBR) Hollow Fiber Aeration Scour OS ($39): https://whop.com/checkout/ch_BPbMmF7NRXblWza/
+- #956: The Semiconductor Magnetron Sputtering Physical Vapor Deposition (PVD) Target OS ($49): https://whop.com/checkout/ch_vXvbyBceuaesRNE/
+- #957: The Pharmaceutical High-Shear Wet Granulation Impeller Torque Endpoint OS ($39): https://whop.com/checkout/ch_FmnSEfxalq8GcH7/
+- #958: The Industrial Supercritical CO2 Extraction Column Dense-Phase Fluid OS ($49): https://whop.com/checkout/ch_gVceBCSQhXJ1O33/
+- #959: The Railway Axle Bearing Acoustic Emission Ultrasonic High-Speed Defect OS ($39): https://whop.com/checkout/ch_exGB0o8SsFsbfQT/
+- #960: The Master Enterprise Milestone 960 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_qvIrOFmRwy4UlLI/
