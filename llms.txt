@@ -1,18 +1,20 @@
-# Digital Super Market (740 Operating Systems & Business Engines)
+# Digital Super Market (760 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 740 Master Assets (Milestone 740 Complete)
+Catalog Size: 760 Master Assets (Milestone 760 Complete)
 
 ## Milestone Flagships
+- The Master Enterprise Milestone 760 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_dqlRipOB4e7hZUI/
+- The Master Three-Quarter Century Milestone 750 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_8KLKaZWekos8LbD/
 - The Master Enterprise Milestone 740 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_YsFxr2KgQDPFytw/
 - The Master Enterprise Milestone 730 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_OeYPTpf6aYO3Xft/
 - The Master Enterprise Milestone 720 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_MPTqn92kIM7mLgF/
 - The Seven-Century Enterprise Milestone Architecture & Operations Vault (700) ($49): https://whop.com/checkout/ch_93QhdX9cj1Mi1YS/
 - The Six-Century Enterprise Milestone Architecture & Operations Vault (600) ($49): https://whop.com/checkout/ch_VVUBP2RWj3zgGqU/
 
-## Complete 740 Product Catalog List
+## Complete 760 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -753,3 +755,23 @@ Catalog Size: 740 Master Assets (Milestone 740 Complete)
 - #738: The Industrial Liquid Hydrogen (LH2) Ortho-to-Para Catalytic Conversion OS ($49): https://whop.com/checkout/ch_aEq0RqckiH3hYg5/
 - #739: The Pharmaceutical Hot-Melt Extrusion (HME) Amorphous Solid Dispersion (ASD) OS ($44): https://whop.com/checkout/ch_Nfx4ZCJhEETjt4B/
 - #740: The Master Enterprise Milestone 740 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_YsFxr2KgQDPFytw/
+- #741: The Semiconductor Atomic Layer Etching (ALE) Self-Limiting Fluorination OS ($49): https://whop.com/checkout/ch_6O5cWMM2Yf8wECX/
+- #742: The Pharmaceutical Kinetic Turbidimetric Limulus Amebocyte Lysate (LAL) OS ($39): https://whop.com/checkout/ch_yXvmPJS1C22EApI/
+- #743: The Enterprise Weaviate HNSW Multi-Tenant Sharding & Hybrid Search OS ($44): https://whop.com/checkout/ch_pIvjhCnXqHiumQX/
+- #744: The Industrial Nitrogen Pressure Swing Adsorption (PSA) Carbon Molecular Sieve OS ($39): https://whop.com/checkout/ch_5ylLnU5Kc2eXBxg/
+- #745: The High-Speed Serial Interconnect Dual-Dirac Jitter Decomposition OS ($49): https://whop.com/checkout/ch_dVkFfijrQPVFXQA/
+- #746: The Semiconductor Cleanroom Overhead Ionizing Blower Static Charge Decay OS ($39): https://whop.com/checkout/ch_ss8lL5WyOBCYiCd/
+- #747: The Enterprise Multi-Region Cilium Cluster Mesh Cross-Cloud WireGuard OS ($44): https://whop.com/checkout/ch_mUqtbtLwZVKbUMd/
+- #748: The Offshore Subsea Flowline Paraffin Wax Deposition & Thermodynamic Cloud Point OS ($44): https://whop.com/checkout/ch_RdWfPnOdq7oWBFG/
+- #749: The High-Throughput Apache Arrow Plasma In-Memory Shared Object Store Engine OS ($44): https://whop.com/checkout/ch_nSeaprh6lnczNp7/
+- #750: The Master Three-Quarter Century Milestone 750 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_8KLKaZWekos8LbD/
+- #751: The Semiconductor Copper Dual-Damascene Electrochemical Plating (ECD) OS ($49): https://whop.com/checkout/ch_hluMEWKGxuVjqMS/
+- #752: The Pharmaceutical Tablet Friability Drum Testing & Weight Loss USP 1216 OS ($39): https://whop.com/checkout/ch_vpFexIRtN0G6Icq/
+- #753: The Enterprise Apache Kafka Consumer Lag Sliding Window Evaluation & Alerting OS ($44): https://whop.com/checkout/ch_z6UAvdmq4b1wgkJ/
+- #754: The Industrial Selective Non-Catalytic Reduction (SNCR) NOx Abatement Protocol OS ($39): https://whop.com/checkout/ch_jllurEovKH6q5jX/
+- #755: The High-Performance Rust Cloudflare Quiche HTTP/3 & QUIC Transport Engine OS ($49): https://whop.com/checkout/ch_EptZ4zWoCcITA2n/
+- #756: The Class II Type A2 Biological Safety Cabinet (BSC) Airflow Velocity Profile OS ($39): https://whop.com/checkout/ch_rS4L2hs6TqiLCnH/
+- #757: The Enterprise ClickHouse Dual-Tier Local NVMe & Cloud S3 Intelligent Migration OS ($44): https://whop.com/checkout/ch_X0dIcJpodc3fgDJ/
+- #758: The Industrial Cryogenic Liquid Helium (LHe 4.2K) Zero-Boil-Off Re-Liquefier OS ($49): https://whop.com/checkout/ch_vheJxEfiYqesIRc/
+- #759: The Pharmaceutical Solvent-Free Hot-Melt Coating (HMC) Lipid Micro-Encapsulation OS ($44): https://whop.com/checkout/ch_GhMJEE4T6DxV0FL/
+- #760: The Master Enterprise Milestone 760 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_dqlRipOB4e7hZUI/
