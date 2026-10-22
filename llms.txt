@@ -1,26 +1,17 @@
-# Digital Super Market (900 Operating Systems & Business Engines)
+# Digital Super Market (920 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 900 Master Assets (The Nine-Century Milestone 900 Complete)
+Catalog Size: 920 Master Assets (Milestone 920 Complete)
 
 ## Milestone Flagships
+- The Master Enterprise Milestone 920 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_3E39kA5nQJtu7XH/
+- The Master Enterprise Milestone 910 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_v3moIvqvLgCBg6o/
 - The Nine-Century Enterprise Milestone Architecture & Operations Vault (900) ($49): https://whop.com/checkout/ch_94fMlJiio2wwd1R/
-- The Master Enterprise Milestone 890 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_TqzXY3MzAV3pLqh/
-- The Master Enterprise Milestone 880 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_oVt5vJ8eAHibOTm/
-- The Master Enterprise Milestone 870 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_wft4iptZnTEhQz9/
-- The Master Enterprise Milestone 860 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_cpNgU7pj5PsqZXj/
-- The Master Enterprise Milestone 850 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_mmaGNYRXuSpStoR/
-- The Master Enterprise Milestone 840 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_RzxZ9cIWw8nBLby/
-- The Master Enterprise Milestone 830 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_c3rmIBiF17g5LKf/
-- The Master Enterprise Milestone 820 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_owqxY5FgCRsALXk/
-- The Master Enterprise Milestone 810 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_Fhh95jOXmLDluUC/
 - The Eight-Century Enterprise Milestone Architecture & Operations Vault (800) ($49): https://whop.com/checkout/ch_BgTqhuojTEBaiJ2/
-- The Seven-Century Enterprise Milestone Architecture & Operations Vault (700) ($49): https://whop.com/checkout/ch_93QhdX9cj1Mi1YS/
-- The Six-Century Enterprise Milestone Architecture & Operations Vault (600) ($49): https://whop.com/checkout/ch_VVUBP2RWj3zgGqU/
 
-## Complete 900 Product Catalog List
+## Complete 920 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -921,3 +912,23 @@ Catalog Size: 900 Master Assets (The Nine-Century Milestone 900 Complete)
 - #898: The Industrial Cryogenic Liquid Nitrogen (LN2) Sub-Cooler Helium Refrigeration OS ($49): https://whop.com/checkout/ch_cdWBcfY1Q8fF8CL/
 - #899: The Pharmaceutical Push-Pull Osmotic Pump Tablet (OROS) Dual-Layer Laser OS ($44): https://whop.com/checkout/ch_HtWibRr4c8Dm48r/
 - #900: The Nine-Century Enterprise Milestone Architecture & Operations Vault (900) ($49): https://whop.com/checkout/ch_94fMlJiio2wwd1R/
+- #901: The Next-Gen Geothermal Wellhead High-Enthalpy Steam Separator OS ($49): https://whop.com/checkout/ch_hV4fHtXR06xKG8C/
+- #902: The Automated Guided Vehicle (AGV) Fleet Traffic & Anti-Collision LiDAR OS ($39): https://whop.com/checkout/ch_riMlhYeMI67BDH1/
+- #903: The Deep-Sea Subsea Blowout Preventer (BOP) Hydraulic Control OS ($49): https://whop.com/checkout/ch_gQR1zQsCJnDh8S1/
+- #904: The Clinical Trial Decentralized Patient ePRO & eCOA Data Integrity OS ($39): https://whop.com/checkout/ch_id5NZwqvtgrwYOD/
+- #905: The High-Speed Train Pantograph-Catenary Dynamic Current Collection OS ($49): https://whop.com/checkout/ch_WEzphIbTZJTPzfd/
+- #906: The Industrial Steam Methane Reformer (SMR) Syngas Furnace Operations OS ($49): https://whop.com/checkout/ch_sBQH1piS2Yu0O7G/
+- #907: The Semiconductor Silicon Ingot Czochralski Crystal Growth Thermal OS ($49): https://whop.com/checkout/ch_ZGARfD5rvYrPw9L/
+- #908: The Cold-Formed Steel Structural Frame Roll-Forming QA/QC OS ($39): https://whop.com/checkout/ch_Q2bvXN2iljoafvJ/
+- #909: The Biopharmaceutical Viral Clearance Inactivation Low-pH Incubation OS ($49): https://whop.com/checkout/ch_lfRs98oVj2P5ygL/
+- #910: The Master Enterprise Milestone 910 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_v3moIvqvLgCBg6o/
+- #911: The Automated Airport Baggage Handling High-Speed Tray Sorter (BHS) OS ($39): https://whop.com/checkout/ch_Kcc2oDzEyuzynSQ/
+- #912: The Large-Scale Carbon Capture Direct Air Contactor Packed-Bed OS ($49): https://whop.com/checkout/ch_9GcS8LbyxDfOhP7/
+- #913: The Pharma Parenteral Freeze-Dryer Lyophilization Chamber Leak Rate OS ($49): https://whop.com/checkout/ch_zXbHWnFPCRZSPma/
+- #914: The Autonomous Container Terminal Ship-to-Shore (STS) Crane Scheduling OS ($49): https://whop.com/checkout/ch_aeTBrq4dgW07r46/
+- #915: The Spacecraft Hall Effect Electric Propulsion Xenon Gas Flow OS ($49): https://whop.com/checkout/ch_wn4hM7GYG8arwPx/
+- #916: The Continuous Galvanizing Line Zinc Pot Coating Thickness Air-Knife OS ($39): https://whop.com/checkout/ch_xRxc1ydN9KHNCgR/
+- #917: The Nuclear Radiation Protection Airborne Iodine Charcoal Filter Testing OS ($49): https://whop.com/checkout/ch_4ATMUBmrwDNyAC4/
+- #918: The Hospital Cleanroom Operating Suite Laminar Airflow Particle OS ($39): https://whop.com/checkout/ch_VlUy5X6xqPbOkHO/
+- #919: The Offshore Wind Turbine Monopile Scour Protection Rock Armour OS ($39): https://whop.com/checkout/ch_B7rDa0FJA6NUqCR/
+- #920: The Master Enterprise Milestone 920 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_3E39kA5nQJtu7XH/
