@@ -1,18 +1,20 @@
-# Digital Super Market (820 Operating Systems & Business Engines)
+# Digital Super Market (840 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 820 Master Assets (Milestone 820 Complete)
+Catalog Size: 840 Master Assets (Milestone 840 Complete)
 
 ## Milestone Flagships
+- The Master Enterprise Milestone 840 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_RzxZ9cIWw8nBLby/
+- The Master Enterprise Milestone 830 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_c3rmIBiF17g5LKf/
 - The Master Enterprise Milestone 820 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_owqxY5FgCRsALXk/
 - The Master Enterprise Milestone 810 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_Fhh95jOXmLDluUC/
 - The Eight-Century Enterprise Milestone Architecture & Operations Vault (800) ($49): https://whop.com/checkout/ch_BgTqhuojTEBaiJ2/
 - The Seven-Century Enterprise Milestone Architecture & Operations Vault (700) ($49): https://whop.com/checkout/ch_93QhdX9cj1Mi1YS/
 - The Six-Century Enterprise Milestone Architecture & Operations Vault (600) ($49): https://whop.com/checkout/ch_VVUBP2RWj3zgGqU/
 
-## Complete 820 Product Catalog List
+## Complete 840 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -833,3 +835,23 @@ Catalog Size: 820 Master Assets (Milestone 820 Complete)
 - #818: The Industrial Cryogenic Liquid Nitrogen (LN2) Phase Separator De-Gasser OS ($44): https://whop.com/checkout/ch_pV6fIJqYbf1vz6I/
 - #819: The Pharmaceutical Tablet Edge Chipping & Abrasion In-Line 3D Laser Profiling OS ($44): https://whop.com/checkout/ch_Js2aD3sHbMkMAdc/
 - #820: The Master Enterprise Milestone 820 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_owqxY5FgCRsALXk/
+- #821: The Semiconductor Cryogenic Deep Silicon Etch (-120C) High-Aspect Ratio OS ($49): https://whop.com/checkout/ch_8U7m6wFhsDzmiWW/
+- #822: The Pharmaceutical Powder Bulk & Tapped Density Hausner Ratio USP 616 OS ($39): https://whop.com/checkout/ch_OcWFBp5QUeu2WVi/
+- #823: The Apache Kafka Tiered Storage S3 Glacier Instant Retrieval Archiving OS ($44): https://whop.com/checkout/ch_UNA5tRbMcd5EgAS/
+- #824: The Industrial Direct Contact Membrane Distillation (DCMD) Zero-Liquid Discharge OS ($39): https://whop.com/checkout/ch_WJ9Svd8c4zwzhEN/
+- #825: The Enterprise PCI Express 6.0 256-Byte FLIT Mode Retry Buffer Integrity OS ($49): https://whop.com/checkout/ch_88F4kjyp5DkxXTJ/
+- #826: The Pharmaceutical Aseptic Isolator VHP Non-Condensing Relative Saturation OS ($39): https://whop.com/checkout/ch_7UOiJDxLbLoGAwr/
+- #827: The Enterprise Cilium Service Mesh Rust WebAssembly (Wasm) L7 Filter Engine OS ($44): https://whop.com/checkout/ch_1x5F4nj3WvQ7ME5/
+- #828: The Offshore Subsea Riser Topside Active Slug Control Valve (ASCV) Dynamic OS ($44): https://whop.com/checkout/ch_rE7PaeFS7uaqVyT/
+- #829: The Enterprise Apache Arrow Flight SQL Native C++ ODBC Driver Architecture OS ($44): https://whop.com/checkout/ch_gmQHwvjfNgZrE74/
+- #830: The Master Enterprise Milestone 830 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_c3rmIBiF17g5LKf/
+- #831: The Semiconductor Atomic Layer Deposition (ALD) ZrO2 DRAM Capacitor Dielectric OS ($49): https://whop.com/checkout/ch_CwG6hnX1gPBTOmR/
+- #832: The Pharmaceutical Powder Particle Size Distribution Laser Diffraction USP 429 OS ($39): https://whop.com/checkout/ch_kxjp5JFbtsZEqt5/
+- #833: The Apache Kafka Tiered Storage Multi-AZ Rack-Aware Partition Placement OS ($44): https://whop.com/checkout/ch_ksV7MslGo5rAMJ0/
+- #834: The Industrial Forward Osmosis (FO) Thin-Film Composite Concentration OS ($39): https://whop.com/checkout/ch_vdjZayuODZyIYon/
+- #835: The High-Performance Rust Tower & Hyper Service Middleware Composition OS ($49): https://whop.com/checkout/ch_5p56PDsDBpqaGhq/
+- #836: The Pharmaceutical Cleanroom VHP Material Degradation & Elastomer Resilience OS ($39): https://whop.com/checkout/ch_FDAqCLpGGMstC5r/
+- #837: The Enterprise ClickHouse Dynamic Storage Volume Rebalancing & Disk Thrash OS ($44): https://whop.com/checkout/ch_VMzPdsSp6uuqVPr/
+- #838: The Industrial Cryogenic Liquid Nitrogen (LN2) Jet Ejector Vacuum Sub-Cooler OS ($44): https://whop.com/checkout/ch_LEbkl9HEuUNXVpo/
+- #839: The Pharmaceutical Film-Coated Tablet CIELAB Color Difference Spectrophotometry OS ($39): https://whop.com/checkout/ch_OHHNktiUIsDmai7/
+- #840: The Master Enterprise Milestone 840 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_RzxZ9cIWw8nBLby/
