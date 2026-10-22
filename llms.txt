@@ -1,17 +1,17 @@
-# Digital Super Market (960 Operating Systems & Business Engines)
+# Digital Super Market (980 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 960 Master Assets (Milestone 960 Complete)
+Catalog Size: 980 Master Assets (Milestone 980 Complete)
 
 ## Milestone Flagships
+- The Master Enterprise Milestone 980 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_L8bocCM0r54fpAL/
+- The Master Enterprise Milestone 970 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_jE1jZkEB6J8YXj2/
 - The Master Enterprise Milestone 960 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_qvIrOFmRwy4UlLI/
-- The Master Enterprise Milestone 950 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_LUzk6mAQOaAjTkH/
-- The Master Enterprise Milestone 940 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_buUsBwopagKSTGf/
 - The Nine-Century Enterprise Milestone Architecture & Operations Vault (900) ($49): https://whop.com/checkout/ch_94fMlJiio2wwd1R/
 
-## Complete 960 Product Catalog List
+## Complete 980 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -972,3 +972,23 @@ Catalog Size: 960 Master Assets (Milestone 960 Complete)
 - #958: The Industrial Supercritical CO2 Extraction Column Dense-Phase Fluid OS ($49): https://whop.com/checkout/ch_gVceBCSQhXJ1O33/
 - #959: The Railway Axle Bearing Acoustic Emission Ultrasonic High-Speed Defect OS ($39): https://whop.com/checkout/ch_exGB0o8SsFsbfQT/
 - #960: The Master Enterprise Milestone 960 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_qvIrOFmRwy4UlLI/
+- #961: The Subsea Wellhead Annulus Pressure Buildup (APB) Thermal Mitigation OS ($49): https://whop.com/checkout/ch_WcxKyGYadchhGyJ/
+- #962: The Pharmaceutical Automated Visual Inspection (AVI) Deep Learning Particulate OS ($49): https://whop.com/checkout/ch_ngC5NW7aeYqYE3D/
+- #963: The Spacecraft Solar Array Drive Mechanism (SADM) Slip-Ring Power Transfer OS ($49): https://whop.com/checkout/ch_V0SHwXZhibDsgMd/
+- #964: The Industrial Biogas Anaerobic Digestion Continuous Stirred Tank (CSTR) OS ($39): https://whop.com/checkout/ch_h7G9mZrPr6S97BC/
+- #965: The Semiconductor Atomic Layer Etching (ALE) Self-Limiting Halogen Reaction OS ($49): https://whop.com/checkout/ch_oWeKJJCvl2p9Dlh/
+- #966: The High-Speed Railway Electric Traction Inverter Vector Control FOC OS ($49): https://whop.com/checkout/ch_5WoStUi14gU6Llf/
+- #967: The Pharma Lyophilized Cake Micro-Collapse Sublimation Front Metrology OS ($49): https://whop.com/checkout/ch_cK6QJwXL07FrQ5R/
+- #968: The Large-Scale Battery Energy Storage (BESS) Deflagration Explosion Venting OS ($49): https://whop.com/checkout/ch_4Ufq8h9L91uUDlK/
+- #969: The Enterprise Apache Iceberg Metadata Compaction & Snapshot Lifecycle OS ($39): https://whop.com/checkout/ch_xAA0tYZW7cZMY0j/
+- #970: The Master Enterprise Milestone 970 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_jE1jZkEB6J8YXj2/
+- #971: The Nuclear Reactor Primary Containment Integrated Leak Rate Testing (ILRT) OS ($49): https://whop.com/checkout/ch_eTuvtrILyTjYNcK/
+- #972: The Commercial Aviation Electronic Flight Bag (EFB) Performance Calculation OS ($39): https://whop.com/checkout/ch_S5npX3y3GIdbi6E/
+- #973: The Biopharmaceutical Monoclonal Antibody Hydrodynamic Cavitation Viral Filtration OS ($49): https://whop.com/checkout/ch_wQHfTB5hDFCRuQl/
+- #974: The Heavy Industrial SAG Mill Rock-on-Rock Autogenous Grinding Discharge OS ($49): https://whop.com/checkout/ch_sLQAuMghRZiobYm/
+- #975: The Semiconductor 3D NAND High-Aspect-Ratio Memory Channel Hole Plasma Etch OS ($49): https://whop.com/checkout/ch_ydwD7k7Znx5JpO9/
+- #976: The Offshore Floating Production Storage & Offloading (FPSO) Turret Swivel OS ($49): https://whop.com/checkout/ch_oGgqOBCmcHUamsy/
+- #977: The Pharmaceutical Sterile Fluid Transfer Aseptic Single-Use Disconnector OS ($39): https://whop.com/checkout/ch_J47i2tW5Fz7oJIf/
+- #978: The High-Voltage Gas-Insulated Switchgear (GIS) SF6 Gas Leak Laser Infrared OS ($49): https://whop.com/checkout/ch_JMttJaKatnmujum/
+- #979: The Industrial Vacuum Pressure Swing Adsorption (VPSA) Oxygen Generator OS ($39): https://whop.com/checkout/ch_yrPA7uSmgv2ytlW/
+- #980: The Master Enterprise Milestone 980 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_L8bocCM0r54fpAL/
