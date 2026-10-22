@@ -1,17 +1,17 @@
-# Digital Super Market (920 Operating Systems & Business Engines)
+# Digital Super Market (940 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 920 Master Assets (Milestone 920 Complete)
+Catalog Size: 940 Master Assets (Milestone 940 Complete)
 
 ## Milestone Flagships
+- The Master Enterprise Milestone 940 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_buUsBwopagKSTGf/
+- The Master Enterprise Milestone 930 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_anZSVUJYol3O0Lv/
 - The Master Enterprise Milestone 920 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_3E39kA5nQJtu7XH/
-- The Master Enterprise Milestone 910 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_v3moIvqvLgCBg6o/
 - The Nine-Century Enterprise Milestone Architecture & Operations Vault (900) ($49): https://whop.com/checkout/ch_94fMlJiio2wwd1R/
-- The Eight-Century Enterprise Milestone Architecture & Operations Vault (800) ($49): https://whop.com/checkout/ch_BgTqhuojTEBaiJ2/
 
-## Complete 920 Product Catalog List
+## Complete 940 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -932,3 +932,23 @@ Catalog Size: 920 Master Assets (Milestone 920 Complete)
 - #918: The Hospital Cleanroom Operating Suite Laminar Airflow Particle OS ($39): https://whop.com/checkout/ch_VlUy5X6xqPbOkHO/
 - #919: The Offshore Wind Turbine Monopile Scour Protection Rock Armour OS ($39): https://whop.com/checkout/ch_B7rDa0FJA6NUqCR/
 - #920: The Master Enterprise Milestone 920 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_3E39kA5nQJtu7XH/
+- #921: The Subsea Power Cable Jointing & High-Voltage Cross-Linked PE (XLPE) OS ($49): https://whop.com/checkout/ch_1u7TViZ22dBWl4y/
+- #922: The Pharmaceutical Lyophilized Vial Headspace Oxygen Laser Metrology OS ($49): https://whop.com/checkout/ch_8qJXF6bFFo4QPVW/
+- #923: The Aerospace Carbon-Carbon Aircraft Brake Disc Thermal Oxidation OS ($49): https://whop.com/checkout/ch_Vai7Y5FtmvoUYT1/
+- #924: The High-Throughput Microplate Automated Liquid Handler Calibration OS ($39): https://whop.com/checkout/ch_5ookJWUjSyYswrr/
+- #925: The Utility-Scale Photovoltaic Central Inverter IGBT Thermal Cycling OS ($49): https://whop.com/checkout/ch_XUZqN4DBxsnLi6d/
+- #926: The Liquefied Natural Gas (LNG) Cryogenic Submerged Motor Pump OS ($49): https://whop.com/checkout/ch_ZENVrPjOZ5VO5uB/
+- #927: The Semiconductor Chemical Mechanical Planarization (CMP) Slurry Flow OS ($49): https://whop.com/checkout/ch_HYPPoe7XmkB3yug/
+- #928: The Industrial Ammonia Refrigeration Two-Stage Compression Safety OS ($39): https://whop.com/checkout/ch_Vfa2DCaN7heXlmV/
+- #929: The Biologics Single-Use Bioreactor (SUB) Film Extractables and Leachables OS ($49): https://whop.com/checkout/ch_ITBECEjjG68nlxX/
+- #930: The Master Enterprise Milestone 930 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_anZSVUJYol3O0Lv/
+- #931: The Nuclear Spent Fuel Pool Passive Cooling & Siphon Break System OS ($49): https://whop.com/checkout/ch_bxABcbVoUKcBtMN/
+- #932: The High-Speed Autonomous Sorting Conveyor Linear Synchronous Motor OS ($39): https://whop.com/checkout/ch_TBRmtWSpYhEzBQE/
+- #933: The Offshore Spar Platform Polyester Mooring Line Taut-Leg Anchoring OS ($49): https://whop.com/checkout/ch_CAR4UXcN7zMk409/
+- #934: The Biopharmaceutical Downstream Tangential Flow Filtration (TFF) OS ($49): https://whop.com/checkout/ch_TqzYRz9CKW7AKme/
+- #935: The Hypersonic Wind Tunnel Arc-Heater Enthalpy Flow Metrology OS ($49): https://whop.com/checkout/ch_Lg9BnerRWXKDqaG/
+- #936: The High-Pressure Composite Overwrapped Pressure Vessel (COPV) Type IV OS ($49): https://whop.com/checkout/ch_LMCTbNKnEVXCxJl/
+- #937: The Semiconductor EUV Photolithography Reticle Pod (EUP) Cleanliness OS ($49): https://whop.com/checkout/ch_DlKeGnNnEGvEJyW/
+- #938: The Pharmaceutical Tablet Film Coating Perforated Pan Spray Dynamics OS ($39): https://whop.com/checkout/ch_kXhc88kG2V7GPy9/
+- #939: The Electric Grid High-Voltage Direct Current (HVDC) Modular Multilevel OS ($49): https://whop.com/checkout/ch_aJJy5K88EOOE8mD/
+- #940: The Master Enterprise Milestone 940 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_buUsBwopagKSTGf/
