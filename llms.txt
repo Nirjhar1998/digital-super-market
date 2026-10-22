@@ -1,17 +1,17 @@
-# Digital Super Market (640 Operating Systems & Business Engines)
+# Digital Super Market (660 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 640 Master Assets (Milestone 640 Complete)
+Catalog Size: 660 Master Assets (Milestone 660 Complete)
 
 ## Milestone Flagships
+- The Master Enterprise Milestone 660 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_zRKIF3i6M6O0PlE/
+- The Master Mid-Decade Enterprise Milestone 650 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_UArZz1U2ty3QpWK/
 - The Master Enterprise Milestone 640 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_n2ofjeLlWjG2DEE/
-- The Master Enterprise Milestone 630 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_11UUtRpYMfRIzlC/
-- The Master Enterprise Milestone 620 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_ch2Hu8ukYTwZXaa/
 - The Six-Century Enterprise Milestone Architecture & Operations Vault (600) ($49): https://whop.com/checkout/ch_VVUBP2RWj3zgGqU/
 
-## Complete 640 Product Catalog List
+## Complete 660 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -652,3 +652,23 @@ Catalog Size: 640 Master Assets (Milestone 640 Complete)
 - #638: The Biopharma Preparative Column Bed Void Formation & Resin Repacking SOP OS ($49): https://whop.com/checkout/ch_t768be5I4a3EDqh/
 - #639: The Enterprise ClickHouse Asynchronous Insert Buffer & High-Throughput Batch OS ($44): https://whop.com/checkout/ch_Z45AMXGoKtmIoId/
 - #640: The Master Enterprise Milestone 640 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_n2ofjeLlWjG2DEE/
+- #641: The Biopharma Isolator Dynamic Pressure Hold Test & Glove Leak Rate ISO 10648-2 OS ($49): https://whop.com/checkout/ch_apDW6aCjQIghlXF/
+- #642: The Enterprise Apache Arrow Flight SQL Distributed Client Query Routing OS ($44): https://whop.com/checkout/ch_PkbatdTl0pwXo3J/
+- #643: The Subsea Flowline Thermal Expansion Spool Piece Metrology & Tie-In OS ($49): https://whop.com/checkout/ch_Y6SHCK50NG6iWrt/
+- #644: The Commercial Chilled Water Decoupled Decoupler Header Bypass Sizing OS ($44): https://whop.com/checkout/ch_Sq8MEQganbXseWe/
+- #645: The Cleanroom Depyrogenation Dry Heat Oven Thermal Uniformity Survey OS ($49): https://whop.com/checkout/ch_JnyF4MytdeytGqk/
+- #646: The Enterprise eBPF Layer 7 HTTP/2 & gRPC Header Injection & Routing OS ($44): https://whop.com/checkout/ch_DnEN3DGQ4Kj30B7/
+- #647: The Commercial Foundation Drilled Shaft Downhole Video Inspection Device OS ($44): https://whop.com/checkout/ch_7CF2qh3vNGG1WL7/
+- #648: The Biopharma Single-Pass Tangential Flow Filtration In-Line Diafiltration OS ($49): https://whop.com/checkout/ch_DvIZCWGOsR6ZtaG/
+- #649: The Enterprise Apache Doris Inverted Index Full-Text Search Engine OS ($44): https://whop.com/checkout/ch_gmFOaDdtEPa5d36/
+- #650: The Master Mid-Decade Enterprise Milestone 650 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_UArZz1U2ty3QpWK/
+- #651: The Biopharma Chromatography Column Resin Packing Pressure Flow Curve OS ($49): https://whop.com/checkout/ch_HXy3lFYFqmcqoYj/
+- #652: The Enterprise Rust Polars Custom Vectorized Expression & Arrow Extension OS ($44): https://whop.com/checkout/ch_nVtYUbdScOwFEtJ/
+- #653: The Subsea Pig Trap Interlock Safety System (QAC Mechanical Trapped Key) OS ($49): https://whop.com/checkout/ch_omBZ4Vd6oUejuIg/
+- #654: The Commercial Variable Refrigerant Flow (VRF) Branch Selector Valve Oil Return OS ($44): https://whop.com/checkout/ch_2NTwpvNnR2vUeEU/
+- #655: The Cleanroom Glove Box Glove Integrity Automated Multi-Port Pressure Decay OS ($49): https://whop.com/checkout/ch_7CDMs8m7idb35hB/
+- #656: The Enterprise eBPF Ingress Network Packet Telemetry & Ring Buffer Metric OS ($44): https://whop.com/checkout/ch_ecto8QtE8eOklyL/
+- #657: The Commercial Foundation Drilled Shaft Ultrasonic Crosshole Tomography (CSL) OS ($44): https://whop.com/checkout/ch_pgvhhCuVeohs3yR/
+- #658: The Biopharma Ultrafiltration Flux Recovery Surfactant Washing & NWP Recovery OS ($49): https://whop.com/checkout/ch_Lx6YEVIp9pHTMCE/
+- #659: The Enterprise ClickHouse MergeTree Zero-Copy Partition Move & Remote S3 OS ($44): https://whop.com/checkout/ch_n5l3hMUUZShtCOY/
+- #660: The Master Enterprise Milestone 660 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_zRKIF3i6M6O0PlE/
