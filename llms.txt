@@ -1,11 +1,12 @@
-# Digital Super Market (510 Operating Systems & Business Engines)
+# Digital Super Market (520 Operating Systems & Business Engines)
 > Production-grade, 100% Halal Trade verified operational systems, Notion portals, financial models, developer boilers, and legal frameworks.
 
 Storefront: https://nirjhar1998.github.io/digital-super-market/
 Whop Hub: https://whop.com/digital-super-market/
-Catalog Size: 510 Master Assets (Milestone 510 Complete)
+Catalog Size: 520 Master Assets (Milestone 520 Complete)
 
 ## Milestone Flagships
+- The Master Enterprise Milestone 520 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_5u6okZII8FgGo92/
 - The Master Enterprise Milestone 510 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_4yAoGn6YOS6n87a/
 - The Half-Millennium Milestone Enterprise Operating Systems Vault (500) ($49): https://whop.com/checkout/ch_wk9I89EHprSkTN1/
 - The Master Mid-Century Enterprise Milestone Architecture & Operations Vault (450) ($49): https://whop.com/checkout/ch_jbpTNWpEYW4G3Vw/
@@ -16,7 +17,7 @@ Catalog Size: 510 Master Assets (Milestone 510 Complete)
 - The Bicentenial Enterprise Milestone Architecture & Operations Vault (200) ($49): https://whop.com/checkout/ch_7664QZ9pL1WdZ6P/
 - The Century Enterprise Milestone Architecture & Operations Vault (100) ($49): https://whop.com/checkout/ch_ZgT6xY1b8p6R7lU/
 
-## Complete 510 Product Catalog List
+## Complete 520 Product Catalog List
 - #1: The Enterprise Operating System & Business Vault (Century Master 100 Edition) ($49): https://whop.com/checkout/plan_Lbl55hKEa44Ga
 - #2: The Craft Brewery Production Batch, Fermentation & TTB Compliance OS ($29): https://whop.com/checkout/plan_EgeYKFmMwjK4v
 - #3: The Residential Property Short-Term Rental Co-Hosting Agreement OS ($27): https://whop.com/checkout/plan_6EcAGu84BdizK
@@ -527,3 +528,13 @@ Catalog Size: 510 Master Assets (Milestone 510 Complete)
 - #508: The Biopharma Tangential Flow Filtration (TFF) Membrane Integrity & Diffusion OS ($49): https://whop.com/checkout/ch_sbIIwhTH8ZMvf6o/
 - #509: The Enterprise Apache SeaTunnel Connector Engine & Dynamic Source Sharding OS ($44): https://whop.com/checkout/ch_TAQNun3UMhRhAih/
 - #510: The Master Enterprise Milestone 510 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_4yAoGn6YOS6n87a/
+- #511: The Biopharma Lyophilizer Heat Transfer Oil Circulation Pump Cavitation & Vibration OS ($49): https://whop.com/checkout/ch_i5xCpBe0XIH4VeB/
+- #512: The Enterprise Apache Calcite Cost-Based Query Optimizer (CBO) Engine OS ($44): https://whop.com/checkout/ch_i4kOx9af1fDn724/
+- #513: The Subsea Choke Valve Erosion Rate Modeling & Tungsten Carbide Trim OS ($49): https://whop.com/checkout/ch_mQq8LzNPvInH6my/
+- #514: The Commercial Direct Expansion (DX) Refrigeration Superheat Hunting & TXV Hunting OS ($44): https://whop.com/checkout/ch_oaVexM5UUbpMWcI/
+- #515: The Cleanroom Restricted Access Barrier System (RABS) Glove Integrity Testing OS ($49): https://whop.com/checkout/ch_cwJDsCFcHnKcfnP/
+- #516: The Enterprise eBPF Tetragon Real-Time Security Observability & Runtime Enforcement OS ($44): https://whop.com/checkout/ch_gjaqf2hP7uZkIDS/
+- #517: The Commercial Foundation Thermal Integrity Profiling (TIP) for Drilled Shafts ASTM D7949 OS ($44): https://whop.com/checkout/ch_NqshzPfG6PeyPbT/
+- #518: The Biopharma Chromatography Column Radial Flow Packing & HETP Peak Fronting OS ($49): https://whop.com/checkout/ch_FzR0JFecN0HqvwT/
+- #519: The Enterprise Apache Doris MPP Real-Time Analytic Database Engine OS ($44): https://whop.com/checkout/ch_ERhzDZWQH69CcOh/
+- #520: The Master Enterprise Milestone 520 Architecture & Operations Vault ($49): https://whop.com/checkout/ch_5u6okZII8FgGo92/
