@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Boutique Law Firm Client Engagement, Retainer &amp; Conflict Check OS — Live Interactive Dashboard</title>
+  <style>
+    :root {
+      --primary: #d97706;
+      --bg: #090d16;
+      --card-bg: #0f172a;
+      --card-border: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --green: #10b981;
+      --gold: #f59e0b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; }
+    
+    .top-nav { background: #0f172a; border-bottom: 1px solid var(--card-border); padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; backdrop-filter: blur(8px); }
+    .nav-links { display: flex; gap: 14px; align-items: center; }
+    .nav-link { color: var(--muted); text-decoration: none; font-size: 0.88rem; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
+    .nav-link:hover { color: #fff; }
+    
+    .cta-actions { display: flex; gap: 10px; align-items: center; }
+    .btn-buy-nav { background: var(--green); color: #000; font-weight: 800; padding: 8px 18px; border-radius: 8px; text-decoration: none; font-size: 0.9rem; transition: transform 0.1s; }
+    .btn-buy-nav:hover { transform: translateY(-1px); }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 35px 20px 80px 20px; }
+    
+    header { border-bottom: 1px solid var(--card-border); padding-bottom: 24px; margin-bottom: 25px; }
+    .badge { display: inline-block; font-size: 0.75rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 12px; border-radius: 999px; background: rgba(255,255,255,0.08); color: #93c5fd; border: 1px solid var(--primary); margin-bottom: 12px; }
+    h1 { font-size: 2.1rem; font-weight: 800; color: #fff; margin-bottom: 8px; line-height: 1.25; }
+    .tagline { font-size: 1.05rem; color: var(--muted); max-width: 800px; }
+
+    .tabs { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 12px; margin-bottom: 25px; border-bottom: 1px solid var(--card-border); }
+    .tab-btn { background: #1e293b; color: var(--muted); border: 1px solid var(--card-border); padding: 10px 18px; border-radius: 8px; font-weight: 700; font-size: 0.88rem; cursor: pointer; white-space: nowrap; transition: all 0.2s; }
+    .tab-btn:hover { background: #334155; color: #fff; }
+    .tab-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+    
+    .content-card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 14px; padding: 32px; box-shadow: 0 10px 30px rgba(0,0,0,0.4); margin-bottom: 25px; }
+    .content-card h2 { font-size: 1.4rem; color: #fff; margin-bottom: 16px; border-bottom: 1px solid var(--card-border); padding-bottom: 10px; }
+    .content-card pre { background: #050811; border: 1px solid #1e293b; border-radius: 8px; padding: 18px; overflow-x: auto; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.88rem; color: #38bdf8; line-height: 1.5; margin-bottom: 20px; }
+    
+    .checklist-card { background: #0b1528; border: 1px solid #1e3a8a; border-radius: 12px; padding: 22px; margin-top: 20px; }
+    .checklist-title { font-size: 1.1rem; font-weight: 800; color: #93c5fd; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+    .check-item { display: flex; align-items: center; gap: 12px; padding: 10px 12px; background: rgba(255,255,255,0.03); margin-bottom: 8px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); }
+    .check-item input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--green); cursor: pointer; }
+    .check-item label { font-size: 0.92rem; color: #e2e8f0; cursor: pointer; flex-grow: 1; }
+
+    /* Sticky Bottom Banner */
+    .sticky-buy { background: linear-gradient(135deg, #111827 0%, #172554 100%); border: 1px solid #2563eb; border-radius: 14px; padding: 24px 28px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; margin-top: 30px; }
+    .sticky-price { font-size: 2rem; font-weight: 900; color: var(--green); }
+    .sticky-strike { color: #ef4444; font-size: 1rem; text-decoration: line-through; margin-right: 8px; }
+    .btn-buy-large { background: var(--green); color: #000; font-size: 1.05rem; font-weight: 800; padding: 14px 28px; border-radius: 10px; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: transform 0.1s; }
+    .btn-buy-large:hover { transform: translateY(-2px); }
+
+    @media print {
+      .top-nav, .tabs, .sticky-buy { display: none !important; }
+      .tab-content { display: block !important; }
+      body { background: #fff; color: #000; }
+      .content-card { background: #fff; border: 1px solid #ccc; color: #000; }
+      pre { background: #f8f8f8; color: #000; border-color: #ddd; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-nav">
+    <div class="nav-links">
+      <a href="../index.html" class="nav-link">← Master Storefront</a>
+      <a href="../products/7-the-boutique-law-firm-client-engagement-retainer-conflict-check-os.html" class="nav-link">📖 Product Overview</a>
+      <a href="https://whop.com/checkout/plan_McYiiQ51Vd5jy" class="nav-link" target="_blank" style="color:var(--gold);">👑 All-Access Vault ($97)</a>
+    </div>
+    <div class="cta-actions">
+      <button onclick="window.print()" style="background:#1e293b; color:#cbd5e1; border:1px solid #334155; padding:7px 14px; border-radius:6px; cursor:pointer; font-weight:600; font-size:0.82rem;">🖨️ PDF / Print</button>
+      <a href="https://whop.com/checkout/plan_uLo00N2Nv3Aga" class="btn-buy-nav" target="_blank" rel="noopener">⚡ Buy Now $6</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <header>
+      <span class="badge">Legal &amp; Agency Defense • System #7</span>
+      <h1>The Boutique Law Firm Client Engagement, Retainer &amp; Conflict Check OS</h1>
+      <div class="tagline">Master Retainers, Evergreen IOLTA Trust SOPs &amp; Prospective Conflict Audits</div>
+    </header>
+
+    <div class="tabs" id="tabNav">
+      
+        <button class="tab-btn active" onclick="switchTab(0)">Mod 01</button>
+      
+        <button class="tab-btn " onclick="switchTab(1)">Mod 02</button>
+      
+        <button class="tab-btn " onclick="switchTab(2)">Mod 03</button>
+      
+        <button class="tab-btn " onclick="switchTab(3)">Mod 04</button>
+      
+        <button class="tab-btn " onclick="switchTab(4)">Mod 05</button>
+      
+      <button class="tab-btn" onclick="switchTab(5)">Execution Checklist</button>
+    </div>
+
+    
+      <div class="tab-content active" id="tab-0">
+        <div class="content-card">
+          <h2>MASTER SCOPE OF WORK (SOW) ARCHITECTURE</h2>
+          <pre># MASTER SCOPE OF WORK (SOW) ARCHITECTURE
+**Standardized Technical Deliverables &amp; Boundary Definition Standard**
+
+&gt; **Attachment to Master Services Agreement**  
+&gt; **Project Name:** [Project / Engagement Title]  
+&gt; **Service Provider:** [Your Agency / Company Name] (&quot;Provider&quot;)  
+&gt; **Client:** [Client Company Legal Name] (&quot;Client&quot;)  
+&gt; **Effective Date:** [Date]  
+
+---
+
+### 1. Engagement Summary &amp; Core Objectives
+This Statement of Work (&quot;SOW&quot;) defines the explicit, technical deliverables, milestone acceptance criteria, and project boundaries for the designated project. No work outside the explicit specifications outlined in Section 2 shall be undertaken without a formalized, countersigned Change Order.
+
+---
+
+### 2. Milestone Deliverables &amp; Phase Architecture
+
+| Phase &amp; Milestone | Explicit Technical Deliverables | Acceptance Verification Criteria | Target Completion Date | Milestone Fee |
+| :--- | :--- | :--- | :--- | :--- |
+| **Milestone 1: Discovery &amp; Architecture** | System architecture diagram, entity-relationship schema, API contract specification, interactive wireframes. | Written sign-off on technical specifications and Figma prototype. | [Date / 2 Weeks] | $[Amount] |
+| **Milestone 2: Core Engineering** | Backend database setup, authentication pipeline, core business logic workflows, primary API endpoints. | Live staging environment walkthrough demonstrating authenticated API routes. | [Date / 4 Weeks] | $[Amount] |
+| **Milestone 3: Interface &amp; Integration** | Responsive frontend UI implementation, third-party payment/API integrations, error handling states. | Successful end-to-end integration test execution on staging environment. | [Date / 3 Weeks] | $[Amount] |
+| **Milestone 4: Deployment &amp; Handoff** | Production server deployment, DNS cutover, environment variable configuration, code repository transfer. | Production URL verified live with SSL, repository access transferred, signed Acceptance Certificate. | [Date / 1 Week] | $[Amount] |
+
+---
+
+### 3. Explicit &quot;Out-of-Scope&quot; Boundary Definition
+To eliminate contractual ambiguity, the following items are expressly categorized as **OUT OF SCOPE** under this SOW:
+1. **Third-Party API Fees:** Subscriptions or usage costs for external services (e.g., OpenAI, Stripe, AWS, Twilio) are the direct financial responsibility of Client.
+2. **Post-Handoff Content Creation:** Populating ongoing marketing content, product descriptions, or graphic assets not explicitly listed in Section 2.
+3. **Legacy Infrastructure Migration:** Refactoring or debugging legacy third-party server environments or undocumented historical databases.
+4. **Iterative Design Redesigns:** Once a wireframe/design phase receives Milestone Acceptance, fundamental aesthetic overhauls constitute out-of-scope revisions.
+
+---
+
+### 4. Client Cooperation &amp; Dependency Covenants
+Project timelines are strictly contingent upon prompt Client cooperation:
+- **Feedback Window:** Client shall review deliverables and supply consolidated written feedback within three (3) business days of submission.
+- **Access Credentials:** Delays caused by lack of access to Client repositories, third-party accounts, or DNS records shall automatically extend </pre>
+        </div>
+      </div>
+    
+      <div class="tab-content " id="tab-1">
+        <div class="content-card">
+          <h2>SCOPE CREEP &amp; CHANGE ORDER PROTOCOL</h2>
+          <pre># SCOPE CREEP &amp; CHANGE ORDER PROTOCOL
+**Standardized Change Request &amp; Cost-Adjustment Procedure**
+
+&gt; This protocol governs all proposed modifications, additions, or adjustments to project scope under any active Statement of Work.
+
+---
+
+### 1. The Change Order Principle
+When Client requests features, integrations, or design changes beyond the explicit parameters of the active SOW (&quot;Out-of-Scope Requests&quot;), Provider shall not begin work until a formal Change Order is drafted, priced, and countersigned by both parties.
+
+---
+
+### 2. Standardized Change Order Request Form
+
+```
+================================================================================
+                           CHANGE ORDER REQUEST (COR)
+================================================================================
+COR Number: #[COR-001]
+Project Title: [Project Name]
+Date Requested: [Date]
+Requested By: [Client Representative Name]
+
+1. DESCRIPTION OF REQUESTED SCOPE MODIFICATION:
+   [Detailed technical description of the new feature or revision requested]
+
+2. RATIONALE &amp; BUSINESS IMPACT:
+   [Why this change is being requested mid-project]
+
+3. IMPACT ASSESSMENT ON CURRENT MILESTONES:
+   [ ] No impact on existing milestone deadlines
+   [ ] Adds [X] business days to Milestone #[X] completion target
+   [ ] Requires freezing Milestone #[X] until COR is fulfilled
+
+4. FINANCIAL COMPENSATION ADJUSTMENT:
+   Baseline SOW Contract Value:      $[Baseline Total]
+   Additional Engineering Hours:     [X] Hours @ $[Hourly/Fixed Rate]
+   Fixed Fee for this Change Order:  $[Additional Amount]
+   -----------------------------------------------------------------------------
+   NEW TOTAL REVISED CONTRACT VALUE: $[New Grand Total]
+
+5. MUTUAL AUTHORIZATION &amp; EXECUTION:
+   By signing below, Client authorizes the scope addition and agrees to pay the
+   stated Change Order Fee upon delivery/acceptance of the modified milestone.
+
+   For Provider: _______________________      Date: ______________
+   For Client:   _______________________      Date: ______________
+================================================================================
+```
+
+---
+
+### 3. Operational Rules of Engagement
+1. **Zero Verbal Agreements:** Verbal requests during calls, chat messages on Slack/WhatsApp, or casual email requests do **not** constitute authorized changes.
+2. **Right of Deferral:** Provider reserves the right to recommend deferring non-critical scope additions to a &quot;Phase 2&quot; engagement rather than disrupting the active launch timeline.</pre>
+        </div>
+      </div>
+    
+      <div class="tab-content " id="tab-2">
+        <div class="content-card">
+          <h2>MILESTONE DELIVERY ACCEPTANCE CERTIFICATE</h2>
+          <pre># MILESTONE DELIVERY ACCEPTANCE CERTIFICATE
+**Formal Delivery Sign-Off &amp; Escrow Release Covenant**
+
+&gt; This Certificate confirms the formal completion, review, and legal acceptance of a project milestone.
+
+---
+
+```
+================================================================================
+                    MILESTONE DELIVERY ACCEPTANCE CERTIFICATE
+================================================================================
+Project: [Project Name]
+Milestone Number: Milestone #[X] - [Milestone Title]
+Service Provider: [Your Agency Name]
+Client: [Client Company Name]
+Delivery Date: [Date Submitted]
+Review Period: [3 Business Days Standard]
+
+1. STATEMENT OF COMPLETION:
+   Provider hereby certifies that all technical deliverables, source code,
+   and operational assets specified under Milestone #[X] of the SOW have been
+   fully deployed, tested, and delivered to Client.
+
+2. CLIENT VERIFICATION &amp; ACCEPTANCE:
+   Client hereby confirms that it has inspected the deliverables, verified their
+   functional performance against the SOW specifications, and officially approves
+   and accepts Milestone #[X] as complete.
+
+3. PAYMENT &amp; RELEASE COVENANT:
+   Upon execution of this document:
+   a) The milestone payment of $[Amount] is formally approved for immediate
+      release / invoicing.
+   b) Client waives any right to retroactively dispute the specifications of
+      Milestone #[X] once accepted.
+   c) Provider is authorized to proceed to the subsequent milestone.
+
+Client Authorized Signatory: ________________________   Date: ______________
+Provider Authorized Signatory: ______________________   Date: ______________
+================================================================================
+```</pre>
+        </div>
+      </div>
+    
+      <div class="tab-content " id="tab-3">
+        <div class="content-card">
+          <h2>PROJECT HANDOFF &amp; 30-DAY LIMITED WARRANTY SOP</h2>
+          <pre># PROJECT HANDOFF &amp; 30-DAY LIMITED WARRANTY SOP
+**Standardized Project Closure, Repository Transfer &amp; Support Transition**
+
+&gt; This Standard Operating Procedure defines the transition protocol between project completion and post-launch maintenance.
+
+---
+
+### 1. Delivery Handoff Checklist
+Prior to final project closure, Provider executes the following handoff protocol:
+- [ ] Transfer ownership of primary Git repository to Client organization.
+- [ ] Deliver compiled production assets and environment configuration documentation (`.env.example`).
+- [ ] Deliver administrative credentials via encrypted vault (e.g., 1Password, Bitwarden).
+- [ ] Conduct 60-minute recorded walkthrough demo covering system operations and administrative controls.
+- [ ] Countersign the Final Project Acceptance Certificate.
+
+---
+
+### 2. 30-Day Limited Warranty Standard
+Provider provides a thirty (30) day Limited Technical Warranty commencing upon execution of the Final Acceptance Certificate:
+
+#### What Is Covered (Free of Charge):
+- Correction of verified software bugs or fatal crashes where functionality deviates directly from the signed SOW specifications.
+- Restoring broken internal hyperlinks or resolving unhandled database exceptions in delivered code.
+
+#### What Is Excluded:
+- New feature requests, aesthetic revisions, or workflow modifications (covered under separate Retainer/Change Order).
+- Issues resulting from Client's modification of source code or third-party server environments.
+- Breaking changes caused by third-party external API updates (e.g., unexpected OpenAI/Stripe API deprecations).
+
+---
+
+### 3. Transition to Ongoing Retainer
+At the conclusion of the 30-day warranty window, support transitions to a dedicated monthly maintenance retainer for priority bug fixes, security updates, and feature iterations.</pre>
+        </div>
+      </div>
+    
+      <div class="tab-content " id="tab-4">
+        <div class="content-card">
+          <h2>WORD-FOR-WORD SCOPE BOUNDARY SCRIPTS</h2>
+          <pre># WORD-FOR-WORD SCOPE BOUNDARY SCRIPTS
+**Executive Email &amp; Verbal Scripts for Protecting Margins &amp; Stopping Scope Creep**
+
+&gt; Use these tested scripts when clients ask for extra work, delay feedback, or push for unpaid revisions.
+
+---
+
+### Script 1: When a Client Asks for an Unplanned Feature Mid-Project
+**Context:** The client casually emails: *&quot;Hey, can we also add a live chat feature and multi-currency billing?&quot;*
+
+**The Response:**
+&gt; &quot;Hi [Client Name],
+&gt;
+&gt; That sounds like a great addition to the platform and will definitely enhance the user experience.
+&gt;
+&gt; Because our active Statement of Work is hyper-focused on launching your core platform by [Target Launch Date], this falls outside our agreed milestone deliverables.
+&gt;
+&gt; We have two great ways to handle this:
+&gt; 1. **Option A (Keep launch date):** We document this in our Phase 2 roadmap and deploy it immediately after launch.
+&gt; 2. **Option B (Add now via Change Order):** I can draft a quick Change Order outlining the estimated $[Amount] engineering fee and timeline adjustment to build it into the current sprint.
+&gt;
+&gt; Let me know which approach works best for your schedule!&quot;
+
+---
+
+### Script 2: When a Client Delays Review &amp; Jeopardizes the Deadline
+**Context:** Client hasn't replied to a milestone submission for 4+ days.
+
+**The Response:**
+&gt; &quot;Hi [Client Name],
+&gt;
+&gt; Following up on Milestone #[X] submitted on [Date]. 
+&gt;
+&gt; To ensure our engineering team remains fully on track for your target launch date of [Target Date], we require consolidated review notes by [Tomorrow, 5 PM].
+&gt;
+&gt; If you need extra time to test, no problem at all—just keep in mind that under Section 4 of our SOW, each day of review delay adjusts our downstream delivery targets accordingly so we can maintain quality.
+&gt;
+&gt; Looking forward to your thoughts!&quot;
+
+---
+
+### Script 3: When a Client Pushes for Free Post-Launch Changes
+**Context:** Project has been accepted, but the client asks for modifications weeks later.
+
+**The Response:**
+&gt; &quot;Hi [Client Name],
+&gt;
+&gt; Hope everything is running smoothly with the new release!
+&gt;
+&gt; Taking a look at your request, this represents a new workflow update rather than a defect in the signed SOW deliverables. 
+&gt;
+&gt; Our 30-day warranty covers bugs within the original scope, but we’d love to help you build this out! We can handle this under our standard maintenance retainer or as a quick standalone milestone for $[Amount].
+&gt;
+&gt; Would you like me to send over the agreement so we can schedule it?&quot;</pre>
+        </div>
+      </div>
+    
+
+    <!-- Final Execution Checklist Tab -->
+    <div class="tab-content" id="tab-5">
+      <div class="content-card">
+        <h2>System Execution & Verification Checklist</h2>
+        <div class="checklist-card">
+          <div class="checklist-title">✅ Deployment Verification Protocol</div>
+          <div class="check-item">
+            <input type="checkbox" id="c1" checked onchange="saveCheck()">
+            <label for="c1">Unpack verified ZIP package and inspect modules 01 to 06</label>
+          </div>
+          <div class="check-item">
+            <input type="checkbox" id="c2" checked onchange="saveCheck()">
+            <label for="c2">Verify Lifetime Commercial Single-Seat License covenants</label>
+          </div>
+          <div class="check-item">
+            <input type="checkbox" id="c3" onchange="saveCheck()">
+            <label for="c3">Import operational Markdown specifications into Notion or Obsidian workspace</label>
+          </div>
+          <div class="check-item">
+            <input type="checkbox" id="c4" onchange="saveCheck()">
+            <label for="c4">Configure production environment variables and team access parameters</label>
+          </div>
+          <div class="check-item">
+            <input type="checkbox" id="c5" onchange="saveCheck()">
+            <label for="c5">Execute end-to-end integration test and audit validation pass</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sticky Bottom Buy Card -->
+    <div class="sticky-buy">
+      <div>
+        <div style="font-size:1.15rem; font-weight:800; color:#fff; margin-bottom:4px;">Deploy this system today</div>
+        <div style="color:var(--muted); font-size:0.88rem;">Lifetime commercial license • Instant verified ZIP delivery</div>
+      </div>
+      <div style="display:flex; align-items:center; gap:16px;">
+        <div>
+          <span class="sticky-strike">$39</span>
+          <span class="sticky-price">$6</span>
+        </div>
+        <a href="https://whop.com/checkout/plan_uLo00N2Nv3Aga" class="btn-buy-large" target="_blank" rel="noopener">
+          ⚡ Get Instant Access ($6)
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function switchTab(index) {
+      document.querySelectorAll('.tab-btn').forEach((b, i) => {
+        b.classList.toggle('active', i === index);
+      });
+      document.querySelectorAll('.tab-content').forEach((c, i) => {
+        c.classList.toggle('active', i === index);
+      });
+    }
+
+    function saveCheck() {
+      const checks = Array.from(document.querySelectorAll('.check-item input')).map(i => i.checked);
+      localStorage.setItem('demo_checks_7', JSON.stringify(checks));
+    }
+
+    // Restore checklist state
+    const saved = localStorage.getItem('demo_checks_7');
+    if (saved) {
+      try {
+        const arr = JSON.parse(saved);
+        document.querySelectorAll('.check-item input').forEach((inp, idx) => {
+          if (arr[idx] !== undefined) inp.checked = arr[idx];
+        });
+      } catch(e) {}
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketing & Social Distribution Command Center — Digital Super Market</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --border: #1f293d;
+      --text: #f9fafb;
+      --muted: #94a3b8;
+      --accent: #2563eb;
+      --green: #10b981;
+      --gold: #f59e0b;
+      --purple: #8b5cf6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); padding: 30px 20px 80px 20px; line-height: 1.6; }
+    .container { max-width: 1100px; margin: 0 auto; }
+
+    header { border-bottom: 1px solid var(--border); padding-bottom: 24px; margin-bottom: 30px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
+    .badge { background: #1e293b; color: #38bdf8; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; padding: 4px 12px; border-radius: 9999px; border: 1px solid #334155; }
+    h1 { font-size: 2.2rem; font-weight: 900; color: #fff; margin-top: 6px; }
+    .sub { color: var(--muted); font-size: 0.95rem; }
+
+    .nav-tabs { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 25px; border-bottom: 1px solid var(--border); padding-bottom: 12px; }
+    .tab-btn { background: #1e293b; color: var(--muted); border: 1px solid var(--border); padding: 10px 18px; border-radius: 8px; font-weight: 700; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; }
+    .tab-btn:hover { background: #334155; color: #fff; }
+    .tab-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+    .tab-pane { display: none; }
+    .tab-pane.active { display: block; }
+
+    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 26px; margin-bottom: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+    .card-title { font-size: 1.3rem; font-weight: 800; color: #fff; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; }
+    .card-meta { font-size: 0.85rem; color: var(--muted); margin-bottom: 14px; }
+    
+    .copy-box { background: #050811; border: 1px solid #1e293b; border-radius: 10px; padding: 18px; position: relative; font-family: monospace; font-size: 0.9rem; color: #cbd5e1; white-space: pre-wrap; line-height: 1.5; margin-bottom: 14px; max-height: 400px; overflow-y: auto; }
+    
+    .btn-copy { background: #1e293b; border: 1px solid #3b82f6; color: #93c5fd; padding: 8px 16px; border-radius: 6px; font-weight: 700; font-size: 0.85rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }
+    .btn-copy:hover { background: var(--accent); color: #fff; }
+    .btn-copy.copied { background: var(--green); color: #000; border-color: var(--green); }
+
+    /* Subreddit Table */
+    .sub-table { width: 100%; border-collapse: collapse; margin-top: 14px; font-size: 0.9rem; }
+    .sub-table th, .sub-table td { padding: 12px 16px; border: 1px solid var(--border); text-align: left; }
+    .sub-table th { background: #162032; color: #fff; font-weight: 700; }
+    .sub-table tr:nth-child(even) { background: rgba(255,255,255,0.02); }
+
+    /* UTM Generator */
+    .utm-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-bottom: 16px; }
+    .utm-input { width: 100%; background: #050811; border: 1px solid #334155; padding: 10px 14px; border-radius: 6px; color: #fff; font-size: 0.9rem; outline: none; }
+    .utm-result { background: #090d16; border: 1px solid #2563eb; padding: 14px; border-radius: 8px; color: #93c5fd; font-family: monospace; font-size: 0.9rem; word-break: break-all; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div>
+        <span class="badge">🚀 Traffic & Growth Operations</span>
+        <h1>Marketing & Viral Launch Command Center</h1>
+        <div class="sub">1-Click Copy Campaigns, Subreddit Schedules & Creator Outreach for Digital Super Market</div>
+      </div>
+      <div>
+        <a href="index.html" style="color:var(--muted); text-decoration:none; font-weight:600; font-size:0.9rem;">← Master Storefront</a>
+      </div>
+    </header>
+
+    <div class="nav-tabs">
+      <button class="tab-btn active" onclick="showTab(0)">🔥 Top 3 Viral Flagships</button>
+      <button class="tab-btn" onclick="showTab(1)">👑 The $97 Master Vault Pitch</button>
+      <button class="tab-btn" onclick="showTab(2)">🤝 50% Affiliate Creator Outreach</button>
+      <button class="tab-btn" onclick="showTab(3)">📅 Reddit Distribution Matrix</button>
+      <button class="tab-btn" onclick="showTab(4)">🔗 Dynamic UTM Link Generator</button>
+    </div>
+
+    <!-- Tab 0: Top 3 Flagships -->
+    <div class="tab-pane active" id="pane-0">
+      
+      <!-- Campaign 1: Consultant Retainer OS -->
+      <div class="card">
+        <div class="card-title">
+          <span>1. The High-Ticket Consultant Retainer OS (#192)</span>
+          <button class="btn-copy" onclick="copyText('copy-c1', this)">📋 Copy Post Text</button>
+        </div>
+        <div class="card-meta">Target: Reddit (r/freelance, r/agency, r/consulting) & LinkedIn • Price: $6</div>
+        <div class="copy-box" id="copy-c1">How I stopped 20+ hours of client scope-creep using 4 email scripts and an asynchronous Notion portal (Free Breakdown + Templates)
+
+Most consultants and agency owners lose 15-25% of their effective hourly rate to what I call "unconscious scope-bleed."
+
+A client asks for "just one quick tweak" on Slack. You say yes to be nice. Two weeks later, you're doing 10 hours of unbilled work and dreading opening your inbox.
+
+Over the past two years analyzing client retainer failures, 90% boil down to two mistakes:
+1. Synchronous reporting (spending 1 hour on Zoom to deliver a 2-minute update that invites new opinions).
+2. Lack of a formal "Scope Defense Boundary" written into the initial engagement covenant.
+
+Here is the exact asynchronous architecture that solved this for us:
+
+### 1. The 5-Minute Weekly Loom Architecture
+Instead of scheduling a weekly status meeting:
+- Record a screen-share under 5 minutes every Friday at 11 AM.
+- Show the Notion KPI scorecard: "What was delivered this week", "Blockers cleared", and "Focus for next week".
+- Send with the covenant: "If no objections are logged within 48 hours, deliverables are deemed accepted."
+
+### 2. The Scope-Defense Email Script (Word-for-Word)
+When a client requests a feature or task outside the initial SOW, NEVER say "no" or "that's out of scope." Instead, use the Add-On Scoping Formula:
+
+> "Hi [Name], that’s a fantastic strategic addition to the platform. 
+> To ensure we protect our current milestone deadline of [Date], I’ve drafted a standalone Addendum Scope for this feature ($X or Y hours). 
+> Would you like me to queue this immediately for our next sprint, or keep our focus locked on the current deliverables?"
+
+This immediately transforms conflict into a commercial transaction. Either they pay more, or they drop the low-value request.
+
+### 3. The 60-Day Retainer Renewal Playbook
+Never wait until day 25 of a 30-day agreement to discuss extension. At day 60 of an engagement:
+- Audit the cumulative ROI generated (e.g., pipeline value, hours saved).
+- Present the "Next Phase Strategic Roadmap."
+- Offer an early renewal locking in current rates before annual fee escalation.
+
+---
+
+I packaged this entire operating system — Notion deliverable schemas, word-for-word email defense scripts, contract addenda, and an interactive command center reader — into a live interactive browser demo:
+
+👉 Test the live interactive dashboard here:  
+https://nirjhar1998.github.io/digital-super-market/demos/consultant-retainer-demo.html
+
+(The complete production pack is available on Digital Super Market for $6 with lifetime commercial rights).
+
+Drop your worst scope-creep story in the comments — happy to critique your current contract clauses or scoping emails!</div>
+      </div>
+
+      <!-- Campaign 2: Salary Negotiation OS -->
+      <div class="card">
+        <div class="card-title">
+          <span>2. Remote Developer USD Salary Negotiation OS (#101)</span>
+          <button class="btn-copy" onclick="copyText('copy-c2', this)">📋 Copy Post Text</button>
+        </div>
+        <div class="card-meta">Target: Reddit (r/cscareerquestions, r/webdev, r/remotework) & Twitter/X • Price: $7</div>
+        <div class="copy-box" id="copy-c2">How to negotiate a remote USD tech salary from $110k to $145k+ (Word-for-word verbal scripts & equity valuation framework)
+
+The single most expensive mistake software engineers make is giving up their salary anchor during initial recruiter screens.
+
+Recruiter: "What are your salary expectations for this role?"
+Engineer: "I'm currently making $100k, so maybe $115k?"
+
+Just like that, you handed them a $30,000 discount on your annual compensation before you even wrote a line of code or finished a system design interview.
+
+Here is the exact negotiation mechanics tested across senior remote engineers:
+
+### 1. Deflecting Early Recruiter Anchors
+When a recruiter asks your target salary before offering the role, never state a number. Use this script:
+
+> "I’m focused on finding the right technical fit and scope where I can deliver significant impact. I’m confident that if we’re aligned on the role, your team offers competitive market compensation. What is the budgeted salary band for an engineer at this level?"
+
+In 80% of cases, the recruiter will reveal their budgeted upper limit (which is almost always higher than your current number).
+
+### 2. The Competing Offer Leverage Script
+Once the written offer lands, NEVER accept on the phone. Always say:
+
+> "Thank you for the offer — I’m very excited about the technical challenges on [Team/Project]. I want to review the full compensation package (equity vesting schedule, benefits, PTO) thoroughly with my family. Can I get back to you with my questions by [Date 48-72 hours away]?"
+
+### 3. The Counter-Offer Formula (Base + Equity)
+When countering, anchor to market data and scope, not personal needs:
+
+> "Based on current market benchmarks for senior distributed systems engineers and the specific architectural ownership this role entails, I was expecting base compensation closer to $[X]. If you can meet $[X] (or adjust the initial equity grant to $[Y] with a 1-year cliff), I’m prepared to sign the offer immediately today."
+
+Notice the closing line: “I’m prepared to sign immediately today.” Recruiters love certainty. This gives them the leverage they need to get VP/Finance approval for the compensation bump.
+
+---
+
+I built an interactive compensation modeling dashboard that calculates equity vesting trajectories, provides word-for-word counter-offer email templates, and levels L4-L7 benchmarks:
+
+👉 Try the interactive salary negotiation tool in your browser:  
+https://nirjhar1998.github.io/digital-super-market/demos/salary-negotiation-demo.html
+
+(Grab the full playbook on Digital Super Market for $7).</div>
+      </div>
+
+      <!-- Campaign 3: Full-Stack Cursor Boilerplate -->
+      <div class="card">
+        <div class="card-title">
+          <span>3. Full-Stack Cursor & Supabase Boilerplate OS (#102)</span>
+          <button class="btn-copy" onclick="copyText('copy-c3', this)">📋 Copy Post Text</button>
+        </div>
+        <div class="card-meta">Target: Reddit (r/SaaS, r/indiehackers, r/nextjs) & Twitter/X • Price: $7</div>
+        <div class="copy-box" id="copy-c3">Most AI-assisted boilerplate setups fail because Cursor and Claude hallucinate outdated Next.js 13 patterns, break PostgreSQL RLS policies, and bork Stripe webhook handlers.
+
+Here is the exact production architecture we use to build and ship modern Next.js 15 apps with Cursor AI in days, not months:
+
+1️⃣ Strict .cursorrules Architecture:
+Force Cursor into Next.js 15 App Router strict mode:
+• Server Actions with Zod validation schemas
+• Zero 'any' types in TypeScript
+• Supabase SSR client with proper cookie exchange in middleware
+
+2️⃣ PostgreSQL Row-Level Security (RLS) Template:
+Never rely on client-side security checks. Every table has tenant-isolated RLS policies:
+CREATE POLICY "Tenant isolation" ON public.teams FOR ALL USING (auth.uid() = owner_id);
+
+3️⃣ Idempotent Stripe Webhook Handler:
+Handle duplicate webhook deliveries gracefully using a PostgreSQL stripe_events idempotency table before fulfilling any digital orders.
+
+We open-sourced an interactive command center and architecture preview:
+🔗 Live Browser Interactive Preview: https://nirjhar1998.github.io/digital-super-market/demos/cursor-supabase-demo.html
+
+Complete production .cursorrules, Supabase SQL schemas, and Next.js boilerplate available for $7 on Digital Super Market.</div>
+      </div>
+    </div>
+
+    <!-- Tab 1: $97 Master Vault Pitch -->
+    <div class="tab-pane" id="pane-1">
+      <div class="card">
+        <div class="card-title">
+          <span>The "Bundle of 1,000 Systems" High-Ticket Pitch</span>
+          <button class="btn-copy" onclick="copyText('copy-vault', this)">📋 Copy Vault Pitch</button>
+        </div>
+        <div class="card-meta">Target: Newsletters, Twitter Threads, LinkedIn Longform • Payout: $97 (Affiliates earn $48.50)</div>
+        <div class="copy-box" id="copy-vault">Why build business operating systems from scratch when 1,000 production architectures already exist?
+
+Most founders spend 3+ years writing contracts, standard operating procedures, dev boilerplates, and compliance audits from scratch.
+
+Digital Super Market just released their Master Centennial Vault:
+Every single production operating system across 6 core pillars — all 1,000 systems — packaged into a single institutional lifetime vault.
+
+📦 What's Inside the 1,000 Systems Library:
+• Agency & Consulting: Client onboarding Notion portals, scope defense scripts, retainer contracts
+• Tech & Engineering: Next.js 15 + Cursor rules, Kafka/ClickHouse telemetry, Postgres RLS schemas
+• SaaS & Compliance: SOC 2 Type II audit evidence collectors, GDPR/CCPA matrices
+• Finance & Operations: 13-week cash flow models, FDIC multi-bank sweep SOPs, executive RACI matrices
+
+Normally priced individually at $5 to $9 each ($7,000+ total), the entire 1,000-system vault is available for a one-time flat $97 with Lifetime Commercial Rights.
+
+⚡ Claim the All-Access Master Centennial Vault here:
+https://whop.com/checkout/plan_McYiiQ51Vd5jy</div>
+      </div>
+    </div>
+
+    <!-- Tab 2: Affiliate Outreach -->
+    <div class="tab-pane" id="pane-2">
+      <div class="card">
+        <div class="card-title">
+          <span>Direct DM / Email to Newsletter Writers & Creators</span>
+          <button class="btn-copy" onclick="copyText('copy-aff', this)">📋 Copy Outreach Message</button>
+        </div>
+        <div class="card-meta">Target: Substack authors, Twitter creators in Freelancing / SaaS / Coding</div>
+        <div class="copy-box" id="copy-aff">Hi [Name],
+
+I’ve been reading your newsletter on [Topic] and love your tactical breakdowns.
+
+I built Digital Super Market (https://nirjhar1998.github.io/digital-super-market/) — a library of 1,000 turnkey business operating systems and legal/dev blueprints.
+
+Our top product for consultants is System #192: The High-Ticket Consultant Retainer OS (with interactive browser demos).
+
+I’d love to gift you free access to the full system to check it out. 
+
+We also run an automated 50% creator affiliate program via Whop:
+• Front-end sales pay 50% ($3.00 - $4.50)
+• Master Vault upsells pay $48.50 per sale with instant cookie tracking and zero payout minimums.
+
+If you’d like free access to review it, let me know your Whop email and I’ll unlock it right away!
+
+Best,
+[Your Name]</div>
+      </div>
+    </div>
+
+    <!-- Tab 3: Reddit Distribution Schedule -->
+    <div class="tab-pane" id="pane-3">
+      <div class="card">
+        <div class="card-title">Reddit High-Intent Posting Matrix</div>
+        <div class="card-meta">Best posting windows: Tuesday - Thursday, 8:00 AM - 11:00 AM EST</div>
+        <table class="sub-table">
+          <thead>
+            <tr>
+              <th>Subreddit</th>
+              <th>Audience</th>
+              <th>Recommended Product</th>
+              <th>Key Posting Rule</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>r/freelance</strong></td>
+              <td>Solo freelancers & contractors</td>
+              <td>#192 Consultant Retainer OS</td>
+              <td>Deliver full value in post; link demo naturally in footnotes</td>
+            </tr>
+            <tr>
+              <td><strong>r/agency</strong></td>
+              <td>Agency owners & fractional leads</td>
+              <td>#192 & #07 Agency Scope Protection</td>
+              <td>Focus on preventing unbilled scope creep</td>
+            </tr>
+            <tr>
+              <td><strong>r/cscareerquestions</strong></td>
+              <td>Software engineers & job seekers</td>
+              <td>#101 Remote Dev Salary Negotiation</td>
+              <td>Provide exact word-for-word recruiter scripts</td>
+            </tr>
+            <tr>
+              <td><strong>r/SaaS</strong></td>
+              <td>Bootstrappers & indie founders</td>
+              <td>#102 Cursor & #205 SOC 2 Audit</td>
+              <td>Share architecture learnings & technical trade-offs</td>
+            </tr>
+            <tr>
+              <td><strong>r/webdev</strong></td>
+              <td>Full-stack developers</td>
+              <td>#102 Full-Stack Cursor Boilerplate</td>
+              <td>Focus on Next.js 15 + Supabase RLS policies</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tab 4: UTM Generator -->
+    <div class="tab-pane" id="pane-4">
+      <div class="card">
+        <div class="card-title">Dynamic UTM Campaign Link Generator</div>
+        <div class="card-meta">Generate clean, tracked URLs to monitor which channel brings sales</div>
+        
+        <div class="utm-grid">
+          <div>
+            <label style="display:block; font-size:0.8rem; font-weight:700; color:var(--muted); margin-bottom:4px;">Target URL</label>
+            <input type="text" id="utmUrl" class="utm-input" value="https://nirjhar1998.github.io/digital-super-market/products/192-the-high-ticket-consultant-retainer-deliverable-client-portal-os.html" oninput="buildUtm()">
+          </div>
+          <div>
+            <label style="display:block; font-size:0.8rem; font-weight:700; color:var(--muted); margin-bottom:4px;">Source (e.g. reddit, linkedin, twitter)</label>
+            <input type="text" id="utmSource" class="utm-input" value="reddit" oninput="buildUtm()">
+          </div>
+          <div>
+            <label style="display:block; font-size:0.8rem; font-weight:700; color:var(--muted); margin-bottom:4px;">Medium (e.g. post, dm, comment)</label>
+            <input type="text" id="utmMedium" class="utm-input" value="post" oninput="buildUtm()">
+          </div>
+          <div>
+            <label style="display:block; font-size:0.8rem; font-weight:700; color:var(--muted); margin-bottom:4px;">Campaign Name</label>
+            <input type="text" id="utmCampaign" class="utm-input" value="retainer192" oninput="buildUtm()">
+          </div>
+        </div>
+
+        <div style="font-weight:700; font-size:0.85rem; color:#93c5fd; margin-top:12px;">Tracked URL:</div>
+        <div class="utm-result" id="utmOutput">https://nirjhar1998.github.io/digital-super-market/products/192-the-high-ticket-consultant-retainer-deliverable-client-portal-os.html?utm_source=reddit&utm_medium=post&utm_campaign=retainer192</div>
+        <button class="btn-copy" style="margin-top:10px;" onclick="copyUtm()">📋 Copy Tracked Link</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function showTab(idx) {
+      document.querySelectorAll('.tab-btn').forEach((b, i) => b.classList.toggle('active', i === idx));
+      document.querySelectorAll('.tab-pane').forEach((p, i) => p.classList.toggle('active', i === idx));
+    }
+
+    function copyText(id, btn) {
+      const text = document.getElementById(id).innerText;
+      navigator.clipboard.writeText(text);
+      const old = btn.innerHTML;
+      btn.innerHTML = '✓ Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.innerHTML = old;
+        btn.classList.remove('copied');
+      }, 2500);
+    }
+
+    function buildUtm() {
+      const url = document.getElementById('utmUrl').value.trim();
+      const s = document.getElementById('utmSource').value.trim();
+      const m = document.getElementById('utmMedium').value.trim();
+      const c = document.getElementById('utmCampaign').value.trim();
+      
+      const res = `${url}?utm_source=${encodeURIComponent(s)}&utm_medium=${encodeURIComponent(m)}&utm_campaign=${encodeURIComponent(c)}`;
+      document.getElementById('utmOutput').innerText = res;
+    }
+
+    function copyUtm() {
+      const url = document.getElementById('utmOutput').innerText;
+      navigator.clipboard.writeText(url);
+      alert('Tracked URL copied to clipboard!');
+    }
+  </script>
+</body>
+</html>

@@ -197,6 +197,7 @@
   <div class="topbar">
     <a href="#" class="brand">⚡ Digital Super Market</a>
     <div class="top-links">
+      <a href="free-scope-defense-kit.html" class="top-link" style="color:#6ee7b7; font-weight:700;">🎁 Free Scope Kit</a>
       <a href="https://whop.com/digital-super-market/" class="top-link" target="_blank" rel="noopener">Whop Hub</a>
       <a href="AFFILIATE_HUB.html" class="btn-affiliate">Become an Affiliate (50% Cut)</a>
       <a href="https://github.com/Nirjhar1998/digital-super-market" class="top-link" target="_blank" rel="noopener">GitHub</a>
@@ -440,6 +441,7 @@
     </div>
     <div class="filter-pills" id="filterPills">
       <button class="pill active" data-cat="all">All Systems (1,000)</button>
+      <button class="pill" data-cat="demos" style="border-color:#3b82f6; color:#93c5fd;">⚡ Live Demos (15)</button>
       <button class="pill" data-cat="Agency & Consulting">Agency & Consulting</button>
       <button class="pill" data-cat="Tech & Engineering">Tech & Engineering</button>
       <button class="pill" data-cat="Legal & Governance">Legal & Contracts</button>
@@ -602,7 +604,9 @@
 
     function filterProducts(query, category) {
       let filtered = allProducts;
-      if (category !== 'all') {
+      if (category === 'demos') {
+        filtered = filtered.filter(p => !!p.demoUrl);
+      } else if (category !== 'all') {
         filtered = filtered.filter(p => p.category === category);
       }
       if (query) {

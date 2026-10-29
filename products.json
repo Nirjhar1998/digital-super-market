@@ -14,7 +14,8 @@
     "slug": "1-the-enterprise-operating-system-business-vault-century-master-100-edition",
     "planId": "plan_Lbl55hKEa44Ga",
     "planTitle": "one_time",
-    "checkoutUrl": "https://whop.com/checkout/plan_Lbl55hKEa44Ga"
+    "checkoutUrl": "https://whop.com/checkout/plan_Lbl55hKEa44Ga",
+    "demoUrl": "demos/enterprise-os-demo.html"
   },
   {
     "index": 2,
@@ -31,7 +32,8 @@
     "slug": "2-the-craft-brewery-production-batch-fermentation-ttb-compliance-os",
     "planId": "plan_EgeYKFmMwjK4v",
     "planTitle": "one_time",
-    "checkoutUrl": "https://whop.com/checkout/plan_EgeYKFmMwjK4v"
+    "checkoutUrl": "https://whop.com/checkout/plan_EgeYKFmMwjK4v",
+    "demoUrl": "demos/contract-invoicing-demo.html"
   },
   {
     "index": 3,
@@ -116,7 +118,8 @@
     "slug": "7-the-boutique-law-firm-client-engagement-retainer-conflict-check-os",
     "planId": "plan_uLo00N2Nv3Aga",
     "planTitle": "one_time",
-    "checkoutUrl": "https://whop.com/checkout/plan_uLo00N2Nv3Aga"
+    "checkoutUrl": "https://whop.com/checkout/plan_uLo00N2Nv3Aga",
+    "demoUrl": "demos/boutique-law-firm-demo.html"
   },
   {
     "index": 8,
@@ -1750,7 +1753,8 @@
     "slug": "103-the-high-intent-b2b-prospecting-icp-lead-scraping-runbook",
     "planId": "plan_WbNPbOY2kPdPo",
     "planTitle": "B2B Prospecting License",
-    "checkoutUrl": "https://whop.com/checkout/plan_WbNPbOY2kPdPo"
+    "checkoutUrl": "https://whop.com/checkout/plan_WbNPbOY2kPdPo",
+    "demoUrl": "demos/b2b-lead-scraping-demo.html"
   },
   {
     "index": 104,
@@ -1767,7 +1771,8 @@
     "slug": "104-the-b2b-saas-churn-emergency-triage-retention-runbook",
     "planId": "plan_rdluMSx8KHiNa",
     "planTitle": "SaaS Churn Triage License",
-    "checkoutUrl": "https://whop.com/checkout/plan_rdluMSx8KHiNa"
+    "checkoutUrl": "https://whop.com/checkout/plan_rdluMSx8KHiNa",
+    "demoUrl": "demos/saas-churn-triage-demo.html"
   },
   {
     "index": 105,
@@ -1801,7 +1806,8 @@
     "slug": "106-the-ai-prompt-security-jailbreak-defense-llm-guardrails-os",
     "planId": "plan_vOpNYzxdnaydN",
     "planTitle": "Prompt Security Guardrails Lic",
-    "checkoutUrl": "https://whop.com/checkout/plan_vOpNYzxdnaydN"
+    "checkoutUrl": "https://whop.com/checkout/plan_vOpNYzxdnaydN",
+    "demoUrl": "demos/ai-prompt-guardrails-demo.html"
   },
   {
     "index": 107,
@@ -1835,7 +1841,8 @@
     "slug": "108-the-high-converting-b2b-enterprise-case-study-proof-playbook",
     "planId": "plan_V1ZxxSYQo7SHY",
     "planTitle": "B2B Case Study License",
-    "checkoutUrl": "https://whop.com/checkout/plan_V1ZxxSYQo7SHY"
+    "checkoutUrl": "https://whop.com/checkout/plan_V1ZxxSYQo7SHY",
+    "demoUrl": "demos/enterprise-case-study-demo.html"
   },
   {
     "index": 109,
@@ -1869,7 +1876,8 @@
     "slug": "110-the-digital-product-14-day-launch-email-sequence-funnel-os",
     "planId": "plan_ieX1hjOzfk6k5",
     "planTitle": "Product Launch Email License",
-    "checkoutUrl": "https://whop.com/checkout/plan_ieX1hjOzfk6k5"
+    "checkoutUrl": "https://whop.com/checkout/plan_ieX1hjOzfk6k5",
+    "demoUrl": "demos/launch-email-funnel-demo.html"
   },
   {
     "index": 111,
