@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>High-Ticket Consultant Retainer Deliverable & Client Portal OS</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #090d16;
+      color: #f1f5f9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+    header {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 24px;
+      margin-bottom: 30px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(139, 92, 246, 0.2);
+      color: #c4b5fd;
+      border: 1px solid #8b5cf6;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .tagline {
+      font-size: 1.05rem;
+      color: #94a3b8;
+      max-width: 800px;
+    }
+    .nav-tabs {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      padding-bottom: 16px;
+    }
+    .tab-btn {
+      background: #1e293b;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #94a3b8;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .tab-btn:hover, .tab-btn.active {
+      background: #8b5cf6;
+      color: #fff;
+      border-color: #a78bfa;
+    }
+    .content-card {
+      background: #0f172a;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 14px;
+      padding: 36px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    .module-content {
+      display: none;
+    }
+    .module-content.active {
+      display: block;
+    }
+    h2 { font-size: 1.5rem; color: #fff; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 8px; }
+    h3 { font-size: 1.2rem; color: #a78bfa; margin: 24px 0 12px 0; }
+    h4 { font-size: 1rem; color: #e2e8f0; margin: 16px 0 8px 0; }
+    p { margin-bottom: 14px; color: #cbd5e1; font-size: 0.95rem; }
+    ul, ol { margin-left: 24px; margin-bottom: 16px; color: #cbd5e1; }
+    li { margin-bottom: 6px; }
+    blockquote {
+      background: rgba(30, 41, 59, 0.7);
+      border-left: 4px solid #8b5cf6;
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+      color: #e2e8f0;
+      font-style: italic;
+    }
+    pre, code {
+      background: #020617;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.88rem;
+      color: #38bdf8;
+    }
+    pre { padding: 18px; overflow-x: auto; margin-bottom: 16px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 0.9rem;
+    }
+    th, td {
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 12px 14px;
+      text-align: left;
+    }
+    th {
+      background: #1e293b;
+      color: #f8fafc;
+      font-weight: 700;
+    }
+    tr:nth-child(even) { background: rgba(30, 41, 59, 0.4); }
+    .print-btn {
+      float: right;
+      background: #10b981;
+      color: #fff;
+      font-weight: 800;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+    @media print {
+      .nav-tabs, .print-btn { display: none; }
+      .module-content { display: block !important; margin-bottom: 40px; page-break-after: always; }
+      body { background: #fff; color: #000; }
+      .content-card { background: #fff; border: none; box-shadow: none; padding: 0; color: #000; }
+      h1, h2, h3, p, li, td, th { color: #000 !important; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0;">
+
+  <div style="background: linear-gradient(90deg, #1e3a8a, #2563eb); color: #fff; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; font-family: system-ui, sans-serif; font-size: 0.9rem; position: sticky; top: 0; z-index: 99999; box-shadow: 0 4px 15px rgba(0,0,0,0.4); border-bottom: 1px solid #3b82f6;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <span style="background: #10b981; color: #000; font-weight: 800; font-size: 0.75rem; padding: 3px 8px; border-radius: 999px;">LIVE DEMO PREVIEW</span>
+      <span style="font-weight: 700;">High-Ticket Consultant Retainer Deliverable & Client Portal OS</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <a href="../index.html" style="color: #93c5fd; text-decoration: none; font-weight: 600;">← Back to Store</a>
+      <a href="https://whop.com/digital-super-market/" target="_blank" style="background: #10b981; color: #000; font-weight: 800; text-decoration: none; padding: 6px 14px; border-radius: 6px; box-shadow: 0 2px 8px rgba(16,185,129,0.3);">⚡ Get Full Package ($5 - $9)</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <header>
+      <button class="print-btn" onclick="window.print()">🖨️ Print / Vector PDF</button>
+      <div class="badge">CONSULTING & FRACTIONAL ADVISORY OS</div>
+      <h1>The High-Ticket Consultant Retainer Deliverable & Client Portal OS</h1>
+      <p class="tagline">Asynchronous Executive Notion Portals, 5-Min Loom Updates, Scope Defense Scripts & 6-Month Renewal Playbooks</p>
+    </header>
+
+    <div class="nav-tabs">
+      <button class="tab-btn active" onclick="showTab(0)">Overview & Quick-Start</button>
+      <button class="tab-btn" onclick="showTab(1)">Mod 1: Notion Portal Architecture</button>
+      <button class="tab-btn" onclick="showTab(2)">Mod 2: 5-Min Loom SOP & Scripts</button>
+      <button class="tab-btn" onclick="showTab(3)">Mod 3: Scope Boundary Defense Scripts</button>
+      <button class="tab-btn" onclick="showTab(4)">Mod 4: Monthly ROI Scorecard</button>
+      <button class="tab-btn" onclick="showTab(5)">Mod 5: Retainer Extension Addendum</button>
+    </div>
+
+    <div class="content-card">
+      <!-- Tab 0: Readme -->
+      <div class="module-content active" id="tab0">
+        <h2>🚀 Turnkey Implementation & Quick-Start Guide</h2>
+        <p>This operating system provides the complete architectural framework, communication scripts, and legal contracts needed to run high-retainer ($5k-$25k/mo) client engagements without getting dragged into endless meetings or unbilled scope creep.</p>
+        <blockquote>"When an executive can clearly see what they are paying for in an organized asynchronous dashboard, retention rates surge from 60% to 92%."</blockquote>
+        <h3>The 5 Core Assets Included Inside This Toolkit:</h3>
+        <ul>
+          <li><strong>Module 01: Notion Client Portal Architecture:</strong> Full database specifications (Deliverables Board, Asynchronous Decisions DB, Loom Vault) to create an institutional client hub.</li>
+          <li><strong>Module 02: 5-Minute Weekly Loom Update Framework:</strong> Word-for-word scripts and templates that prove weekly ROI and eliminate 80% of sync calls.</li>
+          <li><strong>Module 03: Scope Defense & Add-On Scoping Scripts:</strong> 6 tested email responses to tactfully deflect "quick favor" feature creep into paid addenda.</li>
+          <li><strong>Module 04: Monthly Strategic Value & Impact Scorecard:</strong> Hard financial ROI audit framework proving cost savings, speed improvements, and revenue attributed.</li>
+          <li><strong>Module 05: The 60-Day Retainer Extension & Rate Escalation Agreement:</strong> Complete contract addendum with price-lock clauses and 15-20% rate increase scripts.</li>
+        </ul>
+      </div>
+
+      <!-- Tab 1: Notion Architecture -->
+      <div class="module-content" id="tab1">
+        <h2>Module 01: The Executive Consulting Notion Portal Architecture</h2>
+        <h3>1. Workspace Hierarchy & Role Permission Matrix</h3>
+        <p>Restricted guest access ensures the client executive has visibility into strategic deliverables and decision items without altering sprint layouts.</p>
+        <pre>Executive Client Portal (Restricted Guest Access)
+├── 📌 01. Strategic Objectives & OKR Dashboard (Quarterly North Stars)
+├── 🚀 02. Active Sprints & High-Leverage Deliverables (Kanban Board)
+├── 🎥 03. Weekly Asynchronous Loom Updates (5-Min Video Vault)
+├── ⚖️ 04. Executive Decision & Sign-Off Log (RACI Matrix)
+└── 📚 05. Intellectual Property Vault & Resource Library</pre>
+        <h3>2. Database Schema Specifications</h3>
+        <table>
+          <tr><th>Database Name</th><th>Key Properties</th><th>Primary View</th><th>Client Permission</th></tr>
+          <tr><td>Active Deliverables</td><td>Deliverable Name, Status, Pillar, Owner, Impact Score, Due Date</td><td>Kanban by Status</td><td>Can View & Comment</td></tr>
+          <tr><td>Asynchronous Decision Log</td><td>Decision Required, Loom Briefing Link, Recommendation, Status, SLA Date</td><td>Table sorted by SLA</td><td>Can Edit Status</td></tr>
+          <tr><td>5-Minute Weekly Loom Vault</td><td>Week #, Loom Video URL, 3 Key Outcomes, Blockers Flag</td><td>Gallery Card View</td><td>Can View</td></tr>
+        </table>
+      </div>
+
+      <!-- Tab 2: Loom SOP -->
+      <div class="module-content" id="tab2">
+        <h2>Module 02: Weekly Asynchronous 5-Minute Executive Loom Update Framework</h2>
+        <h3>The 5-Minute Executive Video Formula</h3>
+        <ul>
+          <li><strong>Minute 0:00 - 1:00:</strong> The Headline & Strategic Objective alignment.</li>
+          <li><strong>Minute 1:00 - 2:30:</strong> Screen share showing visual proof of shipped deliverables.</li>
+          <li><strong>Minute 2:30 - 3:45:</strong> Strategic market observation or high-leverage insight.</li>
+          <li><strong>Minute 3:45 - 4:30:</strong> Actionable sign-off request with direct Notion link.</li>
+          <li><strong>Minute 4:30 - 5:00:</strong> High-impact roadmap focus for upcoming sprint.</li>
+        </ul>
+        <h3>Word-for-Word Video Script</h3>
+        <blockquote>"Hi [Client Executive Name], happy Friday. This is your 5-minute executive briefing for Week [X] of our strategic retainer. Our primary focus this sprint was accelerating [Core Goal]. Here is the direct proof of what our team shipped this week..."</blockquote>
+      </div>
+
+      <!-- Tab 3: Scope Defense -->
+      <div class="module-content" id="tab3">
+        <h2>Module 03: Scope-Creep Boundary Defense & Add-On Scoping Scripts</h2>
+        <h3>Script: The Casual "Quick Favor" Deflection</h3>
+        <blockquote>"Hi [Client Name], that marketing dashboard sounds like a fantastic asset. Because our active retainer scope is hyper-focused on hitting our primary Q1 objective ([Core Goal]), building this out right now would pull resources away from our milestone launch on [Date]. We have two great ways to handle this: Option A is documenting this for Phase 2; Option B is a quick one-page Scope Addendum for $[Amount] so we can allocate dedicated resources immediately. Let me know which direction works best!"</blockquote>
+        <h3>Script: Deflecting the Unnecessary Meeting</h3>
+        <blockquote>"Hi [Client Name], I’m currently heads-down finalizing the [Milestone Deliverable] to hit our Friday deadline. To protect our sprint velocity and get you an answer immediately: drop the 2 or 3 specific questions into our Notion Decision Log, and I’ll record a quick 3-minute Loom video walking through the answers before 2 PM today!"</blockquote>
+      </div>
+
+      <!-- Tab 4: Scorecard -->
+      <div class="module-content" id="tab4">
+        <h2>Module 04: Monthly Strategic Value & Business Impact Scorecard</h2>
+        <h3>The Quantified ROI Equation</h3>
+        <pre>Total Monthly Value = Direct Revenue Unlocked + Internal Labor Hours Saved + Risk Mitigated</pre>
+        <table>
+          <tr><th>Strategic Pillar</th><th>Baseline Metric</th><th>Month-End Metric</th><th>Quantified Value ($)</th></tr>
+          <tr><td>Revenue & Pipeline</td><td>12.4% Demo Conversion</td><td>18.2% (+5.8%)</td><td>+$38,000 ARR Pipeline</td></tr>
+          <tr><td>Operational Efficiency</td><td>14 Days Onboarding</td><td>4 Days (-71%)</td><td>60 Hours Saved ($4,500)</td></tr>
+          <tr><td>Tech & Cloud Architecture</td><td>480ms p95 Latency</td><td>110ms (-77%)</td><td>Zero timeout churn</td></tr>
+          <tr><td>Risk Mitigation</td><td>Non-compliant SOC 2</td><td>100% Evidence Audit</td><td>Protected $120k deal</td></tr>
+        </table>
+      </div>
+
+      <!-- Tab 5: Retainer Extension -->
+      <div class="module-content" id="tab5">
+        <h2>Module 05: The 60-Day Retainer Extension & Price-Escalation Playbook</h2>
+        <h3>The 15-20% Rate Escalation Pitch</h3>
+        <blockquote>"As our practice expands, our standard strategic retainer fee for new enterprise clients is adjusting to $[New Rate, e.g. $10k/mo]. Because your team has been an exceptional partner and we are already deeply integrated into your technical roadmap, we want to offer you our Long-Term Partner Rate Lock: Lock in our grandfathered preferred rate across the next 6 months, guaranteeing continuous sprint capacity without price increases."</blockquote>
+        <h3>Master Extension Addendum Terms</h3>
+        <ul>
+          <li><strong>6-Month Commitment Term:</strong> Protects cash flow and guarantees dedicated advisor bandwidth.</li>
+          <li><strong>Non-Rollover Covenant:</strong> Retainer hours/sprints do not roll over month-to-month, enforcing disciplined client utilization.</li>
+          <li><strong>Automated 1st-of-the-Month ACH/Card Billing:</strong> Zero accounts receivable lag or invoice chasing.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showTab(idx) {
+      const tabs = document.querySelectorAll('.tab-btn');
+      const contents = document.querySelectorAll('.module-content');
+      tabs.forEach((t, i) => t.classList.toggle('active', i === idx));
+      contents.forEach((c, i) => c.classList.toggle('active', i === idx));
+    }
+  </script>
+</body>
+</html>

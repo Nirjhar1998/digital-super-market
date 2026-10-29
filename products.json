@@ -1714,7 +1714,8 @@
     "slug": "101-the-remote-developer-usd-salary-negotiation-counter-offer-os",
     "planId": "plan_DABNHASQw3v6O",
     "planTitle": "Remote Salary Negotiation Lic",
-    "checkoutUrl": "https://whop.com/checkout/plan_DABNHASQw3v6O"
+    "checkoutUrl": "https://whop.com/checkout/plan_DABNHASQw3v6O",
+    "demoUrl": "demos/salary-negotiation-demo.html"
   },
   {
     "index": 102,
@@ -1731,7 +1732,8 @@
     "slug": "102-the-full-stack-cursor-supabase-boilerplate-architecture-os",
     "planId": "plan_aBrLElTKYBnlE",
     "planTitle": "Cursor & Supabase OS License",
-    "checkoutUrl": "https://whop.com/checkout/plan_aBrLElTKYBnlE"
+    "checkoutUrl": "https://whop.com/checkout/plan_aBrLElTKYBnlE",
+    "demoUrl": "demos/cursor-supabase-demo.html"
   },
   {
     "index": 103,
@@ -3261,7 +3263,8 @@
     "slug": "192-the-high-ticket-consultant-retainer-deliverable-client-portal-os",
     "planId": "plan_d8RaZHGdIsC6b",
     "planTitle": "Consultant Retainer Portal Lic",
-    "checkoutUrl": "https://whop.com/checkout/plan_d8RaZHGdIsC6b"
+    "checkoutUrl": "https://whop.com/checkout/plan_d8RaZHGdIsC6b",
+    "demoUrl": "demos/consultant-retainer-demo.html"
   },
   {
     "index": 193,
@@ -3312,7 +3315,8 @@
     "slug": "195-the-clinical-research-life-sciences-trial-master-file-tmf-audit-os",
     "planId": "plan_SSBbqhB2YceZI",
     "planTitle": "Clinical Trial TMF Audit Lic",
-    "checkoutUrl": "https://whop.com/checkout/plan_SSBbqhB2YceZI"
+    "checkoutUrl": "https://whop.com/checkout/plan_SSBbqhB2YceZI",
+    "demoUrl": "demos/clinical-trial-tmf-demo.html"
   },
   {
     "index": 196,
@@ -3482,7 +3486,8 @@
     "slug": "205-the-soc-2-type-ii-continuous-evidence-collection-audit-os",
     "planId": "plan_kngPPME2Of7Eo",
     "planTitle": "SOC 2 Type II Audit Lic",
-    "checkoutUrl": "https://whop.com/checkout/plan_kngPPME2Of7Eo"
+    "checkoutUrl": "https://whop.com/checkout/plan_kngPPME2Of7Eo",
+    "demoUrl": "demos/soc2-audit-demo.html"
   },
   {
     "index": 206,
@@ -3703,7 +3708,8 @@
     "slug": "218-the-corporate-treasury-management-liquidity-forecasting-os",
     "planId": "plan_DOb97CVRatnEl",
     "planTitle": "Corporate Treasury OS Lic",
-    "checkoutUrl": "https://whop.com/checkout/plan_DOb97CVRatnEl"
+    "checkoutUrl": "https://whop.com/checkout/plan_DOb97CVRatnEl",
+    "demoUrl": "demos/corporate-treasury-demo.html"
   },
   {
     "index": 219,
@@ -6984,7 +6990,8 @@
     "slug": "411-the-enterprise-clickhouse-real-time-columnar-analytical-engine-os",
     "planId": "plan_UDGafC0eNxbMm",
     "planTitle": "ClickHouse Columnar Lic",
-    "checkoutUrl": "https://whop.com/checkout/plan_UDGafC0eNxbMm"
+    "checkoutUrl": "https://whop.com/checkout/plan_UDGafC0eNxbMm",
+    "demoUrl": "demos/clickhouse-engine-demo.html"
   },
   {
     "index": 412,

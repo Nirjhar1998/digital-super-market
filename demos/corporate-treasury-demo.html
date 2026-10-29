@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corporate Treasury Management OS | Executive Liquidity Dashboard</title>
+  <style>
+    :root {
+      --primary: #059669;
+      --primary-dark: #047857;
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #10b981;
+      --danger: #ef4444;
+      --font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--font); line-height: 1.6; padding: 30px 20px; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(5, 150, 105, 0.2);
+      border: 1px solid var(--primary);
+      color: #34d399;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    h1 { font-size: 1.8rem; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    p.subtitle { color: var(--text-muted); font-size: 0.95rem; }
+    .btn {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: var(--primary-dark); }
+    .tabs {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 10px;
+      margin-bottom: 25px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .tab-btn {
+      background: var(--card-bg);
+      color: var(--text-muted);
+      border: 1px solid var(--card-border);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .tab-btn.active, .tab-btn:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; animation: fadeIn 0.3s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    .card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 12px; padding: 25px; margin-bottom: 20px; }
+    h2 { font-size: 1.4rem; color: #34d399; margin-bottom: 16px; border-bottom: 1px solid var(--card-border); padding-bottom: 8px; }
+    table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 0.9rem; }
+    th, td { border: 1px solid var(--card-border); padding: 10px 14px; text-align: left; }
+    th { background: #0f172a; color: #34d399; font-weight: 600; }
+    tr:nth-child(even) { background: rgba(255, 255, 255, 0.02); }
+    .checklist-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.02);
+      margin-bottom: 8px;
+      border: 1px solid transparent;
+    }
+    .checklist-item:hover { border-color: var(--card-border); }
+    .checklist-item input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--accent); cursor: pointer; }
+    @media print {
+      body { background: #fff; color: #000; padding: 0; }
+      header, .tabs, .btn { display: none; }
+      .tab-content { display: block !important; }
+      .card { border: 1px solid #ccc; background: #fff; color: #000; break-inside: avoid; }
+      th { background: #eee; color: #000; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0;">
+
+  <div style="background: linear-gradient(90deg, #1e3a8a, #2563eb); color: #fff; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; font-family: system-ui, sans-serif; font-size: 0.9rem; position: sticky; top: 0; z-index: 99999; box-shadow: 0 4px 15px rgba(0,0,0,0.4); border-bottom: 1px solid #3b82f6;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <span style="background: #10b981; color: #000; font-weight: 800; font-size: 0.75rem; padding: 3px 8px; border-radius: 999px;">LIVE DEMO PREVIEW</span>
+      <span style="font-weight: 700;">The Corporate Treasury Management & Liquidity Forecasting OS</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <a href="../index.html" style="color: #93c5fd; text-decoration: none; font-weight: 600;">← Back to Store</a>
+      <a href="https://whop.com/digital-super-market/" target="_blank" style="background: #10b981; color: #000; font-weight: 800; text-decoration: none; padding: 6px 14px; border-radius: 6px; box-shadow: 0 2px 8px rgba(16,185,129,0.3);">⚡ Get Full Package ($5 - $9)</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <header>
+      <div>
+        <span class="badge">INSTITUTIONAL CORPORATE TREASURY</span>
+        <h1>Corporate Treasury Management OS</h1>
+        <p class="subtitle">13-Week Cash Flow Forecasting, Multi-Bank FDIC Sweeps & Dual-Control Wire Protocols</p>
+      </div>
+      <div>
+        <button class="btn" onclick="window.print()">🖨️ Export PDF / Print Treasury File</button>
+      </div>
+    </header>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab(0)">01. 13-Week Forecast</button>
+      <button class="tab-btn" onclick="switchTab(1)">02. Multi-Bank Sweeps</button>
+      <button class="tab-btn" onclick="switchTab(2)">03. T-Bill Ladder</button>
+      <button class="tab-btn" onclick="switchTab(3)">04. FX Exposure</button>
+      <button class="tab-btn" onclick="switchTab(4)">05. DOA Wire Controls</button>
+      <button class="tab-btn" onclick="switchTab(5)">Treasury Audit Checklist</button>
+    </div>
+
+    <!-- Tab 1 -->
+    <div class="tab-content active" id="tab-0">
+      <div class="card">
+        <h2>Module 01: 13-Week Rolling Cash Flow Forecast Summary</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>Week 1 (Current)</th>
+              <th>Week 4</th>
+              <th>Week 8</th>
+              <th>Week 13 (Qtr End)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Beginning Cash</td>
+              <td>$5,420,000</td>
+              <td>$4,610,000</td>
+              <td>$3,510,000</td>
+              <td>$2,235,000</td>
+            </tr>
+            <tr>
+              <td>Total Receipts</td>
+              <td>$599,500</td>
+              <td>$578,500</td>
+              <td>$602,200</td>
+              <td>$688,700</td>
+            </tr>
+            <tr>
+              <td>Total Disbursements</td>
+              <td>$350,000</td>
+              <td>$663,500</td>
+              <td>$675,000</td>
+              <td>$356,000</td>
+            </tr>
+            <tr>
+              <td>Net Cash Flow</td>
+              <td><span style="color:var(--accent)">+$249,500</span></td>
+              <td><span style="color:var(--danger)">-$85,000</span></td>
+              <td><span style="color:var(--danger)">-$72,800</span></td>
+              <td><span style="color:var(--accent)">+$332,700</span></td>
+            </tr>
+            <tr>
+              <td>Ending Cash Balance</td>
+              <td><strong>$5,669,500</strong></td>
+              <td><strong>$4,525,000</strong></td>
+              <td><strong>$3,438,200</strong></td>
+              <td><strong>$2,569,700</strong></td>
+            </tr>
+            <tr>
+              <td>Buffer Surplus</td>
+              <td>+$3,669,500</td>
+              <td>+$2,525,000</td>
+              <td>+$1,438,200</td>
+              <td>+$569,700</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tab 2 -->
+    <div class="tab-content" id="tab-1">
+      <div class="card">
+        <h2>Module 02: Multi-Bank Concentration & Extended FDIC Sweeps</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Banking Partner</th>
+              <th>Function</th>
+              <th>Target Allocation</th>
+              <th>Insurance Coverage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>JPMorgan Chase</td>
+              <td>Master Operating DDA</td>
+              <td>$1,500,000</td>
+              <td>$250k FDIC + Auto-Sweep</td>
+            </tr>
+            <tr>
+              <td>Bank of America</td>
+              <td>Payroll & Tax Escrow</td>
+              <td>$1,000,000</td>
+              <td>Isolated Clearing DDA</td>
+            </tr>
+            <tr>
+              <td>IntraFi Network (ICS)</td>
+              <td>Extended Deposit Sweep</td>
+              <td>$15,000,000</td>
+              <td><span style="color:var(--accent)">100% FDIC Insured ($50M limit)</span></td>
+            </tr>
+            <tr>
+              <td>State Street Custody</td>
+              <td>Govt Money Market Fund</td>
+              <td>$10,000,000</td>
+              <td>100% US Treasury Backed</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tab 3 -->
+    <div class="tab-content" id="tab-2">
+      <div class="card">
+        <h2>Module 03: Liquidity Tiering & 30/60/90-Day T-Bill Ladder</h2>
+        <p>Systematic sovereign roll maintaining continuous maturities every 4 weeks.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Tranche</th>
+              <th>Maturity Term</th>
+              <th>Capital Allocated</th>
+              <th>Rollover Strategy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tranche A</td>
+              <td>4-Week T-Bill</td>
+              <td>$3,000,000</td>
+              <td>Matures Week 4 -> Reinvest into 13-Week</td>
+            </tr>
+            <tr>
+              <td>Tranche B</td>
+              <td>8-Week T-Bill</td>
+              <td>$3,000,000</td>
+              <td>Matures Week 8 -> Reinvest into 13-Week</td>
+            </tr>
+            <tr>
+              <td>Tranche C</td>
+              <td>13-Week T-Bill</td>
+              <td>$3,000,000</td>
+              <td>Matures Week 13 -> Reinvest into 13-Week</td>
+            </tr>
+            <tr>
+              <td>Tranche D</td>
+              <td>26-Week T-Bill</td>
+              <td>$3,000,000</td>
+              <td>Matures Week 26 -> Strategic Liquidity Buffer</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tab 4 -->
+    <div class="tab-content" id="tab-3">
+      <div class="card">
+        <h2>Module 04: FX Exposure Tracking & Natural Hedging</h2>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Match EUR customer receipts against EUR engineering vendor payables</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Convert net FX surpluses exceeding 60-day operational buffers weekly on Fridays</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Prohibit speculative forward positions; execute hedging solely for budget protection</span></div>
+      </div>
+    </div>
+
+    <!-- Tab 5 -->
+    <div class="tab-content" id="tab-4">
+      <div class="card">
+        <h2>Module 05: Outbound Wire Delegation of Authority (DOA)</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Transaction Tier</th>
+              <th>Required Approvers</th>
+              <th>Verification Mandate</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>$0 - $10,000</td>
+              <td>Staff Accountant + Controller</td>
+              <td>In-app biometric push</td>
+            </tr>
+            <tr>
+              <td>$10,001 - $50,000</td>
+              <td>Controller + VP Finance</td>
+              <td>Dual hardware FIDO2 key</td>
+            </tr>
+            <tr>
+              <td>$50,001 - $250,000</td>
+              <td>Controller + CFO</td>
+              <td>Out-of-band verbal phone callback to verified vendor record</td>
+            </tr>
+            <tr>
+              <td>> $250,000</td>
+              <td>CFO + CEO + Board Member</td>
+              <td>Tri-signature cryptographic key + Board Minute reference</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tab 6 -->
+    <div class="tab-content" id="tab-5">
+      <div class="card">
+        <h2>Corporate Treasury Compliance Checklist</h2>
+        <div class="checklist-item"><input type="checkbox" checked> <span>13-Week Rolling Cash Flow updated every Monday at 09:00 EST</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Operating cash balance reconciled against $2,000,000 minimum buffer</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Excess DDA deposits swept overnight into IntraFi Insured Cash Sweep</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>T-Bill ladder tranches reviewed for upcoming maturity roll</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Out-of-band verbal callback executed for all vendor wire modifications</span></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function switchTab(index) {
+      const tabs = document.querySelectorAll('.tab-btn');
+      const contents = document.querySelectorAll('.tab-content');
+      tabs.forEach((t, i) => t.classList.toggle('active', i === index));
+      contents.forEach((c, i) => c.classList.toggle('active', i === index));
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOC 2 Type II Continuous Evidence Audit OS | Executive Command Center</title>
+  <style>
+    :root {
+      --primary: #0284c7;
+      --primary-dark: #0369a1;
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #10b981;
+      --danger: #ef4444;
+      --font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      line-height: 1.6;
+      padding: 30px 20px;
+    }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(2, 132, 199, 0.2);
+      border: 1px solid var(--primary);
+      color: #38bdf8;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    h1 { font-size: 1.8rem; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    p.subtitle { color: var(--text-muted); font-size: 0.95rem; }
+    .btn {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: var(--primary-dark); }
+    .tabs {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 10px;
+      margin-bottom: 25px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .tab-btn {
+      background: var(--card-bg);
+      color: var(--text-muted);
+      border: 1px solid var(--card-border);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .tab-btn.active, .tab-btn:hover {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; animation: fadeIn 0.3s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 20px;
+    }
+    h2 { font-size: 1.4rem; color: #38bdf8; margin-bottom: 16px; border-bottom: 1px solid var(--card-border); padding-bottom: 8px; }
+    h3 { font-size: 1.1rem; color: #fff; margin: 15px 0 8px; }
+    pre {
+      background: #090d16;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      padding: 16px;
+      overflow-x: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.9rem;
+      color: #e2e8f0;
+      margin: 12px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+      font-size: 0.9rem;
+    }
+    th, td {
+      border: 1px solid var(--card-border);
+      padding: 10px 14px;
+      text-align: left;
+    }
+    th { background: #0f172a; color: #38bdf8; font-weight: 600; }
+    tr:nth-child(even) { background: rgba(255, 255, 255, 0.02); }
+    .checklist-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.02);
+      margin-bottom: 8px;
+      border: 1px solid transparent;
+    }
+    .checklist-item:hover { border-color: var(--card-border); }
+    .checklist-item input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--accent); cursor: pointer; }
+    @media print {
+      body { background: #fff; color: #000; padding: 0; }
+      header, .tabs, .btn { display: none; }
+      .tab-content { display: block !important; }
+      .card { border: 1px solid #ccc; background: #fff; color: #000; break-inside: avoid; }
+      pre { background: #f4f4f4; color: #000; border: 1px solid #ddd; }
+      th { background: #eee; color: #000; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0;">
+
+  <div style="background: linear-gradient(90deg, #1e3a8a, #2563eb); color: #fff; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; font-family: system-ui, sans-serif; font-size: 0.9rem; position: sticky; top: 0; z-index: 99999; box-shadow: 0 4px 15px rgba(0,0,0,0.4); border-bottom: 1px solid #3b82f6;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <span style="background: #10b981; color: #000; font-weight: 800; font-size: 0.75rem; padding: 3px 8px; border-radius: 999px;">LIVE DEMO PREVIEW</span>
+      <span style="font-weight: 700;">The SOC 2 Type II Continuous Evidence Collection & Audit OS</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <a href="../index.html" style="color: #93c5fd; text-decoration: none; font-weight: 600;">← Back to Store</a>
+      <a href="https://whop.com/digital-super-market/" target="_blank" style="background: #10b981; color: #000; font-weight: 800; text-decoration: none; padding: 6px 14px; border-radius: 6px; box-shadow: 0 2px 8px rgba(16,185,129,0.3);">⚡ Get Full Package ($5 - $9)</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <header>
+      <div>
+        <span class="badge">AUDIT READINESS & CONTINUOUS MONITORING</span>
+        <h1>SOC 2 Type II Continuous Evidence Audit OS</h1>
+        <p class="subtitle">Automated GitHub Branch Protection, Access Reviews, Vendor Risk & Disaster Recovery Runbooks</p>
+      </div>
+      <div>
+        <button class="btn" onclick="window.print()">🖨️ Export PDF / Print Audit File</button>
+      </div>
+    </header>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab(0)">01. Criteria Matrix</button>
+      <button class="tab-btn" onclick="switchTab(1)">02. GitHub & CI/CD</button>
+      <button class="tab-btn" onclick="switchTab(2)">03. User Access Review</button>
+      <button class="tab-btn" onclick="switchTab(3)">04. Vendor Risk & DPA</button>
+      <button class="tab-btn" onclick="switchTab(4)">05. BC/DR Runbook</button>
+      <button class="tab-btn" onclick="switchTab(5)">Audit Checklist</button>
+    </div>
+
+    <!-- Tab 1 -->
+    <div class="tab-content active" id="tab-0">
+      <div class="card">
+        <h2>Module 01: Trust Services Criteria Evidence Mapping (CC1.1 - CC9.2)</h2>
+        <p>Line-by-line mapping between AICPA Trust Services Criteria and cloud-native engineering controls.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Criteria</th>
+              <th>Control Description</th>
+              <th>Evidence Artifact</th>
+              <th>Audit Verification Method</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>CC1.1</strong></td>
+              <td>Code of Conduct acknowledged by 100% of staff annually</td>
+              <td>HR e-signature logs</td>
+              <td>100% sample headcount ledger audit</td>
+            </tr>
+            <tr>
+              <td><strong>CC6.1</strong></td>
+              <td>MFA mandatory for 100% of admin access (Okta, AWS, GitHub)</td>
+              <td>MFA enforcement policies</td>
+              <td>API extraction: Zero non-MFA accounts</td>
+            </tr>
+            <tr>
+              <td><strong>CC6.2</strong></td>
+              <td>Access revoked within 24 hours of employee departure</td>
+              <td>SCIM revocation timestamps</td>
+              <td>Reconciliation of termination date vs token kill</td>
+            </tr>
+            <tr>
+              <td><strong>CC6.6</strong></td>
+              <td>Network isolation: DB tiers restricted to private VPC subnets</td>
+              <td>Terraform security group rules</td>
+              <td>Automated scan: Zero public 5432/3306 ingress</td>
+            </tr>
+            <tr>
+              <td><strong>CC7.1</strong></td>
+              <td>Weekly automated SAST & dependency scans; annual pentest</td>
+              <td>Dependabot alerts & Pentest Report</td>
+              <td>Verification of SLA remediation times</td>
+            </tr>
+            <tr>
+              <td><strong>CC8.1</strong></td>
+              <td>Enforced peer review on 'main' branch; direct push blocked</td>
+              <td>GitHub branch protection ruleset</td>
+              <td>API JSON attestation: enforce_admins = true</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tab 2 -->
+    <div class="tab-content" id="tab-1">
+      <div class="card">
+        <h2>Module 02: GitHub Branch Protection & CI/CD Security Infrastructure</h2>
+        <p>Production Terraform HCL ruleset enforcing strict linear history, signed commits, and independent review.</p>
+        <pre><code>resource "github_branch_protection" "production_main" {
+  repository_id    = "your-saas-core-api"
+  pattern          = "main"
+  enforce_admins   = true # CRITICAL FOR SOC 2: Admins CANNOT bypass rules
+  allows_deletions = false
+  allows_force_pushes = false
+
+  required_status_checks {
+    strict   = true
+    contexts = [
+      "ci/unit-tests",
+      "ci/security/trivy-container-scan",
+      "ci/security/semgrep-sast",
+      "ci/security/gitleaks-secret-scan"
+    ]
+  }
+
+  required_pull_request_reviews {
+    dismiss_stale_reviews           = true
+    require_code_owner_reviews      = true
+    required_approving_review_count = 1
+  }
+
+  require_signed_commits = true
+}</code></pre>
+      </div>
+    </div>
+
+    <!-- Tab 3 -->
+    <div class="tab-content" id="tab-2">
+      <div class="card">
+        <h2>Module 03: Quarterly Privileged User Access Review (UAR)</h2>
+        <p>Standardized managerial sign-off ledger and anomaly detection workflow.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>User Email</th>
+              <th>System</th>
+              <th>Role</th>
+              <th>MFA</th>
+              <th>Sign-Off Status</th>
+              <th>Reviewer Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>sara.m@company.com</td>
+              <td>AWS Console</td>
+              <td>AdministratorAccess</td>
+              <td><span style="color:var(--accent)">TRUE</span></td>
+              <td>APPROVED</td>
+              <td>Retain infrastructure role</td>
+            </tr>
+            <tr>
+              <td>john.d@contractor.com</td>
+              <td>GitHub Org</td>
+              <td>Write</td>
+              <td><span style="color:var(--accent)">TRUE</span></td>
+              <td><span style="color:var(--danger)">REVOKE</span></td>
+              <td>Contract expired; revoke within 24 hours</td>
+            </tr>
+            <tr>
+              <td>david.k@marketing.com</td>
+              <td>Supabase DB</td>
+              <td>db_owner</td>
+              <td><span style="color:var(--danger)">FALSE</span></td>
+              <td><span style="color:var(--danger)">REVOKE</span></td>
+              <td>Privilege anomaly; revoke immediately</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tab 4 -->
+    <div class="tab-content" id="tab-3">
+      <div class="card">
+        <h2>Module 04: Third-Party Vendor Risk Assessment & Sub-Processor DPA</h2>
+        <p>Active registry of evaluated sub-processors and external SOC 2 attestation monitoring.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Vendor Name</th>
+              <th>Data Shared</th>
+              <th>Risk Tier</th>
+              <th>SOC 2 Report Expiry</th>
+              <th>DPA Executed</th>
+              <th>Audit Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Amazon Web Services (AWS)</td>
+              <td>Production RDS / S3</td>
+              <td>Tier 1 (Critical)</td>
+              <td>2026-11-30</td>
+              <td>YES</td>
+              <td><span style="color:var(--accent)">COMPLIANT</span></td>
+            </tr>
+            <tr>
+              <td>Supabase</td>
+              <td>User Auth & Database</td>
+              <td>Tier 1 (Critical)</td>
+              <td>2026-10-15</td>
+              <td>YES</td>
+              <td><span style="color:var(--accent)">COMPLIANT</span></td>
+            </tr>
+            <tr>
+              <td>Stripe, Inc.</td>
+              <td>Tokenized Billing Data</td>
+              <td>Tier 1 (Critical)</td>
+              <td>2026-12-31</td>
+              <td>YES</td>
+              <td><span style="color:var(--accent)">COMPLIANT</span></td>
+            </tr>
+            <tr>
+              <td>Datadog</td>
+              <td>System Telemetry</td>
+              <td>Tier 2 (Operational)</td>
+              <td>2026-09-15</td>
+              <td>YES</td>
+              <td><span style="color:var(--accent)">COMPLIANT</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tab 5 -->
+    <div class="tab-content" id="tab-4">
+      <div class="card">
+        <h2>Module 05: BC/DR Tabletop Runbook & RTO/RPO Simulation</h2>
+        <p>Defined operational recovery metrics: 99.95% Availability, 2-Hour RTO, 15-Minute RPO.</p>
+        <pre><code># Quarterly Automated PITR Restoration Verification Drill
+aws rds restore-db-instance-to-point-in-time \
+  --source-db-instance-identifier saas-prod-db \
+  --target-db-instance-identifier dr-test-restore-$(date +%s) \
+  --restore-time $(date -u -d "3 days ago 04:00" +%Y-%m-%dT%H:%M:%SZ) \
+  --db-subnet-group-name dr-testing-subnet
+
+# Benchmark Requirement: Restoration must complete <= 45 mins to guarantee 2-hr RTO.</code></pre>
+      </div>
+    </div>
+
+    <!-- Tab 6 -->
+    <div class="tab-content" id="tab-5">
+      <div class="card">
+        <h2>Continuous SOC 2 Type II Readiness Checklist</h2>
+        <div class="checklist-item"><input type="checkbox" checked> <span>CC1.1: Annual Code of Conduct signed by 100% of staff</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>CC6.1: Enforce hardware WebAuthn / TOTP MFA across AWS, Okta, GitHub</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>CC6.2: Automated 24-hour offboarding revocation via SCIM</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>CC6.6: Database private subnet isolation; zero direct public ingress</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>CC7.1: Snyk/Dependabot weekly dependency scans active with SLA alerts</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>CC8.1: GitHub branch protection active with enforce_admins = true</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>CC9.2: Sub-processor SOC 2 Type II reports and DPAs verified</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>A1.2: Continuous PITR database backup active with cross-region sync</span></div>
+        <div class="checklist-item"><input type="checkbox"> <span>Execute Q2 2026 Tabletop Disaster Simulation and save meeting minutes</span></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function switchTab(index) {
+      const tabs = document.querySelectorAll('.tab-btn');
+      const contents = document.querySelectorAll('.tab-content');
+      tabs.forEach((t, i) => t.classList.toggle('active', i === index));
+      contents.forEach((c, i) => c.classList.toggle('active', i === index));
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clinical Research TMF Audit OS | Regulatory Inspection Dashboard</title>
+  <style>
+    :root {
+      --primary: #0284c7;
+      --primary-dark: #0369a1;
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #10b981;
+      --danger: #ef4444;
+      --font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--font); line-height: 1.6; padding: 30px 20px; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(2, 132, 199, 0.2);
+      border: 1px solid var(--primary);
+      color: #38bdf8;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    h1 { font-size: 1.8rem; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    p.subtitle { color: var(--text-muted); font-size: 0.95rem; }
+    .btn {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: var(--primary-dark); }
+    .tabs {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 10px;
+      margin-bottom: 25px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .tab-btn {
+      background: var(--card-bg);
+      color: var(--text-muted);
+      border: 1px solid var(--card-border);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .tab-btn.active, .tab-btn:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; animation: fadeIn 0.3s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    .card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 12px; padding: 25px; margin-bottom: 20px; }
+    h2 { font-size: 1.4rem; color: #38bdf8; margin-bottom: 16px; border-bottom: 1px solid var(--card-border); padding-bottom: 8px; }
+    table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 0.9rem; }
+    th, td { border: 1px solid var(--card-border); padding: 10px 14px; text-align: left; }
+    th { background: #0f172a; color: #38bdf8; font-weight: 600; }
+    tr:nth-child(even) { background: rgba(255, 255, 255, 0.02); }
+    .checklist-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.02);
+      margin-bottom: 8px;
+      border: 1px solid transparent;
+    }
+    .checklist-item:hover { border-color: var(--card-border); }
+    .checklist-item input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--accent); cursor: pointer; }
+    @media print {
+      body { background: #fff; color: #000; padding: 0; }
+      header, .tabs, .btn { display: none; }
+      .tab-content { display: block !important; }
+      .card { border: 1px solid #ccc; background: #fff; color: #000; break-inside: avoid; }
+      th { background: #eee; color: #000; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0;">
+
+  <div style="background: linear-gradient(90deg, #1e3a8a, #2563eb); color: #fff; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; font-family: system-ui, sans-serif; font-size: 0.9rem; position: sticky; top: 0; z-index: 99999; box-shadow: 0 4px 15px rgba(0,0,0,0.4); border-bottom: 1px solid #3b82f6;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <span style="background: #10b981; color: #000; font-weight: 800; font-size: 0.75rem; padding: 3px 8px; border-radius: 999px;">LIVE DEMO PREVIEW</span>
+      <span style="font-weight: 700;">The Clinical Research & Life Sciences Trial Master File (TMF) Audit OS</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <a href="../index.html" style="color: #93c5fd; text-decoration: none; font-weight: 600;">← Back to Store</a>
+      <a href="https://whop.com/digital-super-market/" target="_blank" style="background: #10b981; color: #000; font-weight: 800; text-decoration: none; padding: 6px 14px; border-radius: 6px; box-shadow: 0 2px 8px rgba(16,185,129,0.3);">⚡ Get Full Package ($5 - $9)</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <header>
+      <div>
+        <span class="badge">FDA 21 CFR PART 312 & DIA TMF V3 COMPLIANCE</span>
+        <h1>Clinical Research TMF Audit OS</h1>
+        <p class="subtitle">DIA Reference Model Indexing, FDA BIMO Inspection Simulation & ISF Reconciliation Runbook</p>
+      </div>
+      <div>
+        <button class="btn" onclick="window.print()">🖨️ Export PDF / Print Inspection Binder</button>
+      </div>
+    </header>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab(0)">01. DIA TMF Taxonomy</button>
+      <button class="tab-btn" onclick="switchTab(1)">02. FDA BIMO Checklist</button>
+      <button class="tab-btn" onclick="switchTab(2)">03. ISF Reconciliation</button>
+      <button class="tab-btn" onclick="switchTab(3)">04. GCP Deviations & CAPA</button>
+      <button class="tab-btn" onclick="switchTab(4)">05. 25-Yr Closeout Archival</button>
+      <button class="tab-btn" onclick="switchTab(5)">Inspection Readiness Check</button>
+    </div>
+
+    <!-- Tab 1 -->
+    <div class="tab-content active" id="tab-0">
+      <div class="card">
+        <h2>Module 01: DIA TMF Reference Model v3 Master Indexing</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Zone Code</th>
+              <th>Zone Name</th>
+              <th>Key Essential Artifacts</th>
+              <th>Regulatory Standard</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Zone 01</strong></td>
+              <td>Trial Management</td>
+              <td>DSMB Charters, Project Management Plans, Financial Disclosures</td>
+              <td>ICH GCP 5.1</td>
+            </tr>
+            <tr>
+              <td><strong>Zone 02</strong></td>
+              <td>Central Trial Documents</td>
+              <td>Signed Protocol, Investigator Brochure (IB), Master Informed Consent</td>
+              <td>21 CFR 312.23</td>
+            </tr>
+            <tr>
+              <td><strong>Zone 03</strong></td>
+              <td>Regulatory Submissions</td>
+              <td>FDA Form 1571, IND Annual Reports, Safety Reports (SUSARs)</td>
+              <td>21 CFR 312.32</td>
+            </tr>
+            <tr>
+              <td><strong>Zone 04</strong></td>
+              <td>IRB / Ethics Committees</td>
+              <td>IRB Favorable Opinions, Composition Rosters, Continuing Reviews</td>
+              <td>21 CFR Part 56</td>
+            </tr>
+            <tr>
+              <td><strong>Zone 05</strong></td>
+              <td>Site Management</td>
+              <td>Form FDA 1572, CVs & Medical Licenses, Delegation of Authority Logs</td>
+              <td>21 CFR 312.53</td>
+            </tr>
+            <tr>
+              <td><strong>Zone 06</strong></td>
+              <td>Investigational Product (IP)</td>
+              <td>Certificate of Analysis (CoA), Temperature Excursion Records</td>
+              <td>GMP / 21 CFR 312.62</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tab 2 -->
+    <div class="tab-content" id="tab-1">
+      <div class="card">
+        <h2>Module 02: FDA BIMO Inspection Simulation Checklist</h2>
+        <div class="checklist-item"><input type="checkbox" checked> <span>FDA 1571 Box 13: CRO Transfer of Regulatory Obligations formally itemized</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Form FDA 1572: Signed, dated, with valid medical licenses for all investigators</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Financial Disclosures: FDA Form 3454/3455 executed for 100% of trial staff</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Informed Consent: Timestamp confirms consent executed PRIOR to any protocol tests</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>SUSAR Reporting: 7-day fatal/life-threatening safety alerts reported to FDA on time</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>IP Accountability: 100% balance across shipped, dispensed, and returned drug units</span></div>
+      </div>
+    </div>
+
+    <!-- Tab 3 -->
+    <div class="tab-content" id="tab-2">
+      <div class="card">
+        <h2>Module 03: Investigator Site File (ISF) vs eTMF Reconciliation</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Site ID</th>
+              <th>Artifact Name</th>
+              <th>Status in ISF</th>
+              <th>Status in eTMF</th>
+              <th>Reconciliation Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Site 101</td>
+              <td>FDA Form 1572 v2.0</td>
+              <td><span style="color:var(--accent)">Present</span></td>
+              <td><span style="color:var(--accent)">Present</span></td>
+              <td>Reconciled & verified</td>
+            </tr>
+            <tr>
+              <td>Site 101</td>
+              <td>IRB Approval Amend 2</td>
+              <td><span style="color:var(--accent)">Present</span></td>
+              <td><span style="color:var(--danger)">MISSING</span></td>
+              <td>Upload certified copy to eTMF Zone 4</td>
+            </tr>
+            <tr>
+              <td>Site 102</td>
+              <td>PI Medical License</td>
+              <td><span style="color:var(--accent)">Present</span></td>
+              <td><span style="color:var(--danger)">EXPIRED</span></td>
+              <td>Obtain renewed license from PI</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tab 4 -->
+    <div class="tab-content" id="tab-3">
+      <div class="card">
+        <h2>Module 04: GCP Protocol Deviation Matrix & 5-Why CAPA</h2>
+        <p>Systemic investigation and corrective action protocol for clinical trial deviations.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Deviation Category</th>
+              <th>Classification</th>
+              <th>Reporting SLA</th>
+              <th>Regulatory Impact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Consent drawn post-procedure</td>
+              <td><span style="color:var(--danger)">CRITICAL</span></td>
+              <td><= 24 Hours to IRB/Sponsor</td>
+              <td>GCP Violation; potential subject data exclusion</td>
+            </tr>
+            <tr>
+              <td>Prohibited medication taken</td>
+              <td><span style="color:var(--danger)">MAJOR</span></td>
+              <td><= 48 Hours</td>
+              <td>Safety risk evaluation & medical monitor review</td>
+            </tr>
+            <tr>
+              <td>Out of window visit (2 days)</td>
+              <td><span style="color:var(--accent)">MINOR</span></td>
+              <td>Routine Monitoring Log</td>
+              <td>Zero safety impact; document in note to file</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tab 5 -->
+    <div class="tab-content" id="tab-4">
+      <div class="card">
+        <h2>Module 05: 25-Year Closeout & Regulatory Preservation</h2>
+        <p>4-Gate study closeout protocol satisfying FDA 21 CFR 312.62 and EU CTR 536/2014 Article 58.</p>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Gate 1: 100% of eCRFs entered, SDV completed, and database locked</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Gate 2: Safety database reconciliation completed with zero discrepant SAEs</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Gate 3: IP accountability balance verified; certificates of destruction signed</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Gate 4: eTMF converted to PDF/A-1b with SHA-256 hashes for 25-year cold archival</span></div>
+      </div>
+    </div>
+
+    <!-- Tab 6 -->
+    <div class="tab-content" id="tab-5">
+      <div class="card">
+        <h2>Trial Master File Overall Inspection Readiness</h2>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Master DIA TMF v3 taxonomy deployed across all trial zones</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>FDA BIMO Mock Inspection simulation conducted and war room SOP established</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Quarterly ISF vs eTMF reconciliation completed with certified copies verified</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Major deviations investigated with 5-Why root cause analysis and CAPA tracking</span></div>
+        <div class="checklist-item"><input type="checkbox" checked> <span>Trial close-out gates defined with 25-year immutable digital preservation standards</span></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function switchTab(index) {
+      const tabs = document.querySelectorAll('.tab-btn');
+      const contents = document.querySelectorAll('.tab-content');
+      tabs.forEach((t, i) => t.classList.toggle('active', i === index));
+      contents.forEach((c, i) => c.classList.toggle('active', i === index));
+    }
+  </script>
+</body>
+</html>
