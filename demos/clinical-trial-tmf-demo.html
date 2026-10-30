@@ -118,7 +118,7 @@
     </div>
     <div style="display: flex; align-items: center; gap: 12px;">
       <a href="../index.html" style="color: #93c5fd; text-decoration: none; font-weight: 600;">← Back to Store</a>
-      <a href="https://whop.com/digital-super-market/" target="_blank" style="background: #10b981; color: #000; font-weight: 800; text-decoration: none; padding: 6px 14px; border-radius: 6px; box-shadow: 0 2px 8px rgba(16,185,129,0.3);">⚡ Get Full Package ($5 - $9)</a>
+      <a href="https://whop.com/checkout/plan_SSBbqhB2YceZ?promo_code=firstbuy20I?promo_code=firstbuy20" target="_blank" style="background: #10b981; color: #000; font-weight: 800; text-decoration: none; padding: 6px 14px; border-radius: 6px; box-shadow: 0 2px 8px rgba(16,185,129,0.3);">⚡ Buy Now $8 ($8 ($6.40 with code FIRSTBUY20))</a>
     </div>
   </div>
 
@@ -322,6 +322,22 @@
       tabs.forEach((t, i) => t.classList.toggle('active', i === index));
       contents.forEach((c, i) => c.classList.toggle('active', i === index));
     }
+  
+    function copySpec(id, btn) {
+      const el = document.getElementById(id) || btn.closest('.content-card').querySelector('pre');
+      if (!el) return;
+      navigator.clipboard.writeText(el.innerText);
+      const old = btn.innerHTML;
+      btn.innerHTML = '✓ Copied!';
+      btn.style.background = '#10b981';
+      btn.style.color = '#000';
+      setTimeout(() => {
+        btn.innerHTML = old;
+        btn.style.background = '#1e293b';
+        btn.style.color = '#93c5fd';
+      }, 2000);
+    }
+    
   </script>
 </body>
 </html>

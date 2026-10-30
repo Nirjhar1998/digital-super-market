@@ -33,6 +33,13 @@
       "query-input": "required name=search_term_string"
     }
   }
+  
+    function toggleHelpDrawer() {
+      const drawer = document.getElementById('helpDrawer');
+      const isVisible = drawer.style.display === 'block';
+      drawer.style.display = isVisible ? 'none' : 'block';
+    }
+  
   </script>
 
   <style>
@@ -433,6 +440,84 @@
     </div>
   </section>
 
+  
+  <!-- Curated Category Mega-Bundles -->
+  <section class="mega-bundles-section" style="max-width: 1200px; margin: 0 auto 40px auto; padding: 0 20px;">
+    <div class="section-header">
+      <div>
+        <div class="section-title">📦 Curated Category Mega-Suites</div>
+        <div class="section-sub">Get entire domain libraries at an 85%+ discount or unlock all 1,000 systems.</div>
+      </div>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px;">
+      
+      <!-- Agency Suite -->
+      <div style="background: linear-gradient(145deg, #1e1b4b 0%, #0f172a 100%); border: 1px solid #6366f1; border-radius: 12px; padding: 22px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <span style="background: #6366f1; color: #fff; font-size: 0.72rem; font-weight: 800; padding: 3px 8px; border-radius: 4px; text-transform: uppercase;">Agency & Consulting</span>
+          <h3 style="font-size: 1.15rem; color: #fff; margin: 10px 0 6px 0;">Agency Founder & Retainer Suite</h3>
+          <p style="font-size: 0.85rem; color: var(--muted); margin-bottom: 14px;">All 35 Agency systems: Client intake playbooks, scope defense covenants, Notion deliverable hubs, and retainer renewal addenda.</p>
+        </div>
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px;">
+            <span style="color: #ef4444; font-size: 0.85rem; text-decoration: line-through;">$249</span>
+            <span style="font-size: 1.5rem; font-weight: 900; color: var(--green);">$29</span>
+          </div>
+          <a href="https://whop.com/checkout/plan_McYiiQ51Vd5jy?promo_code=firstbuy20" target="_blank" style="display: block; text-align: center; background: #6366f1; color: #fff; font-weight: 800; padding: 10px; border-radius: 8px; text-decoration: none; font-size: 0.88rem;">⚡ Unlock via Vault ($23.20 w/ code)</a>
+        </div>
+      </div>
+
+      <!-- Dev & AI Suite -->
+      <div style="background: linear-gradient(145deg, #0c2340 0%, #0f172a 100%); border: 1px solid #0284c7; border-radius: 12px; padding: 22px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <span style="background: #0284c7; color: #fff; font-size: 0.72rem; font-weight: 800; padding: 3px 8px; border-radius: 4px; text-transform: uppercase;">Tech & Engineering</span>
+          <h3 style="font-size: 1.15rem; color: #fff; margin: 10px 0 6px 0;">Full-Stack AI & Dev Architecture Suite</h3>
+          <p style="font-size: 0.85rem; color: var(--muted); margin-bottom: 14px;">All 206 Tech systems: Next.js 15 Cursor rules, PostgreSQL RLS, ClickHouse telemetry, Kafka pipelines, and LLM guardrails.</p>
+        </div>
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px;">
+            <span style="color: #ef4444; font-size: 0.85rem; text-decoration: line-through;">$499</span>
+            <span style="font-size: 1.5rem; font-weight: 900; color: var(--green);">$29</span>
+          </div>
+          <a href="https://whop.com/checkout/plan_McYiiQ51Vd5jy?promo_code=firstbuy20" target="_blank" style="display: block; text-align: center; background: #0284c7; color: #fff; font-weight: 800; padding: 10px; border-radius: 8px; text-decoration: none; font-size: 0.88rem;">⚡ Unlock via Vault ($23.20 w/ code)</a>
+        </div>
+      </div>
+
+      <!-- SaaS Legal & Compliance Suite -->
+      <div style="background: linear-gradient(145deg, #1c1917 0%, #0f172a 100%); border: 1px solid #d97706; border-radius: 12px; padding: 22px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <span style="background: #d97706; color: #000; font-size: 0.72rem; font-weight: 800; padding: 3px 8px; border-radius: 4px; text-transform: uppercase;">Legal & Governance</span>
+          <h3 style="font-size: 1.15rem; color: #fff; margin: 10px 0 6px 0;">SaaS Legal & SOC 2 Audit Suite</h3>
+          <p style="font-size: 0.85rem; color: var(--muted); margin-bottom: 14px;">All 79 Legal systems: SOC 2 Type II evidence matrices, Terraform branch rules, GDPR/CCPA matrices, and DPA agreements.</p>
+        </div>
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px;">
+            <span style="color: #ef4444; font-size: 0.85rem; text-decoration: line-through;">$399</span>
+            <span style="font-size: 1.5rem; font-weight: 900; color: var(--green);">$29</span>
+          </div>
+          <a href="https://whop.com/checkout/plan_McYiiQ51Vd5jy?promo_code=firstbuy20" target="_blank" style="display: block; text-align: center; background: #d97706; color: #000; font-weight: 800; padding: 10px; border-radius: 8px; text-decoration: none; font-size: 0.88rem;">⚡ Unlock via Vault ($23.20 w/ code)</a>
+        </div>
+      </div>
+
+      <!-- Crown Master Vault (All 1,000) -->
+      <div style="background: linear-gradient(145deg, #2e1065 0%, #1e1b4b 100%); border: 2px solid #a855f7; border-radius: 12px; padding: 22px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 8px 25px rgba(168,85,247,0.25);">
+        <div>
+          <span style="background: #a855f7; color: #fff; font-size: 0.72rem; font-weight: 800; padding: 3px 8px; border-radius: 4px; text-transform: uppercase;">Crown Milestone</span>
+          <h3 style="font-size: 1.15rem; color: #fff; margin: 10px 0 6px 0;">All-Access Master Centennial Vault</h3>
+          <p style="font-size: 0.85rem; color: #ddd6fe; margin-bottom: 14px;">All 1,000 systems across all 6 business pillars. Perpetual single-seat commercial license with lifetime continuous updates.</p>
+        </div>
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px;">
+            <span style="color: #ef4444; font-size: 0.85rem; text-decoration: line-through;">$7,000</span>
+            <span style="font-size: 1.5rem; font-weight: 900; color: #fde047;">$97</span>
+          </div>
+          <a href="https://whop.com/checkout/plan_McYiiQ51Vd5jy?promo_code=firstbuy20" target="_blank" style="display: block; text-align: center; background: var(--green); color: #000; font-weight: 900; padding: 10px; border-radius: 8px; text-decoration: none; font-size: 0.88rem;">👑 Unlock All 1,000 ($77.60 w/ code)</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
   <!-- Search & Category Filters -->
   <div class="controls">
     <div class="search-box">
@@ -665,5 +750,44 @@
 
     loadCatalog();
   </script>
+
+  <!-- Floating Customer Support & FAQ Widget -->
+  <div style="position: fixed; bottom: 24px; right: 24px; z-index: 1000;">
+    <button id="helpBtn" onclick="toggleHelpDrawer()" style="background: #2563eb; color: #fff; border: none; padding: 12px 20px; border-radius: 9999px; font-weight: 800; font-size: 0.9rem; cursor: pointer; box-shadow: 0 10px 25px rgba(37,99,235,0.4); display: flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+      💬 Questions & Support
+    </button>
+  </div>
+
+  <div id="helpDrawer" style="display: none; position: fixed; bottom: 80px; right: 24px; width: 360px; max-width: calc(100vw - 48px); background: #111827; border: 2px solid #3b82f6; border-radius: 16px; padding: 22px; box-shadow: 0 20px 40px rgba(0,0,0,0.6); z-index: 1001; max-height: 520px; overflow-y: auto;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 1px solid #1f293d; padding-bottom: 10px;">
+      <div style="font-weight: 800; font-size: 1.1rem; color: #fff;">⚡ Instant Support & FAQ</div>
+      <button onclick="toggleHelpDrawer()" style="background: transparent; border: none; color: #94a3b8; font-size: 1.3rem; cursor: pointer;">&times;</button>
+    </div>
+
+    <div style="margin-bottom: 14px;">
+      <div style="font-weight: 700; font-size: 0.9rem; color: #93c5fd; margin-bottom: 4px;">⚡ How do I open my files after checkout?</div>
+      <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.5;">Right-click the downloaded ZIP archive and choose "Extract All". Then double-click <code>Interactive_Viewer_and_Command_Center.html</code> to open your offline browser dashboard.</div>
+    </div>
+
+    <div style="margin-bottom: 14px;">
+      <div style="font-weight: 700; font-size: 0.9rem; color: #93c5fd; margin-bottom: 4px;">💳 What payment methods are supported?</div>
+      <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.5;">All credit/debit cards (with 3D Secure), Apple Pay, Google Pay, and PayPal. 100% flat pricing with zero recurring subscriptions.</div>
+    </div>
+
+    <div style="margin-bottom: 14px;">
+      <div style="font-weight: 700; font-size: 0.9rem; color: #93c5fd; margin-bottom: 4px;">🏷️ Do you have a promo code?</div>
+      <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.5;">Yes! Use code <strong>FIRSTBUY20</strong> at checkout for 20% off any system or the $97 Master Vault.</div>
+    </div>
+
+    <div style="margin-bottom: 14px;">
+      <div style="font-weight: 700; font-size: 0.9rem; color: #93c5fd; margin-bottom: 4px;">🤝 How do I earn 50% commission?</div>
+      <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.5;">Join our <a href="AFFILIATE_HUB.html" style="color: #f59e0b; font-weight: 700;">50% Affiliate Program</a> on Whop. You earn $48.50 per sale on the Master Vault with instant attribution!</div>
+    </div>
+
+    <div style="border-top: 1px solid #1f293d; padding-top: 12px; text-align: center;">
+      <a href="https://whop.com/digital-super-market/" target="_blank" style="color: #60a5fa; font-size: 0.82rem; text-decoration: none; font-weight: 600;">Visit Official Whop Support Hub →</a>
+    </div>
+  </div>
+
 </body>
 </html>
