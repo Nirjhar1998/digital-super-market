@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free B2B Contract & Master Services Agreement (MSA) Generator — Digital Super Market</title>
+  <meta name="description" content="Generate a legally robust, battle-tested B2B Master Services Agreement (MSA) and Statement of Work (SOW) in 60 seconds. Free in-browser contract builder with scope defense clauses.">
+  <link rel="canonical" href="https://nirjhar1998.github.io/digital-super-market/free-contract-generator.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Free B2B Contract & Master Services Agreement Generator">
+  <meta property="og:description" content="Generate a battle-tested B2B Master Services Agreement & Scope Defense Statement of Work in seconds. 1-click copy or print to PDF.">
+  <meta property="og:url" content="https://nirjhar1998.github.io/digital-super-market/free-contract-generator.html">
+  <meta property="og:image" content="https://nirjhar1998.github.io/digital-super-market/products/covers/banner_2.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Free B2B Contract & Scope Defense Generator">
+  <meta name="twitter:description" content="Instant legally robust B2B consulting & agency agreement builder with scope defense. Free forever.">
+  <meta name="twitter:image" content="https://nirjhar1998.github.io/digital-super-market/products/covers/banner_2.jpg">
+
+  <!-- Schema.org WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "B2B Contract & Master Services Agreement Generator",
+    "url": "https://nirjhar1998.github.io/digital-super-market/free-contract-generator.html",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Digital Super Market",
+      "url": "https://nirjhar1998.github.io/digital-super-market/"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --card-alt: #162032;
+      --border: #1f293d;
+      --border-focus: #3b82f6;
+      --text: #f9fafb;
+      --muted: #94a3b8;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --green: #10b981;
+      --green-hover: #059669;
+      --gold: #f59e0b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); line-height: 1.6; padding-bottom: 80px; }
+
+    .top-promo { background: linear-gradient(90deg, #1e3a8a 0%, #4338ca 50%, #6d28d9 100%); color: #fff; padding: 10px 20px; font-size: 0.88rem; font-weight: 700; text-align: center; }
+    .top-promo span { background: #fde047; color: #000; padding: 2px 8px; border-radius: 4px; margin-left: 4px; font-weight: 800; }
+
+    .nav { max-width: 1200px; margin: 0 auto; padding: 18px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); }
+    .brand { font-size: 1.25rem; font-weight: 800; color: #fff; text-decoration: none; display: flex; align-items: center; gap: 8px; }
+    .nav-links { display: flex; gap: 16px; align-items: center; font-size: 0.9rem; }
+    .nav-links a { color: var(--muted); text-decoration: none; font-weight: 600; }
+    .nav-links a:hover { color: #fff; }
+    .btn-nav-primary { background: var(--accent); color: #fff !important; padding: 6px 14px; border-radius: 6px; font-weight: 700; }
+
+    .hero { text-align: center; padding: 40px 20px 25px 20px; max-width: 860px; margin: 0 auto; }
+    .hero-badge { display: inline-block; background: rgba(59, 130, 246, 0.15); border: 1px solid #3b82f6; color: #60a5fa; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; padding: 4px 12px; border-radius: 9999px; margin-bottom: 14px; }
+    .hero h1 { font-size: 2.3rem; font-weight: 800; line-height: 1.25; margin-bottom: 12px; color: #fff; }
+    .hero p { font-size: 1.05rem; color: var(--muted); }
+
+    .workspace { max-width: 1240px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: 440px 1fr; gap: 28px; }
+    @media (max-width: 960px) { .workspace { grid-template-columns: 1fr; } }
+
+    /* Left Form Panel */
+    .form-panel { background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 24px; height: fit-content; }
+    .panel-title { font-size: 1.2rem; font-weight: 800; color: #fff; margin-bottom: 18px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--border); padding-bottom: 12px; }
+    
+    .form-group { margin-bottom: 16px; }
+    .form-group label { display: block; font-size: 0.85rem; font-weight: 700; color: #cbd5e1; margin-bottom: 6px; }
+    .form-control { width: 100%; background: #0f172a; border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; color: #fff; font-size: 0.92rem; outline: none; transition: border-color 0.2s; }
+    .form-control:focus { border-color: var(--border-focus); }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    
+    .clause-toggle { background: #0f172a; border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; margin-bottom: 10px; display: flex; align-items: flex-start; gap: 10px; cursor: pointer; }
+    .clause-toggle input { margin-top: 4px; accent-color: var(--accent); }
+    .clause-label { font-size: 0.85rem; color: #cbd5e1; font-weight: 600; }
+    .clause-desc { font-size: 0.75rem; color: var(--muted); }
+
+    /* Right Preview Panel */
+    .preview-panel { background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 24px; display: flex; flex-direction: column; }
+    .preview-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 14px; flex-wrap: wrap; gap: 12px; }
+    .preview-title { font-size: 1.15rem; font-weight: 800; color: #fff; }
+    
+    .action-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn-action { background: #1e293b; border: 1px solid #334155; color: #cbd5e1; padding: 8px 14px; border-radius: 8px; font-weight: 700; font-size: 0.82rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }
+    .btn-action:hover { background: #334155; color: #fff; }
+    .btn-action.primary { background: var(--green); color: #000; border-color: var(--green); }
+    .btn-action.primary:hover { background: var(--green-hover); }
+
+    .contract-doc { background: #0b0f19; border: 1px solid var(--border); border-radius: 10px; padding: 30px; color: #e2e8f0; font-size: 0.9rem; line-height: 1.7; max-height: 680px; overflow-y: auto; font-family: 'Courier New', Courier, monospace; }
+    .contract-doc h2 { font-size: 1.2rem; color: #60a5fa; margin-bottom: 12px; border-bottom: 1px solid #1e293b; padding-bottom: 6px; font-family: sans-serif; }
+    .contract-doc h3 { font-size: 1rem; color: #f59e0b; margin: 18px 0 6px 0; font-family: sans-serif; }
+    .contract-doc p { margin-bottom: 12px; }
+    .contract-doc ul { margin-left: 20px; margin-bottom: 12px; }
+
+    /* Upsell Card */
+    .upsell-card { margin-top: 24px; background: linear-gradient(135deg, #1e1b4b 0%, #2e1065 100%); border: 1px solid #8b5cf6; border-radius: 12px; padding: 20px; display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .upsell-text h4 { font-size: 1.05rem; font-weight: 800; color: #fff; margin-bottom: 4px; }
+    .upsell-text p { font-size: 0.85rem; color: #ddd6fe; }
+    .btn-upsell { background: var(--green); color: #000; font-weight: 900; font-size: 0.88rem; padding: 10px 18px; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: background 0.2s; }
+    .btn-upsell:hover { background: var(--green-hover); }
+
+    /* Print Styles */
+    @media print {
+      body { background: #fff !important; color: #000 !important; }
+      .top-promo, .nav, .hero, .form-panel, .action-btns, .upsell-card { display: none !important; }
+      .workspace { display: block !important; padding: 0 !important; }
+      .preview-panel { border: none !important; padding: 0 !important; background: transparent !important; }
+      .contract-doc { background: #fff !important; color: #000 !important; border: none !important; max-height: none !important; overflow: visible !important; }
+      .contract-doc h2, .contract-doc h3 { color: #000 !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-promo">
+    ⚡ Special Offer: Unlock all 1,000 Turnkey Business Operating Systems for $77.60 with code <span>FIRSTBUY20</span>
+  </div>
+
+  <nav class="nav">
+    <a href="index.html" class="brand">⚡ Digital Super Market</a>
+    <div class="nav-links">
+      <a href="index.html">← Back to Storefront</a>
+      <a href="demos/contract-invoicing-demo.html" target="_blank">Contract Demo #02</a>
+      <a href="free-scope-defense-kit.html">Free Scope Kit</a>
+      <a href="https://whop.com/digital-super-market/" target="_blank" rel="noopener" class="btn-nav-primary">Whop Store</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-badge">🛠️ 100% Free Interactive Legal Utility</div>
+    <h1>B2B Master Services Agreement & Scope Defense Generator</h1>
+    <p>Configure a customized, battle-tested consulting or agency agreement in 60 seconds with strict milestone invoicing and scope creep defenses.</p>
+  </section>
+
+  <div class="workspace">
+    <!-- Left Configuration Form -->
+    <div class="form-panel">
+      <div class="panel-title">⚙️ Agreement Parameters</div>
+
+      <div class="form-group">
+        <label>Contractor / Agency Legal Name</label>
+        <input type="text" id="contractorName" class="form-control" value="Apex Dynamics LLC" oninput="generateContract()">
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Contractor Jurisdiction / State</label>
+          <input type="text" id="jurisdiction" class="form-control" value="Delaware, USA" oninput="generateContract()">
+        </div>
+        <div class="form-group">
+          <label>Effective Date</label>
+          <input type="text" id="effectiveDate" class="form-control" value="October 30, 2026" oninput="generateContract()">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Client Legal Entity Name</label>
+        <input type="text" id="clientName" class="form-control" value="Nova Horizon Enterprise Corp" oninput="generateContract()">
+      </div>
+
+      <div class="form-group">
+        <label>Project / Engagement Name</label>
+        <input type="text" id="projectName" class="form-control" value="Enterprise Cloud Architecture & Retainer Implementation" oninput="generateContract()">
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Total Contract Fee ($ USD)</label>
+          <input type="text" id="totalFee" class="form-control" value="$18,500" oninput="generateContract()">
+        </div>
+        <div class="form-group">
+          <label>Upfront Deposit Percentage</label>
+          <select id="depositPercent" class="form-control" onchange="generateContract()">
+            <option value="50%">50% Deposit ($9,250)</option>
+            <option value="33%">33% Upfront Milestone</option>
+            <option value="100%">100% Full Payment Upfront</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Out-of-Scope Hourly Rate ($ USD)</label>
+        <input type="text" id="hourlyRate" class="form-control" value="$175/hour" oninput="generateContract()">
+      </div>
+
+      <div class="panel-title" style="margin-top:20px; font-size:1.05rem;">🛡️ Scope Defense Clauses</div>
+
+      <label class="clause-toggle">
+        <input type="checkbox" id="clauseRevisions" checked onchange="generateContract()">
+        <div>
+          <div class="clause-label">Cap Revisions at 2 Rounds</div>
+          <div class="clause-desc">Excess revision requests automatically billed at out-of-scope hourly rate.</div>
+        </div>
+      </label>
+
+      <label class="clause-toggle">
+        <input type="checkbox" id="clauseLateFee" checked onchange="generateContract()">
+        <div>
+          <div class="clause-label">1.5% Monthly Late Payment Charge</div>
+          <div class="clause-desc">Penalizes delinquent invoicing beyond Net-15 grace period.</div>
+        </div>
+      </label>
+
+      <label class="clause-toggle">
+        <input type="checkbox" id="clauseIpTransfer" checked onchange="generateContract()">
+        <div>
+          <div class="clause-label">Strict IP Transfer Upon 100% Cleared Payment</div>
+          <div class="clause-desc">Protects intellectual property ownership if client defaults.</div>
+        </div>
+      </label>
+
+      <label class="clause-toggle">
+        <input type="checkbox" id="clause3dsSafe" checked onchange="generateContract()">
+        <div>
+          <div class="clause-label">Zero-Dispute & Digital Delivery Certification</div>
+          <div class="clause-desc">Affirms deliverables are electronic assets with verified receipt.</div>
+        </div>
+      </label>
+    </div>
+
+    <!-- Right Live Preview -->
+    <div class="preview-panel">
+      <div class="preview-header">
+        <div class="preview-title">📄 Live Document Preview</div>
+        <div class="action-btns">
+          <button class="btn-action primary" onclick="copyDocument()">📋 Copy Text</button>
+          <button class="btn-action" onclick="window.print()">🖨️ Print / PDF</button>
+          <button class="btn-action" onclick="downloadMarkdown()">💾 Download .MD</button>
+        </div>
+      </div>
+
+      <div id="contractOutput" class="contract-doc">
+        <!-- Rendered via JS -->
+      </div>
+
+      <!-- High-Ticket Upsell -->
+      <div class="upsell-card">
+        <div class="upsell-text">
+          <h4>👑 Need all 100 Enterprise Legal & Operational Engines?</h4>
+          <p>Get Master Agreements, NDAs, Subcontractor Indemnities & SLAs for $29 (Suite) or unlock all 1,000 systems for $77.60.</p>
+        </div>
+        <a href="https://whop.com/checkout/plan_YE4dY4wBwnaGC?promo_code=firstbuy20" class="btn-upsell" target="_blank" rel="noopener">Unlock Master Vault ($77.60) →</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function generateContract() {
+      const contractor = document.getElementById('contractorName').value || 'Contractor';
+      const jurisdiction = document.getElementById('jurisdiction').value || 'State of Delaware';
+      const effectiveDate = document.getElementById('effectiveDate').value || new Date().toLocaleDateString();
+      const client = document.getElementById('clientName').value || 'Client';
+      const project = document.getElementById('projectName').value || 'Professional Consulting Services';
+      const fee = document.getElementById('totalFee').value || '$10,000';
+      const deposit = document.getElementById('depositPercent').value || '50%';
+      const rate = document.getElementById('hourlyRate').value || '$150/hour';
+
+      const hasRevisions = document.getElementById('clauseRevisions').checked;
+      const hasLateFee = document.getElementById('clauseLateFee').checked;
+      const hasIpTransfer = document.getElementById('clauseIpTransfer').checked;
+      const has3ds = document.getElementById('clause3dsSafe').checked;
+
+      let doc = `MASTER SERVICES AGREEMENT & STATEMENT OF WORK (SOW)
+========================================================================
+THIS AGREEMENT is entered into as of ${effectiveDate} ("Effective Date"), by and between:
+
+CONTRACTOR: ${contractor} ("Contractor"), organized under the laws of ${jurisdiction},
+AND
+CLIENT: ${client} ("Client").
+
+WHEREAS, Client desires to retain Contractor to perform professional services, and Contractor agrees to perform such services under the terms set forth below:
+
+1. SCOPE OF SERVICES & DELIVERABLES
+------------------------------------------------------------------------
+Contractor shall execute the deliverables outlined for project: "${project}".
+Detailed milestone specifications and delivery cadences shall be executed in accordance with mutual written correspondence.
+
+2. COMPENSATION & PAYMENT TERMS
+------------------------------------------------------------------------
+Total Engagement Consideration: ${fee} USD.
+- Initial Retainer / Commencement Deposit: ${deposit} of total engagement value due prior to initiation of work.
+- Balance due upon deliverable presentation or agreed milestone intervals (Net-15 terms).
+${hasLateFee ? '- LATE PAYMENTS: Any outstanding balance unpaid after 15 calendar days shall accrue late interest at the rate of 1.5% per month (or the maximum allowed by law).' : ''}
+
+3. SCOPE CREEP DEFENSE & CHANGE ORDERS
+------------------------------------------------------------------------
+${hasRevisions ? 'Client is entitled to up to two (2) consolidated rounds of feedback and minor revisions per milestone deliverable.' : 'Revisions shall be performed in accordance with mutual written review.'}
+Any request for features, modifications, structural rewrites, or expanded requirements outside the initial Statement of Work shall constitute a "Change Order."
+Change Orders shall be billed at Contractor\\'s prevailing standard rate of ${rate}, payable in advance or added to the subsequent milestone invoice.
+
+4. INTELLECTUAL PROPERTY & TRANSFER OF RIGHTS
+------------------------------------------------------------------------
+${hasIpTransfer ? 'CRITICAL PROVISION: Contractor retains sole legal and beneficial title to all deliverables, source code, operating architectures, and work product until Client has rendered 100% of all agreed fees in cleared, non-disputable funds. Upon receipt of full and final payment, Contractor transfers a perpetual, commercial single-seat license to Client for internal business deployment.' : 'Rights to work product shall transfer in accordance with statutory standard terms upon completion of the engagement.'}
+
+5. WARRANTIES & LIMITATION OF LIABILITY
+------------------------------------------------------------------------
+Contractor warrants that services will be performed in a professional, workmanlike manner consistent with prevailing industry standards.
+IN NO EVENT SHALL CONTRACTOR BE LIABLE FOR CONSEQUENTIAL, INDIRECT, INCIDENTAL, OR PUNITIVE DAMAGES, NOR SHALL TOTAL LIABILITY EXCEED THE TOTAL FEES ACTUALLY RECEIVED BY CONTRACTOR UNDER THIS AGREEMENT.
+
+${has3ds ? `6. VERIFIED ELECTRONIC TRANSACTION & SAFE HARBOR
+------------------------------------------------------------------------
+Both parties acknowledge that transactions, notices, and approvals transmitted electronically (including via 3D Secure authenticated payment gateways or email confirmation) are legally binding. In the event of any inquiry or discrepancy, the parties agree to engage in direct good-faith resolution prior to initiating banking or external arbitration proceedings.` : ''}
+
+7. GOVERNING LAW & JURISDICTION
+------------------------------------------------------------------------
+This Agreement shall be governed by and construed in accordance with the laws of ${jurisdiction}, without giving effect to conflicts of law principles.
+
+IN WITNESS WHEREOF, the parties hereto have executed this Master Services Agreement as of the Effective Date written above.
+
+CONTRACTOR: ${contractor}
+By: ___________________________   Date: ${effectiveDate}
+
+CLIENT: ${client}
+By: ___________________________   Date: ________________________
+========================================================================`;
+
+      document.getElementById('contractOutput').innerText = doc;
+    }
+
+    function copyDocument() {
+      const text = document.getElementById('contractOutput').innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        alert('✅ Agreement copied to clipboard! You can paste it directly into Google Docs, Word, or Notion.');
+      });
+    }
+
+    function downloadMarkdown() {
+      const text = document.getElementById('contractOutput').innerText;
+      const blob = new Blob([text], { type: 'text/markdown' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'Master_Services_Agreement.md';
+      a.click();
+    }
+
+    // Initialize on load
+    window.addEventListener('DOMContentLoaded', generateContract);
+  </script>
+</body>
+</html>
