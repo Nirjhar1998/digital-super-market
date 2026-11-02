@@ -82,6 +82,22 @@
     <div class="tab-pane active" id="pane-0">
       
       <!-- Campaign 1: Consultant Retainer OS -->
+      
+    <!-- Lead Management & CRM -->
+    <div class="card" style="border: 2px solid #10b981;">
+      <div class="card-title">
+        <span>📥 Captured Leads & Inbound Subscribers (Free Tools & Kits)</span>
+        <button class="btn-copy" onclick="exportLeadsCsv()" style="background:#10b981; color:#000;">📊 Export Leads CSV</button>
+      </div>
+      <div class="meta-tag">Auto-accumulated from Free Scope Defense Kit & Free Contract Generator</div>
+      <p style="color:#cbd5e1; font-size:0.9rem; margin-top:8px;">
+        Total Captured Leads in this browser: <strong id="leadCountDisplay" style="color:#6ee7b7; font-size:1.1rem;">0</strong>
+      </p>
+      <div id="leadTablePreview" style="margin-top:12px; font-size:0.82rem; color:#94a3b8; max-height:160px; overflow-y:auto; font-family:monospace; background:#0b0f19; padding:10px; border-radius:8px;">
+        No leads captured in this browser session yet.
+      </div>
+    </div>
+
       <div class="card">
         <div class="card-title">
           <span>1. The High-Ticket Consultant Retainer OS (#192)</span>
@@ -440,6 +456,36 @@ Bookmark it for your next high-ticket client! 🔄</div>
   </div>
 
   <script>
+    
+    function loadLeads() {
+      try {
+        const leads = JSON.parse(localStorage.getItem('dsm_leads') || '[]');
+        document.getElementById('leadCountDisplay').innerText = leads.length;
+        if (leads.length > 0) {
+          document.getElementById('leadTablePreview').innerHTML = leads.map((l, i) => `${i+1}. ${l.name || 'Anonymous'} - ${l.email} (${l.date?.split('T')[0] || 'Recent'})`).join('<br>');
+        }
+      } catch(e) {}
+    }
+
+    function exportLeadsCsv() {
+      const leads = JSON.parse(localStorage.getItem('dsm_leads') || '[]');
+      if (leads.length === 0) {
+        alert('No leads captured yet. Share the Free Contract Generator or Free Scope Kit to capture leads!');
+        return;
+      }
+      let csv = 'Name,Email,Date\n';
+      leads.forEach(l => {
+        csv += `"${l.name || ''}","${l.email || ''}","${l.date || ''}"\n`;
+      });
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'digital_super_market_leads.csv';
+      a.click();
+    }
+
+    window.addEventListener('DOMContentLoaded', loadLeads);
+
     function showTab(idx) {
       document.querySelectorAll('.tab-btn').forEach((b, i) => b.classList.toggle('active', i === idx));
       document.querySelectorAll('.tab-pane').forEach((p, i) => p.classList.toggle('active', i === idx));

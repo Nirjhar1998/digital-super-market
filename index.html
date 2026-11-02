@@ -666,7 +666,7 @@
               <div class="card-actions">
                 ${demoBtn}
                 <a href="products/${p.slug}.html" class="btn-details">📖 Details</a>
-                <a href="${p.checkoutUrl}" class="btn-buy" target="_blank" rel="noopener">⚡ Buy $${p.price}</a>
+                <button onclick="triggerUpsell('${encodeURIComponent(p.title)}', '${p.price}', '${p.checkoutUrl}', '${p.category}')" class="btn-buy" style="cursor:pointer; border:none;">⚡ Buy ${p.price}</button>
               </div>
             </div>
           </div>
@@ -716,6 +716,151 @@
     function copyPromoCode() {
       navigator.clipboard.writeText('FIRSTBUY20');
       alert('Promo code FIRSTBUY20 copied to clipboard! Enjoy 20% off at checkout.');
+    }
+
+    
+    function triggerUpsell(encodedTitle, price, checkoutUrl, category) {
+      const title = decodeURIComponent(encodedTitle);
+      document.getElementById('upsellTitle').innerText = 'You Selected: ' + title;
+      document.getElementById('singleItemPriceText').innerText = '
+      document.getElementById('exitModal').classList.remove('active');
+    }
+
+    // Exit intent trigger
+    let exitTriggered = false;
+    document.addEventListener('mouseleave', (e) => {
+      if (e.clientY <= 0 && !exitTriggered) {
+        exitTriggered = true;
+        document.getElementById('exitModal').classList.add('active');
+      }
+    });
+
+    // Live social proof toast
+    const buyers = [
+      { city: 'San Francisco, CA', prod: '#102 Full-Stack Cursor Boilerplate OS', time: '1m ago' },
+      { city: 'London, UK', prod: '#192 Consultant Retainer Portal OS', time: '3m ago' },
+      { city: 'New York, NY', prod: '#205 SOC 2 Continuous Audit OS', time: '5m ago' },
+      { city: 'Berlin, DE', prod: '#101 Remote Dev Salary Negotiation OS', time: '8m ago' },
+      { city: 'Toronto, CA', prod: '#218 Corporate Treasury Management OS', time: '12m ago' }
+    ];
+    let toastIndex = 0;
+    setInterval(() => {
+      const toast = document.getElementById('socialToast');
+      const msg = document.getElementById('toastMessage');
+      const b = buyers[toastIndex % buyers.length];
+      msg.textContent = `Someone in ${b.city} purchased ${b.prod} (${b.time})`;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 4000);
+      toastIndex++;
+    }, 14000);
+
+    loadCatalog();
+  </script>
+
+  <!-- Floating Customer Support & FAQ Widget -->
+  <div style="position: fixed; bottom: 24px; right: 24px; z-index: 1000;">
+    <button id="helpBtn" onclick="toggleHelpDrawer()" style="background: #2563eb; color: #fff; border: none; padding: 12px 20px; border-radius: 9999px; font-weight: 800; font-size: 0.9rem; cursor: pointer; box-shadow: 0 10px 25px rgba(37,99,235,0.4); display: flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+      💬 Questions & Support
+    </button>
+  </div>
+
+  <div id="helpDrawer" style="display: none; position: fixed; bottom: 80px; right: 24px; width: 360px; max-width: calc(100vw - 48px); background: #111827; border: 2px solid #3b82f6; border-radius: 16px; padding: 22px; box-shadow: 0 20px 40px rgba(0,0,0,0.6); z-index: 1001; max-height: 520px; overflow-y: auto;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 1px solid #1f293d; padding-bottom: 10px;">
+      <div style="font-weight: 800; font-size: 1.1rem; color: #fff;">⚡ Instant Support & FAQ</div>
+      <button onclick="toggleHelpDrawer()" style="background: transparent; border: none; color: #94a3b8; font-size: 1.3rem; cursor: pointer;">&times;</button>
+    </div>
+
+    <div style="margin-bottom: 14px;">
+      <div style="font-weight: 700; font-size: 0.9rem; color: #93c5fd; margin-bottom: 4px;">⚡ How do I open my files after checkout?</div>
+      <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.5;">Right-click the downloaded ZIP archive and choose "Extract All". Then double-click <code>Interactive_Viewer_and_Command_Center.html</code> to open your offline browser dashboard.</div>
+    </div>
+
+    <div style="margin-bottom: 14px;">
+      <div style="font-weight: 700; font-size: 0.9rem; color: #93c5fd; margin-bottom: 4px;">💳 What payment methods are supported?</div>
+      <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.5;">All credit/debit cards (with 3D Secure), Apple Pay, Google Pay, and PayPal. 100% flat pricing with zero recurring subscriptions.</div>
+    </div>
+
+    <div style="margin-bottom: 14px;">
+      <div style="font-weight: 700; font-size: 0.9rem; color: #93c5fd; margin-bottom: 4px;">🏷️ Do you have a promo code?</div>
+      <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.5;">Yes! Use code <strong>FIRSTBUY20</strong> at checkout for 20% off any system or the $97 Master Vault.</div>
+    </div>
+
+    <div style="margin-bottom: 14px;">
+      <div style="font-weight: 700; font-size: 0.9rem; color: #93c5fd; margin-bottom: 4px;">🤝 How do I earn 50% commission?</div>
+      <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.5;">Join our <a href="AFFILIATE_HUB.html" style="color: #f59e0b; font-weight: 700;">50% Affiliate Program</a> on Whop. You earn $48.50 per sale on the Master Vault with instant attribution!</div>
+    </div>
+
+    <div style="border-top: 1px solid #1f293d; padding-top: 12px; text-align: center;">
+      <a href="https://whop.com/digital-super-market/" target="_blank" style="color: #60a5fa; font-size: 0.82rem; text-decoration: none; font-weight: 600;">Visit Official Whop Support Hub →</a>
+    </div>
+  </div>
+
+
+  <!-- High-Converting 1-Click Upsell Modal -->
+  <div id="upsellModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); backdrop-filter:blur(6px); z-index:9999; align-items:center; justify-content:center; padding:20px;">
+    <div style="background:#111827; border:2px solid #8b5cf6; border-radius:18px; max-width:580px; width:100%; padding:30px; position:relative; box-shadow:0 25px 60px rgba(139,92,246,0.3); text-align:center;">
+      <button onclick="closeUpsell()" style="position:absolute; top:16px; right:20px; background:transparent; border:none; color:#94a3b8; font-size:1.5rem; cursor:pointer;">&times;</button>
+      
+      <div style="background:#f59e0b; color:#000; font-size:0.75rem; font-weight:900; padding:4px 12px; border-radius:9999px; text-transform:uppercase; letter-spacing:0.06em; display:inline-block; margin-bottom:12px;">
+        🔥 Special Bundle Upgrade Opportunity
+      </div>
+      
+      <h3 id="upsellTitle" style="color:#fff; font-size:1.35rem; font-weight:800; margin-bottom:8px; line-height:1.3;">
+        You Selected: Operating System Blueprint
+      </h3>
+      
+      <p style="color:#94a3b8; font-size:0.9rem; margin-bottom:20px;">
+        Before you check out, upgrade to an enterprise bundle to save up to <strong>98%</strong> with instant commercial rights:
+      </p>
+
+      <div style="display:flex; flex-direction:column; gap:12px; margin-bottom:24px; text-align:left;">
+        <!-- Option 1: Master Centennial Vault -->
+        <a id="btnVaultUpsell" href="https://whop.com/checkout/plan_YE4dY4wBwnaGC?promo_code=firstbuy20" target="_blank" rel="noopener" style="background:linear-gradient(135deg, #1e1b4b 0%, #2e1065 100%); border:2px solid #a855f7; border-radius:12px; padding:16px 20px; text-decoration:none; display:flex; justify-content:space-between; align-items:center; transition:transform 0.2s; box-shadow:0 8px 20px rgba(168,85,247,0.25);">
+          <div>
+            <span style="background:#10b981; color:#000; font-size:0.68rem; font-weight:900; padding:2px 8px; border-radius:4px; text-transform:uppercase;">Best Value (Save 98%)</span>
+            <div style="color:#fff; font-weight:800; font-size:1.05rem; margin-top:4px;">👑 All-Access Master Centennial Vault</div>
+            <div style="color:#ddd6fe; font-size:0.8rem;">Every single one of the 1,000 systems + future updates</div>
+          </div>
+          <div style="text-align:right;">
+            <div style="color:#ef4444; text-decoration:line-through; font-size:0.85rem; font-weight:700;">$97</div>
+            <div style="color:#10b981; font-weight:900; font-size:1.4rem;">$77.60</div>
+          </div>
+        </a>
+
+        <!-- Option 2: Category Mega-Suite -->
+        <a id="btnSuiteUpsell" href="https://whop.com/checkout/plan_YE4dY4wBwnaGC?promo_code=firstbuy20" target="_blank" rel="noopener" style="background:#162032; border:1px solid #3b82f6; border-radius:12px; padding:14px 20px; text-decoration:none; display:flex; justify-content:space-between; align-items:center; transition:transform 0.2s;">
+          <div>
+            <span style="background:#2563eb; color:#fff; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:4px; text-transform:uppercase;">Curated Industry Pack</span>
+            <div style="color:#fff; font-weight:700; font-size:0.98rem; margin-top:4px;">📦 Category Mega-Suite (35–50 Systems)</div>
+            <div style="color:#94a3b8; font-size:0.8rem;">Complete domain collection (Agency, Tech or Legal)</div>
+          </div>
+          <div style="text-align:right;">
+            <div style="color:#ef4444; text-decoration:line-through; font-size:0.85rem; font-weight:700;">$290</div>
+            <div style="color:#60a5fa; font-weight:900; font-size:1.3rem;">$29.00</div>
+          </div>
+        </a>
+      </div>
+
+      <div style="border-top:1px solid #1f293d; padding-top:16px;">
+        <a id="singleDirectCheckout" href="#" target="_blank" rel="noopener" style="color:#94a3b8; font-size:0.86rem; text-decoration:underline; font-weight:600; transition:color 0.2s;">
+          No thanks, just take me to single item (<span id="singleItemPriceText">$9</span>) checkout →
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html> + price;
+      
+      const directUrl = checkoutUrl.includes('?') ? checkoutUrl + '&promo_code=firstbuy20' : checkoutUrl + '?promo_code=firstbuy20';
+      document.getElementById('singleDirectCheckout').href = directUrl;
+      
+      const modal = document.getElementById('upsellModal');
+      modal.style.display = 'flex';
+    }
+
+    function closeUpsell() {
+      document.getElementById('upsellModal').style.display = 'none';
     }
 
     function closeModal() {
@@ -788,6 +933,60 @@
 
     <div style="border-top: 1px solid #1f293d; padding-top: 12px; text-align: center;">
       <a href="https://whop.com/digital-super-market/" target="_blank" style="color: #60a5fa; font-size: 0.82rem; text-decoration: none; font-weight: 600;">Visit Official Whop Support Hub →</a>
+    </div>
+  </div>
+
+
+  <!-- High-Converting 1-Click Upsell Modal -->
+  <div id="upsellModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); backdrop-filter:blur(6px); z-index:9999; align-items:center; justify-content:center; padding:20px;">
+    <div style="background:#111827; border:2px solid #8b5cf6; border-radius:18px; max-width:580px; width:100%; padding:30px; position:relative; box-shadow:0 25px 60px rgba(139,92,246,0.3); text-align:center;">
+      <button onclick="closeUpsell()" style="position:absolute; top:16px; right:20px; background:transparent; border:none; color:#94a3b8; font-size:1.5rem; cursor:pointer;">&times;</button>
+      
+      <div style="background:#f59e0b; color:#000; font-size:0.75rem; font-weight:900; padding:4px 12px; border-radius:9999px; text-transform:uppercase; letter-spacing:0.06em; display:inline-block; margin-bottom:12px;">
+        🔥 Special Bundle Upgrade Opportunity
+      </div>
+      
+      <h3 id="upsellTitle" style="color:#fff; font-size:1.35rem; font-weight:800; margin-bottom:8px; line-height:1.3;">
+        You Selected: Operating System Blueprint
+      </h3>
+      
+      <p style="color:#94a3b8; font-size:0.9rem; margin-bottom:20px;">
+        Before you check out, upgrade to an enterprise bundle to save up to <strong>98%</strong> with instant commercial rights:
+      </p>
+
+      <div style="display:flex; flex-direction:column; gap:12px; margin-bottom:24px; text-align:left;">
+        <!-- Option 1: Master Centennial Vault -->
+        <a id="btnVaultUpsell" href="https://whop.com/checkout/plan_YE4dY4wBwnaGC?promo_code=firstbuy20" target="_blank" rel="noopener" style="background:linear-gradient(135deg, #1e1b4b 0%, #2e1065 100%); border:2px solid #a855f7; border-radius:12px; padding:16px 20px; text-decoration:none; display:flex; justify-content:space-between; align-items:center; transition:transform 0.2s; box-shadow:0 8px 20px rgba(168,85,247,0.25);">
+          <div>
+            <span style="background:#10b981; color:#000; font-size:0.68rem; font-weight:900; padding:2px 8px; border-radius:4px; text-transform:uppercase;">Best Value (Save 98%)</span>
+            <div style="color:#fff; font-weight:800; font-size:1.05rem; margin-top:4px;">👑 All-Access Master Centennial Vault</div>
+            <div style="color:#ddd6fe; font-size:0.8rem;">Every single one of the 1,000 systems + future updates</div>
+          </div>
+          <div style="text-align:right;">
+            <div style="color:#ef4444; text-decoration:line-through; font-size:0.85rem; font-weight:700;">$97</div>
+            <div style="color:#10b981; font-weight:900; font-size:1.4rem;">$77.60</div>
+          </div>
+        </a>
+
+        <!-- Option 2: Category Mega-Suite -->
+        <a id="btnSuiteUpsell" href="https://whop.com/checkout/plan_YE4dY4wBwnaGC?promo_code=firstbuy20" target="_blank" rel="noopener" style="background:#162032; border:1px solid #3b82f6; border-radius:12px; padding:14px 20px; text-decoration:none; display:flex; justify-content:space-between; align-items:center; transition:transform 0.2s;">
+          <div>
+            <span style="background:#2563eb; color:#fff; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:4px; text-transform:uppercase;">Curated Industry Pack</span>
+            <div style="color:#fff; font-weight:700; font-size:0.98rem; margin-top:4px;">📦 Category Mega-Suite (35–50 Systems)</div>
+            <div style="color:#94a3b8; font-size:0.8rem;">Complete domain collection (Agency, Tech or Legal)</div>
+          </div>
+          <div style="text-align:right;">
+            <div style="color:#ef4444; text-decoration:line-through; font-size:0.85rem; font-weight:700;">$290</div>
+            <div style="color:#60a5fa; font-weight:900; font-size:1.3rem;">$29.00</div>
+          </div>
+        </a>
+      </div>
+
+      <div style="border-top:1px solid #1f293d; padding-top:16px;">
+        <a id="singleDirectCheckout" href="#" target="_blank" rel="noopener" style="color:#94a3b8; font-size:0.86rem; text-decoration:underline; font-weight:600; transition:color 0.2s;">
+          No thanks, just take me to single item (<span id="singleItemPriceText">$9</span>) checkout →
+        </a>
+      </div>
     </div>
   </div>
 
