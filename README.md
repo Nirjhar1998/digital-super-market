@@ -16,7 +16,7 @@ Every asset includes lifetime single-seat commercial rights, self-contained offl
 * 🛒 **[Live Storefront & Catalog Search](https://nirjhar1998.github.io/digital-super-market/)** — Browse and filter all 1,000 systems.
 * 🛠️ **[Free B2B Contract & Scope Defense Generator](https://nirjhar1998.github.io/digital-super-market/free-contract-generator.html)** — Generate customized MSAs and SOWs in 60 seconds with 2-round revision caps and late fee clauses.
 * 🎁 **[Free High-Ticket Scope Defense Kit](https://nirjhar1998.github.io/digital-super-market/free-scope-defense-kit.html)** — Word-for-word client email scripts to stop scope creep.
-* 🤝 **[50% Affiliate Partner Hub](https://nirjhar1998.github.io/digital-super-market/AFFILIATE_HUB.html)** — Earn $48.50 per sale on the Master Vault.
+* 🤝 **[50% Affiliate Partner Hub](https://nirjhar1998.github.io/digital-super-market/AFFILIATE_HUB.html)** — Earn $74.50 per sale on the Master Vault.
 * 📡 **[RSS 2.0 Catalog Feed](https://nirjhar1998.github.io/digital-super-market/feed.xml)** — Live syndication feed.
 
 ---
@@ -51,7 +51,7 @@ We eliminated overpriced $500 monthly SaaS paywalls in favor of frictionless, pe
 
 1. **Sub-$10 Impulse Pricing ($5–$9):** Every individual operating system is priced under $10 for instant single-problem resolution.
 2. **Curated Category Mega-Suites ($29):** Bundles of 35–50 industry-specific systems (Agency, Tech/AI, Legal/Compliance) saving over 85%.
-3. **The All-Access Master Centennial Vault ($97):** Complete lifetime access to all 1,000 business operating systems + future updates ($77.60 with promo code).
+3. **The All-Access Master Centennial Vault ($97):** Complete lifetime access to all 1,000 business operating systems + future updates ($119.20 with promo code).
 
 ### 🎟️ 20% Launch Discount:
 Use code **`FIRSTBUY20`** at checkout on any product or vault for an immediate 20% discount.
@@ -78,7 +78,7 @@ Every order is delivered instantly and securely via Whop CDN:
 ## 🤝 50% Affiliate Revenue Share
 
 Join our official creator partner program:
-* **50% Instant Commission:** Earn **$48.50** on every $97 Master Vault sale and **$14.50** on $29 Suites.
+* **50% Instant Commission:** Earn **$48.50** on every $149 Master Vault sale and **$14.50** on $29 Suites.
 * **60-Day Cookie Window** with automated tracking and payouts via Whop.
 * 👉 **[Register as an Affiliate](https://whop.com/digital-super-market/)** | **[View Marketing Hub](https://nirjhar1998.github.io/digital-super-market/MARKETING_COMMAND_CENTER.html)**
 
