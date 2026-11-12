@@ -234,8 +234,27 @@
     </div>
   </section>
 
+  <!-- Search & Category Filters -->
+  <div class="controls">
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" class="search-input" placeholder="Search across 1,000 systems (e.g. 'Retainer', 'Notion', 'Cursor', 'SOC 2', 'SOP', 'Legal', 'Sales')...">
+    </div>
+    <div class="filter-pills" id="filterPills">
+      <button class="pill active" data-cat="all">All Systems (1,000)</button>
+      <button class="pill" data-cat="demos" style="border-color:#3b82f6; color:#93c5fd;">⚡ Live Demos (15)</button>
+      <button class="pill" data-cat="Agency & Consulting">Agency & Consulting</button>
+      <button class="pill" data-cat="Tech & Engineering">Tech & Engineering</button>
+      <button class="pill" data-cat="Legal & Governance">Legal & Contracts</button>
+      <button class="pill" data-cat="Finance & Capital">Finance & Treasury</button>
+      <button class="pill" data-cat="Biotech & Clinical">Biotech & Clinical</button>
+      <button class="pill" data-cat="Operations & Engineering">Operations & Infrastructure</button>
+    </div>
+  </div>
+
+
   <!-- Master Centennial Vault Hero Upsell -->
-  <div class="vault-hero-banner">
+  <div class="vault-hero-banner" id="vaultBanner">
     <div class="vault-hero-card">
       <div>
         <span class="vault-hero-badge">👑 Institutional Master License</span>
@@ -251,7 +270,7 @@
   </div>
 
   <!-- Free Lead Magnet Box -->
-  <div class="lead-magnet-strip">
+  <div class="lead-magnet-strip" id="leadMagnetStrip">
     <div class="lead-magnet-box">
       <div>
         <div class="lead-magnet-title">🎁 Free Executive Lead Magnet: Scope Defense & Retainer Kit</div>
@@ -266,7 +285,7 @@
   </div>
 
   <!-- Staff Picks / Flagships Showcase -->
-  <section class="flagship-section">
+  <section class="flagship-section" id="flagshipSection">
     <div class="section-header">
       <div>
         <div class="section-title">🌟 Curated Staff Picks & Flagships</div>
@@ -518,24 +537,6 @@
 
     </div>
   </section>
-
-  <!-- Search & Category Filters -->
-  <div class="controls">
-    <div class="search-box">
-      <span class="search-icon">🔍</span>
-      <input type="text" id="searchInput" class="search-input" placeholder="Search across 1,000 systems (e.g. 'Retainer', 'Notion', 'Cursor', 'SOC 2', 'SOP', 'Legal', 'Sales')...">
-    </div>
-    <div class="filter-pills" id="filterPills">
-      <button class="pill active" data-cat="all">All Systems (1,000)</button>
-      <button class="pill" data-cat="demos" style="border-color:#3b82f6; color:#93c5fd;">⚡ Live Demos (15)</button>
-      <button class="pill" data-cat="Agency & Consulting">Agency & Consulting</button>
-      <button class="pill" data-cat="Tech & Engineering">Tech & Engineering</button>
-      <button class="pill" data-cat="Legal & Governance">Legal & Contracts</button>
-      <button class="pill" data-cat="Finance & Capital">Finance & Treasury</button>
-      <button class="pill" data-cat="Biotech & Clinical">Biotech & Clinical</button>
-      <button class="pill" data-cat="Operations & Engineering">Operations & Infrastructure</button>
-    </div>
-  </div>
 
   <main class="container">
     <div class="grid" id="productGrid">
