@@ -4,63 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Customer Fulfillment & Download Hub — Digital Super Market</title>
-  <style>
+    <style>
     :root {
-      --bg: #090d16;
-      --card: #131c2e;
-      --card-hover: #1a273f;
-      --border: #23314d;
-      --text: #f1f5f9;
-      --text-muted: #94a3b8;
-      --accent: #3b82f6;
-      --accent-hover: #60a5fa;
-      --success: #10b981;
-      --badge-bg: rgba(59, 130, 246, 0.15);
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --card-hover: #ffffff;
+      --border: #e2e8f0;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --accent: #4f46e5;
+      --accent-hover: #4338ca;
+      --success: #059669;
+      --badge-bg: #eef2ff;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Plus Jakarta Sans", sans-serif; }
     body { background: var(--bg); color: var(--text); line-height: 1.6; padding-bottom: 60px; }
     .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
     
     /* Top Banner */
-    header { padding: 40px 0 30px; text-align: center; border-bottom: 1px solid var(--border); margin-bottom: 35px; }
-    .verified-pill { display: inline-flex; align-items: center; gap: 8px; background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.4); color: #34d399; padding: 6px 16px; border-radius: 999px; font-size: 13px; font-weight: 600; margin-bottom: 16px; }
-    h1 { font-size: 32px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+    header { padding: 40px 0 30px; text-align: center; border-bottom: 1px solid var(--border); margin-bottom: 35px; background: #ffffff; }
+    .verified-pill { display: inline-flex; align-items: center; gap: 8px; background: #ecfdf5; border: 1px solid #a7f3d0; color: #065f46; padding: 6px 16px; border-radius: 999px; font-size: 13px; font-weight: 700; margin-bottom: 16px; }
+    h1 { font-size: 32px; font-weight: 900; color: #0f172a; margin-bottom: 12px; letter-spacing: -0.02em; }
     p.lead { font-size: 16px; color: var(--text-muted); max-width: 750px; margin: 0 auto 25px; }
 
     /* 3-Step Guide */
-    .guide-box { background: linear-gradient(135deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.9)); border: 1px solid var(--border); border-radius: 14px; padding: 24px; margin-bottom: 35px; }
-    .guide-title { font-size: 16px; font-weight: 700; color: #fff; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+    .guide-box { background: #ffffff; border: 1px solid #c7d2fe; border-radius: 16px; padding: 24px; margin-bottom: 35px; box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05); }
+    .guide-title { font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
     .guide-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
-    .step-card { background: rgba(0,0,0,0.25); border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; padding: 16px; }
-    .step-num { font-size: 12px; font-weight: 700; color: var(--accent-hover); text-transform: uppercase; margin-bottom: 6px; }
-    .step-text { font-size: 14px; color: #cbd5e1; }
+    .step-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px; }
+    .step-num { font-size: 12px; font-weight: 800; color: var(--accent); text-transform: uppercase; margin-bottom: 6px; }
+    .step-text { font-size: 14px; color: #334155; font-weight: 500; }
     .step-tip { font-size: 12px; color: var(--text-muted); margin-top: 6px; }
 
     /* Search & Filter */
     .controls { display: flex; gap: 15px; margin-bottom: 30px; flex-wrap: wrap; }
-    .search-input { flex: 1; min-width: 280px; background: var(--card); border: 1px solid var(--border); padding: 14px 20px; border-radius: 10px; color: #fff; font-size: 15px; outline: none; }
-    .search-input:focus { border-color: var(--accent); }
-    .category-filter { background: var(--card); border: 1px solid var(--border); padding: 14px 20px; border-radius: 10px; color: #fff; font-size: 15px; outline: none; }
+    .search-input { flex: 1; min-width: 280px; background: #ffffff; border: 1px solid #cbd5e1; padding: 14px 20px; border-radius: 12px; color: #0f172a; font-size: 15px; font-weight: 500; outline: none; box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05); }
+    .search-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15); }
+    .category-filter { background: #ffffff; border: 1px solid #cbd5e1; padding: 14px 20px; border-radius: 12px; color: #0f172a; font-size: 15px; font-weight: 600; outline: none; box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05); }
 
     /* Product Grid */
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 20px; }
-    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 22px; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.15s, border-color 0.15s; }
-    .card:hover { transform: translateY(-2px); border-color: var(--accent); background: var(--card-hover); }
+    .card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1); box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05); }
+    .card:hover { transform: translateY(-4px); border-color: #cbd5e1; box-shadow: 0 16px 32px -4px rgba(15, 23, 42, 0.1); }
     .card-top { margin-bottom: 16px; }
     .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; gap: 10px; }
-    .card-num { font-size: 12px; font-weight: 700; color: var(--accent-hover); background: var(--badge-bg); padding: 3px 10px; border-radius: 6px; }
-    .card-cat { font-size: 12px; color: var(--text-muted); }
-    .card-title { font-size: 17px; font-weight: 700; color: #fff; line-height: 1.4; }
-    .card-meta { display: flex; gap: 12px; margin-top: 12px; font-size: 12px; color: var(--text-muted); }
-    .meta-tag { background: rgba(255,255,255,0.05); padding: 2px 8px; border-radius: 4px; }
+    .card-num { font-size: 12px; font-weight: 800; color: var(--accent); background: #eef2ff; padding: 3px 10px; border-radius: 6px; }
+    .card-cat { font-size: 12px; font-weight: 600; color: var(--text-muted); }
+    .card-title { font-size: 16px; font-weight: 800; color: #0f172a; line-height: 1.4; }
+    .card-meta { display: flex; gap: 8px; margin-top: 12px; font-size: 12px; color: var(--text-muted); flex-wrap: wrap; }
+    .meta-tag { background: #f1f5f9; padding: 3px 8px; border-radius: 6px; border: 1px solid #e2e8f0; color: #475569; font-weight: 500; }
     
     .card-actions { display: flex; gap: 10px; margin-top: 18px; }
-    .btn-download { flex: 1; background: var(--accent); color: #fff; text-decoration: none; padding: 10px 16px; border-radius: 8px; font-size: 13px; font-weight: 600; text-align: center; transition: background 0.15s; display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
-    .btn-download:hover { background: #2563eb; }
-    .btn-demo { background: rgba(255,255,255,0.08); color: #cbd5e1; text-decoration: none; padding: 10px 14px; border-radius: 8px; font-size: 13px; font-weight: 500; text-align: center; }
-    .btn-demo:hover { background: rgba(255,255,255,0.15); color: #fff; }
+    .btn-download { flex: 1; background: #059669; color: #fff; text-decoration: none; padding: 11px 16px; border-radius: 8px; font-size: 13px; font-weight: 700; text-align: center; transition: all 0.15s; display: inline-flex; align-items: center; justify-content: center; gap: 6px; box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05); }
+    .btn-download:hover { background: #047857; transform: translateY(-1px); }
+    .btn-demo { background: #eef2ff; color: #4338ca; border: 1px solid #c7d2fe; text-decoration: none; padding: 11px 14px; border-radius: 8px; font-size: 13px; font-weight: 700; text-align: center; transition: all 0.15s; }
+    .btn-demo:hover { background: #4f46e5; color: #fff; border-color: #4f46e5; }
 
-    footer { text-align: center; margin-top: 50px; padding-top: 30px; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 14px; }
+    footer { text-align: center; margin-top: 50px; padding-top: 30px; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 14px; background: #ffffff; }
   </style>
 </head>
 <body>
